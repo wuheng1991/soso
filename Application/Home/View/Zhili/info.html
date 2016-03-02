@@ -1,0 +1,484 @@
+ <include file="Index/header" />
+<style type="text/css">
+    #op:hover{
+      cursor:pointer;
+      color:red;
+    }
+    .xingxing{
+        color:red;
+    }
+    .dianji:hover{
+        cursor:pointer;
+        color:red;
+    }
+    option{
+      padding-left:8px;
+    }
+
+    #add_item_aa,#add_item_bb{
+      cursor:pointer;
+    }
+
+
+
+
+</style>
+<div id="main">
+  <div class="maincon">
+    <div class="order_con">
+        <div class="bread b33" style="margin:16px 0 10px 0;">质粒制备(<span class="xingxing">*</span> 必填项)</div>
+         
+        <form action="{:U('Zhili/forms_do')}" method="post" autocomplete="off"  
+         enctype="multipart/form-data" onsubmit="return checkAll();">
+        <table cellspacing="0" cellpadding="0" width="100%" border="0">
+
+          <foreach name="zhiliinfo" item="info" >
+            
+            <input type="hidden" name="content_hid_a" id="content_hid_a" value=""/>
+            <input type="hidden" name="content_hid_b" id="content_hid_b" value=""/>
+
+            <input type="hidden" name="content_hid_ab" id="content_hid_ab" value=""/>
+            <input type="hidden" name="content_hid_id" id="content_hid_id" value="{$info['id']}"/>
+            <input type="hidden" name="content_hid_orderid" id="content_hid_orderid" 
+            value="{$info['orderid']}"/>
+
+
+            <tr>
+                <td><span class="xingxing">*</span>模板名称：
+                  <input type="text" name="zhili_title" value="{$info['zhili_title']}"  id="zhili_title" placeholder="请填写模板名称" size="30" /></td>
+            </tr>
+
+            <tr>
+                <td>
+                  <span class="xingxing">*</span>起始材料：
+            <input type="radio" value="1"   
+            name="zhili_material" id="zhili_material_aa" 
+            <eq name="info.zhili_material" value="1">checked</eq>>基因合成及亚克隆(金开瑞提供) 
+            <input type="button" style="cursor:pointer;" name="search_enzyme" onClick="" value="  Go "><br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" value="2"  
+            name="zhili_material" id="zhili_material_bb"
+            <eq name="info.zhili_material" value="2">checked</eq>>质粒模板</td>
+            </tr>
+
+            <tr>
+              <td valign="top">
+                <span style="vertical-align:top;">序 列:</span>
+                <textarea name="zhili_serial" id="zhili_serial" style="width:786px; height:50px;">{$info['zhili_serial']}</textarea></td>
+            </tr>
+
+            <tr>
+                <td>图 谱：<input type="file" name="zhili_file" id="zhili_file" value="选择文件">
+                </td>
+            </tr>
+
+            <tr>
+                <td><span class="xingxing">*</span>质粒大小(kb)：
+              <input type="text" name="zhili_size" value="{$info['zhili_size']}" id="zhili_size" placeholder="请填写质粒大小" size="30" />
+                </td>
+            </tr>
+
+            <tr>
+                <td><span class="xingxing">*</span>拷贝数：
+                <input type="radio" value="1" name="zhili_copy" id="zhili_copy_aa"
+                 <eq name="info.zhili_copy" value="1">checked</eq>>高　　　
+                <input type="radio" value="2" name="zhili_copy" 
+                id="zhili_copy_bb"  <eq name="info.zhili_copy" value="2">checked</eq>>低
+               </td>
+            </tr>
+
+            <tr>
+                <td>典型产量：<input type="text" name="zhili_pro" value="{$info['zhili_pro']}" id="zhili_pro" size="30" />mg/L</td>
+            </tr>
+
+            <tr>
+                <td>
+                  <span class="xingxing">*</span>抗 性：
+                  <select name="zhili_kangxing" id="zhili_kangxing">
+                        <option value="0" <eq name="info.zhili_kangxing" value="0">selected</eq>></option>
+                        <option value="1" <eq name="info.zhili_kangxing" value="1">selected</eq>>Ampicillin</option> 
+                        <option value="2" <eq name="info.zhili_kangxing" value="2">selected</eq>>Blasticidin</option>
+                        <option value="3" <eq name="info.zhili_kangxing" value="3">selected</eq>>Chloramphenicol</option>
+                        <option value="4" <eq name="info.zhili_kangxing" value="4">selected</eq>>Clarithromycin</option>
+                        <option value="5" <eq name="info.zhili_kangxing" value="5">selected</eq>>Kanamycin</option>
+                        <option value="6" <eq name="info.zhili_kangxing" value="6">selected</eq>>Streptomycin</option>
+                        <option value="7" <eq name="info.zhili_kangxing" value="7">selected</eq>>Tetracyclin</option> 
+                        <option value="8" <eq name="info.zhili_kangxing" value="8">selected</eq>>Other</option>
+                </select>
+              </td>
+          </tr>
+           
+            <tr>
+              <td>
+                <div style="float:left; width:210px; text-align:left;"><span class="xingxing">*</span>限制性内切酶分析：QC内切酶</div>
+
+               <!--  <div style=" float:left; width:100px; border:1px solid #ccc; display: block; height: 100px; overflow-y:scroll; margin-right:5px;">  -->
+               <div style="float:left;">
+                 <!--  <ul class="think_pop_ul">
+                   
+                  </ul> -->
+                  <select style="width:100px;height:120px;" name="zhili_content_pre" 
+                  id="zhili_content_pre" ss='' multiple="20">
+
+                  <foreach name="option_b" item="row_b">
+                    <option class="think_pop_option" id="zhili_option_{$row_b['id']}" 
+                    value="{$row_b['id']}">{$row_b['name']}</option>
+                  </foreach>
+
+                   <!--  <option class="think_pop_option" id="zhili_option_1" value="1">Apal</option>
+                    <option class="think_pop_option" id="zhili_option_2" value="2">BamHI</option>
+                    <option class="think_pop_option" id="zhili_option_3" value="3">Bglll</option>
+                    <option class="think_pop_option" id="zhili_option_4" value="4">Clal</option>
+                    <option class="think_pop_option" id="zhili_option_5" value="5">EcoRl</option>
+                    <option class="think_pop_option" id="zhili_option_6" value="6">Agel</option>
+                    <option class="think_pop_option" id="zhili_option_7" value="7">EcoRV</option>
+                    <option class="think_pop_option" id="zhili_option_8" value="8">NdeI</option>
+                    <option class="think_pop_option" id="zhili_option_9" value="9">NheI</option>
+                    <option class="think_pop_option" id="zhili_option_10" value="10">NotI</option>
+                    <option class="think_pop_option" id="zhili_option_11" value="11">PstI</option> -->
+
+
+                  </select>
+                </div>
+
+                  <div class="left" style="margin-top:15px;margin-left:5px;margin-right:5px;">
+                    <input type="button" id="add_item_aa"   value="   &gt;&gt;   " name=""><br /><br />
+                    <input type="button" id="add_item_bb"   value="   &lt;&lt;   " name="">
+                  </div>
+
+                   <!--  <div class="left" style="width: 100px; border: 1px solid #ccc; display: block; height: 100px; overflow-y:scroll; margin-left:5px;">  -->
+                      <div class="left">
+                           <select  style="width:100px;height:120px;" name="zhili_content" 
+                             id="zhili_content" mm='' multiple="20">
+                              
+                              <foreach name="option_a" item="row_a">
+                                <option class="think_pop_option_a" id="zhili_option_a_{$row_a['id']}" 
+                               value="{$row_a['id']}">{$row_a['name']}</option>
+                            </foreach>
+
+                         
+                           </select>
+                     </div>
+             </td>
+          </tr>
+
+
+            <tr>
+              <td>片段个数：
+                <select name="zhili_num" id="zhili_num">
+                   
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+              </select> 大小<input type="text" name="zhili_num_size" id="zhili_num_size" size="4" />kb</td>
+            </tr>
+
+             <tr>
+                <td><span class="xingxing">*</span>质粒抽提量：
+
+                  <select name="zhili_quantity" id="zhili_quantity">
+                  <!-- <option value="0"></option> -->
+                  <option value="1" <eq name="info.zhili_quantity" value="1">selected</eq>>100 μg</option>
+                  <option value="2" <eq name="info.zhili_quantity" value="2">selected</eq>>200 μg</option>
+                  <option value="3" <eq name="info.zhili_quantity" value="3">selected</eq>>500 μg</option>
+                  <option value="4" <eq name="info.zhili_quantity" value="4">selected</eq>>1 mg</option>
+                  <option value="5" <eq name="info.zhili_quantity" value="5">selected</eq>>2 mg</option>
+                  <option value="6" <eq name="info.zhili_quantity" value="6">selected</eq>>10 mg</option> 
+                  <option value="7" <eq name="info.zhili_quantity" value="7">selected</eq>>20 mg</option> 
+                  <option value="8" <eq name="info.zhili_quantity" value="8">selected</eq>>50 mg</option> 
+                  <option value="9" <eq name="info.zhili_quantity" value="9">selected</eq>>100 mg</option> 
+                  <option value="10" <eq name="info.zhili_quantity" value="10">selected</eq>>200 mg</option>
+                  <option value="11" <eq name="info.zhili_quantity" value="11">selected</eq>>500 mg</option>
+                  <option value="12" <eq name="info.zhili_quantity" value="12">selected</eq>>1000 mg</option>
+                  <option value="13" <eq name="info.zhili_quantity" value="13">selected</eq>>1500 mg</option>
+                  <option value="14" <eq name="info.zhili_quantity" value="14">selected</eq>>2000 mg</option>
+                  <option value="15" <eq name="info.zhili_quantity" value="15">selected</eq>>Other</option>
+                   
+                 </select>
+
+                 &nbsp;&nbsp;<a id="f66" href="#">帮 助</a>
+              </td>
+            </tr>
+
+
+          <tr>
+              <td><span class="xingxing">*</span>
+             质量级别：
+          <input type="radio" value="0"    
+          name="zhili_level" id="zhili_level_aa"
+          <eq name="info.zhili_level" value="0">checked</eq>> Research Grade(Predominantly supercoiled)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" value="1" 
+          name="zhili_level" id="zhili_level_bb" <eq name="info.zhili_level" value="1">checked</eq>> SC Grade (≥95% Supercoilded, ≤0.03 EU/ug Endotoxin)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" value="2" 
+          name="zhili_level" id="zhili_level_cc" <eq name="info.zhili_level" value="2">checked</eq>> Advanced SC Grade(≥95% Supercoilded, ≤0.005 EU/ug Endotoxin)
+           </td>
+        </tr>
+
+       <tr>
+          <td>
+          <if condition="$info.zhili_box eq '1,2'">
+          <input type="checkbox" name="zhili_box[]" id="zhili_box_aa" checked   value="1" />Bioburden assay (additional charge)<br />
+
+          <input type="checkbox" name="zhili_box[]" id="zhili_box_bb" checked  value="2" />Custom Sequencing (additional charge)
+          <elseif condition="$info.zhili_box eq '1'" />
+          <input type="checkbox" name="zhili_box[]" id="zhili_box_aa" checked   value="1" />Bioburden assay (additional charge)<br />
+
+          <input type="checkbox" name="zhili_box[]" id="zhili_box_bb"   value="2" />Custom Sequencing (additional charge)
+          <elseif condition="$info.zhili_box eq '2'" />
+           <input type="checkbox" name="zhili_box[]" id="zhili_box_aa"  value="1" />Bioburden assay (additional charge)<br />
+
+          <input type="checkbox" name="zhili_box[]" id="zhili_box_bb"  checked  value="2" />Custom Sequencing (additional charge)
+          <else />
+            <input type="checkbox" name="zhili_box[]" id="zhili_box_aa" value="1" />Bioburden assay (additional charge)<br />
+
+          <input type="checkbox" name="zhili_box[]" id="zhili_box_bb"  value="2" />Custom Sequencing (additional charge)
+
+          </if>
+
+         </td>
+      </tr>
+            <tr>
+                <td>
+                  存储条件：
+                  <select name="zhili_storage" id="zhili_storage">
+          <!-- <option value="0"></option> -->
+                    <option value="1" <eq name="info.zhili_storage" value="1">selected</eq>>Liquid</option>
+                    <option value="2" <eq name="info.zhili_storage" value="2">selected</eq>>Freeze dried</option>
+                   
+              </select>，
+              所需的缓冲液：
+              <select name="zhili_cache" id="zhili_cache">
+              <option value="0" <eq name="info.zhili_cache" value="0">selected</eq>></option>
+              <option value="1" <eq name="info.zhili_cache" value="1">selected</eq>>TE</option>
+              <option value="2" <eq name="info.zhili_cache" value="2">selected</eq>>ddH2O</option>
+              <option value="3" <eq name="info.zhili_cache" value="3">selected</eq>>Tris</option>
+              <option value="4" <eq name="info.zhili_cache" value="4">selected</eq>>PBS</option>
+              <option value="5" <eq name="info.zhili_cache" value="5">selected</eq>>Other</option>
+             </select> <a id="f66" href="#">帮 助</a>
+              </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                  需求浓度(mg/ml)：
+                <input type="text" name="zhili_demand" value="{$info['zhili_demand']}" id="zhili_demand" size="30" /> <a id="f66" href="#">帮 助</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>分装管数：
+                <input type="text" name="zhili_pipe" value="{$info['zhili_pipe']}" id="zhili_pipe" size="30" />
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                <span style="vertical-align:top;">其他要求：</span>
+                <textarea name="zhili_other" id="zhili_other" style="width:786px; height:50px;">{$info['zhili_other']}</textarea>
+                </td>
+            </tr>
+
+            <tr>
+              <td align="center">
+                <input type="submit"  style="padding:8px;background:#FF6633;color:white;font-weight:bold;font-size:16px;" onclick=""  value=" 编辑订单 " name="op" id="op">
+              </td>
+            </tr>
+            
+            </foreach>
+        </table>
+
+    </form>
+
+  </div>
+</div>
+</div>
+</body>
+<script type="text/javascript">
+  $(function(){
+    // alert("aaaa");
+    num = $(".think_pop_option").length;
+
+    // var all = '';
+    // alert(num);
+    $("#zhili_content_pre").change(function(){
+    str = $("#zhili_content_pre").val();
+    $("#zhili_content_pre").attr("ss","123456");
+    // alert(str);
+    });
+    // alert(str);
+
+    $("#add_item_aa").click(function(){
+
+     if($("#zhili_content_pre").attr("ss") == '123456'){
+      str = $.trim(str);
+      // alert(str);
+      flag = $("#zhili_content_pre option").length;
+      flag =parseInt($.trim(flag));
+      
+      if(flag != 0){
+      if(str != null && str != ''){
+          
+         arr = str.split(",");
+         count = arr.length;
+         // alert(arr[0]);
+         // document.getElementById('content_hid').value = str;
+          
+          for(i = 0;i < count;i ++){
+
+          aaaa = $("#zhili_option_"+arr[i]).text();
+          
+          document.getElementById('content_hid_a').value += aaaa + ',';
+          // all += aaaa+","; 
+
+          bbbb = "zhili_option_a_"+arr[i]; 
+          eeee = "think_pop_option_a"; 
+
+          $("#zhili_option_"+arr[i]).remove();
+      $("#zhili_content").append("<option class="+eeee+" id="+bbbb+" value="+arr[i]+">"+aaaa+"</option>");
+
+          }
+      } 
+    }
+    $("#zhili_content_pre").attr("ss","");
+
+  }
+   
+    });
+
+    $("#zhili_content").change(function(){
+    str_a = $("#zhili_content").val();
+
+    $("#zhili_content").attr("mm",'654321');
+    // alert(str_a);
+      });
+
+    $("#add_item_bb").click(function(){
+
+     if($("#zhili_content").attr("mm") == '654321'){
+
+      str_a = $.trim(str_a);
+
+       flag_a = $("#zhili_content option").length;
+      flag_a =parseInt($.trim(flag_a));
+      
+      if(flag_a != 0){
+
+      if(str_a != null && str_a != ''){
+        
+         arr_a = str_a.split(",");
+         count_a = arr_a.length;
+         // alert(arr);
+         // document.getElementById('content_hid').value = str_a;
+         // alert(count_a);
+         
+          for(j = 0;j < count_a;j ++){
+
+          aaaa = $("#zhili_option_a_"+arr_a[j]).text(); 
+
+          document.getElementById('content_hid_b').value += aaaa +',';
+          cccc = "zhili_option_"+arr_a[j];
+          dddd = "think_pop_option";
+
+          $("#zhili_option_a_"+arr_a[j]).remove();
+          $("#zhili_content_pre").append("<option class="+dddd+" id="+cccc+" value="+arr_a[j]+">"+aaaa+"</option>");
+          }     
+      }
+
+    }
+
+    $("#zhili_content").attr("mm",'');
+  }
+   
+    });
+     // alert(str);
+     
+
+   
+
+
+  });
+
+  function checkAll(){
+
+    var flag = true;
+
+    a = $.trim($("#zhili_title").val());
+    if(a==''){
+    flag = false;
+    alert("模板名称不能为空！");
+    $("#zhili_title").focus();
+    return false; 
+    } 
+
+    b = $.trim($("#zhili_size").val());
+    if(b==''){
+    flag = false;
+    alert("质粒大小(kb)不能为空！");
+    $("#zhili_size").focus();
+    return false; 
+    } 
+
+    c = $.trim($("#zhili_kangxing").val());
+    if(c=='0'){
+    flag = false;
+    alert("抗性必须要选择！");
+    $("#zhili_kangxing").focus();
+    return false; 
+    }
+    
+    reg = /[BDEFHIJKLMNOPQRSUVWXYZ0123456789]+/i;
+    d = $.trim($("#zhili_serial").val());
+    if(d !=''){
+
+      if(reg.test(d)){
+       flag = false;
+       alert("序列中含有非法字符，请重回新输入！");
+       $("#zhili_serial").focus();
+       return false;
+      }
+
+    // flag = false;
+    // alert("抗性必须要选择！");
+    // $("#zhili_kangxing").focus();
+    // return false; 
+    }
+
+    // e = $.trim($("#zhili_content").val());
+    // alert(arr);
+
+   // alert($("#zhili_content").val());
+    // alert(all);
+    // alert($("#zhili_content option").length);
+    num = $("#zhili_content option").length;
+    // for(i = ; i < num; i++){
+    //   $("#zhili_content option").get(i).val()
+    // }
+    // alert($("#zhili_content option").get(0).text());
+    // alert(document.getElementById('zhili_content').options[document.getElementById('zhili_content').selectedIndex].value);
+     // alert(document.getElementById('zhili_content').options[document.getElementById('zhili_content').selectedIndex].value);
+     // alert(document.getElementById('zhili_content').options[document.getElementById('zhili_content').selectedIndex].value);
+     // alert($("#zhili_content option").get(0).text());
+
+     $('#zhili_content option').each(function(){
+        // alert($(this).val());
+         qq = $(this).val();
+         // alert(qq);
+         document.getElementById('content_hid_ab').value += qq +',';
+
+     });
+       
+    // alert(document.getElementById('content_hid_ab').value);
+
+
+
+
+    if(flag == true){
+      return true;
+   }
+   
+
+  }
+</script>
+</html>

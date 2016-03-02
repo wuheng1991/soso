@@ -1,0 +1,408 @@
+[ 2016-02-27T00:49:19+08:00 ] 123.125.71.112 /kkwwy44002.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+ERR: 无法加载控制器:Kkwwy44002.txt
+
+[ 2016-02-27T03:41:48+08:00 ] 5.189.190.212 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-02-27T03:41:49+08:00 ] 5.189.190.212 /index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `ge_area` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ge_area` WHERE (  reid = 0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 552 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-02-27T05:02:19+08:00 ] 207.46.13.25 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-02-27T11:09:01+08:00 ] 202.114.72.138 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-02-27T13:20:28+08:00 ] 42.62.36.193 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2016-02-27T13:20:29+08:00 ] 42.62.36.193 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2016-02-27T13:20:29+08:00 ] 42.62.36.193 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-02-27T15:09:10+08:00 ] 69.84.207.246 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-02-27T15:09:10+08:00 ] 69.84.207.246 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-02-27T16:53:00+08:00 ] 220.249.99.184 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-02-27T16:53:05+08:00 ] 220.249.99.184 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-02-27T16:53:19+08:00 ] 220.249.99.184 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE ( username = 'yug526@126.com'  ) LIMIT 1   [ RunTime:0.0279s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+
+[ 2016-02-27T16:53:20+08:00 ] 220.249.99.184 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2016-02-27T16:53:23+08:00 ] 220.249.99.184 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-02-27T16:53:42+08:00 ] 220.249.99.184 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE ( username = 'yug526@126.com'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `ge_members` SET `logintime`='1456563222',`loginip`='220.249.99.184' WHERE ( id = 120 ) [ RunTime:0.0194s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-02-27T16:53:42+08:00 ] 220.249.99.184 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2016-02-27T16:53:43+08:00 ] 220.249.99.184 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '120'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '120' and status != 3 and ordertype = 1 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '120' and status != 3 and ordertype = 2 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '120' and status != 3 and ordertype = 3 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '120' and status != 3 and ordertype = 4 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '120' and status != 3 and ordertype = 5 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '120' and status != 3 and ordertype = 6 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ge_orders` WHERE (  uid = 120 and status = 3 ) LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 120 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-02-27T16:53:44+08:00 ] 220.249.99.184 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2016-02-27T16:53:46+08:00 ] 220.249.99.184 /index.php/Home/Pro/fen_more/type/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '120'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ge_fen` [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `ge_members_info` WHERE ( uid =120 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `ge_members` WHERE ( id =120 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ge_fen` WHERE `fen_type` = 5 AND `fen_email` = 'yug526@126.com' ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0318s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_fen` WHERE `fen_type` = 5 AND `fen_email` = 'yug526@126.com' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 51 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 51 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 51 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ge_feninfo` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ge_pro_trace` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `ge_feninfo` WHERE ( fen_guan_id =486 ) LIMIT 1   [ RunTime:0.0260s ]
+SQL: SELECT `addtime` FROM `ge_pro_trace` WHERE ( guan_id =461 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-02-27T16:53:46+08:00 ] 220.249.99.184 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2016-02-27T16:53:48+08:00 ] 220.249.99.184 /index.php/Home/Pro/fen_index/id/486/commom_type/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '120'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_fen` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ge_feninfo` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ge_pro_trace` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ge_fen_jieduan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ge_fen_jieduan` WHERE ( jieduan_id=486 ) ORDER BY jieduan_date asc  [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `ge_members_info` WHERE ( uid =120 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_fen` WHERE ( id = 486 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ge_feninfo` WHERE ( fen_guan_id = 486 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `status` FROM `ge_pro_trace` WHERE ( guan_id = 461 ) ORDER BY id asc  [ RunTime:0.0308s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE ( guan_id = 461 ) ORDER BY id asc  [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `guan_id`,`status` FROM `ge_pro_trace` WHERE ( guan_id = 461 ) ORDER BY id asc LIMIT 3   [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: end_status /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 161 行.
+NOTIC: [8] Undefined variable: end_status_guan /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 163 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined variable: page /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 18 行.
+NOTIC: [8] Undefined variable: pages /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 19 行.
+NOTIC: [8] Undefined variable: page /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 53 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 1 AND `guan_id` = 461 ORDER BY id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 1 AND `guan_id` = 461 ORDER BY id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 2 AND `guan_id` = 461 ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 2 AND `guan_id` = 461 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 3 AND `guan_id` = 461 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 3 AND `guan_id` = 461 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-02-27T16:53:48+08:00 ] 220.249.99.184 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-02-27T17:59:49+08:00 ] 207.46.13.21 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-02-27T22:55:06+08:00 ] 114.113.124.135 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+

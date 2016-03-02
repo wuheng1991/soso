@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link href="/Public/Home/css/login.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/Public/Home/js/jquery.js"></script>
+<script type="text/javascript" src="/Public/Home/js/tab.js"></script>
+</head>
+
+<body>
+<div id="toper">
+	<div class="top">
+    	<ul class="top_l">
+			<li>欢迎<b id="f33"><?php echo getUserInfo();?></b>　单 位：武汉金开瑞生物工程有限公司　电 话：1230000000</li>
+		</ul>
+        <ul class="top_l right">
+        	<li><i class="lgo"></i>欢迎<b id="f33">某某某</b>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#" target="_blank">退 出</a></li>
+        </ul>
+    </div>
+</div>
+<div class="clear"></div>
+<div id="header">
+	<div class="head">
+		<div class="logo"><a href="#"><img src="/Public/Home/images/logo.gif" /></a></div>
+        <div class="menu">
+                <ul class="menu">
+                	<li class="menu-item select"><a class="menu-item" href="#">我的帐户</a></li>
+                    
+                    <li class="menu-item"><a class="menu-item" href="#">创建新订单</a>
+                        <div class="menu-div" style="display:none;">
+                            <ul>
+                                <li><a href="index.php/Home/Index/Create/">创建测序订单</a></li>
+                                <li><a href="#">创建引物订单</a></li>
+                                <li><a href="#">创建基因订单</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item big"><a class="menu-item" href="#">订单状态和结果</a></li>
+                    <li class="menu-item"><a class="menu-item" href="#">帐户信息</a>
+                        <div class="menu-div" style="display:none;">
+                            <ul>
+                                <li><a href="#">帐户信息</a></li>
+                                <li><a href="#">修改密码</a></li>
+                                <li><a href="#">邮件配置</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item" style="margin-right:0;"><a class="menu-item" href="#">积 分</a>
+                        <div class="menu-div" style="display:none;">
+                            <ul>
+                                <li><a href="#">积分兑换</a></li>
+                            </ul>
+                        </div>
+					</li>
+				</ul>
+                <script type="text/javascript">
+				$('.menu-item').hover(
+					function(){
+						$(this).find("div.menu-div").show();
+						$(this).addClass("select");
+					},
+					function(){
+						$(this).find("div.menu-div").hide();
+						$(this).removeClass("select");
+					}
+				);
+				$('.first-nav').hover(
+					function(){
+						$(this).find("ul.menu-div-child").show();
+						$(this).addClass('select');
+					},
+					function(){
+						$(this).find("ul.menu-div-child").hide();
+						$(this).removeClass('select');
+					}
+				);
+			</script>
+		</div>
+	</div>
+</div>
+<!-- logo--导航菜单 结束 -->
+<div class="clear"></div>
+<div id="main">
+	<div class="maincon">
+		<div class="lleft">
+            <div class="con-div">
+                <div class="bg-cs">
+                	<span class="divider fs18"><a href="#" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;创建新订单</a></span>
+				</div>
+                
+            </div>
+            <script type="text/javascript">
+				jQuery(function(jQuery){
+				jQuery("#ul-type li span").unbind("click").click(function(){
+					if (jQuery("#mi"+jQuery(this).attr("id")).css("display") == "none"){
+						jQuery(this).attr("class","tok");
+						jQuery("#mi"+jQuery(this).attr("id")).show("show");
+					} else {
+						jQuery(this).attr("class","");
+						jQuery("#mi"+jQuery(this).attr("id")).hide("show");
+					}
+				});
+				}); 
+            </script>
+            <div id="product_l">
+                <ul id="ul-type">
+                    <li><span id="n01"></span><a href="#">测序订单</a></li>
+                    <li class="min tok" id="min01">
+                        <p><a href="#">创建测序订单</a></p><p><a href="#">特快基因合成</a></p><p><a href="#">高难度基因合成</a></p>
+                    </li>
+                    <li><span id="n02"></span><a href="#">引物订单</a></li>
+                    <li class="min" id="min02">
+                        <p><a href="#">创建引物订单</a></p><p><a href="#">长链引物合成</a></p><p><a href="#">修饰、标记引物合成</a></p>
+                    </li>
+                    <li><span id="n03"></span><a href="#">测序服务</a></li>
+                    <li class="min" id="min03">
+                        <p><a href="#">常规测序</a></p><p><a href="#">高通量测序</a></p>
+                    </li>
+				</ul>
+			</div>
+		</div>
+        <div class="rright">
+        	<div class="bg-cs01">
+            	<span class="divider fs18">&nbsp;&nbsp;&nbsp;&nbsp;创建订单</span>
+            </div>
+            <div class="news_con">
+            	<div class="nr">
+                	<h1><a href="#" target="_blank">订单信息和状态</a></h1>
+				</div>
+            	<div class="lianxi_con">
+                    <table width="100%" cellspacing="1" cellpadding="1" border="0">
+                        <tr>
+                            <th>订单日期</th>
+                            <th>订单号/项目号</th>
+                            <th>订单类型</th>
+                            <th>项目描述</th>
+                            <th>反应/引物数</th>
+                            <th>订单状态</th>
+                        </tr>
+                        <tr>
+                            <td>2015-01-07</td>
+                            <td>1231456465</td>
+                            <td>DNA测序</td>
+                            <td></td>
+                            <td>0</td>
+                            <td>草稿</td>
+                        </tr>
+                        <tr>
+                            <td>2015-01-07</td>
+                            <td>1231456465</td>
+                            <td>DNA测序</td>
+                            <td></td>
+                            <td>0</td>
+                            <td>草稿</td>
+                        </tr>
+                        <tr>
+                            <td>2015-01-07</td>
+                            <td>1231456465</td>
+                            <td>DNA测序</td>
+                            <td></td>
+                            <td>0</td>
+                            <td>草稿</td>
+                        </tr>
+                    </table>
+            	</div>
+            </div>
+            <div class="news_con">
+            	<div class="nr">
+                	<h1><a href="#" target="_blank">最新的结果</a></h1>
+				</div>
+            	<div class="lianxi_con">
+                    <table width="100%" cellspacing="1" cellpadding="1" border="0">
+                        <tr>
+                            <th>结果生成日期</th>
+                            <th>订单号</th>
+                            <th>订单类型</th>
+                            <th>项目描述</th>
+                            <th>反应/引物数</th>
+                            <th>收费数</th>
+                        </tr>
+                        <tr>
+                            <td>2015-01-07</td>
+                            <td>123456456</td>
+                            <td>引物合成</td>
+                            <td></td>
+                            <td>68</td>
+                            <td>86</td>
+                        </tr>
+                        <tr>
+                            <td>2015-01-07</td>
+                            <td>123456456</td>
+                            <td>引物合成</td>
+                            <td></td>
+                            <td>68</td>
+                            <td>86</td>
+                        </tr>
+                        <tr>
+                            <td>2015-01-07</td>
+                            <td>123456456</td>
+                            <td>引物合成</td>
+                            <td></td>
+                            <td>68</td>
+                            <td>86</td>
+                        </tr>
+                        <tr>
+                            <td>2015-01-07</td>
+                            <td>123456456</td>
+                            <td>引物合成</td>
+                            <td></td>
+                            <td>68</td>
+                            <td>86</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="news_con">
+            	<div class="nr">
+                	<h1><a href="#" target="_blank">相关信息</a></h1>
+				</div>
+            	<div class="problem">
+                    <ul>
+                        <li><a href="#" target="_blank">&nbsp;&nbsp;因组RAD/GBS常见问题集锦</a></li>
+                        <li><a href="#" target="_blank">&nbsp;&nbsp;因组RAD/GBS常见问题集锦</a></li>
+                        <li><a href="#" target="_blank">&nbsp;&nbsp;因组RAD/GBS常见问题集锦</a></li>
+                        <li><a href="#" target="_blank">&nbsp;&nbsp;因组RAD/GBS常见问题集锦</a></li>
+                        <li><a href="#" target="_blank">&nbsp;&nbsp;因组RAD/GBS常见问题集锦</a></li>
+                    </ul>
+                </div>
+            </div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

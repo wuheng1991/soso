@@ -1,0 +1,744 @@
+<include file="Index/header" />
+<!-- logo--导航菜单 结束 -->
+<style type="text/css">
+	input,textarea{
+		border:2px solid #ABCDEF;
+
+	}
+    a{color:#fff;}
+    a:hover{color:#ff6600;}
+</style>
+<div class="clear"></div>
+<div id="main">
+	<div class="maincon">
+		<div class="primerbread">注意：<br/> 1.鼠标移至各项查看注释，其中*为必填项。如有疑问，欢迎咨询金开瑞技术支持。<br/>
+			2.如果以下表单内容无法达到您的需求，可以尝试Excel表单上传订单。 <br /><br/></div>
+        <div class="order_con" style="margin-bottom:30px;">
+		<form method="post" autocomplete="on" id="SeqForm" action="{:U('Index/save')}">
+
+       <!--  <table width="1000px" style="border-collapse:collapse;" border="1" id="FormTable"> -->
+        <table width="100%" cellspacing="1" cellpadding="1" border="0" id="FormTable">
+
+			<tr align="center">
+                    <th width="5%" style="background-color:#008C00; color:white;">反应编号</th>
+
+                <th width="7%" style="background-color:#008C00; color:white;"><a title="请使用(A-z, 0-9, +, _, -)填写样品名称。">样品名称 *</a><br /><a href="javascript:DelTd(1);">清空</a> <a href="javascript:CopyTd(1);">复制</a></th>
+
+                <th width="7%" style="background-color:#008C00; color:white;"><a title="请根据实际情况在下拉列表中选择相应的样品类型。">样品类型 *</a><br /><a href="javascript:DelTd(2);">清空</a> <a href="javascript:CopyTd(2);">复制</a></th>
+
+                <th width="11%" style="background-color:#008C00; color:white;"><a title="请填写您提供的载体名称及抗性，金开瑞会为您的样品选择最佳的测序方案。">载体全称 *</a><br /><a href="javascript:DelTd(3);">清空</a> <a href="javascript:CopyTd(3);">复制</a></th>
+
+                <th width="23%" style="background-color:#008C00; color:white;"><a title="">片段或插入序列长度( bp)*</a><br /><a href="javascript:DelTd(4);">清空</a> <a href="javascript:CopyTd(4);">复制</a></th>
+
+
+
+               
+
+                <th width="12%" style="background-color:#008C00; color:white;"><a title="请使用(A-z, 0-9, +, _, -)填写自备引物名称。">测序引物名称 *</a><br /><a href="javascript:DelTd(6);">清空</a> <a href="javascript:CopyTd(6);">复制</a></th>
+
+                <th width="8%" style="background-color:#008C00; color:white;"><a title="请以pmol/ul为单位填写自备引物的浓度。">
+
+                 
+
+                    抗性
+
+                </a><br /><a href="javascript:DelTd(7);">清空</a> <a href="javascript:CopyTd(7);">复制</a></th>
+
+                
+
+                <th width="11%" style="background-color:#008C00; color:white;"><a title="请根据具体需求，选择单向，双向，单向测通，双向测通。单向：每个样品只需提交一个反应，并选择一个可用的通用或自备引物。双向：每个样品需要提交两个反应，并选择正反向各一个通用或自备引物。单向测通：若目的片段大于800bp，需从一个方向将其测通，请选择该项。每个样品只需提交一个反应，并选择一个可用的通用或自备引物。双向测通：若目的片段大于800bp，需从正反两个方向将其测通，请选择该项。每个样品需提交两个反应，每个反应选择一个可用的通用或自备引物。">测序要求</a><br /><a href="javascript:DelTd(9);">清空</a> <a href="javascript:CopyTd(9);">复制</a></th>
+
+                <th width="9%" style="background-color:#008C00; color:white;"><a title="若样品中含特殊结构，请根据实际情况选择。金开瑞会为您的样品制定最佳的测序方案。">特殊要求</a><br /><a href="javascript:DelTd(10);">清空</a> <a href="javascript:CopyTd(10);">复制</a></th>
+
+                <th width="7%" style="background-color:#008C00; color:white;">操作</th>
+
+           	  	 
+            </tr>
+            <if condition="$num gt 1">
+			<for start="0" end="$num">
+			<tr id="list_{$i+1}" align="center">
+                <td align="center">{$i+1}</td>
+                <td align="center"><input type="text" name="samplename{$i+1}" id="samplename_{$i+1}" size="8" /></td>
+                <td align="center">
+                <select name="sampletype{$i+1}" id="sampletype_{$i+1}" size="1">
+                    <option value=""></option>
+					<option value="1">菌液</option>
+                    <option value="2">质粒</option>
+                    <option value="3">PCR未纯化</option>
+                    <option value="4">PCR已纯化</option>
+                </select>
+                </td>
+                <td><input name="carrier{$i+1}" id="carrier_{$i+1}" type="text" size="8" /></td>
+                <td><input name="length{$i+1}" id="length_{$i+1}" type="text" size="8" /></td>
+                <!-- <td><input name="concentration{$i+1}" id="concentration_{$i+1}" type="text" size="8" /></td> -->
+                <td style="">
+                	<input name="primername{$i+1}" list="cars" id="primername_{$i+1}" type="text" size="8" />
+
+                <datalist id="cars">
+
+                 <option value="M13+(-47)">
+<option value="M13-(-48)">
+<option value="M13F(-20)">
+<option value="M13R(-26)">
+<option value="-96III">
+<option value="T7">
+<option value="T7-TER">
+<option value="BGH">
+<option value="S-TAG">
+<option value="T3">
+<option value="SP6">
+<option value="27F">
+<option value="1492R">
+<option value="5AOX">
+<option value="3AOX">
+<option value="pEGFP-N5">
+<option value="pEGFP-N3">
+<option value="pEGEP-C5">
+<option value="pEGEP-C3">
+<option value="pGEX5">
+<option value="PGEX3">
+<option value="pGL3+">
+<option value="pGL3-">
+<option value="hU6">
+<option value="mU6">
+<option value="pDsRed1-N">
+<option value="PBRrevBam">
+<option value="DuetUP1">
+<option value="DuetUP2">
+<option value="DuetDOWN1">
+<option value="PBAD-F">
+<option value="PBAD-R">
+<option value="PBABE5">
+<option value="PBABE3">
+<option value="PIRES2-EGFP.P5">
+<option value="PIRES2-EGFP.P3">
+<option value="pFastBac-F">
+<option value="pFastBac-R">
+<option value="pFastBac-PH">
+<option value="a-factor">
+<option value="ITS1">
+<option value="ITS2">
+<option value="ITS4">
+<option value="ITS5">
+<option value="CMV-F">
+<option value="CMV-R">
+<option value="CMV-24">
+<option value="CMV-30">
+<option value="3AD">
+<option value="5AD">
+<option value="3BD">
+<option value="5BD">
+<option value="PBV220+">
+<option value="PBV220-">
+<option value="pQE30+">
+<option value="pQE30-">
+<option value="NL1">
+<option value="NL4">
+<option value="pGAP-F">
+<option value="PLXSN5">
+<option value="PLXSN3">
+<option value="pDONR-F">
+<option value="pDONR-R">
+<option value="PCDNA3.0F/F2">
+<option value="PCDNA3.0R/R2">
+<option value="PTRC99C-F">
+<option value="PTRC99C-R">
+<option value="1405f">
+<option value="GAL4AD(同5AD)">
+<option value="P10-PROFOR">
+<option value="pRNA-U6Forward">
+<option value="pLNCX-F">
+<option value="pLNCX-R">
+<option value="456r">
+<option value="PETBlueDOWN">
+<option value="pETUpstream">
+<option value="PinPoint Primer">
+<option value="PSilencer4.1-F">
+<option value="PSilencer4.1-R">
+<option value="PTARGET-SEQ">
+<option value="Colidown">
+<option value="pCMV5F">
+<option value="pCMV5R">
+<option value="P1">
+<option value="P2">
+<option value="P3(同PMAL-C2X-R)">
+<option value="P5(同PMAL-C2X-F)">
+<option value="malE for">
+<option value="GAL4BD">
+<option value="pDSRED-C1-F">
+<option value="pCold-F">
+<option value="psi-check2-F">
+<option value="psi-check2-R">
+<option value="TRX-F">
+<option value="TRX-R">
+<option value="PACGP67RV">
+<option value="pShuttle-CMV-F">
+<option value="pShuttle-CMV-R">
+<option value="C-MYCREV">
+<option value="GPD-promoter-F">
+<option value="PTRChisA-F">
+<option value="PTRChisA-R">
+<option value="pADTrack-F">
+<option value="BAC1">
+<option value="BAC2">
+<option value="PCEP-F">
+<option value="NOS-F">
+<option value="NOS-R">
+<option value="PDC316-F">
+<option value="PDC316-R">
+<option value="PB42ADF">
+<option value="PB42ADR">
+<option value="PAS2-1F">
+<option value="PAS2-1R">
+<option value="PEF-F(同EF-1aF)">
+<option value="MSCV-F">
+<option value="MSCV-R">
+<option value="1541r">
+<option value="1340R">
+<option value="PYES2-R(同CYC1)">
+<option value="PBI121(35S)">
+<option value="pLEXA-F">
+<option value="pLEXA-R">
+<option value="EBV-R">
+<option value="H1">
+<option value="PT5">
+<option value="357F">
+<option value="518R">
+<option value="341f">
+<option value="2.0rev">
+<option value="3.0rev">
+<option value="NS1">
+<option value="NS4">
+<option value="NS6">
+<option value="NS8">
+<option value="CYC1">
+<option value="pCAG-F">
+<option value="SV40">
+<option value="RV3(同pGL3+)">
+<option value="RV4">
+<option value="S1">
+<option value="S6">
+<option value="PPC86-F">
+<option value="PPC86-R">
+<option value="N26FOR">
+<option value="pFlag-CMV-F">
+<option value="pFlag-CMV-R">
+
+               </datalist>
+
+                </td>
+                <td><input name="primercon{$i+1}" id="primercon_{$i+1}" type="text" size="6" /></td>
+                <!-- <td>
+                <select name="universalprimers{$i+1}" id="universalprimers_{$i+1}" size="1">
+                    <option value=""></option>
+					<foreach name="primers" item="p" >
+					<option value="{$p.id}">{$p.name}</option>
+					</foreach>
+                </select>
+                </td> -->
+                <td>
+                <select name="claim{$i+1}" id="claim_{$i+1}" size="1">
+                    <option value=""></option>
+					<option value="1">正向</option>
+                    <option value="2">反向</option>
+                    <option value="3">双向</option>
+                    <option value="4">测通</option>
+                </select>
+                </td>
+                <td>
+                <select name="specialclaim{$i+1}" id="specialclaim_{$i+1}">
+                    <option value=""></option>
+					<option value="1">高GC</option>
+                    <option value="2">特殊结构</option>
+                </select>
+                </td>
+				<td><a href="javascript:DelTr({$i+1});" style="color:red;">删除</a></td>
+            </tr>
+			</for>
+			<else />
+
+			<tr id="list_{$i+1}" align="center" style=" ">
+
+                <td>1</td>
+                <td style=""><input type="text" name="samplename1" id="samplename_1" size="8" /></td>
+                <td>
+                <select name="sampletype1" id="sampletype_1" size="1">
+                    <option value=""></option>
+					<option value="1">菌液</option>
+                    <option value="2">质粒</option>
+                    <option value="3">PCR未纯化</option>
+                    <option value="4">PCR已纯化</option>
+                </select>
+                </td>
+                <td><input name="carrier1" id="carrier_1" type="text" size="8" /></td>
+                <td><input name="length1" id="length_1" type="text" size="8" /></td>
+                <!-- <td><input name="concentration1" id="concentration_1" type="text" size="8" /></td>-->
+                <td> 
+               <input name="primername1" id="primername_1" list="cars" type="text" size="8" />
+                 <datalist id="cars">
+
+                 <option value="M13+(-47)">
+<option value="M13-(-48)">
+<option value="M13F(-20)">
+<option value="M13R(-26)">
+<option value="-96III">
+<option value="T7">
+<option value="T7-TER">
+<option value="BGH">
+<option value="S-TAG">
+<option value="T3">
+<option value="SP6">
+<option value="27F">
+<option value="1492R">
+<option value="5AOX">
+<option value="3AOX">
+<option value="pEGFP-N5">
+<option value="pEGFP-N3">
+<option value="pEGEP-C5">
+<option value="pEGEP-C3">
+<option value="pGEX5">
+<option value="PGEX3">
+<option value="pGL3+">
+<option value="pGL3-">
+<option value="hU6">
+<option value="mU6">
+<option value="pDsRed1-N">
+<option value="PBRrevBam">
+<option value="DuetUP1">
+<option value="DuetUP2">
+<option value="DuetDOWN1">
+<option value="PBAD-F">
+<option value="PBAD-R">
+<option value="PBABE5">
+<option value="PBABE3">
+<option value="PIRES2-EGFP.P5">
+<option value="PIRES2-EGFP.P3">
+<option value="pFastBac-F">
+<option value="pFastBac-R">
+<option value="pFastBac-PH">
+<option value="a-factor">
+<option value="ITS1">
+<option value="ITS2">
+<option value="ITS4">
+<option value="ITS5">
+<option value="CMV-F">
+<option value="CMV-R">
+<option value="CMV-24">
+<option value="CMV-30">
+<option value="3AD">
+<option value="5AD">
+<option value="3BD">
+<option value="5BD">
+<option value="PBV220+">
+<option value="PBV220-">
+<option value="pQE30+">
+<option value="pQE30-">
+<option value="NL1">
+<option value="NL4">
+<option value="pGAP-F">
+<option value="PLXSN5">
+<option value="PLXSN3">
+<option value="pDONR-F">
+<option value="pDONR-R">
+<option value="PCDNA3.0F/F2">
+<option value="PCDNA3.0R/R2">
+<option value="PTRC99C-F">
+<option value="PTRC99C-R">
+<option value="1405f">
+<option value="GAL4AD(同5AD)">
+<option value="P10-PROFOR">
+<option value="pRNA-U6Forward">
+<option value="pLNCX-F">
+<option value="pLNCX-R">
+<option value="456r">
+<option value="PETBlueDOWN">
+<option value="pETUpstream">
+<option value="PinPoint Primer">
+<option value="PSilencer4.1-F">
+<option value="PSilencer4.1-R">
+<option value="PTARGET-SEQ">
+<option value="Colidown">
+<option value="pCMV5F">
+<option value="pCMV5R">
+<option value="P1">
+<option value="P2">
+<option value="P3(同PMAL-C2X-R)">
+<option value="P5(同PMAL-C2X-F)">
+<option value="malE for">
+<option value="GAL4BD">
+<option value="pDSRED-C1-F">
+<option value="pCold-F">
+<option value="psi-check2-F">
+<option value="psi-check2-R">
+<option value="TRX-F">
+<option value="TRX-R">
+<option value="PACGP67RV">
+<option value="pShuttle-CMV-F">
+<option value="pShuttle-CMV-R">
+<option value="C-MYCREV">
+<option value="GPD-promoter-F">
+<option value="PTRChisA-F">
+<option value="PTRChisA-R">
+<option value="pADTrack-F">
+<option value="BAC1">
+<option value="BAC2">
+<option value="PCEP-F">
+<option value="NOS-F">
+<option value="NOS-R">
+<option value="PDC316-F">
+<option value="PDC316-R">
+<option value="PB42ADF">
+<option value="PB42ADR">
+<option value="PAS2-1F">
+<option value="PAS2-1R">
+<option value="PEF-F(同EF-1aF)">
+<option value="MSCV-F">
+<option value="MSCV-R">
+<option value="1541r">
+<option value="1340R">
+<option value="PYES2-R(同CYC1)">
+<option value="PBI121(35S)">
+<option value="pLEXA-F">
+<option value="pLEXA-R">
+<option value="EBV-R">
+<option value="H1">
+<option value="PT5">
+<option value="357F">
+<option value="518R">
+<option value="341f">
+<option value="2.0rev">
+<option value="3.0rev">
+<option value="NS1">
+<option value="NS4">
+<option value="NS6">
+<option value="NS8">
+<option value="CYC1">
+<option value="pCAG-F">
+<option value="SV40">
+<option value="RV3(同pGL3+)">
+<option value="RV4">
+<option value="S1">
+<option value="S6">
+<option value="PPC86-F">
+<option value="PPC86-R">
+<option value="N26FOR">
+<option value="pFlag-CMV-F">
+<option value="pFlag-CMV-R">
+
+               </datalist>
+
+                </td>
+                <td><input name="primercon1" id="primercon_1" type="text" size="6" /></td>
+               <!--  <td>
+                <select name="universalprimers1" id="universalprimers_1" size="1">
+                    <option value=""></option>
+					<foreach name="primers" item="p" >
+					<option value="{$p.id}">{$p.name}</option>
+					</foreach>
+                </select>
+                </td> -->
+                <td>
+                <select name="claim1" id="claim_1" size="1">
+					<option value=""></option>
+					<option value="1">正向</option>
+                    <option value="2">反向</option>
+                    <option value="3">双向</option>
+                    <option value="4">测通</option>
+                </select>
+                </td>
+                <td>
+                <select name="specialclaim1" id="specialclaim_1">
+                    <option value=""></option>
+					<option value="1">高GC</option>
+                    <option value="2">特殊结构</option>
+                </select>
+                </td>
+				<td><a href="javascript:DelTr(1);">删除</a></td>
+            </tr>
+
+            </if>
+        </table>
+
+
+		<input type="hidden" name="num" id="Num" value="{$num}" />
+
+
+	  </div>
+	  
+      <div><input type="button" onclick="AddRow()" value="增加" style=" background-color:#008C00; border:1px solid #008C00; padding:5px; color:#fff;"/> <input id="addrownum" type="text" size="4" style="padding:5px;" /> 行  <input type="button" id="BlackLine" value="删除空行" style=" background-color:#008C00; border:1px solid #008C00; padding:5px; color:#fff;"  />
+      &nbsp;&nbsp;&nbsp;&nbsp;  
+      	<span style="color:red;font-style:italic;">(注：如果要执行添加操作，先在文本框中输入数量，然后单击前面的"增加"按钮即可！)</span></div>
+
+      <div><br/>项目描述：<input type="text" name="desc" size="130"   /><br/><br/>备注：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea name="info" rows="2" cols="120"  ></textarea><br/><br/></div>
+
+	  <!-- <div>
+	  	<input type="button" id="save" style="text-align:center;display:block;margin:0px auto;background:#FF6633;color:white;padding:8px;font-size:14px;font-weight:bold;margin-bottom:50px;" title="点击保存" value="  保 存  " />
+	  </div> -->
+       <div>
+
+        <input type="button" id="save" style="text-align:center;display:block;margin:0px auto;background:#FF6633;color:white;padding:8px;font-size:14px;font-weight:bold;margin-bottom:50px;" title="点击保存" value="  保 存  " border="0" />
+
+      </div>
+	  </form>
+      <script type="text/javascript">
+	  //验证表单
+	  $(document).ready(function() {
+      	var flag = true;
+		$('#save').click(function(){
+			$('#FormTable tr').each(function(i) {
+				if (i > 0){
+					$(this).find('td').each(function(t) {
+						if ($(this).children().val() == ''){
+							if (t == 5 || t == 9 || t== 10 ||t==11){
+								
+							} else {
+								flag = false;
+								$(this).children().addClass('error');
+							}
+						} else {
+							flag = true;
+							$(this).children().removeClass('error');
+						}
+                    });
+				}
+			});
+			// flag=1;
+			if (flag){
+				$('#SeqForm').submit();
+			}
+		});
+      });
+	  
+	  $('#BlackLine').click(function(){
+			var n = $('#FormTable tr:last').attr('id');
+			var value = n.replace(/[^0-9]/ig,"");
+			for(i=0;i<=value;i++){
+				if ( $('#samplename_'+i).val() == '' && $('#sampletype_'+i).val() == '' && $('#carrier_'+i).val() == '' && $('#length_'+i).val() == '' && $('#primername_'+i).val() == ''  && $('#claim_'+i).val() == '' && $('#specialclaim_'+i).val() == ''){
+					$('#list_'+i).remove();
+				 }
+			}
+			//重新排序
+			var trnum = 0;
+			$('#FormTable tr').each(function(i) {
+				trnum++;
+				if (i>0) $(this).attr('id','list_'+i);
+				$(this).find('td').each(function(t) {
+					switch(t){
+						case 0:
+							$(this).html(i);
+							break;
+						case 1:
+							$(this).children().attr('name','samplename'+i);
+							$(this).children().attr('id','samplename_'+i);
+							break;
+						case 2:
+							$(this).children().attr('name','sampletype'+i);
+							$(this).children().attr('id','sampletype_'+i);
+							break;
+						case 3:
+							$(this).children().attr('name','carrier'+i);
+							$(this).children().attr('id','carrier_'+i);
+							break;
+						case 4:
+							$(this).children().attr('name','length'+i);
+							$(this).children().attr('id','length_'+i);
+							break;
+						case 5:
+							$(this).children().attr('name','concentration'+i);
+							$(this).children().attr('id','concentration_'+i);
+							break;
+						case 6:
+							$(this).children().attr('name','primername'+i);
+							$(this).children().attr('id','primername_'+i);
+							break;
+						case 7:
+							$(this).children().attr('name','primercon'+i);
+							$(this).children().attr('id','primercon_'+i);
+							break;
+						case 8:
+							$(this).children().attr('name','universalprimers'+i);
+							$(this).children().attr('id','universalprimers_'+i);
+							break;
+						case 9:
+							$(this).children().attr('name','claim'+i);
+							$(this).children().attr('id','claim_'+i);
+							break;
+						case 10:
+							$(this).children().attr('name','specialclaim'+i);
+							$(this).children().attr('id','specialclaim_'+i);
+							break;
+						case 11:
+							$(this).children().attr('href','javascript:DelTr('+i+');');
+							break;
+					}
+				});
+			});
+			//改变参数
+			$('#Num').val(trnum-1);
+	  });
+	  function AddRow(){
+		var num = $('#addrownum').val();
+		if (num == '') return false;
+		if (/^[0-9]*[1-9][0-9]*$/.test(num) === false ) return false;
+		var n = $('#FormTable tr:last').attr('id');
+		if (n == undefined){
+			value = 0;
+		} else {
+			value = n.replace(/[^0-9]/ig,"");
+		}
+		
+		for(i=0;i<num;i++){
+			value++;
+			var html = "<tr id=\"list_"+value+"\" align=\"center\">";
+            html += "<td align=\"center\">"+value+"</td>";
+            html += "    <td align=\"center\"><input type=\"text\" name=\"samplename"+value+"\" id=\"samplename_"+value+"\" size=\"8\" /></td>";
+            html += "    <td align=\"center\">";
+            html += "    <select name=\"sampletype"+value+"\" id=\"sampletype_"+value+"\" size=\"1\">";
+            html += "        <option value=\"\"></option>";
+			html += "        <option value=\"1\">菌液</option>";
+			html += "        <option value=\"2\">质粒</option>";
+			html += "        <option value=\"3\">PCR未纯化</option>";
+            html += "        <option value=\"4\">PCR已纯化</option>";
+            html += "    </select>";
+            html += "    </td>";
+            html += "    <td align=\"center\"><input name=\"carrier"+value+"\" id=\"carrier_"+value+"\" type=\"text\" size=\"8\" /></td>";
+            html += "    <td align=\"center\"><input name=\"length"+value+"\" id=\"length_"+value+"\" type=\"text\" size=\"8\" /></td>";
+
+            // html += "    <td align=\"center\"><input name=\"concentration"+value+"\" id=\"concentration_"+value+"\" type=\"text\" size=\"8\" /></td>";
+
+            html += "    <td align=\"center\"><input name=\"primername"+value+"\" id=\"primername_"+value+"\" type=\"text\" size=\"8\"   /> </td>";
+            html += "    <td align=\"center\"><input name=\"primercon"+value+"\" id=\"primercon_"+value+"\" type=\"text\" size=\"6\" /></td>";
+
+   //          html += "    <td>";
+
+   //          html += "    <select name=\"universalprimers"+value+"\" id=\"universalprimers_"+value+"\" size=\"1\">";
+   //          html += "        <option value=\"\"></option>";
+			// <?php foreach ($primers as $pe){?>
+			// html += "	<option value=\\"<?php echo $pe['id'];?>\\"><?php echo $pe['name'];?></option>";
+			// <?php } ?>
+   //          html += "    </select>";
+   //          html += "    </td>";
+
+            html += "    <td align=\"center\">";
+            html += "    <select name=\"claim"+value+"\" id=\"claim_"+value+"\" size=\"1\">";
+			html += "		<option value=\"\"><option>";
+            html += "        <option value=\"1\">正向</option>";
+            html += "        <option value=\"2\">反向</option>";
+            html += "        <option value=\"3\">双向</option>";
+            html += "        <option value=\"4\">测通</option>";
+            html += "    </select>";
+            html += "    </td>";
+            html += "    <td align=\"center\">";
+            html += "    <select name=\"specialclaim"+value+"\" id=\"specialclaim_"+value+"\">";
+            html += "        <option value=\"\"></option>";
+			html += "		<option value=\"1\">高GC</option>";
+            html += "        <option value=\"2\">特殊结构</option>";
+            html += "    </select>";
+            html += "    </td>";
+			html += "	<td align=\"center\"><a href=\"javascript:DelTr("+value+");\" >删除</a></td>";
+            html += "</tr>";
+			
+			$('#FormTable').append(html);
+			$('#Num').val(value);
+		}
+	  }
+	  function DelTr(tr){
+		 $('#samplename_'+tr).val('');
+		 $('#sampletype_'+tr).find('option').attr("selected",false);
+		 $('#carrier_'+tr).val('');
+		 $('#length_'+tr).val('');
+		 $('#concentration_'+tr).val('');
+		 $('#primername_'+tr).val('');
+		 $('#primercon_'+tr).val('');
+		 $('#universalprimers_'+tr).find('option').attr('selected',false);
+		 $('#claim_'+tr).find('option').attr('selected',false);
+		 $('#specialclaim_'+tr).find('option').attr('selected',false);
+	  }
+	  function DelTd(v){
+		var num = $('#FormTable tr:last').attr('id').replace(/[^0-9]/ig,"");
+		var str = '';
+		switch(v){
+			case 1:
+				str = 'samplename';
+				break;
+			case 2:
+				str = 'sampletype';
+				break;
+			case 3:
+				str = 'carrier';
+				break;
+			case 4:
+				str = 'length';
+				break;
+			case 5:
+				str = 'concentration';
+				break;
+			case 6:
+				str = 'primername';
+				break;
+			case 7:
+				str = 'primercon';
+				break;
+			case 8:
+				str = 'universalprimers';
+				break;
+			case 9:
+				str = 'claim';
+				break;
+			case 10:
+				str = 'specialclaim';
+				break;
+		}
+		for(i=1;i<=num;i++){
+			if (str == 'specialclaim' || str == 'claim' ||str == 'universalprimers'||str == 'sampletype'){
+				$('#'+str+'_'+i).find('option').attr('selected',false);
+			} else {
+				$('#'+str+'_'+i).val('');
+			}
+		}
+	  }
+	  function CopyTd(v){
+		var num = $('#FormTable tr:last').attr('id').replace(/[^0-9]/ig,"");
+		var str = '';
+		switch(v){
+			case 1:
+				str = 'samplename';
+				break;
+			case 2:
+				str = 'sampletype';
+				break;
+			case 3:
+				str = 'carrier';
+				break;
+			case 4:
+				str = 'length';
+				break;
+			case 5:
+				str = 'concentration';
+				break;
+			case 6:
+				str = 'primername';
+				break;
+			case 7:
+				str = 'primercon';
+				break;
+			case 8:
+				str = 'universalprimers';
+				break;
+			case 9:
+				str = 'claim';
+				break;
+			case 10:
+				str = 'specialclaim';
+				break;
+		}
+		var strvalue = $('#'+str+'_1').val();
+		for(i=0;i<=num;i++){
+			$('#'+str+'_'+i).val(strvalue);
+		}
+	  }
+	  </script>
+  </div>
+</div>
+</body>
+</html>

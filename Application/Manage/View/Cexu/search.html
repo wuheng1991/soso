@@ -1,0 +1,105 @@
+<include file="Index/header" />
+<script>
+$(document).ready(function(){
+	$( "#FromDate" ).datepicker({
+		dateFormat:'yy-mm-dd'
+	});
+	$( "#ToDate" ).datepicker({
+		dateFormat:'yy-mm-dd'
+	});
+	$('#next').click(function(){
+		$('#page').val($(this).attr('data'));
+		$('#searchdForm').submit();
+	});
+	$('#pre').click(function(){
+		$('#page').val($(this).attr('data'));
+		$('#searchdForm').submit();
+	});
+});
+</script>
+<div class="clear"></div>
+<div id="main">
+	<div class="maincon">
+		<div class="bread">搜索条件</div>
+        <div class="order_con">
+        <form id="searchdForm" method="post" action="{:U('Index/search')}">
+		<input type="hidden" id="page" name="p" value="" />
+		<table cellspacing="0" cellpadding="2" bgcolor="#fff" border="0">
+            <tr bgcolor="#eaeaea">
+                <td align="right" bgcolor="#eaeaea" width="90px">订单日期从</td>
+                <td bgcolor="#eaeaea"><input name="FromDate" type="text" value="{$fromDate}" id="FromDate" class="Wdate" /></td>
+                <td align="right" bgcolor="#eaeaea">到</td>
+                <td bgcolor="#eaeaea"><input name="ToDate" type="text" value="{$toDate}" id="ToDate" class="Wdate" /></td>
+                <td align="right"><input type="submit" name="btnSearch" value="搜索订单" onclick="return CheckOrderId();" id="btnSearch" style="color:#336699;" /></td>
+            </tr>
+            <tr bgcolor="#eaeaea">
+                <td  align="right" bgcolor="#eaeaea">订单类型</td>
+                <td bgcolor="#eaeaea"> <span class="chkSequece">
+				<if condition=" $ordertype1 eq 'on' ">
+				<input id="chkOrderType1" type="checkbox" name="chkOrderType1" checked="checked" /><label for="chkOrderType1">DNA测序订单</label></span>
+				<else />
+				<input id="chkOrderType1" type="checkbox" name="chkOrderType1" /><label for="chkOrderType1">DNA测序订单</label></span>
+				</if>
+				</td>
+                <td bgcolor="#eaeaea" colspan="3">
+				<if condition=" $ordertype2 eq 'on' ">
+				<input id="chkOrderType3" type="checkbox" name="chkOrderType3" checked="checked" /><label for="chkOrderType3">引物合成订单</label>
+				<else />
+				<input id="chkOrderType3" type="checkbox" name="chkOrderType3" /><label for="chkOrderType3">引物合成订单</label>
+				</if>
+				</td>
+            </tr>
+            <tr bgcolor="#eaeaea">
+                <td align="right" bgcolor="#eaeaea" width="90px">订单号</td>
+                <td><input name="txtOrderId" type="text" id="txtOrderId" value="{$ordercode}" style="width:120px;" /></td>
+                <td align="right" bgcolor="#eaeaea" width="90px"></td>
+                <td colspan="3"></td>
+            </tr>
+        </table>
+		</form>
+		</div>
+				
+		
+		<div class="order_con">
+      	<table cellspacing="0" border="1" style="border-color:DarkGray;border-collapse:collapse;">
+			<tr style="color:White;">
+				<td>提交日期</td>
+                <td>订单号</td>
+                <td>订单类型</td>
+                <td>项目描述</td>
+                <td>反应/引物数</td>
+                <td>收费数</td>
+                <td>订单状态</td>
+                <td>PI/实验室负责人</td>
+                <td>单位名称</td>
+                <td>查看</td>
+                <td>结果</td>
+                <td>编辑</td>
+                <td>删除</td>
+                <td>快递信息</td>
+			</tr>
+            <foreach name="list" item="L">
+			<tr>
+				<td>{$L.addtime|date='Y-m-d',###}</td>
+                <td>{$L.code}</td>
+                <td>{$L.ordertype|showOrderType}</td>
+                <td>{$L.description}</td>
+                <td>{$L.id|getSequencingCountByID}</td>
+                <td align="center">{$L.id|getSequencingCountByID}</td>
+                <td>{$L.status|showOrderStatus}</td>
+                <td>沈鹤霄</td>
+                <td>武汉华美生物工程有限公司</td>
+                <td align="center" style="white-space:nowrap;"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+			</tr>
+			</foreach>
+		</table>
+        </div>
+		<div><if condition="$page neq 1"><a id="pre" data="{$page-1}" href="javascript:;">上一页</a></if><if condition="count($list) eq $pageNum"><a id="next" data="{$page+1}" href="javascript:;">下一页</a></if></div>
+	</div>
+</div>
+</body>
+</html>

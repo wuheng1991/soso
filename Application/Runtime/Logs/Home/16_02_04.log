@@ -1,0 +1,1945 @@
+[ 2016-02-04T00:00:00+08:00 ] 121.42.0.15 /images/samples/4_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-02-04T00:00:00+08:00 ] 121.42.0.15 /includes/templates/classic/images/stars_5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-02-04T00:00:00+08:00 ] 121.42.0.15 /includes/templates/template_default/images/always-free-shipping.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-02-04T00:00:00+08:00 ] 121.42.0.15 /includes/templates/template_default/buttons/english/button_tell_a_friend.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-02-04T00:00:01+08:00 ] 121.42.0.15 /admin/images/login/index_hz02.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-02-04T00:00:01+08:00 ] 121.42.0.15 /admin/images/login/index_hz03.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-02-04T00:00:01+08:00 ] 121.42.0.15 /images/default/ico_loading3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-02-04T00:00:01+08:00 ] 121.42.0.15 /a_d/install/data.sql
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载控制器:A_d
+
+[ 2016-02-04T00:00:02+08:00 ] 121.42.0.15 /admin/images/cutimg/ccc.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-02-04T00:00:02+08:00 ] 121.42.0.15 /template/user/images/manage_r2_c18.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2016-02-04T00:00:02+08:00 ] 121.42.0.15 /admin/images/admintitlebg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-02-04T00:00:02+08:00 ] 121.42.0.15 /images/gengtie.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-02-04T00:00:03+08:00 ] 121.42.0.15 /.htaccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+ERR: 无法加载控制器:Errpage
+
+[ 2016-02-04T00:00:03+08:00 ] 121.42.0.15 /README.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+ERR: 无法加载控制器:README.txt
+
+[ 2016-02-04T00:00:03+08:00 ] 121.42.0.15 /themes/README.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载控制器:Themes
+
+[ 2016-02-04T00:00:03+08:00 ] 121.42.0.15 /Admin/Images/icon_lpdhjl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-02-04T00:00:04+08:00 ] 121.42.0.15 /store/Images/hdfk.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-02-04T00:00:04+08:00 ] 121.42.0.15 /skins/doccms_model_1/images/bg_contact_a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-02-04T00:00:04+08:00 ] 121.42.0.15 /admini/images/s_managehtml/icon_refresh.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2016-02-04T00:00:04+08:00 ] 121.42.0.15 /Admin/Images/Icon-Nav-Close-over.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-02-04T00:00:05+08:00 ] 121.42.0.15 /images/menu_righttop.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-02-04T00:00:05+08:00 ] 121.42.0.15 /face/5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2016-02-04T00:00:05+08:00 ] 121.42.0.15 /xin/btn_regis.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-02-04T00:00:05+08:00 ] 121.42.0.15 /admin/Tpl/default/ThemeFiles/Images/login/bg-interior-tile-drk.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-02-04T00:00:08+08:00 ] 121.42.0.15 /Public/img_loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2016-02-04T00:00:08+08:00 ] 121.42.0.15 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2016-02-04T00:00:08+08:00 ] 121.42.0.15 /system/images/tab_17.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-02-04T00:00:09+08:00 ] 121.42.0.15 /admin/images/tab_17.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-02-04T00:00:09+08:00 ] 121.42.0.15 /admin/images/top_tt_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-02-04T00:00:14+08:00 ] 121.42.0.15 /inc_img/vote/vote2_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-02-04T00:00:16+08:00 ] 121.42.0.15 /images/webZx_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-02-04T00:00:16+08:00 ] 121.42.0.15 /skins/images/ico_catalogue.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-02-04T00:00:23+08:00 ] 121.42.0.15 /console/images/login.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2016-02-04T00:00:24+08:00 ] 121.42.0.15 /images-global/zoom/zoom-caption-fill.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-02-04T00:00:24+08:00 ] 121.42.0.15 /statics/blueth.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-02-04T00:00:24+08:00 ] 121.42.0.15 /statics/arrowleft-orange.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-02-04T00:00:24+08:00 ] 121.42.0.15 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2016-02-04T00:00:27+08:00 ] 121.42.0.15 /cn/images/banner_page_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-02-04T00:00:27+08:00 ] 121.42.0.15 /themes/forum/default/images/forum/lock.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-02-04T00:00:27+08:00 ] 121.42.0.15 /themes/space/default/images/fans_follow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+
+[ 2016-02-04T00:00:30+08:00 ] 121.42.0.15 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-02-04T00:00:39+08:00 ] 121.42.0.15 /skin/default/image/add_job.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-02-04T00:00:39+08:00 ] 121.42.0.15 /inc/images/captcha_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-02-04T00:00:42+08:00 ] 121.42.0.15 /views/images/admin/closex.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-02-04T00:00:42+08:00 ] 121.42.0.15 /template/default/images/gbook_btn_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-02-04T00:00:42+08:00 ] 121.42.0.15 /admin/views/images/admindex_itembg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-02-04T00:00:45+08:00 ] 121.42.0.15 /admin/templates/met/images/logosmall.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-02-04T00:00:45+08:00 ] 121.42.0.15 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2016-02-04T00:00:47+08:00 ] 121.42.0.15 /wap/templates/met/images/listico.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-02-04T00:00:48+08:00 ] 121.42.0.15 /images/receipt/dly_yto.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2016-02-04T00:01:09+08:00 ] 121.42.0.15 /Inc/NoSqlHack.Asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+ERR: 无法加载控制器:Inc
+
+[ 2016-02-04T00:01:11+08:00 ] 121.42.0.15 /e/install/images/bg_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-02-04T00:01:12+08:00 ] 121.42.0.15 /e/install/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-02-04T00:01:12+08:00 ] 121.42.0.15 /e/js/lang/zh-cn.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载控制器:E
+
+[ 2016-02-04T00:01:12+08:00 ] 121.42.0.15 /e/js/zh-cn/lang.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载控制器:E
+
+[ 2016-02-04T00:01:12+08:00 ] 121.42.0.15 /e/master/images/login_r1_c1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-02-04T00:01:13+08:00 ] 121.42.0.15 /admin/Images/del.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-02-04T00:01:15+08:00 ] 121.42.0.15 /KS_Inc/ajax.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+ERR: 无法加载控制器:KS_Inc
+
+[ 2016-02-04T00:01:15+08:00 ] 121.42.0.15 /KS_Inc/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+ERR: 无法加载控制器:KS_Inc
+
+[ 2016-02-04T00:01:16+08:00 ] 121.42.0.15 /template/skin6/cn/images/ico_zlxz.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-02-04T00:01:16+08:00 ] 121.42.0.15 /inc/image/bj.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-02-04T00:01:16+08:00 ] 121.42.0.15 /install/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+ERR: 无法加载控制器:Install
+
+[ 2016-02-04T00:01:16+08:00 ] 121.42.0.15 /admin/images/arrow_right_8x8.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-02-04T00:01:17+08:00 ] 121.42.0.15 /static/common/topic-min-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-02-04T00:01:17+08:00 ] 121.42.0.15 /image/admin/add.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-02-04T00:01:17+08:00 ] 121.42.0.15 /image/cflag/ad.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-02-04T00:01:17+08:00 ] 121.42.0.15 /Admin/images/houtaijs_16.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-02-04T00:01:18+08:00 ] 121.42.0.15 /Templates/master/default/images/ddwc_06.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2016-02-04T00:01:18+08:00 ] 121.42.0.15 /Admin/images/install_logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2016-02-04T00:01:18+08:00 ] 121.42.0.15 /images/i_3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-02-04T00:01:18+08:00 ] 121.42.0.15 /system/phpqrcode/cache/frame_6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2016-02-04T00:01:19+08:00 ] 121.42.0.15 /public/attachment/201011/4cdde85a27105.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-02-04T00:01:19+08:00 ] 121.42.0.15 /product/waterimage/200x200.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-02-04T00:01:19+08:00 ] 121.42.0.15 /install/images/header-corners.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-02-04T00:01:19+08:00 ] 121.42.0.15 /images/gif_47_106.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-02-04T00:01:20+08:00 ] 121.42.0.15 /zb_users/plugin/UEditor/themes/default/images/highlighted.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2016-02-04T00:01:22+08:00 ] 121.42.0.15 /LICENSE.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+ERR: 无法加载控制器:LICENSE.txt
+
+[ 2016-02-04T00:01:22+08:00 ] 121.42.0.15 /skin/frontend/base/default/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-02-04T00:01:23+08:00 ] 121.42.0.15 /static/ayacms.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-02-04T00:01:23+08:00 ] 121.42.0.15 /static/none.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2016-02-04T00:01:23+08:00 ] 121.42.0.15 /bbs/css/images/announ.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-02-04T00:01:23+08:00 ] 121.42.0.15 /bbs/css/images/avatar.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-02-04T00:01:24+08:00 ] 121.42.0.15 /celive/admin/live/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-02-04T00:01:24+08:00 ] 121.42.0.15 /celive/js/images/btn.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-02-04T00:01:24+08:00 ] 121.42.0.15 /celive/templates/default/images/admin/yes.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-02-04T00:01:24+08:00 ] 121.42.0.15 /zb_users/PLUGIN/Gravatar/Logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2016-02-04T00:01:25+08:00 ] 121.42.0.15 /images/qq/qqkf2/Kf_bg03_03.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-02-04T00:01:25+08:00 ] 121.42.0.15 /js/close.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2016-02-04T00:01:25+08:00 ] 121.42.0.15 /dayrui/statics/default/images/sd02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-02-04T00:01:28+08:00 ] 121.42.0.15 /dayrui/statics/default/images/touming.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-02-04T00:01:28+08:00 ] 121.42.0.15 /extensions/calendar/img/nav-left.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-02-04T00:01:28+08:00 ] 121.42.0.15 /extensions/kindeditor/plugins/emoticons/images/118.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2016-02-04T00:01:28+08:00 ] 121.42.0.15 /style/default/hdwiki.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+ERR: 无法加载控制器:Style
+
+[ 2016-02-04T00:01:29+08:00 ] 121.42.0.15 /style/default/fujian_top_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-02-04T00:01:29+08:00 ] 121.42.0.15 /style/default/index_login_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-02-04T00:01:29+08:00 ] 121.42.0.15 /style/default/style/bg_title.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-02-04T00:01:29+08:00 ] 121.42.0.15 /style/default/login_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2016-02-04T00:01:32+08:00 ] 121.42.0.15 /Images/dialog_closebtn_over.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-02-04T00:01:32+08:00 ] 121.42.0.15 /App_Themes/AdminDefaultTheme/DateTheme/bgteuw.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2016-02-04T00:01:32+08:00 ] 121.42.0.15 /Images/Microblog/dialog_rt.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-02-04T00:01:33+08:00 ] 121.42.0.15 /admin/Images/Login_tit.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2016-02-04T00:01:33+08:00 ] 121.42.0.15 /admin/Images/Sort_Folder_Close.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-02-04T00:01:33+08:00 ] 121.42.0.15 /admin/Limages/left-corners.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-02-04T00:01:33+08:00 ] 121.42.0.15 /admin/images/li_4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-02-04T00:01:34+08:00 ] 121.42.0.15 /images/default/listico.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+
+[ 2016-02-04T00:01:34+08:00 ] 121.42.0.15 /images/default/images/button_plain_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-02-04T00:01:34+08:00 ] 121.42.0.15 /admin/tpl/images/welcome_h1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-02-04T00:01:34+08:00 ] 121.42.0.15 /admin/images/bg-pay-return-success.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-02-04T00:01:37+08:00 ] 121.42.0.15 /adfile/ad9.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+ERR: 无法加载控制器:Adfile
+
+[ 2016-02-04T00:01:37+08:00 ] 121.42.0.15 /admin/images/login_06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-02-04T00:01:40+08:00 ] 121.42.0.15 /images/common/online_member.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-02-04T00:01:40+08:00 ] 121.42.0.15 /images/default/reply.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2016-02-04T00:01:40+08:00 ] 121.42.0.15 /static/image/admincp/ajax_loader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-02-04T00:01:43+08:00 ] 121.42.0.15 /extmail/default/images/lastpg.d.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+
+[ 2016-02-04T00:01:49+08:00 ] 121.42.0.15 /images/admin/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-02-04T00:01:50+08:00 ] 121.42.0.15 /images/admin/sprites.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-02-04T00:01:50+08:00 ] 121.42.0.15 /ACT_inc/ItemBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2016-02-04T00:01:50+08:00 ] 121.42.0.15 /ACT_inc/share/minusbottom.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+
+[ 2016-02-04T00:01:50+08:00 ] 121.42.0.15 /Admin/Images/bg_admin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-02-04T00:01:51+08:00 ] 121.42.0.15 /images/act_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-02-04T00:01:51+08:00 ] 121.42.0.15 /images/reg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-02-04T00:47:55+08:00 ] 121.205.244.250 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-02-04T05:15:23+08:00 ] 121.42.0.33 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020966s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002199s ]
+
+[ 2016-02-04T06:47:03+08:00 ] 117.68.221.236 /index.php/home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `ge_area` [ RunTime:0.0282s ]
+SQL: SELECT * FROM `ge_area` WHERE (  reid = 0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 552 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-02-04T06:47:04+08:00 ] 117.68.221.236 /index.php/home/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-02-04T08:08:38+08:00 ] 123.125.71.117 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-02-04T08:08:38+08:00 ] 123.125.71.106 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-02-04T09:09:44+08:00 ] 59.172.37.234 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2016-02-04T11:22:35+08:00 ] 59.172.37.234 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2016-02-04T13:39:11+08:00 ] 59.172.37.234 /index.php/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-02-04T13:39:11+08:00 ] 59.172.37.234 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-02-04T13:39:12+08:00 ] 59.172.37.234 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-02-04T13:39:14+08:00 ] 59.172.37.234 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE ( username = '1031625716@qq.com'  ) LIMIT 1   [ RunTime:0.0390s ]
+SQL: UPDATE `ge_members` SET `logintime`='1454564353',`loginip`='59.172.37.234' WHERE ( id = 57 ) [ RunTime:0.0056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2016-02-04T13:39:15+08:00 ] 59.172.37.234 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '57'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '57' and status != 3 and ordertype = 1 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0943s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '57' and status != 3 and ordertype = 2 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '57' and status != 3 and ordertype = 3 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0013s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '57' and status != 3 and ordertype = 4 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0013s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '57' and status != 3 and ordertype = 5 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0012s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '57' and status != 3 and ordertype = 6 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ge_orders` WHERE (  uid = 57 and status = 3 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `ge_orders_primers` [ RunTime:0.0009s ]
+SQL: SELECT SUM(basenum) AS tp_Sum FROM `ge_orders_primers` WHERE (  orderid = 1284 ) LIMIT 1   [ RunTime:0.1163s ]
+SQL: SELECT SUM(basenum) AS tp_Sum FROM `ge_orders_primers` WHERE (  orderid = 1268 ) LIMIT 1   [ RunTime:0.0128s ]
+SQL: SELECT SUM(basenum) AS tp_Sum FROM `ge_orders_primers` WHERE (  orderid = 1258 ) LIMIT 1   [ RunTime:0.0122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.249303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.249366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-02-04T13:39:17+08:00 ] 59.172.37.234 /index.php/Home/Primer/Create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/PrimerController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '57'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-02-04T13:39:31+08:00 ] 59.172.37.234 /index.php/Home/Primer/step.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/PrimerController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '57'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ge_orders` WHERE (  code = 'JKR-4531273031'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders` WHERE `code_yw` LIKE 'YW-1602%' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `ge_orders` (`code`,`code_yw`,`uid`,`addtime`,`excelurl`,`ordertype`,`status`) VALUES ('JKR-4531273031','YW-16020014','57','1454564367','./Uploads/Excel/2016-02-04/56b2e40fd4f5d.xlsx','2','2') [ RunTime:0.0004s ]
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 360 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php on line 1767 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1721 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Worksheet::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 364 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php 第 341 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 381 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellStyleXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 382 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 1027 行.
+SQL: SELECT `excelurl` FROM `ge_orders` WHERE ( id = 1287 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 360 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php on line 1767 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1721 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Worksheet::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 364 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php 第 341 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 381 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellStyleXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 382 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 1027 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellStyleXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 579 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 1027 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellStyleXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 579 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 1027 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellStyleXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 579 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 1027 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellStyleXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 579 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 1027 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Worksheet::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 479 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php 第 341 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addSheet() must be an instance of Think\PHPExcel_Worksheet, instance of PHPExcel_Worksheet given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 480 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 503 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 402 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Worksheet::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 479 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php 第 341 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addSheet() must be an instance of Think\PHPExcel_Worksheet, instance of PHPExcel_Worksheet given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 480 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 503 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Worksheet::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 479 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php 第 341 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addSheet() must be an instance of Think\PHPExcel_Worksheet, instance of PHPExcel_Worksheet given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 480 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 503 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+SQL: SHOW COLUMNS FROM `ge_orders_primers` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0147s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020958','RA-Dpp4-F3','CATCATCACGAATTCCGGACCAGCCGTCGTACCTATACC','39','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0281s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020959','DRZ-omcB-F','ATCCGAATTCCGGACCAGCGCAGAAACCAAACC','33','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0148s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020960','DRZ-omcB-R','TGCTCGAGTGCGGCCTTAACAACCTTCTTTCAGC','34','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0155s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020961','DRZ-groL-F','ATCCGAATTCCGGACCATGGCAGCCAAAAACAT','33','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0147s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020962','DRZ-groL-R','TGCTCGAGTGCGGCCTTAAACACATTCTTGGGTT','34','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0145s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020963','DSG-ompA-F','ATCCGAATTCCGGACCCTGCCGGTTGGTAATCC','33','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0145s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020964','DSG-ompA-R','TGCTCGAGTGCGGCCTTAAAAACGAAACTGTGCAT','35','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0161s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020965','DSB-omcB-F','ATCCGAATTCCGGACCCTGGCAGATACCAAAGC','33','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0151s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020966','DSB-omcB-R','TGCTCGAGTGCGGCCTTATGCACAAACGGTTGCT','34','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0149s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020967','DSB-mip-F','ATCCGAATTCCGGACCACCAGCGTTGCAAGCCT','33','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0150s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020968','DSB-mip-R','TGCTCGAGTGCGGCCTTAATTACGTGCGGTGGC','33','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0172s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020969','SKW-esxA-F1','ACTGGGTTCTCGGACCATGGCAATGATTAAGATGAG','36','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0144s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020970','SKW-esxA-R1','TGCTCGAGTGCGGCCTTATTGCAAACCGAAATTAG','35','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0155s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020971','H-TXNIP-F1','ACTGGGTTCTCGGACCATGGTGATGTTCAAGAAGATC','37','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0151s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020972','H-TXNIP-R1','TGCTCGAGTGCGGCCTTACTGCACATTGTTGTTG','34','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0143s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020973','H-GBA2-F','CCCGGAATTCCGGACCATGAAATTCGACAAAGATC','35','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0143s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020974','H-GBA2-R','TGCTCGAGTGCGGCCTTAACAATATGCTTCCGG','33','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0143s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020975','H-HAS2-F','CCCGGAATTCCGGACCAAGATGAAGAAAAGCCT','33','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0144s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020976','H-HAS2-R','TGCTCGAGTGCGGCCTTAGAAATAGCTTTTGCTC','34','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0143s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020977','H-IRG1-F','CCCGGAATTCCGGACCAGCAAAATCTACAGCAGC','34','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0145s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020978','H-IRG1-R','TGCTCGAGTGCGGCCTTAAATGCTCGGCAGCAC','33','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0148s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020979','H-MSL1-F','CCCGGAATTCCGGACCGCAGCACCGGCAGGCG','32','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0149s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020980','H-MSL1-R','TGCTCGAGTGCGGCCTTATGCGGTTGCGGTCGGT','34','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0152s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020981','H-POC1A-F','CCCGGAATTCCGGACCGCCAGTGATGATAAAACC','34','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0147s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020982','H-POC1A-R','TGCTCGAGTGCGGCCTTAGGTCAGGGTCTGCGG','33','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0143s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020983','H-SEC23A-F','CCCGGAATTCCGGACCGTTAGCCTGAATAGCAAAG','35','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0145s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020984','H-SEC23A-R','TGCTCGAGTGCGGCCTTAACGAAAGCTGCTCGGAT','35','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0144s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020985','H-TNKS2-F','CCCGGAATTCCGGACCATGAGCGGTCGTCGTTGT','34','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0144s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020986','H-TNKS2-R','TGCTCGAGTGCGGCCTTACACCAGATCACCTTTAT','35','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0144s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020987','H-VGLL4-F','CCCGGAATTCCGGACCAGCCATCGTACAGGTCCG','34','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0143s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020988','H-VGLL4-R','TGCTCGAGTGCGGCCTTATGCACTCGGGCTTGC','33','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0148s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020989','H-XKR8-F','CCCGGAATTCCGGACCCGTGCAGATCCGGCAG','32','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0164s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020990','H-XKR8-R','TGCTCGAGTGCGGCCTTAACGACCGCTCTGCAGC','34','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0146s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020991','H-ATP8B1-F','CCCGGAATTCCGGACCAGCAGCGAACCGAATAGC','34','2','1','2','0','0','0','1','1454564370') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0143s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020992','H-ATP8B1-R','TGCTCGAGTGCGGCCTTAACGTTTAAAGCGGGTTT','35','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0151s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020993','H-CCDC8-F','CCCGGAATTCCGGACCGCACCTCGTGCAGGTCC','33','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0141s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020994','H-CCDC8-R','TGCTCGAGTGCGGCCTTAACCTGCACGCGGAACAC','35','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0142s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020995','H-DET1-F','CCCGGAATTCCGGACCGTGAGCACCATTAAACC','33','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0143s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020996','H-DET1-R','TGCTCGAGTGCGGCCTTAATCTTCCAGCGGACTAC','35','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0158s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020997','H-HOXD9-F','CCCGGAATTCCGGACCTTTGGTCCGCCTGGTCC','33','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0145s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020998','H-HOXD9-R','TGCTCGAGTGCGGCCTTATGCCGGATTATTCGGATC','36','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0143s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16020999','H-NRXN1-F','CCCGGAATTCCGGACCCGTAGCGGTGGTAATGC','33','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0144s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021000','H-NRXN1-R','TGCTCGAGTGCGGCCTTAGCTGCTTTCACGAATAAC','36','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0143s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021001','H-SPC24-F','CCCGGAATTCCGGACCAATCGTGCAGAAGCACAG','34','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0143s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021002','H-SPC24-R','TGCTCGAGTGCGGCCTTACAGACGGGTATCTTCT','34','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0144s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021003','MO-Pdxp-F','ATCCGAATTCCGGACCATGGCGCGCTGCGAGC','32','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0143s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021004','MO-Pdxp-R','TGCTCGAGTGCGGCCTTAGTCCTCCAGCCCCTCC','34','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0145s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021005','MO-Pdxp-F1','CATCATCACGAATTCCGGACCATGGCGCGCTGCGAGC','37','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0143s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021006','MO-Pdxp-R1','AGGCGAATTAATTCGCGGCCTTAGTCCTCCAGCCCCTCC','39','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0143s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021007','MO-Pdxp-F2','GTGCCGCGCGGCAGCGAATTCATGGCGCGCTGCGAGC','37','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0142s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021008','MO-Pdxp-F3','TAAGGATCCTCGGACCATGGCGCGCTGCGAGC','32','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0150s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021009','MO-Pdxp-R3','ACTTACTTAGCGGCCTTAGTCCTCCAGCCCCTCC','34','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0144s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021010','MO-Pdxp-F4','CACCATCGGGCGCGGATCATGGCGCGCTGCGAGC','34','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0155s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021011','MO-Pdxp-R4','GTCGACGTAGGCCTTTGAATTTTAATGGTGATGATGGTGATGGTGATGGTGGTCCTCCAGCCCCTCC','67','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0146s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021012','HU-PDXP-F','ATCCGAATTCCGGACCATGGCTCGTTGCGAGC','32','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0154s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021013','HU-PDXP-R','TGCTCGAGTGCGGCCTTAGTCCTCCAGACCCTCG','34','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0143s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021014','HU-PDXP-F1','CATCATCACGAATTCCGGACCATGGCTCGTTGCGAGC','37','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0141s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021015','HU-PDXP-R1','AGGCGAATTAATTCGCGGCCTTAGTCCTCCAGACCCTCG','39','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0142s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021016','HU-PDXP-F2','GTGCCGCGCGGCAGCGAATTCATGGCTCGTTGCGAGC','37','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0147s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021017','HU-PDXP-F3','TAAGGATCCTCGGACCATGGCTCGTTGCGAGC','32','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0144s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021018','HU-PDXP-R3','ACTTACTTAGCGGCCTTAGTCCTCCAGACCCTCG','34','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0143s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021019','HU-PDXP-F4','CACCATCGGGCGCGGATCATGGCTCGTTGCGAGC','34','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1602%' LIMIT 1   [ RunTime:0.0148s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1287','A16021020','HU-PDXP-R4','GTCGACGTAGGCCTTTGAATTTTAATGGTGATGATGGTGATGGTGATGGTGGTCCTCCAGACCCTCG','67','2','1','2','0','0','0','1','1454564371') [ RunTime:0.0003s ]
+SQL: UPDATE `ge_orders` SET `num_yinwu`='63' WHERE `id` = 1287 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+
+[ 2016-02-04T13:39:32+08:00 ] 59.172.37.234 /index.php/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '57'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '57' and status != 3 and ordertype = 1 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0014s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '57' and status != 3 and ordertype = 2 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '57' and status != 3 and ordertype = 3 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0013s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '57' and status != 3 and ordertype = 4 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0016s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '57' and status != 3 and ordertype = 5 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0021s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '57' and status != 3 and ordertype = 6 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ge_orders` WHERE (  uid = 57 and status = 3 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `ge_orders_primers` [ RunTime:0.0008s ]
+SQL: SELECT SUM(basenum) AS tp_Sum FROM `ge_orders_primers` WHERE (  orderid = 1287 ) LIMIT 1   [ RunTime:0.0122s ]
+SQL: SELECT SUM(basenum) AS tp_Sum FROM `ge_orders_primers` WHERE (  orderid = 1284 ) LIMIT 1   [ RunTime:0.0125s ]
+SQL: SELECT SUM(basenum) AS tp_Sum FROM `ge_orders_primers` WHERE (  orderid = 1268 ) LIMIT 1   [ RunTime:0.0123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-02-04T14:36:35+08:00 ] 188.143.232.10 /index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `ge_area` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_area` WHERE (  reid = 0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 552 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-02-04T14:36:36+08:00 ] 188.143.232.10 /index.php/Home/User/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+
+[ 2016-02-04T14:36:37+08:00 ] 188.143.232.10 /index.php/Home/User/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+
+[ 2016-02-04T14:36:39+08:00 ] 188.143.232.10 /index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `ge_area` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_area` WHERE (  reid = 0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 552 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-02-04T14:36:42+08:00 ] 188.143.232.10 /index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-02-04T14:36:42+08:00 ] 188.143.232.10 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-02-04T14:36:48+08:00 ] 59.172.37.234 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-02-04T15:01:56+08:00 ] 119.183.77.72 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2016-02-04T15:01:56+08:00 ] 119.183.77.72 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-02-04T15:01:58+08:00 ] 119.183.77.72 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE ( username = 'iamdqs@163.com'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ge_members` SET `logintime`='1454569318',`loginip`='119.183.77.72' WHERE ( id = 106 ) [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-02-04T15:01:59+08:00 ] 119.183.77.72 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '106'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '106' and status != 3 and ordertype = 1 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '106' and status != 3 and ordertype = 2 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '106' and status != 3 and ordertype = 3 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '106' and status != 3 and ordertype = 4 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '106' and status != 3 and ordertype = 5 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '106' and status != 3 and ordertype = 6 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ge_orders` WHERE (  uid = 106 and status = 3 ) LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 106 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-02-04T15:02:01+08:00 ] 119.183.77.72 /index.php/Home/Pro/fen_more/type/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '106'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ge_fen` [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `ge_members_info` WHERE ( uid =106 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `ge_members` WHERE ( id =106 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ge_fen` WHERE `fen_type` = 5 AND `fen_email` = 'iamdqs@163.com' ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_fen` WHERE `fen_type` = 5 AND `fen_email` = 'iamdqs@163.com' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 51 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 51 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 51 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ge_feninfo` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ge_pro_trace` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `ge_feninfo` WHERE ( fen_guan_id =161 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `addtime` FROM `ge_pro_trace` WHERE ( guan_id =163 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2016-02-04T15:02:04+08:00 ] 119.183.77.72 /index.php/Home/Pro/fen_index/id/161/commom_type/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '106'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_fen` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ge_feninfo` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ge_pro_trace` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `ge_members_info` WHERE ( uid =106 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_fen` WHERE ( id = 161 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ge_feninfo` WHERE ( fen_guan_id = 161 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT DISTINCT  `status` FROM `ge_pro_trace` WHERE ( guan_id = 163 ) ORDER BY id asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE ( guan_id = 163 ) ORDER BY id asc  [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `guan_id`,`status` FROM `ge_pro_trace` WHERE ( guan_id = 163 ) ORDER BY id asc LIMIT 12   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: end_status /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 154 行.
+NOTIC: [8] Undefined variable: end_status_guan /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined variable: page /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 18 行.
+NOTIC: [8] Undefined variable: pages /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 19 行.
+NOTIC: [8] Undefined variable: page /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 53 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 257 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 1 AND `guan_id` = 163 ORDER BY id desc LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 1 AND `guan_id` = 163 ORDER BY id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 257 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 2 AND `guan_id` = 163 ORDER BY id desc LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 2 AND `guan_id` = 163 ORDER BY id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 257 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 3 AND `guan_id` = 163 ORDER BY id desc LIMIT 1   [ RunTime:0.0028s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 3 AND `guan_id` = 163 ORDER BY id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 257 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 4 AND `guan_id` = 163 ORDER BY id desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 4 AND `guan_id` = 163 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 257 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 5 AND `guan_id` = 163 ORDER BY id desc LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 5 AND `guan_id` = 163 ORDER BY id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 257 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 6 AND `guan_id` = 163 ORDER BY id desc LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 6 AND `guan_id` = 163 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 257 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 7 AND `guan_id` = 163 ORDER BY id desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 7 AND `guan_id` = 163 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 257 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 8 AND `guan_id` = 163 ORDER BY id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 8 AND `guan_id` = 163 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 257 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 9 AND `guan_id` = 163 ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 9 AND `guan_id` = 163 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 257 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 10 AND `guan_id` = 163 ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 10 AND `guan_id` = 163 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 257 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 11 AND `guan_id` = 163 ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 11 AND `guan_id` = 163 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 257 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 12 AND `guan_id` = 163 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 12 AND `guan_id` = 163 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-02-04T16:19:11+08:00 ] 220.181.108.111 /kkwwy44002.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+ERR: 无法加载控制器:Kkwwy44002.txt
+
+[ 2016-02-04T20:18:35+08:00 ] 123.125.71.26 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-02-04T20:18:35+08:00 ] 123.125.71.29 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-02-04T20:21:31+08:00 ] 40.77.167.21 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2016-02-04T20:21:38+08:00 ] 40.77.167.21 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-02-04T22:33:09+08:00 ] 111.163.84.246 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-02-04T22:33:13+08:00 ] 111.163.84.246 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2016-02-04T22:33:13+08:00 ] 111.163.84.246 /index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `ge_area` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ge_area` WHERE (  reid = 0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 552 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-02-04T22:33:16+08:00 ] 111.163.84.246 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-02-04T22:33:18+08:00 ] 111.163.84.246 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-02-04T22:33:18+08:00 ] 111.163.84.246 /index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `ge_area` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_area` WHERE (  reid = 0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 552 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-02-04T22:33:23+08:00 ] 111.163.84.246 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2016-02-04T22:46:34+08:00 ] 119.85.111.159 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-02-04T22:46:35+08:00 ] 119.85.111.159 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-02-04T22:46:46+08:00 ] 119.85.111.159 /index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `ge_area` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ge_area` WHERE (  reid = 0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 552 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-02-04T22:46:47+08:00 ] 119.85.111.159 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-02-04T23:57:56+08:00 ] 112.123.7.58 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+

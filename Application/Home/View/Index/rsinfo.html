@@ -1,0 +1,61 @@
+<include file="Index/header" />
+<!-- logo--导航菜单 结束 -->
+<div class="clear"></div>
+<div id="main">
+	<div class="maincon">
+        <div class="order_con">
+       
+        <div class="bread">订单号：<a href="">{$orderInfo.code}</a><span style="float: right;padding-right:20px;"><input type="button" value="下载所有选中的序列文件" /><input type="button" value="下载所有选中的序列图谱文件" /></span></div>
+        
+	</div>
+    <div class="order_con">
+    <div class="bread" style="margin:16px 0 10px 0;">样品信息</div>
+    <if condition="!empty($list)">
+	<form>
+	<table cellspacing="1" cellpadding="0" width="100%" border="0" style="text-align:center;">
+        <tr>
+            <td>编号</td>
+            <td>管壁标签</td>
+            <td>样品名称</td>
+            <td>状态</td>
+            <td>备注</td>
+            <td>是否收费</td>
+            <td>序列文件</td>
+            <td>序列图谱</td>
+            
+            <td>下载所有的序列文件</td>
+            <td>下载所有的测序图谱文件</td>
+        </tr>
+        <foreach name="list" item="L">
+		<php> 
+			$rl = getSEQResultList($L['id']);
+		</php>
+		<tr>
+            <td>{$key+1}</td>
+            <td>{$L.id}</td>
+            <td>{$L.samplename}</td>
+            <td>{$rl.status}</td>
+            <td>{$rl.info}</td>
+            <td>{$rl.status}</td>
+            <if condition="$rl.ab1url neq ''">
+			<td><a href="{:U('Index/down');}?url={$rl.ab1url}">下载</a></td>
+			<else />
+			<td><a>下载</a></td>
+			</if>
+			<if condition="$rl.txturl neq ''">
+            <td><a href="{:U('Index/down');}?url={$rl.txturl}">下载</a></td>
+			<else />
+			<td><a>下载</a></td>
+			</if>
+            <td><input type="checkbox" name="ab1[]" checked="checked" value="{$rl.ab1url}" /></td>
+            <td><input type="checkbox" name="txt[]" checked="checked" value="{$rl.txturl}" /></td>
+        </tr>
+		</foreach>
+    </table>
+	</form>
+	<else />
+	暂无样品信息
+	</if>
+</div>
+</body>
+</html>

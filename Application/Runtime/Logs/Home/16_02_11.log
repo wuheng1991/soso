@@ -1,0 +1,1600 @@
+[ 2016-02-11T01:38:21+08:00 ] 157.55.39.64 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-02-11T03:50:04+08:00 ] 123.125.71.19 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-02-11T03:50:04+08:00 ] 123.125.71.19 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-02-11T12:26:08+08:00 ] 61.128.225.106 /index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002279s ]
+SQL: SHOW COLUMNS FROM `ge_area` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `ge_area` WHERE (  reid = 0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 552 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001475s ]
+
+[ 2016-02-11T12:26:08+08:00 ] 61.128.225.106 /Public/Logo/css/pintuer.xxs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-11T12:26:08+08:00 ] 61.128.225.106 /Public/Logo/css/login.xxs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-11T12:26:09+08:00 ] 61.128.225.106 /Public/Consel/js/jquery.xx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-02-11T12:26:09+08:00 ] 61.128.225.106 /index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2016-02-11T13:45:23+08:00 ] 207.46.13.56 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-02-11T13:53:04+08:00 ] 188.143.232.37 /index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `ge_area` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_area` WHERE (  reid = 0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 552 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-02-11T13:53:06+08:00 ] 188.143.232.37 /index.php/Home/User/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+
+[ 2016-02-11T13:53:06+08:00 ] 188.143.232.37 /index.php/Home/User/reg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+
+[ 2016-02-11T13:53:07+08:00 ] 188.143.232.37 /index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `ge_area` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_area` WHERE (  reid = 0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 552 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-02-11T13:53:08+08:00 ] 188.143.232.37 /index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-02-11T13:53:08+08:00 ] 188.143.232.37 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-02-11T14:37:31+08:00 ] 27.159.216.254 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-02-11T14:37:31+08:00 ] 27.159.216.254 /xmlrpc.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+ERR: 无法加载控制器:Xmlrpc.php
+
+[ 2016-02-11T14:37:31+08:00 ] 27.159.216.254 /wp-login.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载控制器:Wp-login.php
+
+[ 2016-02-11T18:36:14+08:00 ] 123.125.71.91 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2016-02-11T20:36:41+08:00 ] 36.34.255.213 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2016-02-11T21:06:18+08:00 ] 123.125.71.56 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-02-11T21:06:18+08:00 ] 123.125.71.47 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2016-02-11T21:28:21+08:00 ] 157.55.39.138 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-02-11T21:28:23+08:00 ] 157.55.39.138 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2016-02-11T21:45:17+08:00 ] 121.42.0.39 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-02-11T21:45:17+08:00 ] 121.42.0.39 /admin/images/menu-current-arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-02-11T21:45:18+08:00 ] 121.42.0.39 /install/images/default/top1_r.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2016-02-11T21:45:18+08:00 ] 121.42.0.39 /images/default/hd_a1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2016-02-11T21:45:18+08:00 ] 121.42.0.39 /upload/200812/20081230023106860.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-02-11T21:45:19+08:00 ] 121.42.0.39 /Images/Mlogin/Bitmap02.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2016-02-11T21:45:19+08:00 ] 121.42.0.39 /theme/admin/images/upload.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-02-11T21:45:19+08:00 ] 121.42.0.39 /install/images/steptab.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2016-02-11T21:45:19+08:00 ] 121.42.0.39 /lib/images/tip_layer.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2016-02-11T21:45:20+08:00 ] 121.42.0.39 /admin/image/menu_h4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-02-11T21:45:20+08:00 ] 121.42.0.39 /images/list_bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2016-02-11T21:45:20+08:00 ] 121.42.0.39 /data/admin/allowurl.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+ERR: 无法加载控制器:Data
+
+[ 2016-02-11T21:45:20+08:00 ] 121.42.0.39 /include/data/vdcode.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2016-02-11T21:45:21+08:00 ] 121.42.0.39 /images/loadinglit.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-02-11T21:45:21+08:00 ] 121.42.0.39 /plus/img/wbg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2016-02-11T21:45:21+08:00 ] 121.42.0.39 /data/cache/index.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+ERR: 无法加载控制器:Data
+
+[ 2016-02-11T21:45:21+08:00 ] 121.42.0.39 /templets/default/images/ico-3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2016-02-11T21:45:22+08:00 ] 121.42.0.39 /images/topbanner_bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2016-02-11T21:45:22+08:00 ] 121.42.0.39 /system/images/lnk/system.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-02-11T21:45:22+08:00 ] 121.42.0.39 /images/confirm_close.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-02-11T21:45:23+08:00 ] 121.42.0.39 /template/images/li1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-02-11T21:45:23+08:00 ] 121.42.0.39 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-02-11T21:45:23+08:00 ] 121.42.0.39 /images/page_code.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2016-02-11T21:45:23+08:00 ] 121.42.0.39 /editors/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+ERR: 无法加载控制器:Editors
+
+[ 2016-02-11T21:45:24+08:00 ] 121.42.0.39 /images/samples/4_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-02-11T21:45:24+08:00 ] 121.42.0.39 /includes/templates/classic/images/stars_5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-02-11T21:45:24+08:00 ] 121.42.0.39 /includes/templates/template_default/images/always-free-shipping.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-02-11T21:45:24+08:00 ] 121.42.0.39 /includes/templates/template_default/buttons/english/button_tell_a_friend.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2016-02-11T21:45:25+08:00 ] 121.42.0.39 /admin/images/login/index_hz02.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-02-11T21:45:25+08:00 ] 121.42.0.39 /admin/images/login/index_hz03.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-02-11T21:45:25+08:00 ] 121.42.0.39 /images/default/ico_loading3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-02-11T21:45:26+08:00 ] 121.42.0.39 /a_d/install/data.sql
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+ERR: 无法加载控制器:A_d
+
+[ 2016-02-11T21:45:26+08:00 ] 121.42.0.39 /admin/images/cutimg/ccc.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-02-11T21:45:26+08:00 ] 121.42.0.39 /template/user/images/manage_r2_c18.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-02-11T21:45:26+08:00 ] 121.42.0.39 /admin/images/admintitlebg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-02-11T21:45:27+08:00 ] 121.42.0.39 /images/gengtie.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-02-11T21:45:27+08:00 ] 121.42.0.39 /.htaccess
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+ERR: 无法加载控制器:Errpage
+
+[ 2016-02-11T21:45:27+08:00 ] 121.42.0.39 /README.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+ERR: 无法加载控制器:README.txt
+
+[ 2016-02-11T21:45:27+08:00 ] 121.42.0.39 /themes/README.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+ERR: 无法加载控制器:Themes
+
+[ 2016-02-11T21:45:28+08:00 ] 121.42.0.39 /Admin/Images/icon_lpdhjl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-02-11T21:45:28+08:00 ] 121.42.0.39 /store/Images/hdfk.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2016-02-11T21:45:28+08:00 ] 121.42.0.39 /skins/doccms_model_1/images/bg_contact_a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2016-02-11T21:45:28+08:00 ] 121.42.0.39 /admini/images/s_managehtml/icon_refresh.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+
+[ 2016-02-11T21:45:29+08:00 ] 121.42.0.39 /Admin/Images/Icon-Nav-Close-over.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-02-11T21:45:29+08:00 ] 121.42.0.39 /images/menu_righttop.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-02-11T21:45:29+08:00 ] 121.42.0.39 /face/5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-02-11T21:45:29+08:00 ] 121.42.0.39 /xin/btn_regis.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-02-11T21:45:30+08:00 ] 121.42.0.39 /admin/Tpl/default/ThemeFiles/Images/login/bg-interior-tile-drk.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2016-02-11T21:45:30+08:00 ] 121.42.0.39 /app/Tpl/lashou3/Public/images/adbg_t.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-02-11T21:45:30+08:00 ] 121.42.0.39 /Public/img_loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-02-11T21:45:30+08:00 ] 121.42.0.39 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2016-02-11T21:45:31+08:00 ] 121.42.0.39 /system/images/tab_17.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2016-02-11T21:45:31+08:00 ] 121.42.0.39 /admin/images/tab_17.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+
+[ 2016-02-11T21:45:31+08:00 ] 121.42.0.39 /admin/images/top_tt_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2016-02-11T21:45:31+08:00 ] 121.42.0.39 /m/_/images/fileicon/jpg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2016-02-11T21:45:32+08:00 ] 121.42.0.39 /Public/img/fotorama.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2016-02-11T21:45:32+08:00 ] 121.42.0.39 /inc_img/vote/vote2_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-02-11T21:45:32+08:00 ] 121.42.0.39 /admin/images/login/login_submit.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-02-11T21:45:33+08:00 ] 121.42.0.39 /images/webZx_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-02-11T21:45:33+08:00 ] 121.42.0.39 /skins/images/ico_catalogue.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2016-02-11T21:45:33+08:00 ] 121.42.0.39 /images/logout1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-02-11T21:45:33+08:00 ] 121.42.0.39 /forum/images/logout1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2016-02-11T21:45:34+08:00 ] 121.42.0.39 /console/images/bg11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-02-11T21:45:34+08:00 ] 121.42.0.39 /console/images/login.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2016-02-11T21:45:34+08:00 ] 121.42.0.39 /images-global/zoom/zoom-caption-fill.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-02-11T21:45:34+08:00 ] 121.42.0.39 /statics/blueth.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2016-02-11T21:45:35+08:00 ] 121.42.0.39 /statics/arrowleft-orange.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-02-11T21:45:35+08:00 ] 121.42.0.39 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-02-11T21:45:35+08:00 ] 121.42.0.39 /admin/images/netgather_com.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-02-11T21:45:35+08:00 ] 121.42.0.39 /cn/images/banner_page_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-02-11T21:45:36+08:00 ] 121.42.0.39 /themes/forum/default/images/forum/lock.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+
+[ 2016-02-11T21:45:36+08:00 ] 121.42.0.39 /themes/space/default/images/fans_follow.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-02-11T21:45:36+08:00 ] 121.42.0.39 /themes/site/default/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2016-02-11T21:45:36+08:00 ] 121.42.0.39 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-02-11T21:45:37+08:00 ] 121.42.0.39 /js/pw_ajax.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+ERR: 无法加载控制器:Js
+
+[ 2016-02-11T21:45:37+08:00 ] 121.42.0.39 /licence.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+ERR: 无法加载控制器:Licence.txt
+
+[ 2016-02-11T21:45:37+08:00 ] 121.42.0.39 /include/image/dui_r.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-02-11T21:45:37+08:00 ] 121.42.0.39 /template/default/index/images/anvico.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2016-02-11T21:45:38+08:00 ] 121.42.0.39 /skin/default/image/add_job.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-02-11T21:45:38+08:00 ] 121.42.0.39 /inc/images/captcha_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-02-11T21:45:38+08:00 ] 121.42.0.39 /inc/templates/manage/images/cross_grey_small.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+
+[ 2016-02-11T21:45:38+08:00 ] 121.42.0.39 /views/images/admin/closex.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2016-02-11T21:45:39+08:00 ] 121.42.0.39 /template/default/images/gbook_btn_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-02-11T21:45:39+08:00 ] 121.42.0.39 /admin/views/images/admindex_itembg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-02-11T21:45:39+08:00 ] 121.42.0.39 /content/templates/default/images/bg_cal_today.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+
+[ 2016-02-11T21:45:39+08:00 ] 121.42.0.39 /admin/templates/met/images/logosmall.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2016-02-11T21:45:40+08:00 ] 121.42.0.39 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-02-11T21:45:40+08:00 ] 121.42.0.39 /job/templates/met/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+ERR: 无法加载控制器:Job
+
+[ 2016-02-11T21:45:40+08:00 ] 121.42.0.39 /wap/templates/met/images/listico.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-02-11T21:45:40+08:00 ] 121.42.0.39 /images/receipt/dly_yto.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-02-11T21:45:41+08:00 ] 121.42.0.39 /images/wap_logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-02-11T21:45:41+08:00 ] 121.42.0.39 /admin/ecshopfiles.md5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+ERR: 无法加载控制器:Admin
+
+[ 2016-02-11T21:45:41+08:00 ] 121.42.0.39 /admin/help/zh_cn/database.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+ERR: 无法加载控制器:Admin
+
+[ 2016-02-11T21:45:41+08:00 ] 121.42.0.39 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-02-11T21:45:42+08:00 ] 121.42.0.39 /Images/estar.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-02-11T21:45:42+08:00 ] 121.42.0.39 /Template/Default/Layout/1s2s2/ico.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-02-11T21:45:42+08:00 ] 121.42.0.39 /t3/style/css/common/card.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载控制器:T3
+
+[ 2016-02-11T21:45:42+08:00 ] 121.42.0.39 /images/admina/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-02-11T21:45:43+08:00 ] 121.42.0.39 /images/admina/sitmap0.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-02-11T21:45:43+08:00 ] 121.42.0.39 /e/tool/feedback/temp/test.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载控制器:E
+
+[ 2016-02-11T21:45:43+08:00 ] 121.42.0.39 /e/data/ecmseditor/images/blank.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载控制器:E
+
+[ 2016-02-11T21:45:44+08:00 ] 121.42.0.39 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2016-02-11T21:45:44+08:00 ] 121.42.0.39 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2016-02-11T21:45:44+08:00 ] 121.42.0.39 /siteserver/pic/company/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-02-11T21:45:44+08:00 ] 121.42.0.39 /system/blue_point.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-02-11T21:45:45+08:00 ] 121.42.0.39 /admin/Tpl/default/Common/images/blank.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2016-02-11T21:45:45+08:00 ] 121.42.0.39 /statics/images/applst_lbg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+
+[ 2016-02-11T21:45:45+08:00 ] 121.42.0.39 /statics/images/icon/error.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2016-02-11T21:45:45+08:00 ] 121.42.0.39 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2016-02-11T21:45:46+08:00 ] 121.42.0.39 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-02-11T21:45:46+08:00 ] 121.42.0.39 /images/buddies.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-02-11T21:45:46+08:00 ] 121.42.0.39 /script/valid_formdata.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+ERR: 无法加载控制器:Script
+
+[ 2016-02-11T21:45:46+08:00 ] 121.42.0.39 /images/ad_location_middle_center1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-02-11T21:45:47+08:00 ] 121.42.0.39 /theme/t1/themebg_preview.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-02-11T21:45:47+08:00 ] 121.42.0.39 /images/table_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-02-11T21:45:47+08:00 ] 121.42.0.39 /images/ext/midi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-02-11T21:45:47+08:00 ] 121.42.0.39 /data/setmealimg/3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-02-11T21:45:48+08:00 ] 121.42.0.39 /admin/images/admin_submit.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-02-11T21:45:48+08:00 ] 121.42.0.39 /include/payment/logo/remittance.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-02-11T21:45:48+08:00 ] 121.42.0.39 /views/default/skin/blue/images/front/buying.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-02-11T21:45:48+08:00 ] 121.42.0.39 /install/images/guide_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-02-11T21:45:49+08:00 ] 121.42.0.39 /upload/2011/11/30/20111130113535527.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-02-11T21:45:49+08:00 ] 121.42.0.39 /plus/weather/icon/a_12.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-02-11T21:45:49+08:00 ] 121.42.0.39 /question/images/face/images/ico_face_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-02-11T21:45:49+08:00 ] 121.42.0.39 /wp-includes/images/icon-pointer-flag.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-02-11T21:45:50+08:00 ] 121.42.0.39 /wp-admin/images/yes.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-02-11T21:45:50+08:00 ] 121.42.0.39 /wp-includes/js/swfobject.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+ERR: 无法加载控制器:Wp-includes
+
+[ 2016-02-11T21:45:50+08:00 ] 121.42.0.39 /base/admin/images/linksup.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2016-02-11T21:45:53+08:00 ] 121.42.0.39 /zb_users/AVATAR/0.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-02-11T21:45:53+08:00 ] 121.42.0.39 /zb_users/avatar/0.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-02-11T21:45:53+08:00 ] 121.42.0.39 /admin/skins/images/ads_set3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2016-02-11T21:45:53+08:00 ] 121.42.0.39 /images/forum_readme.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-02-11T21:45:54+08:00 ] 121.42.0.39 /img/images/commentLoad.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+
+[ 2016-02-11T21:45:54+08:00 ] 121.42.0.39 /install/images/bg-cmstop.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-02-11T21:45:54+08:00 ] 121.42.0.39 /admin/images/loadingAnimation.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-02-11T21:45:54+08:00 ] 121.42.0.39 /data/adtool/theme/d2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-02-11T21:45:55+08:00 ] 121.42.0.39 /images/wp-background-preview-bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2016-02-11T21:45:55+08:00 ] 121.42.0.39 /install/images/r.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-02-11T21:45:55+08:00 ] 121.42.0.39 /images/sampledata/fruitshop/fruits.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2016-02-11T21:45:55+08:00 ] 121.42.0.39 /images/banners/shop-ad-books.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-02-11T21:45:56+08:00 ] 121.42.0.39 /components/com_mailto/views/sent/metadata.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+ERR: 无法加载控制器:Components
+
+[ 2016-02-11T21:45:56+08:00 ] 121.42.0.39 /Images/arrow_04.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-02-11T21:45:56+08:00 ] 121.42.0.39 /Images/bg_bodyer_page.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-02-11T21:45:56+08:00 ] 121.42.0.39 /Admin/Images/southidc.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+ERR: 无法加载控制器:Admin
+
+[ 2016-02-11T21:45:57+08:00 ] 121.42.0.39 /Inc/NoSqlHack.Asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+ERR: 无法加载控制器:Inc
+
+[ 2016-02-11T21:45:57+08:00 ] 121.42.0.39 /Script/Html.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+ERR: 无法加载控制器:Script
+
+[ 2016-02-11T21:46:02+08:00 ] 121.42.0.39 /e/js/lang/zh-cn.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+ERR: 无法加载控制器:E
+
+[ 2016-02-11T21:46:04+08:00 ] 121.42.0.39 /e/master/images/login_r1_c1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2016-02-11T21:46:04+08:00 ] 121.42.0.39 /admin/Images/del.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-02-11T21:46:07+08:00 ] 121.42.0.39 /KS_Inc/ajax.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+ERR: 无法加载控制器:KS_Inc
+
+[ 2016-02-11T21:46:07+08:00 ] 121.42.0.39 /KS_Inc/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+ERR: 无法加载控制器:KS_Inc
+
+[ 2016-02-11T21:46:07+08:00 ] 121.42.0.39 /template/skin6/cn/images/ico_zlxz.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-02-11T21:46:08+08:00 ] 121.42.0.39 /inc/image/bj.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2016-02-11T21:46:08+08:00 ] 121.42.0.39 /install/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+ERR: 无法加载控制器:Install
+
+[ 2016-02-11T21:46:08+08:00 ] 121.42.0.39 /admin/images/arrow_right_8x8.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-02-11T21:46:08+08:00 ] 121.42.0.39 /static/common/topic-min-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2016-02-11T21:46:09+08:00 ] 121.42.0.39 /image/admin/add.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-02-11T21:46:09+08:00 ] 121.42.0.39 /image/cflag/ad.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-02-11T21:46:09+08:00 ] 121.42.0.39 /Admin/images/houtaijs_16.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-02-11T21:46:09+08:00 ] 121.42.0.39 /Templates/master/default/images/ddwc_06.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-02-11T21:46:10+08:00 ] 121.42.0.39 /Admin/images/install_logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+
+[ 2016-02-11T21:46:12+08:00 ] 121.42.0.39 /system/phpqrcode/cache/frame_6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2016-02-11T21:46:12+08:00 ] 121.42.0.39 /public/attachment/201011/4cdde85a27105.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2016-02-11T21:46:12+08:00 ] 121.42.0.39 /product/waterimage/200x200.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+
+[ 2016-02-11T21:46:13+08:00 ] 121.42.0.39 /install/images/header-corners.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+
+[ 2016-02-11T21:46:13+08:00 ] 121.42.0.39 /images/gif_47_106.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2016-02-11T21:46:13+08:00 ] 121.42.0.39 /zb_users/plugin/UEditor/themes/default/images/highlighted.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-02-11T21:46:14+08:00 ] 121.42.0.39 /media/xmlconnect/system/ok.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2016-02-11T21:46:14+08:00 ] 121.42.0.39 /LICENSE.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+ERR: 无法加载控制器:LICENSE.txt
+
+[ 2016-02-11T21:46:16+08:00 ] 121.42.0.39 /static/ayacms.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-02-11T21:46:16+08:00 ] 121.42.0.39 /static/none.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-02-11T21:46:17+08:00 ] 121.42.0.39 /bbs/css/images/announ.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2016-02-11T21:46:17+08:00 ] 121.42.0.39 /bbs/css/images/avatar.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-02-11T21:46:17+08:00 ] 121.42.0.39 /celive/admin/live/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-02-11T21:46:17+08:00 ] 121.42.0.39 /celive/js/images/btn.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-02-11T21:46:20+08:00 ] 121.42.0.39 /zb_users/PLUGIN/Gravatar/Logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-02-11T21:46:20+08:00 ] 121.42.0.39 /images/qq/qqkf2/Kf_bg03_03.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2016-02-11T21:46:20+08:00 ] 121.42.0.39 /js/close.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2016-02-11T21:46:21+08:00 ] 121.42.0.39 /dayrui/statics/default/images/sd02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-02-11T21:46:21+08:00 ] 121.42.0.39 /dayrui/statics/default/images/shop/login.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2016-02-11T21:46:23+08:00 ] 121.42.0.39 /extensions/calendar/img/nav-left.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2016-02-11T21:46:30+08:00 ] 121.42.0.39 /style/default/index_login_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+
+[ 2016-02-11T21:46:35+08:00 ] 121.42.0.39 /CN/nite/images/title.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2016-02-11T21:46:35+08:00 ] 121.42.0.39 /Images/dialog_closebtn_over.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-02-11T21:46:35+08:00 ] 121.42.0.39 /App_Themes/AdminDefaultTheme/DateTheme/bgteuw.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-02-11T21:46:36+08:00 ] 121.42.0.39 /Images/Microblog/dialog_rt.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+
+[ 2016-02-11T21:46:36+08:00 ] 121.42.0.39 /admin/Images/Login_tit.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-02-11T21:46:36+08:00 ] 121.42.0.39 /admin/Images/Sort_Folder_Close.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-02-11T21:46:36+08:00 ] 121.42.0.39 /admin/Limages/left-corners.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-02-11T21:46:37+08:00 ] 121.42.0.39 /admin/images/li_4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-02-11T21:46:37+08:00 ] 121.42.0.39 /images/default/listico.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2016-02-11T21:46:37+08:00 ] 121.42.0.39 /images/default/images/button_plain_hover.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+
+[ 2016-02-11T21:46:40+08:00 ] 121.42.0.39 /admin/images/bg-pay-return-success.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-02-11T21:46:40+08:00 ] 121.42.0.39 /template/default/images/ad_scroll_forward.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2016-02-11T21:46:40+08:00 ] 121.42.0.39 /adfile/ad9.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载控制器:Adfile
+
+[ 2016-02-11T21:46:45+08:00 ] 121.42.0.39 /images/common/online_member.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-02-11T21:46:45+08:00 ] 121.42.0.39 /images/default/reply.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-02-11T21:46:48+08:00 ] 121.42.0.39 /templates/uchome/images/title.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-02-11T21:46:48+08:00 ] 121.42.0.39 /extmail/default/images/lastpg.d.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2016-02-11T21:46:50+08:00 ] 121.42.0.39 /adminsoft/templates/images/login_title.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2016-02-11T21:46:57+08:00 ] 121.42.0.39 /ACT_inc/ItemBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-02-11T21:46:57+08:00 ] 121.42.0.39 /ACT_inc/share/minusbottom.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-02-11T21:46:58+08:00 ] 121.42.0.39 /Admin/Images/bg_admin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-02-11T21:46:58+08:00 ] 121.42.0.39 /images/act_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-02-11T21:46:58+08:00 ] 121.42.0.39 /images/reg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-02-11T23:02:26+08:00 ] 218.56.127.166 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+

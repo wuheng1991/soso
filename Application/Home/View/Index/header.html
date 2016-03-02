@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>武汉金开瑞生物工程有限公司</title>
+<!-- <link href="/Public/Home/js/jquery.autocomplete.css" rel="stylesheet" type="text/css" /> -->
+<link href="/Public/Home/css/login.css" rel="stylesheet" type="text/css" />
+<!-- <script type="text/javascript" src="/Public/Home/js/jquery.js"></script> -->
+
+<script type="text/javascript" src="/Public/Home/js/tab.js"></script>
+
+<script type="text/javascript" src="/Public/Home/js/1.11.js"></script>
+<!-- <script type="text/javascript" src="/Public/Home/js/2.1.js"></script> -->
+<!-- <script type="text/javascript" src="/Public/Home/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/Public/Home/js/jquery.datePicker.js"></script> -->
+<!-- <link href="/Public/Home/js/jquery-ui.min.css" rel="stylesheet" type="text/css" /> -->
+</head>
+
+<body>
+<div id="toper">
+	<div class="top">
+    	<ul class="top_l">
+			<li>欢迎<b id="f33"> {$userInfo.name}</b>　单 位：{$userInfo.company}　电 话：{$userInfo.phone}</li>
+		</ul>
+        <ul class="top_l right">
+        	<li><i class="lgo"></i>欢迎<b id="f33"> {$userInfo.name}</b>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="{:U('User/logout/')}">退 出</a></li>
+        </ul>
+    </div>
+</div>
+<div class="clear"></div>
+<div id="header">
+	<div class="head">
+		<div class="logo"><a href="#"><img src="/Public/Home/images/logo.gif" /></a></div>
+        <div class="menu">
+                <ul class="menu">
+                	<li class="menu-item select"><a class="menu-item" href="{:U('Index/index')}">我的帐户</a></li>
+                    
+                    <li class="menu-item"><a class="menu-item" >创建新订单</a>
+                        <div class="menu-div" style="display:none;">
+                            <ul style="border:0px solid red;width:119px;">
+                                <li><a href="{:U('Index/Create/')}">创建测序订单</a></li>
+                                <li><a href="{:U('Primer/Create/')}">创建引物订单</a></li>
+                                <li><a href="{:U('Gene/Create/')}">基因合成订单</a></li> 
+                              <!--  <li style="border:0px solid red;width:119px;"><a href="{:U('Clone/Create/')}">PCR克隆及亚克隆</a></li> 
+                                
+                                <li><a href="{:U('Server/Create/')}">突变服务订单</a></li> 
+                                <li><a href="{:U('Zhili/Create/')}">质粒制备订单</a></li>  -->
+                             
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item big"><a class="menu-item" href="{:U('Index/search')}">订单状态和结果</a></li>
+                    <li class="menu-item"><a class="menu-item" >帐户信息</a>
+                        <div class="menu-div" style="display:none;">
+                            <ul>
+                                <li><a href="{:U('User/userinfo')}">帐户信息</a></li>
+                                <li><a href="{:U('User/uppass')}">修改密码</a></li>
+                               
+                            </ul>
+                        </div>
+                    </li>
+                    
+				</ul>
+                <script type="text/javascript">
+				$('.menu-item').hover(
+					function(){
+						$(this).find("div.menu-div").show();
+						$(this).addClass("select");
+					},
+					function(){
+						$(this).find("div.menu-div").hide();
+						$(this).removeClass("select");
+					}
+				);
+				$('.first-nav').hover(
+					function(){
+						$(this).find("ul.menu-div-child").show();
+						$(this).addClass('select');
+					},
+					function(){
+						$(this).find("ul.menu-div-child").hide();
+						$(this).removeClass('select');
+					}
+				);
+				
+					
+			</script>
+		</div>
+	</div>
+</div>
+<!-- logo--导航菜单 结束 -->
+<div class="clear"></div>

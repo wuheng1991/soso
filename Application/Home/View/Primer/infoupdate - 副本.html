@@ -1,0 +1,307 @@
+<include file="Index/header" />
+<div class="clear"></div>
+<div id="main">
+	<div class="maincon">
+		<div>{$orderInfo.code} 订单确认 （确认后订单不可再编辑，请仔细填写订单信息）</div>
+		<div class="primerbread">注意：<span>1.鼠标移至各项查看注释，其中*为必填项。<br />
+2.一个订单中只能提交同一需求量单位的引物。<br />
+3.长度小于10mer的引物无法提供HPLC服务。 <br /></span></div>
+        <div class="order_con">
+		<form id="primerForm" method="post" action="{:U('Primer/Confirm')}">
+        <table width="100%" cellspacing="1" cellpadding="1" border="0" id="FormTable">
+			<tr>
+           	  	<th width="5%">编号</th>
+				<th width="5%">测序备用<br /><a href="javascript:DelTd(1);">取消</a> <a href="javascript:CopyTd(1);">全选</a></th>
+                <th width="7%"><a title="同一订单中不能存在相同的引物名称">Primer名称 *</a></th>
+                <th width="7%"><a title="字符长度限制≦250nt，只识别ATGC及常用的兼并碱基代码：M=A/C   R=A/G  W=A/T   S=G/C   Y=C/T   K=G/T  V=A/G/C    H=A/C/T     D=A/G/T   B=G/C/T  N=A/G/C/T，同一订单中不能存在相同的引物序列。">序列（5’ to 3’）*</a></th>
+                <th width="5%">碱基数</th>
+                <th width="15%"><a title="输入正整数，例如：4">需求量(OD或nmole)*</a><br /><a href="javascript:DelTd(2);">清空</a> <a href="javascript:CopyTd(2);">复制</a></th>
+                <th width="9%"><a title="输入正整数，例如：4">分装管数 *</a><br /><a href="javascript:DelTd(3);">清空</a> <a href="javascript:CopyTd(3);">复制</a></th>
+                <th width="11%"><a>纯化方式 *</a><br /><a href="javascript:DelTd(4);">清空</a> <a href="javascript:CopyTd(4);">复制</a></th>
+                <th width="13%">5'修饰</th>
+                <th width="8%">3'修饰</th>
+                <th width="7%">其他修饰</th>
+				<th></th>
+            </tr>
+			<foreach name="list" item="L" key="i">
+			<tr id="list_{$i+1}">
+                <td>{$i+1}</td>
+                <td><input type="checkbox" name="reserve{$i+1}" id="reserve_{$i+1}" value="2" size="4" /></td>
+                <td><input name="primername{$i+1}" id="primername_{$i+1}" type="text" size="4" />
+                </td>
+                <td><input name="sequence{$i+1}" id="sequence_{$i+1}" class="sequence" oninput="$('#basenum_{$i+1}').html(this.value.length);" type="text" size="45" /></td>
+                <td><div id="basenum_{$i+1}">0</div></td>
+                <td><input name="demand{$i+1}" id="demand_{$i+1}" type="text" size="4" /></td>
+                <td><input name="tubenum{$i+1}" id="tubenum_{$i+1}" type="text" size="4" /></td>
+                <td>
+                <select name="puremthod{$i+1}" id="puremthod_{$i+1}" size="1">
+                    <option value=""></option>
+					<option value="1">PAGE</option>
+					<option value="2">DSL</option>
+					<option value="3">HPLC</option>
+                </select>
+                </td>
+                <td>
+                <select name="tmodification{$i+1}" id="tmodification_{$i+1}" size="1">
+                    <option value=""></option>
+					<option value="1">PO4</option>
+					<option value="2">NH2 C3</option>
+					<option value="3">NH2 C6</option>
+					<option value="4">NH2 C12</option>
+					<option value="5">NH2 C6 dT</option>
+					<option value="6">SH C6</option>
+					<option value="7">Biotin</option>
+					<option value="8">Biotin TEG</option>
+					<option value="9">Dual Biotin</option>
+					<option value="10">Digoxin</option>
+					<option value="11">Cy3</option>
+					<option value="12">Cy5</option>
+					<option value="13">FAM</option>
+					<option value="14">HEX</option>
+					<option value="15">TET</option>
+					<option value="16">6-JOE</option>
+					<option value="17">Rox</option>
+					<option value="18">TAMRA</option>
+                </select>
+                </td>
+                <td>
+                <select name="tmodification{$i+1}" id="tmodification_{$i+1}">
+                    <option value=""></option>
+					<option value="1">PO4</option>
+					<option value="2">NH2 C3</option>
+					<option value="3">NH2 C7</option>
+					<option value="4">NH2 C6 dT</option>
+					<option value="5">SH C6</option>
+					<option value="6">Biotin</option>
+					<option value="7">Biotin TEG</option>
+					<option value="8">Digoxin</option>
+					<option value="9">Cy3</option>
+					<option value="10">Cy5</option>
+					<option value="11">FAM</option>
+					<option value="12">6-JOE</option>
+					<option value="13">Rox</option>
+					<option value="14">TAMRA</option>
+					<option value="15">DABCYL</option>
+					<option value="16">BHQ 1</option>
+					<option value="17">BHQ 2</option>
+                </select>
+                </td>
+				<td>
+				<select name="othermod{$i+1}" id="othermod_{$i+1}">
+					<option value=""></option>
+					<option value="1">dI</option>
+					<option value="2">dU</option>
+					<option value="3">SPO3</option>
+				</select>
+				</td>
+				<td><a href="javascript:DelTr({$i+1});">删除</a></td>
+            </tr>
+			<input type="hidden" name="pid{$i+1}" value="{$L.id}" />
+			
+			</foreach>
+        </table>
+		<input type="hidden" name="orderid" value="{$orderInfo.id}" />
+		<input type="hidden" name="num" id="Num" value="{$num}" />
+	  </div>
+	  
+      <div><input type="button" onclick="AddRow()" value="增加" /> <input id="addrownum" type="text" size="4" /> 行  <input type="button" id="BlackLine" value="删除空行" /></div>
+      <div>项目描述：<input type="text" name="desc" /><br/>备注：<textarea name="info"></textarea></div>
+	  <div><input type="button" id="submit-button" value="保存" /></div>
+	  </form>
+      <script type="text/javascript">
+	  $(document).ready(function(){
+		$('#submit-button').click(function(){
+			var n = $('#FormTable tr:last').attr('id');
+			var num = n.replace(/[^0-9]/ig,"");
+			var flag = true;
+			for(i=1;i<=num;i++){
+				if ($('#primername_'+i).val() == ''){
+					$('#primername_'+i).addClass('error');
+					flag = false;
+				}
+				if ($('#sequence_'+i).val() == '' || /^[agctmvrhwdsbynk]+$/.test($('#sequence_'+i).val()) == false){
+					$('#sequence_'+i).addClass('error');
+					flag = false;
+				}
+				
+				if ($('#demand_'+i).val() == '' || /^[0-9]*[1-9][0-9]*$/.test($('#demand_'+i).val()) === false ){
+					$('#demand_'+i).addClass('error');
+					flag = false;
+				}
+				if($('#tubenum_'+i).val() == '' || /^[0-9]*[1-9][0-9]*$/.test($('#tubenum_'+i).val()) === false){
+					$('#tubenum_'+i).addClass('error');
+					flag = false;
+				}
+				if ($('#puremthod_'+i).val() == ''){
+					$('#puremthod_'+i).addClass('error');
+					flag = false;
+				}
+			}
+			if (flag === true){
+				$('#primerForm').submit();
+			}
+		});
+	  });
+	  $('#BlackLine').click(function(){
+			var n = $('#FormTable tr:last').attr('id');
+			var value = n.replace(/[^0-9]/ig,"");
+			var del = 0;
+			for(i=0;i<=value;i++){
+				if ( $('#primername_'+i).val() == '' && $('#tubenum_'+i).val() == '' && $('#demand_'+i).val() == '' && $('#puremthod_'+i).val() == '' ){
+					del++;
+					$('#list_'+i).remove();
+				}
+			}
+			$('#Num').val(value-del);
+	  });
+	  function AddRow(){
+		var num = $('#addrownum').val();
+		if (num == '') return false;
+		if (/^[0-9]*[1-9][0-9]*$/.test(num) === false ) return false;
+		var n = $('#FormTable tr:last').attr('id');
+		var value = n.replace(/[^0-9]/ig,"");
+		
+		for(i=1;i<=num;i++){
+			value++;
+			
+			var html = "<tr id=\"list_"+value+"\">";
+            html +=    "<td>"+value+"</td>";
+            html +=    "    <td><input type=\"checkbox\" name=\"reserve"+value+"\" id=\"reserve"+value+"\" value=\"2\" size=\"4\" /></td>";
+            html +=    "    <td><input name=\"primername"+value+"\" id=\"primername_"+value+"\" type=\"text\" size=\"4\" />";
+            html +=    "   </td>";
+            html +=    "    <td><input name=\"sequence"+value+"\" id=\"sequence_"+value+"\" class=\"sequence\" oninput=\"$('#basenum_"+value+"').html(this.value.length);\" type=\"text\" size=\"45\" /></td>";
+            html +=    "    <td><div id=\"basenum_"+value+"\">0</div></td>";
+            html +=    "    <td><input name=\"demand"+value+"\" id=\"demand_"+value+"\" type=\"text\" size=\"4\" /></td>";
+            html +=    "    <td><input name=\"tubenum"+value+"\" id=\"tubenum_"+value+"\" type=\"text\" size=\"4\" /></td>";
+            html +=    "    <td>";
+            html +=    "    <select name=\"puremthod"+value+"\" id=\"puremthod_"+value+"\" size=\"1\">";
+            html +=    "        <option value=\"\"></option>";
+			html +=    "		<option value=\"1\">PAGE</option>";
+			html +=    "		<option value=\"2\">DSL</option>";
+			html +=    "		<option value=\"3\">HPLC</option>";
+            html +=    "    </select>";
+            html +=    "    </td>";
+            html +=    "    <td>";
+            html +=    "    <select name=\"tmodification"+value+"\" id=\"tmodification_"+value+"\" size=\"1\">";
+            html +=    "        <option value=\"\"></option>";
+			html +=    "		<option value=\"1\">PO4</option>";
+			html +=    "		<option value=\"2\">NH2 C3</option>";
+			html +=    "		<option value=\"3\">NH2 C6</option>";
+			html +=    "		<option value=\"4\">NH2 C12</option>";
+			html +=    "		<option value=\"5\">NH2 C6 dT</option>";
+			html +=    "		<option value=\"6\">SH C6</option>";
+			html +=    "		<option value=\"7\">Biotin</option>";
+			html +=    "		<option value=\"8\">Biotin TEG</option>";
+			html +=    "		<option value=\"9\">Dual Biotin</option>";
+			html +=    "		<option value=\"10\">Digoxin</option>";
+			html +=    "		<option value=\"11\">Cy3</option>";
+			html +=    "		<option value=\"12\">Cy5</option>";
+			html +=    "		<option value=\"13\">FAM</option>";
+			html +=    "		<option value=\"14\">HEX</option>";
+			html +=    "		<option value=\"15\">TET</option>";
+			html +=    "		<option value=\"16\">6-JOE</option>";
+			html +=    "		<option value=\"17\">Rox</option>";
+			html +=    "		<option value=\"18\">TAMRA</option>";
+            html +=    "    </select>";
+            html +=    "    </td>";
+            html +=    "    <td>";
+            html +=    "    <select name=\"tmodification"+value+"\" id=\"tmodification_"+value+"\">";
+            html +=    "        <option value=\"\"></option>";
+			html +=    "		<option value=\"1\">PO4</option>";
+			html +=    "		<option value=\"2\">NH2 C3</option>";
+			html +=    "		<option value=\"3\">NH2 C7</option>";
+			html +=    "		<option value=\"4\">NH2 C6 dT</option>";
+			html +=    "		<option value=\"5\">SH C6</option>";
+			html +=    "		<option value=\"6\">Biotin</option>";
+			html +=    "		<option value=\"7\">Biotin TEG</option>";
+			html +=    "		<option value=\"8\">Digoxin</option>";
+			html +=    "		<option value=\"9\">Cy3</option>";
+			html +=    "		<option value=\"10\">Cy5</option>";
+			html +=    "		<option value=\"11\">FAM</option>";
+			html +=    "		<option value=\"12\">6-JOE</option>";
+			html +=    "		<option value=\"13\">Rox</option>";
+			html +=    "		<option value=\"14\">TAMRA</option>";
+			html +=    "		<option value=\"15\">DABCYL</option>";
+			html +=    "		<option value=\"16\">BHQ 1</option>";
+			html +=    "		<option value=\"17\">BHQ 2</option>";
+            html +=    "    </select>";
+            html +=    "    </td>";
+			html +=    "	<td>";
+			html +=    "	<select name=\"othermod"+value+"\" id=\"othermod_"+value+"\">";
+			html +=    "		<option value=\"\"></option>";
+			html +=    "		<option value=\"1\">dI</option>";
+			html +=    "		<option value=\"2\">dU</option>";
+			html +=    "		<option value=\"3\">SPO3</option>";
+			html +=    "	</select>";
+			html +=    "	</td>";
+			html +=    "	<td><a href=\"javascript:DelTr("+value+");\">删除</a></td>";
+            html +=    "</tr>";
+			
+			$('#FormTable').append(html);
+			$('#Num').val(value);
+		}
+	  }
+	  function DelTr(tr){
+		 if (confirm("是否删除第"+tr+"行")){
+			$('#list_'+tr).remove();
+		 }
+	  }
+	  function DelTd(v){
+		var num = $('#FormTable tr:last').attr('id').replace(/[^0-9]/ig,"");
+		var str = '';
+		switch(v){
+			case 1:
+				str = 'reserve';
+				break;
+			case 2:
+				str = 'demand';
+				break;
+			case 3:
+				str = 'tubenum';
+				break;
+			case 4:
+				str = 'puremthod';
+				break;
+		}
+		for(i=1;i<=num;i++){
+			if (v == 1){
+				$('#'+str+'_'+i).attr('checked',false);
+			} else if (v == 4){
+				$('#'+str+'_'+i).val('');
+			}else {
+				$('#'+str+'_'+i).attr('value','');
+			}
+		}
+	  }
+	  function CopyTd(v){
+		var num = $('#FormTable tr:last').attr('id').replace(/[^0-9]/ig,"");
+		var str = '';
+		switch(v){
+			case 1:
+				str = 'reserve';
+				break;
+			case 2:
+				str = 'demand';
+				break;
+			case 3:
+				str = 'tubenum';
+				break;
+			case 4:
+				str = 'puremthod';
+				break;
+		}
+		var strvalue = $('#'+str+'_1').val();
+		for(i=1;i<=num;i++){
+			if (v == 1){
+				document.getElementById(str+'_'+i).checked = true;
+			} else if (v == 4){
+				$('#'+str+'_'+i).val(strvalue);
+			}
+			$('#'+str+'_'+i).attr('value',strvalue);
+		}
+	  }
+	  </script>
+  </div>
+</div>
+</body>
+</html>

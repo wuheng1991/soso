@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link href="/Public/Home/css/login.css" rel="stylesheet" type="text/css" />
+<!-- <script type="text/javascript" src="/Public/Home/js/jquery.js"></script>
+<script type="text/javascript" src="/Public/Home/js/tab.js"></script>
+<script type="text/javascript" src="/Public/Home/js/jquery-ui.min.js"></script> -->
+<link href="/Public/Home/js/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="toper">
+    <div class="top">
+        <ul class="top_l">
+            <li><a href="{:U('Customer/searchlist')}">返回列表</a></li>
+              <li><a href="/index.php/Manage.html" target=_top>后台主页</a></li>
+        </ul>
+        <ul class="top_l right">
+            <li><i class="lgo"></i>欢迎<b id="f33">{:session('admin-name')}</b>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="{:U('User/logout/')}"  target=_top>退 出</a></li>
+        </ul>
+    </div>
+</div>
+<div class="clear"></div>
+<!-- logo--导航菜单 结束 -->
+<div class="clear"></div>
+<!-- logo--导航菜单 结束 -->
+<div class="clear"></div>
+<div id="main">
+    <div class="maincon">
+        <div class="order_con">
+
+        <form method="post" autocomplete="off" action="{:U('user/updates')}">
+        <div class="left">
+        <div class="bread">客户信息</div>
+        <table width="50%" cellspacing="0" cellpadding="0" border="0">
+            <input type="hidden" name="key" value="{$client.id}"/>
+            <tr>
+                <td width="120" align="left">姓 名：</td>
+                <td width="300" style="border-bottom:#000 0px solid"><span id="lblUserName">
+                    <!-- <input type="text" /> -->
+                    <input type="text" name="uname" value="{$client.name}" size="30"/>
+                    
+                </span></td>
+            </tr>
+            <tr>
+                <td align="left">电 话：</td>
+                <td style="border-bottom:#000 0px dotted"><span id="lblUserPhone">
+                    <input type="text" name="phone" value="{$client.phone}" size="30" />
+                    
+                </span></td>
+            </tr>
+            <tr>
+                <td align="left">PI/实验室负责人：</td>
+                <td style="border-bottom:#000 0px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserPI">
+                    <input type="text" name="dutyer" value="{$client.dutyer}" size="30"/>
+                   
+                </span></td>
+            </tr>
+           
+            <tr>
+                <td align="left">电子邮件：</td>
+                <td style="border-bottom:#000 0px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserLoginName">
+                    <input type="text" name="tempaddress" value="{$client.uid|getClientEmail}" size="30"/>
+                    
+                </span></td>
+            </tr>
+            <!-- 新增内容开始 -->
+               <tr>
+                <td align="left">所在单位：</td>
+                <td style="border-bottom:#000 0px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserLoginName">
+                  <input type="text" name="company" value="{$client.company}" size="30"/>
+                   </span></td>
+            </tr>
+               <tr>
+                <td align="left">单位地址：</td>
+                <td style="border-bottom:#000 0px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserLoginName">
+                    <input type="text" name="address" value="{$client.address}" size="30"/>
+                  
+                </span></td>
+            </tr>
+               <tr>
+                <td align="left">课题组：</td>
+                <td style="border-bottom:#000 0px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserLoginName"><input type="text" name="subject" 
+                    value="{$client.subject}" size="30"/></span></td>
+            </tr>
+               <tr>
+                <td align="left">发票抬头：</td>
+                <td style="border-bottom:#000 0px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserLoginName">
+                    <input type="text" name="piao" value="{$client.piao}" size="30"/></span></td>
+            </tr>
+            <tr>
+                <td align="left">发票邮寄地址：</td>
+                <td style="border-bottom:#000 0px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserLoginName">
+                    <input type="text" name="tempaddress" value="{$client.tempaddress}" size="30"/></span></td>
+            </tr>
+
+             <tr>
+                <td align="left">销售联系人：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserLoginName">
+                    <input type="text" name="sale_name" value="{$client.sale_name}" size="30"/></span></td>
+            </tr>
+            <!-- 新增内容结束 -->
+        </table>
+        </div>
+        <div class="right">
+        <div class="bread">备注信息</div>
+        <table width="50%" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+                 
+                <td width="340" style="border-bottom:#000 1px dotted">
+                    <!-- <span id="lblOrderID">{$orderInfo.code}</span> -->
+                    <textarea name="note" id="" cols="30" rows="14">{$client.note}</textarea>
+                </td>
+            </tr>
+            
+             
+        </table>
+        </div>
+         <div class="order_con">
+            <br /><br />
+    <div class="bread" style="margin:10px auto;">
+        <input type="submit"  style="text-align:center;display:block;margin:0px auto;background:#FF6633;color:white;padding:8px;font-size:14px;font-weight:bold;margin-bottom:50px;cursor:pointer;" title="点击保存"  value=" 提交修改 " />
+    </div>
+</div>
+   </form>
+        <!-- <div style="width:100%;height:50px;border:1px solid red;"></div> -->
+    </div>
+    
+     
+</body>
+</html>

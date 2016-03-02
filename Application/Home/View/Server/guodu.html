@@ -1,0 +1,217 @@
+  <include file="Index/header" />
+<style>
+    .order_con span span{
+    cursor:pointer;
+    }
+    .wuheng{
+        background:#276CC7;
+        color:white;
+    }
+    .anniu button:hover{
+        cursor:pointer;
+        color:red;
+    }
+</style>
+<script type="text/javascript" src="./Public/Home/js/jquery.datePicker.js"></script>
+<script>
+$(document).ready(function(){
+	$( "#FromDate" ).datepicker({
+		dateFormat:'yy-mm-dd'
+	});
+	$( "#ToDate" ).datepicker({
+		dateFormat:'yy-mm-dd'
+	});
+	$('#next').click(function(){
+		$('#page').val($(this).attr('data'));
+		$('#searchdForm').submit();
+	});
+	$('#pre').click(function(){
+		$('#page').val($(this).attr('data'));
+		$('#searchdForm').submit();
+	});
+    // $("#niu_pre").click(function(){
+    //     alert("1234"); 
+    // })
+});
+</script>
+<div class="clear"></div>
+<div id="main">
+	<div class="maincon" style="margin-bottom:50px;">
+		<div class="bread">突变服务</div>
+        
+        <div class="order_con">
+             <foreach name="serverlist" item="wh" key="k">
+
+         <table border="1" style="border-collapse:collapse">
+              <tr align="center" class="wuheng" bgcolor="#276CC7" style="background:red;">
+                 <td style="background:#276CC7;color:white;">基因突变-{$k+1}</td>
+                 <td style="background:#276CC7;color:white;">
+                     <a href="<?php echo U("Server/editors");?>?id={$wh.id}" style="color:white;padding:3px;">编辑</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                      <a href="<?php echo U("Server/copy_server_order");?>?id={$wh.id}"  style="color:white;padding:3px;">复制</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                       <a href="<?php echo U("Server/del_server_order");?>?id={$wh.id}"  style="color:white;padding:3px;">删除</a>
+                 </td>
+             </tr>
+             <tr align="center">
+                 <td style="color:black;">模板信息</td>
+                 <td align="left">
+                      
+                 插入片段名称: {$wh.server_title}; 大小（kb）: {$wh.id|serialength_a};  突变前序列: {$wh.server_serial}; 
+                 载体名称: <!-- {$hd_clone_name};  -->   {$wh.server_name|clone_name} ;      
+                           
+                         
+                     
+                 </td>
+             </tr>
+                
+                     <tr align="center">
+                         <td style="color:black;">突变说明</td>
+                         <td align="left">
+                             
+                           突变后名称: {$wh.server_chg_name}
+                          
+                         突变后序列(s): {$wh.server_chg_content}; 
+                        目标载体: 
+                        <eq name="wh.server_way" value="0">
+                          Same as template ;
+                        </eq>
+                         <eq name="wh.server_way" value="1">
+                           载体名称:{$wh.server_zaiti_name|clone_name};克隆方法:{$wh.server_zaiti_site}; 基因用途:
+                           <eq name="wh.server_use" value="1">
+                       Protein expression/analysis
+                     </eq>
+                     <eq name="wh.server_use" value="2">
+                       Promoter assay
+                     </eq>
+                     <eq name="wh.server_use" value="3">
+                       RNAi, epigenetics &amp; gene regulation
+                     </eq>
+                     <eq name="wh.server_use" value="4">
+                       Cloning
+                     </eq>
+                     <eq name="wh.server_use" value="5">
+                       DNA vaccines
+                     </eq>
+                     <eq name="wh.server_use" value="6">
+                       Recombinant antibodies
+                     </eq>
+                     <eq name="wh.server_use" value="7">
+                       others
+                     </eq>;
+                         </eq>
+                       
+                         
+
+                         
+
+                         </td>
+                     </tr>
+                 
+              
+              <tr align="center">
+                 <td style="color:black;">质粒制备</td>
+                 <td align="left">
+                  
+                  <eq name="wh.server_zhili" value="1">
+                     标准交付: 4 μg (免费)
+                   <else />
+                   定制质粒制备:  
+                  <eq name="wh.server_zhili_sel" value="1">
+                    100 μg
+                  </eq>
+                   <eq name="wh.server_zhili_sel" value="2">
+                    200 μg
+                  </eq>
+                   <eq name="wh.server_zhili_sel" value="3">
+                    500 μg
+                  </eq>
+                   <eq name="wh.server_zhili_sel" value="4">
+                    1 mg
+                  </eq>
+                   <eq name="wh.server_zhili_sel" value="5">
+                    2 mg
+                  </eq>
+                   <eq name="wh.server_zhili_sel" value="6">
+                    10 mg
+                  </eq>
+                   <eq name="wh.server_zhili_sel" value="7">
+                    20 mg
+                  </eq>
+                   <eq name="wh.server_zhili_sel" value="8">
+                    50 mg
+                  </eq>
+                   <eq name="wh.server_zhili_sel" value="9">
+                    100 mg
+                  </eq>
+                   <eq name="wh.server_zhili_sel" value="10">
+                    200 mg
+                  </eq>
+                   <eq name="wh.server_zhili_sel" value="11">
+                    500 mg
+                  </eq>
+                   <eq name="wh.server_zhili_sel" value="12">
+                    1000 mg
+                  </eq>
+                   <eq name="wh.server_zhili_sel" value="13">
+                    1500 mg
+                  </eq>
+                   <eq name="wh.server_zhili_sel" value="14">
+                    2000 mg
+                  </eq>
+                   <eq name="wh.server_zhili_sel" value="15">
+                    Other
+                  </eq>
+                    <br/>
+                   质量级别:
+                     <eq name="wh.server_help" value="0">
+                    Research Grade(Predominantly supercoiled, animal free)
+                  </eq>
+                   <eq name="wh.server_help" value="1">
+                    SC Grade (≥95% Supercoilded, ≤0.03 EU/ug Endotoxin)
+                  </eq>
+                   <eq name="wh.server_help" value="2">
+                    Advanced SC Grade(≥95% Supercoilded, ≤0.005 EU/ug Endotoxin)
+                  </eq>
+                  <br/>
+                   模板名称:  {$wh.server_moban_name}
+                  
+                    ; <br/>
+                  </eq> 
+                   
+                  
+                   
+                      
+                      
+                 </td>
+             </tr>
+         </table>
+            <br/>
+            <br/>
+         </foreach> 
+
+         <br/>
+          <div class="anniu" style="width:100%;border:0px solid red;height:30px;font-weight:bold;">
+              <div style="width:49%;border:1px solid #ccc;float:left;height:100%;">
+                  <button id="niu_pre" onclick="aaaa()" style="padding:4px;text-align:center;font-weight:bold;"> 返 回 </button>
+              </div>
+              <div style="width:50%;border:1px solid #ccc;float:left;height:100%;">
+                  <button onclick="bbbb()" style="padding:4px;text-align:center;font-weight:bold;"> 确认提交 </button>
+              </div>
+          </div>
+        </div>
+        <br/>
+		
+	</div>
+</div>
+</body>
+
+<script type="text/javascript">
+  function aaaa(){
+    // alert("aaa");
+     window.location="{:U('Index/index')}";
+  }
+  function bbbb(){
+    // window.location ="http://www.jkrorder.com/index.php/Home/Server/confirm_order/orderid/{$wh.orderid}";
+    window.location="{:U('Server/confirm_order',array('orderid'=>$wh['orderid']))}";
+  }
+</script>
+</html>

@@ -1,0 +1,225 @@
+  <include file="Index/header" />
+<style>
+    .order_con span span{
+    cursor:pointer;
+    }
+    .wuheng{
+        background:#276CC7;
+        color:white;
+    }
+    .anniu button:hover{
+        cursor:pointer;
+        color:red;
+    }
+</style>
+<!-- <script type="text/javascript" src="./Public/Home/js/jquery.datePicker.js"></script> -->
+<script>
+// $(document).ready(function(){
+// 	$( "#FromDate" ).datepicker({
+// 		dateFormat:'yy-mm-dd'
+// 	});
+// 	$( "#ToDate" ).datepicker({
+// 		dateFormat:'yy-mm-dd'
+// 	});
+// 	$('#next').click(function(){
+// 		$('#page').val($(this).attr('data'));
+// 		$('#searchdForm').submit();
+// 	});
+// 	$('#pre').click(function(){
+// 		$('#page').val($(this).attr('data'));
+// 		$('#searchdForm').submit();
+// 	});
+    // $("#niu_pre").click(function(){
+    //     alert("1234");
+    // })
+});
+</script>
+<div class="clear"></div>
+<div id="main">
+	<div class="maincon" style="margin-bottom:50px;">
+		<div class="bread">质粒制备信息</div>
+        
+        <div class="order_con">
+             <foreach name="zhililist" item="wh" key="k">
+
+         <table border="1" height="200" style="border-collapse:collapse;height:200px;" >
+              <tr align="center" class="wuheng" bgcolor="#276CC7" style="background:red;">
+                 <td style="background:#276CC7;color:white;">质粒制备-{$k+1}</td>
+                 <td style="background:#276CC7;color:white;">
+                     <a href="<?php echo U("Zhili/editors");?>?id={$wh.id}" style="color:white;padding:3px;">编辑</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                      <a href="<?php echo U("Zhili/copy_zhili_order");?>?id={$wh.id}"  style="color:white;padding:3px;">复制</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                       <a href="<?php echo U("Zhili/del_zhili_order");?>?id={$wh.id}"  style="color:white;padding:3px;">删除</a>
+                 </td>
+             </tr>
+
+             <tr align="center">
+                 <td style="color:black;">模板名称</td>
+                 <td align="left">{$wh.zhili_title}</td>
+             </tr>
+                 
+              <tr align="center">
+                  <td style="color:black;">起始材料</td>
+                  <td align="left">
+                    <eq name="wh.zhili_material" value="2">
+                      Plasmid DNA template
+                    <else />
+                    金开瑞提供材料
+                    </eq>
+                  </td>
+              </tr>
+               
+              <if condition="$wh.zhili_serial neq ''" >  
+              <tr align="center">
+                 <td style="color:black;">序列</td>
+                 <td align="left">{$wh.zhili_serial}</td>
+             </tr>
+             </if>
+
+              <tr align="center">
+                 <td style="color:black;">质粒大小(kb)</td>
+                 <td align="left">{$wh.zhili_size}</td>
+             </tr>
+
+             <tr align="center">
+                 <td style="color:black;">拷贝数量</td>
+                 <td align="left">
+                   <eq name="wh.zhili_copy" value="1">
+                     High
+                   </eq>
+
+                   <eq name="wh.zhili_copy" value="2">
+                     Low
+                   </eq>
+
+                   <if condition="$wh.zhili_pro neq '0'">
+                     &nbsp;,&nbsp;Typical yield:&nbsp;{$wh.zhili_pro}
+                   </if>
+                 </td>
+             </tr>
+
+             <tr align="center">
+                 <td style="color:black;">抗性</td>
+                 <td align="left">
+                   {$wh.zhili_kangxing|zhili_kang}
+                 </td>
+             </tr>
+
+             <tr align="center">
+                 <td style="color:black;">限制性内切酶分析</td>
+                 <td align="left">
+                   QC Enzyme&nbsp;:&nbsp;{$wh.id|zhili_content}&nbsp;;&nbsp;Fragment: 1 size
+                 </td>
+             </tr>
+
+             <tr align="center">
+                 <td style="color:black;">质量抽提量</td>
+                 <td align="left">
+                    {$wh.zhili_quantity|zhili_quantity}      
+                      
+                 </td>
+             </tr>
+             <tr align="center">
+                 <td style="color:black;">质量级别</td>
+                 <td align="left">
+                   <eq name="wh.zhili_level" value='0'>
+                     Research Grade(Predominantly supercoiled)
+                   </eq>  
+                   <eq name="wh.zhili_level" value='1'>
+                      SC Grade (≥95% Supercoilded, ≤0.03 EU/ug Endotoxin)
+                   </eq>
+                   <eq name="wh.zhili_level" value='2'>
+                     Advanced SC Grade(≥95% Supercoilded, ≤0.005 EU/ug Endotoxin) 
+                   </eq> 
+
+                   <eq name="wh.zhili_box" value=''>
+                    <else />
+                        {$wh.id|fu_check}
+                     
+                   </eq>    
+                      
+                 </td>
+             </tr>
+             <tr align="center">
+                 <td style="color:black;">存储条件</td>
+                 <td align="left">
+                  <eq name="wh.zhili_storage" value="1">
+                    Liquid
+                  </eq>        
+                      
+                   <eq name="wh.zhili_storage" value="2">
+                     Freeze dried
+                  </eq>
+                  <eq name="wh.zhili_cache" value="0">
+                    <else />
+                    &nbsp;,&nbsp;{$wh.zhili_cache|zhili_cache}
+                  </eq> 
+                      
+                 </td>
+             </tr>
+             <empty name="wh.zhili_demand">
+               <else />
+             <tr align="center">
+                 <td style="color:black;">需求浓度(mg/ml)</td>
+                 <td align="left">
+                     {$wh.zhili_demand}     
+                      
+                 </td>
+             </tr>
+           </empty>
+              
+              <empty name="wh.zhili_pipe">
+
+             <else />   
+             <tr align="center">
+                 <td style="color:black;">分装管数</td>
+                 <td align="left">
+                     {$wh.zhili_pipe}     
+                      
+                 </td>
+             </tr>
+           </empty>
+              
+              <empty name="wh.zhili_other">
+                 <else />
+             <tr align="center">
+                 <td style="color:black;">其他要求</td>
+                 <td align="left">
+                      {$wh.zhili_other}    
+                      
+                 </td>
+             </tr>
+           </empty>
+
+         </table>
+            <br/>
+            <br/>
+         </foreach> 
+
+         <br/>
+          <div class="anniu" style="width:100%;border:0px solid red;height:30px;font-weight:bold;">
+              <div style="width:49%;border:1px solid #ccc;float:left;height:100%;">
+                  <button id="niu_pre" onclick="aaaa()" style="padding:4px;text-align:center;font-weight:bold;"> 返 回 </button>
+              </div>
+              <div style="width:50%;border:1px solid #ccc;float:left;height:100%;">
+                  <button onclick="bbbb()" style="padding:4px;text-align:center;font-weight:bold;"> 确认提交 </button>
+              </div>
+          </div>
+        </div>
+        <br/>
+		
+	</div>
+</div>
+</body>
+
+<script type="text/javascript">
+  function aaaa(){
+     
+     window.location="{:U('Index/index')}";
+  }
+  function bbbb(){
+    // window.location ="http://www.jkrorder.com/index.php/Home/Zhili/confirm_order/orderid/{$wh.orderid}";
+    window.location ="{:U('Zhili/confirm_order',array('orderid'=>$wh['orderid']))}";
+
+  }
+</script>
+</html>

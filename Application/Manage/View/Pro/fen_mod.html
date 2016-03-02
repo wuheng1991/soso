@@ -1,0 +1,207 @@
+ <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>武汉金开瑞生物工程有限公司---后台管理</title>
+<link href="__PUBLIC__/Consel/css/style.css" rel="stylesheet" type="text/css">
+<script  src="__PUBLIC__/Consel/js/jquery.js"></script>
+<script  src="__PUBLIC__/Consel/js/jquery-ui.min.js"></script>
+<link href="__PUBLIC__/Consel/js/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+</head>
+<script>
+$(document).ready(function(){
+	$( "#stime" ).datepicker({
+		dateFormat:'yy-mm-dd'
+	});
+	$( "#etime" ).datepicker({
+		dateFormat:'yy-mm-dd'
+	});
+	var p = {$page};
+	var countP = {$pages};
+	$('#next').click(function(){
+		var dang = p + 1;
+		if (p<countP){
+			$('#page').val(dang);
+		} else {
+			$('#page').val(countP);
+			return false;
+		}
+		$('#sequencingForm').submit();
+	});
+	$('#pre').click(function(){
+		if (p<2) return false;
+		var pdang = p - 1;
+		$('#page').val(pdang);
+		$('#sequencingForm').submit();
+	});
+	$('#select7').change(function(){
+		$('#page').val($(this).val());
+		$('#sequencingForm').submit();
+	});
+	$('#search').click(function(){
+		$('#page').val('');
+		$('#sequencingForm').submit();
+	});
+});
+</script>
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" background="__PUBLIC__/Consel/images/hui.jpg">
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+<!-- <form id="sequencingForm" method="post" autocomplete="off" action="{:U('User/searchlist')}"> -->
+<input type="hidden" name="page" id="page" value="{$page}" />
+<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="100%" align="center" valign="top" bgcolor="#FFFFFF">
+        	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+						<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="border-bottom:#ccc solid 1px; margin-bottom:10px;">
+							<tr>
+								<td width="2%" height="30"><img src="__PUBLIC__/Consel/images/2_r1.jpg" /></td>
+								<td width="73%" class="index-5"><span class="index-7"><font style="color:#f57e20;">{:session('admin-name')}</font>，您已登录成功！<a href="{:U('User/logout')}"  target=_top>退出</a></span></td>
+								<td width="25%"><a href="http://www.jkrorder.com/index.php/Manage.html" target="top">后台主页</a>&nbsp;&nbsp;&nbsp;&nbsp;
+									武汉金开瑞生物工程有限公司
+								</td>
+							</tr>
+						</table>
+				  	</td>
+				</tr>
+				<tr>
+					<td>
+
+                <table class="fen_list" width="100%" cellpadding="4" cellspacing="0" border="0" align="center">
+                	<legend><center><h3>修改该项目跟踪情况</h3></center></legend>
+                	<br>
+                	<br>
+                	<tr>
+                		<td width="38%"><label for="fen_position">地区位置：</label> 
+						 
+							<input type="radio"  id="fen_position_s" value="2" name="fen_position" />南
+							<input type="radio"  id="fen_position_n" value="1" name="fen_position" checked />北
+						</td>
+                	</tr>
+					<tr>
+						 
+						<td width="38%">
+                         <label for="fen_name">地区名称：</label>
+				         <input type="text" style="border-left:0px;border-right:0px;border-top:0px;" id="fen_name" size="45" name="fen_name" value="1" />
+						</td>
+
+						<td align="left" width="31%">
+                        <label for="">销售员：</label>
+                        <input type="text"  style="border-left:0px;border-right:0px;border-top:0px;" id="fen_sale" size="38" name="fen_sale" value="2"/>
+						</td>
+
+						<td width="31%"> 
+                        <label for="fen_he">合&nbsp;&nbsp;同&nbsp;&nbsp;编&nbsp;&nbsp;号：</label>
+                        <input type="text"  style="border-left:0px;border-right:0px;border-top:0px;" id="fen_he" size="32" name="fen_he" value="3"/>
+						</td>
+								
+				 
+                  
+			</tr>
+			<tr>
+				    <td>
+                        <label for="fen_customer">客户单位：  </label> 
+                        <input type="text"  style="border-left:0px;border-right:0px;border-top:0px;" id="fen_customer" size="45" name="fen_customer" value="4"/>       	 
+                     </td>
+
+						<td>
+                         <label for="fen_contact">联系人：</label>
+				         <input type="text"  style="border-left:0px;border-right:0px;border-top:0px;" id="fen_contact" size="38" name="fen_contact" value="5"/>
+						</td>
+
+
+						<td > 
+                        <label for="fen_date">预计项目周期：</label>
+                        <input type="text"  style="border-left:0px;border-right:0px;border-top:0px;" id="fen_date" size="32" name="fen_date" value="6"/>
+						</td>
+								
+				 
+			</tr>
+			<tr>
+				<td align="left"> 
+						<label for="fen_pro">项目名称：</label>	 
+						<input type="text"  style="border-left:0px;border-right:0px;border-top:0px;" id="fen_pro" size="45" name="fen_pro" value="7"/>
+					</td>
+						<td colspan="2" align="left"> 
+						<label for="fen_report">项目进度报告：</label>	 
+					 
+						<input type="file"  style="border:0px;" id="fen_report" name="fen_report"/>
+
+					</td>
+			</tr>
+			<tr>
+				 
+					<td  colspan="4" align="left">
+                        <label for="fen_xi" style="vertical-align:top;">项目细分：</label>
+ 
+                  <textarea style="border:1px solid #ABCDEF;" name="" id="" cols="80" rows="3">this is a demo</textarea>
+				  </td>
+ 
+			</tr>
+			<tr>
+				<td colspan="4" align="center"></td>
+			</tr>
+			<tr>
+				<td colspan="4" align="center"></td>
+			</tr>
+
+			<tr>
+				<td colspan="4" align="center">
+					<input type="submit" style="padding:8px;background:#FF6633;color:white;font-weight:bold;font-size:16px;cursor:pointer;" onclick="" value=" 修  改 "  />
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input id="fen_mod"  type="button" style="padding:8px;background:#FF6633;color:white;font-weight:bold;font-size:16px;cursor:pointer;"   value=" 取  消 "  />
+				</td>
+			</tr>
+		</table>
+					</td>
+				</tr>
+			</table>
+			<br>
+			<br>
+			<!-- <br> -->
+			<!-- <hr> -->
+		 
+			 
+		</td>
+	</tr>
+</table>
+<!-- </form> -->
+</body>
+<style type="text/css">
+	#search{
+		cursor:pointer;
+	}
+	#select7{
+		cursor:pointer;
+	}
+	#pre{
+		cursor:pointer;
+	}
+	#next{
+		cursor:pointer;
+	}
+	input{
+		border:1px solid #ABCDEF;
+	}
+	.fen_more:hover{
+		color:red;
+	}
+	 
+</style>
+<script>
+	$(function(){
+		// $("#fen_mod").click(){
+		// 	// window.history.back();
+		// 	alert("aaa");
+		// }
+		$("#fen_mod").click(function(){
+		  window.history.back();
+		})
+	})
+</script>
+
+</html>

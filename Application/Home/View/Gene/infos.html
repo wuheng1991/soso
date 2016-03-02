@@ -1,0 +1,147 @@
+<include file="Index/header" />
+<style type="text/css">
+    #op:hover{
+      cursor:pointer;
+      color:red;
+    }
+    .xingxing{
+        color:red;
+    }
+    .dianji:hover{
+        cursor:pointer;
+        color:red;
+    }
+    .Submit:hover{
+         cursor:pointer;
+        color:red;
+    }
+
+
+</style>
+<div id="main">
+    <div class="maincon">
+    <div class="order_con">
+        
+         <!--表单开始-->
+        <form action="{:U('Gene/forms')}" method="post">
+
+        <table cellspacing="0" cellpadding="0" width="100%" border="1">
+            <legend>基因合成服务(<span class="xingxing">*</span>必填项)</legend>
+            <tr align="center">
+                <td><span class="xingxing">*</span>基因名称</td>
+                <td> 5' 端序列</td>
+                <td><span class="xingxing">*</span>序列选项：<input type="radio" onClick="proteinalert(0)" checked="checked" value="DNA" name="seqType" required="required">DNA &nbsp;&nbsp;<input type="radio" onClick="proteinalert(1)" value="Protein" name="seqType">蛋白</td>
+                <td> 3'  端序列</td>
+                <td>密码子优化</td>
+                <td>克隆方式</td>
+                 
+            </tr>
+            <tr align="center">
+                <td>    <input type="text" name="gene_name" required="required" placeholder="基因名称必填" /></td>
+                <td> <input type="text" name="gene_serial_5"</td>
+                <td><textarea name="gene_contents"  placeholder="序列内容必填"></textarea></td>
+                <td><input type="text"></td>
+                <td>    <input type="radio" onclick="a.show();" 
+                    value="y" name="gene_seo">是　　　
+                <input type="radio" value="n" checked="" name="gene_seo">否</td>
+                <td><select name="gene_clone_method">
+                <option value="pUC57">pUC57-Amp</option>
+                <option value="pUC57-Kan">pUC57-Kana</option>
+                <option value="pUC57-Simple">pUC57-Simple</option>
+                 <option value="pUC57-Simple">pUC19-Amp(短基因默认)</option>
+
+              </select></td>
+            </tr>
+
+            <tr align="center">
+                <td> 克隆位点</td>
+                <td>其他要求</td>
+                <td>质粒制备:</td>
+                <td><span class="xingxing">*</span>质粒—模板名称</td>
+                <td>质粒—质量级别</td>
+                <td>质粒—附加分析</td>
+            </tr>
+
+            <tr align="center">
+                <td><input type="text" name="gene_clone_site"/></td>
+                <td><textarea name="gene_other" style=""></textarea></td>
+                <td><input type="radio" name="gene_zhili_sel"  value="免费" id="1_0" checked="checked"/> 准备交付: 4 μg (免费)<br/><input type="radio" name="gene_zhili_sel" value="自定义" id="1_1" /> 自定义质粒制备: 
+                <select name="gene_zhili_content">
+                  <option value="100 ug">100 μg</option>
+                  <option value="200 ug">200 μg</option>
+                  <option value="500 ug">300 μg</option>
+                  <option value="500 ug">400 ug</option>
+                  <option value="500 ug">500 ug</option>
+                   
+              </select></td>
+                <td><input type="text" name="gene_zhili_name" required="required" placeholder="模板名称必填"/></td>
+                <td> <input id=pls_grade_1 name="gene_zhili_level" type="radio"  value="研究级"/>研究级
+    <br>
+      <input id=pls_grade_2 name="gene_zhili_level" type="radio" value="细胞转染级"/>细胞转染级</td>
+                <td><select style="width:193px;" name="gene_zhili_additional">
+                            <option value=""></option>     
+                    <option value="Bio-Burden Assay">Bio-Burden Assay</option>
+                    <option value="Endotoxin Assay (LAL test)">Endotoxin Assay (LAL test)</option>
+                    <option value="Restriction Analysis">Restriction Analysis</option>
+                    </select></td>  
+            </tr>
+
+
+            <tr align="center">
+                <td>质粒—存储条件</td>
+                <td>质粒—缓冲液</td>
+                <td colspan="4" align="left">
+                     <center><h3>联系我们</h3></center>
+                     a.批量订购或寻求基因合成技术支持<br/>
+                     b.您可以发送批量FASTA格式的基因序列到 <a id="f66" href="#"><u>order@genecreate.com</u></a>邮箱，或者电话<font id="f66">027-88189683</font><br>
+        c.我们经验丰富的技术支持将帮助管理您的项目，从序列设计、优化、合成到克隆，无需收取任何额外收费
+                </td>
+                
+            </tr>
+
+            <tr align="center">
+                <td><select name="gene_zhili_storage">
+                    <option value=""></option>
+                    <option value="Liquid">Liquid</option>
+                    <option value="Freeze dried">Freeze dried</option>                  
+                </select></td>
+                <td> <select name="gene_zhili_cache">
+                     <option value=""></option> 
+                    <option value="TE">TE</option>
+                    <option value="ddH2O">ddH2O</option>
+                    
+                    <option value="Other">Other</option>
+                 </select></td>
+                <td colspan="4" align="center">
+                   <input type="submit" class="Submit" value="      保    存      "/>
+        
+                </td>
+                 
+            </tr>
+
+
+        </table>
+
+    </form>
+
+
+    <!--表单结束-->
+    </div>
+</div>
+</div>
+
+<script type="text/javascript">
+/<span class="xingxing">*</span>
+a,对表单的字段执行验证
+b.带星号你的为必填的内容，否则你提交表单不成功
+c.针对其他要求做出的效果样式
+<span class="xingxing">*</span>/
+
+
+
+
+
+</script>
+
+</body>
+</html>

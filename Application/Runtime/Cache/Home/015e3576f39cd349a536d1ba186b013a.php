@@ -1,0 +1,718 @@
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
+
+<html lang="zh-cn">
+
+  <head>
+
+    <title>金开瑞引物测序网络系统</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="renderer" content="webkit">
+
+    <link rel="stylesheet" href="/Public/Logo/css/pintuer.css">
+
+    <link rel="stylesheet" href="/Public/Logo/css/login.css">
+
+    <script  src="/Public/Consel/js/jquery.js"></script>
+
+    <style>
+
+	
+
+	
+
+ #menu{
+
+ width:1366px;
+
+ height:100px;
+
+ background-repeat:no-repeat; 
+
+}
+
+ 
+
+ .menu1{
+
+ background:url(/Public/Logo/images/1.jpg);
+
+
+
+ }
+
+ 
+
+ .menu2{
+
+ background:url(/Public/Logo/images/2.jpg);
+
+ 
+
+ }
+
+ 
+
+ .menu3{
+
+ background:url(/Public/Logo/images/3.jpg);
+
+
+
+ }
+
+ 
+
+ .menu4{
+
+ background:url(/Public/Logo/images/4.jpg);
+
+
+
+ }
+
+
+
+ .menu5{
+
+ background:url(/Public/Logo/images/5.jpg);
+
+
+
+ }
+
+ 
+
+  .menu5{
+
+ background:url(/Public/Logo/images/6.jpg);
+
+
+
+ }
+
+
+
+ .login-bg{position: absolute;left:0;top:0;width: 100%;height: 100%;bottom:50px;}
+
+ .login-bg img{position: absolute;left:0;top:0;width: 100%;height: 100%;}
+
+ .xheight{
+
+ 	border:0px solid red;
+
+ 	width:92px;
+
+ }
+
+</style>
+
+ 
+
+    <script type="text/javascript">
+
+$(document).ready(function(){
+
+	$('.imtnew').click(function(){
+
+		var m = new Date().getTime();
+
+		var url = "<?php echo U('User/verify');?>";
+
+		$(this).attr('src', "<?php echo U('User/verify');?>"+'?t='+m);
+
+	});
+
+	//$(".form-x").validform();
+
+	$('#submit').click(function(){
+
+		var opt = true;
+
+		if ( $('#email').val() == '' || !/^[a-z0-9]+([\+_\-\.]?[a-z0-9]+)*@([a-z0-9]+[\-]?[a-z0-9]+\.)+[a-z]{2,6}$/.test($('#email').val()) ){
+
+			alert('请输入正确的邮箱地址！');
+
+			opt = false;
+      document.getElementById('email').value='';
+			$('#email').focus();
+
+			return false;
+
+
+
+		} 
+
+		if ($.trim($('#pass').val()) == ''){
+
+			alert('请输入你的密码！');
+
+			opt = false;
+      document.getElementById('pass').value='';
+			$('#pass').focus();
+
+			return false;
+
+		}
+
+		if ($.trim($('#repass').val()) == ''){
+
+			alert('请再次输入你的密码！');
+
+			opt = false;
+      document.getElementById('repass').value='';
+			$('#repass').focus();
+
+			return false;
+
+		}
+
+		if($.trim($('#pass').val()) != $.trim($('#repass').val())){
+
+			alert('两次输入的密码不一致！');
+
+			opt = false;
+
+			$('#repass').focus();
+
+			return false;
+
+		}
+
+	
+
+		
+
+		// 对新增内容的处理
+
+		if($.trim($("#username").val()) == ''){
+
+         alert("联系人不能为空！");
+
+         opt = false;
+      document.getElementById('username').value='';
+         
+         $("#username").focus();
+
+         return false;
+
+		}
+
+
+
+		if($.trim($("#company").val()) == ''){
+
+         alert("所在单位不能为空！");
+
+         opt = false;
+      document.getElementById('company').value='';
+         
+         $("#company").focus();
+
+         return false;
+
+		}
+
+		if($.trim($("#address").val()) == ''){
+
+         alert("所在单位地址不能为空！");
+
+         opt = false;
+      document.getElementById('address').value='';
+         
+         $("#address").focus();
+
+         return false;
+
+		}
+
+		if($.trim($("#subject").val()) == ''){
+
+         alert("课题组信息不能为空！");
+
+         opt = false;
+      document.getElementById('subject').value='';
+        
+         $("#subject").focus();
+
+         return false;
+
+		}
+
+		if($.trim($("#dutyer").val()) == ''){
+
+         alert("实验室负责人信息不能为空！");
+
+         opt = false;
+      document.getElementById('dutyer').value='';
+        
+         $("#dutyer").focus();
+
+         return false;
+
+		}
+
+		// if($.trim($("#piao").val()) == ''){
+
+  //        alert("发票抬头信息不能为空！");
+
+  //        opt = false;
+
+  //        $("#piao").focus();
+
+  //        return false;
+
+		// }
+
+		// if($.trim($("#tempaddress").val()) == ''){
+
+  //        alert("发货地址信息不能为空！");
+
+  //        opt = false;
+
+  //        $("#tempaddress").focus();
+
+  //        return false;
+
+		// }
+
+
+
+		if($.trim($("#province").val()) == ""){
+
+         alert("所在省份必须填写！");
+
+         opt = false;
+
+         $("#province").focus();
+
+         return false;
+
+		}
+
+
+
+       cs = $("#province").val();
+
+       if((cs != "32") || (cs != "33") || (cs != "35")){
+
+        if($("#city").val()=='0'){ 
+
+         alert("所在城市地区必须填写！");
+
+         opt = false;
+
+         $("#city").focus();
+
+         return false;
+
+          }
+
+		} 
+
+
+
+
+
+		// 	if ($('#code').val() == ''){
+
+		// 	alert("请输入验证码！");
+
+		// 	opt = false;
+
+		// 	$('#code').focus();
+
+		// 	return false;
+
+		// } else {
+
+		// 	$.ajax({
+
+		// 		type:'POST',
+
+		// 		url:"<?php echo U('User/capajax');?>",
+
+		// 		data:'code='+$('#code').val(),
+
+		// 		async:false,
+
+		// 		success:function(html)
+
+		// 		{
+
+		// 			if (html == 'error')
+
+		// 			{
+
+		// 				alert("验证码错误！");
+
+		// 				opt = false;
+
+		// 				$('#code').focus();
+
+		// 				return false;
+
+		// 			}
+
+		// 		}
+
+		// 	});
+
+		// }
+
+
+
+// if ($('#tel').val() == '' || !/^13[0-9]{9}$|14[0-9]{9}|15[0-9]{9}$|18[0-9]{9}$/.test($('#tel').val())){
+    if ($('#tel').val() == ''){
+    
+			alert("请填写正确的联系方式！");
+
+			opt = false;
+      document.getElementById('tel').value='';
+     
+			$('#tel').focus();
+
+			return false;
+
+			// $('#tel').focus();
+
+		}
+
+		if (opt){
+
+			$("#customForm").submit();
+
+		}
+
+	});
+
+});
+
+</script>
+
+</head>
+
+<body>
+
+<div id="viploginbg" class="login-bg" style="border:0px solid red;"><img id="login-bg-img" src="" alt=""/></div>
+
+<div class="login" style="border:0px solid red; width:600px; height:640px;margin-left:-310px;
+margin-top:-0px;">
+    <div style="float:left; width:270px; height:200px; margin-top:170px;border:0px solid red;">
+        <div class="logo2"><img src="/Public/Logo/images/logo.png" alt="logo" /></div>
+        <h1 class="text-big" style="border:0px solid red; margin-bottom:30px;"><strong>用户注册信息</strong></h1>
+        <br>
+        <p style="padding-left:15px;text-indent:2em;">
+           <span style="font-style:italic;"><span style="color:red;">温馨提示</span>： 注册后，请及时联系本地销售人员并开通帐号，方能登陆；否则无法登陆。</span>
+        </p>
+    </div>
+   
+	<div style="float:right; width:320px; margin-top:30px;border:0px solid red;">
+		<div class="form2" style="border:0px solid red;margin-bottom:30px;margin-top:3px;">
+           
+            <form id="customForm" method="post" autocomplete="off" class="form-x" action="<?php echo U('User/reg');?>">
+
+              <input type="hidden" name="wuheng_ha" id="wuheng_ha" value=""/>
+    
+           <div class="line-small clearfix margin-bottom">
+    
+            <div class="x2 xheight"><label>邮箱:</label></div>
+    
+            <div class="x8"><input type="text" name="email" class="input2 input" id="email" size="20"></div>
+    
+            
+    
+          </div>
+    
+          
+    
+           <div class="line-small clearfix margin-bottom">
+    
+            <div class="x2 xheight"><label>密码:</label></div>
+    
+            <div class="x8"><input type="password" name="passwd" id="pass" class="input2 input" size="20"></div>
+    
+          </div>
+    
+          
+    
+           <div class="line-small clearfix margin-bottom">
+    
+            <div class="x2 xheight"><label>确认密码:</label></div>
+    
+            <div class="x8"><input type="password" name="passwd-re" id="repass" class="input2 input" size="20"></div>
+    
+          </div>
+    
+          <!-- 新增内容开始 -->
+    
+          <div class="line-small clearfix margin-bottom">
+    
+            <div class="x2 xheight"><label>联系人:</label></div>
+    
+            <div class="x8"><input type="text" name="name" id="username" class="input2 input" size="20"></div>
+    
+          </div>
+    
+    
+    
+           <div class="line-small clearfix margin-bottom">
+    
+            <div class="x2 xheight"><label>所在单位:</label></div>
+    
+            <div class="x8"><input type="text" name="company" id="company" class="input2 input" size="20"></div>
+    
+          </div>
+    
+    
+    
+          <div class="line-small clearfix margin-bottom">
+    
+            <div class="x2 xheight"><label>单位地址:</label></div>
+    
+            <div class="x8"><input type="text" name="address" id="address" class="input2 input" size="20"></div>
+    
+          </div>
+    
+    
+    
+          <div class="line-small clearfix margin-bottom">
+    
+            <div class="x2 xheight"><label>课题组:</label></div>
+    
+            <div class="x8"><input type="text" name="subject" id="subject" class="input2 input" size="20"></div>
+    
+          </div>
+    
+    
+    
+          <div class="line-small clearfix margin-bottom">
+    
+            <div class="x2 xheight"><label>实验室负责人:</label></div>
+    
+            <div class="x8"><input type="text" name="dutyer" id="dutyer" class="input2 input" size="20"></div>
+    
+          </div>
+    
+    
+    
+          <div class="line-small clearfix margin-bottom">
+    
+            <div class="x2 xheight"><label>发票抬头:</label></div>
+    
+            <div class="x8"><input type="text" name="piao" id="piao" class="input2 input" size="20"></div>
+    
+          </div>
+    
+    
+    
+          <div class="line-small clearfix margin-bottom">
+    
+            <div class="x2 xheight"><label>发货地址:</label></div>
+    
+            <div class="x8">
+    
+                <input type="text" name="tempaddress" id="tempaddress" class="input2 input" size="20"></div>
+    
+          </div>
+    
+          <!-- 新增内容结束 -->
+    
+          
+    
+             <div class="line-small clearfix margin-bottom">
+    
+            <div class="x2 xheight"><label>所在城市:</label></div>
+    
+            <div class="x8">
+    
+                 <select name="province" id="province">
+    
+                <option value="">选择</option>
+    
+                <?php foreach($proList as $k=>$PL) { ?>
+    
+                    <?php if ($userInfo['province'] == $PL['id']){?>
+    
+                    <option value="<?php echo $PL['id']?>" selected="selected"><?php echo $PL['name']?></option>
+    
+                    <?php }else {?>
+    
+                    <option value="<?php echo $PL['id']?>"><?php echo $PL['name']?></option>
+    
+                    <?php }?>
+    
+                <?php }?>
+    
+            </select>
+    
+            <?php if ($userInfo['city'] > 0){ ?>
+    
+                <select name="city" id="city">
+    
+                    <?php foreach ($city as $ck=>$cv){?>
+    
+                        <?php if ($cv['id'] == $userInfo['city']){?>
+    
+                        <option value="<?php echo $cv['id']?>" selected="selected"><?php echo $cv['name']?></option>
+    
+                        <?php }else{ ?>
+    
+                        <option value="<?php echo $cv['id']?>"><?php echo $cv['name']?></option>
+    
+                        <?php }?>
+    
+                    <?php } ?>
+    
+            <?php } else {?>
+            </select>
+    
+            <select name="city" id="city" style="display:none;">
+    
+            <?php }?>
+    
+            </select>
+    
+           <!--  <img src="<?php echo U('User/verify');?>" class="imtnew"  	> -->
+    
+            </div>
+    
+          </div>
+				<div class="line-small clearfix margin-bottom">
+
+				<div class="x2 xheight"><label>联系方式:</label></div>
+
+				<div class="x8"><input type="text" id="tel" name="phone" class="input2 input" size="20"></div>
+
+			</div>
+
+      <div class="line-small clearfix margin-bottom">
+
+        <div class="x2 xheight"><label>销售联系人:</label></div>
+
+        <div class="x8"><input type="text" id="sale_name" name="sale_name" class="input2 input" size="20"></div>
+
+      </div>
+
+			<div class="line-big abt" style="border:0px solid red;">
+
+				<div class="x4" style="border:0px solid red;margin-left:40px;margin-top:-10px;"><a href="javascript:;" title="点击注册" id="submit" class="button button-block text-center bc">注册</a></div>
+                <div class="x4" style="border:0px solid red;margin-top:-10px;"><a href="/index.php/Home/User.html" title="返回" id="submit" class="button button-block text-center bc">返回</a></div>
+
+       		</div>    
+
+        	</form>
+
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>
+
+<script>
+
+window.onload=roll;
+
+function roll(){
+
+var menu = document.getElementById("login-bg-img");
+
+var rnd=Math.floor(Math.random()*6)+1;
+
+menu.src = "/Public/Logo/images/3.jpg";
+
+
+
+//dom->获取style 采用驼峰写法..
+
+// menu.style.backgroundImage="url('images/"+"_MG_"+rnd+".jpg')";
+
+}
+
+
+$(function(){
+
+$("#email").blur(function(){
+
+// alert($(this).val());
+
+value = $(this).val();
+
+value = $.trim(value);
+
+ $.ajax({
+
+   type: "GET",
+
+   url: "/index.php/Home/User/myEmail",
+
+   data:"content="+value,
+
+   success: function(msg){
+
+      // $('#notes').empty();
+
+      // $('#notes').html(msg);
+
+      
+
+      //  $(".xialan").animate({scrollTop:$(".xialan").offset().top+10000},1000);
+
+      //  $("#hahaha").select();
+
+      // alert(msg);
+
+      // console.log(msg);
+    
+      if(msg !="wuheng"){
+
+       alert(msg);
+
+      $("#email").focus();
+      return false;
+
+      }
+
+
+
+   }
+
+});
+
+});
+
+});
+
+
+$('#province').change(function(){
+
+$.ajax({
+
+    type:'POST',
+
+    url:"<?php echo U('User/getcity');?>",
+
+    data:'id='+$(this).val(),
+
+    success:function(html)
+
+    {
+
+        $('#city option').remove();
+
+        $('#city').show();
+
+        $('#city').append(html);
+
+    }
+
+});
+
+});
+
+</script>

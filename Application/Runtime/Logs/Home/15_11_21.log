@@ -1,0 +1,371 @@
+[ 2015-11-21T00:36:57+08:00 ] 116.31.126.72 /index.php/home/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2015-11-21T00:36:59+08:00 ] 116.31.126.72 /index.php/home/user/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `ge_area` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_area` WHERE (  reid = 0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 552 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2015-11-21T03:20:02+08:00 ] 123.125.71.88 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2015-11-21T03:20:02+08:00 ] 123.125.71.73 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2015-11-21T09:06:07+08:00 ] 116.31.126.36 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019896s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2015-11-21T09:06:07+08:00 ] 117.34.111.135 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019853s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2015-11-21T09:06:08+08:00 ] 117.34.111.135 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2015-11-21T09:06:08+08:00 ] 117.34.111.135 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2015-11-21T09:06:08+08:00 ] 117.34.111.85 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+
+[ 2015-11-21T09:06:22+08:00 ] 117.34.111.135 /index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `ge_area` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `ge_area` WHERE (  reid = 0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 552 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2015-11-21T09:06:22+08:00 ] 101.71.55.110 /index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `ge_area` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ge_area` WHERE (  reid = 0 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 538 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/015e3576f39cd349a536d1ba186b013a.php 第 552 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2015-11-21T09:06:33+08:00 ] 117.34.111.135 /index.php/Home/User/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2015-11-21T09:18:40+08:00 ] 101.71.55.110 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2015-11-21T13:57:43+08:00 ] 101.71.55.130 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2015-11-21T13:57:43+08:00 ] 101.71.55.130 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2015-11-21T13:57:43+08:00 ] 183.136.190.62 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2015-11-21T16:22:24+08:00 ] 61.54.46.39 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+
+[ 2015-11-21T17:48:03+08:00 ] 117.34.111.85 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+

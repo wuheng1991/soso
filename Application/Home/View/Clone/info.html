@@ -1,0 +1,832 @@
+ <include file="Index/header" />
+<style type="text/css">
+    #op:hover{
+      cursor:pointer;
+      color:red;
+    }
+    .xingxing{
+        color:red;
+    }
+    .dianji:hover{
+        cursor:pointer;
+        color:red;
+    }
+
+
+
+
+</style>  
+
+<script type="text/javascript">
+//   $(function(){
+//   // alert($("#clone_name option").length);
+//   num = $("#clone_name option").length;
+
+//   // alert($("#clone_name option").get(1).value);
+//   for(i = 0; i < num; i ++){
+//     $("#clone_name option").get(i).value = i;
+//     $("#clone_zaiti_name option").get(i).value = i;
+
+//   }
+
+// // alert("aaa");  clone_zaiti_name
+//   // alert( $("#clone_name option").get(1).value);
+//   });
+
+</script>
+                                 
+<div id="main">
+  <div class="maincon">
+
+    <div class="order_con">
+        <div class="bread b33" style="margin:16px 0 10px 0;">PCR克隆及亚克隆(<span class="xingxing">*</span> 必填项)</div>
+
+        <form method="post" autocomplete="off" onsubmit="return form_check();" action="{:U('Clone/forms_do')}" enctype="multipart/form-data">
+        
+        <foreach name="cloneinfo" item="info" >
+
+        <input type="hidden" name="hd_clone_name" id="hd_clone_name" value=''/>
+        <input type="hidden" name="hd_clone_zaiti_name" id="hd_clone_zaiti_name" value=''/>
+
+        <input type="hidden" name="clone_id" value="{$info['id']}" >
+        <input type="hidden" name="clone_orderid" value="{$info['orderid']}" >
+
+        <table cellspacing="0" cellpadding="0" width="100%" border="0">
+            <tr>
+                <td><span class="xingxing">*</span>插入片段名称：<input type="text" size="30" 
+                name="clone_title" id="clone_title" value="{$info['clone_title']}"  placeholder="请填写片段名称" /></td>
+            </tr>
+            <tr>
+                <td><span class="xingxing">*</span>克隆方法：克隆位点：<input type="text" 
+                  size="30" name="clone_site" id="clone_site" value="{$info['clone_site']}"   placeholder="请填写克隆位点"/> (例如: BamHI-HindIII)</td>
+            </tr>
+            <tr>
+              <td><span class="xingxing">*</span>插入序列：</td>
+            </tr>
+            <tr>
+              <td><textarea name="clone_serial" id="clone_serial"  placeholder="请填写插入序列" style="width:986px; height:50px;">{$info['clone_serial']}</textarea></td>
+            </tr>
+            <tr>
+              <td><span class="xingxing">*</span>载体名称：
+                <select name="clone_name" id="clone_name" style="margin-top:2px; width:186px;"  >
+
+  <option value="0" <eq name="info['clone_name']" value="0">selected</eq>></option>
+  <option value="1" <eq name="info['clone_name']" value="1">selected</eq>>pBC-SK+</option>
+  <option value="2" <eq name="info['clone_name']" value="2">selected</eq>>pBluescript II KS+</option> 
+  <option value="3" <eq name="info['clone_name']" value="3">selected</eq>>pCEP4</option>
+  <option value="4" <eq name="info['clone_name']" value="4">selected</eq>>pCMV-Myc</option>
+  <option value="5" <eq name="info['clone_name']" value="5">selected</eq>>pCR2.1</option> 
+  
+  <option value="6" <eq name="info['clone_name']" value="6">selected</eq>>pDsRed2-1</option> 
+  <option value="7" <eq name="info['clone_name']" value="7">selected</eq>>pEcoli-Cterm 6xHN</option>
+  <option value="8" <eq name="info['clone_name']" value="8">selected</eq>>pET-11a</option>
+  <option value="9" <eq name="info['clone_name']" value="9">selected</eq>>pET-11b</option>
+  <option value="10" <eq name="info['clone_name']" value="10">selected</eq>>pET-11d</option>
+  <option value="11" <eq name="info['clone_name']" value="11">selected</eq>>pET-12a</option>
+  <option value="12" <eq name="info['clone_name']" value="12">selected</eq>>pET-14b</option>
+  <option value="13" <eq name="info['clone_name']" value="13">selected</eq>>pET-15b</option>
+  <option value="14" <eq name="info['clone_name']" value="14">selected</eq>>pET-16b</option>  
+  <option value="15" <eq name="info['clone_name']" value="15">selected</eq>>pET-17b</option>
+  <option value="16" <eq name="info['clone_name']" value="16">selected</eq>>pET-20b(+)</option>
+  <option value="17" <eq name="info['clone_name']" value="17">selected</eq>>pET-21a(+)</option>
+  <option value="18" <eq name="info['clone_name']" value="18">selected</eq>>pET-21b(+)</option>
+  <option value="19" <eq name="info['clone_name']" value="19">selected</eq>>pET-21d(+)</option>
+  <option value="20" <eq name="info['clone_name']" value="20">selected</eq>>pET-22b(+)</option>
+  <option value="21" <eq name="info['clone_name']" value="21">selected</eq>>pET-23a(+)</option>
+  <option value="22" <eq name="info['clone_name']" value="22">selected</eq>>pET-23d(+)</option>
+  <option value="23" <eq name="info['clone_name']" value="23">selected</eq>>pET-24a(+)</option>
+  <option value="24" <eq name="info['clone_name']" value="24">selected</eq>>pET-24b(+)</option>
+  <option value="25" <eq name="info['clone_name']" value="25">selected</eq>>pET-24c</option>
+  <option value="26" <eq name="info['clone_name']" value="26">selected</eq>>pET-25b(+)</option>
+  <option value="27" <eq name="info['clone_name']" value="27">selected</eq>>pET-26b+</option>
+  <option value="28" <eq name="info['clone_name']" value="28">selected</eq>>pET-27b(+)</option>
+  <option value="29" <eq name="info['clone_name']" value="29">selected</eq>>pET-28a(+)</option>
+  <option value="30" <eq name="info['clone_name']" value="30">selected</eq>>pET-28b(+)</option>
+  <option value="31" <eq name="info['clone_name']" value="31">selected</eq>>pET-29b+</option>
+  <option value="32" <eq name="info['clone_name']" value="32">selected</eq>>pET-29a(+)</option>
+  <option value="33" <eq name="info['clone_name']" value="33">selected</eq>>pET-3a</option> 
+  <option value="34" <eq name="info['clone_name']" value="34">selected</eq>>PET-30a(+)</option>
+  <option value="35" <eq name="info['clone_name']" value="35">selected</eq>>pET-30b(+)</option>
+  <option value="36" <eq name="info['clone_name']" value="36">selected</eq>>pET-32a(+)</option>
+  <option value="37" <eq name="info['clone_name']" value="37">selected</eq>>pET-32b+</option>
+  <option value="38" <eq name="info['clone_name']" value="38">selected</eq>>pET-39b</option>
+  <option value="39" <eq name="info['clone_name']" value="39">selected</eq>>pET-3c</option>
+  <option value="40" <eq name="info['clone_name']" value="40">selected</eq>>pET-3d</option>
+  <option value="41" <eq name="info['clone_name']" value="41">selected</eq>>pET-41a(+)</option>
+  <option value="42" <eq name="info['clone_name']" value="42">selected</eq>>pET-41b(+)</option>
+  <option value="43" <eq name="info['clone_name']" value="43">selected</eq>>pET-43.1a(+)</option>
+  <option value="44" <eq name="info['clone_name']" value="44">selected</eq>>pET-44b(+)</option>
+  <option value="45" <eq name="info['clone_name']" value="45">selected</eq>>pET-45b+</option>
+  <option value="46" <eq name="info['clone_name']" value="46">selected</eq>>pET-49b+</option>
+  <option value="47" <eq name="info['clone_name']" value="47">selected</eq>>pET-52b</option>
+  <option value="48" <eq name="info['clone_name']" value="48">selected</eq>>pET-9a</option>  
+  <option value="49" <eq name="info['clone_name']" value="49">selected</eq>>pET-9d</option>
+  <option value="50" <eq name="info['clone_name']" value="50">selected</eq>>pPIC3.5K</option> 
+  <option value="51" <eq name="info['clone_name']" value="51">selected</eq>>pUC18</option>
+  <option value="52" <eq name="info['clone_name']" value="52">selected</eq>>pUC19</option>
+  <option value="53" <eq name="info['clone_name']" value="53">selected</eq>>pUC57</option>
+  <option value="54" <eq name="info['clone_name']" value="54">selected</eq>>pDream 2.1</option>
+  <option value="55" <eq name="info['clone_name']" value="55">selected</eq>>Other</option>
+
+                    </select>
+                  </td>
+            </tr>
+            <tr>
+              <td><span class="xingxing">*</span>载体大小：
+                <input type="text" name="clone_size" id="clone_size"  placeholder="请填写载体的大小" /></td>
+            </tr>
+            <tr>
+              <td><span class="xingxing">*</span>抗 性：
+         <select name="clone_kangxing" id="clone_kangxing" >
+              <option value="0" class="xialan" ></option> 
+    <option value="1">Ampicillin</option> 
+    <option value="2">Blasticidin</option>
+    <option value="3">Chloramphenicol</option>
+    <option value="4">Clarithromycin</option>
+    <option value="5">Kanamycin</option>
+    <option value="6">Streptomycin</option>
+    <option value="7">Tetracyclin</option> 
+    <option value="8">Other</option>
+    </select></td>
+            </tr>
+            <tr>
+                <td><span class="xingxing">*</span>拷贝数：
+                  <input type="radio" value="1"  checked="true" id="clone_copy_a"  name="clone_copy">高　　　　
+                  <input type="radio" value="2" onClick="" id="clone_copy_b" name="clone_copy">低</td>
+            </tr>
+            <tr>
+                <td>载体序列：
+    <input type="text" size="100" name="clone_serial_a" id="clone_serial_a" /></td>
+      </tr>
+      <tr>
+                <td>载体图谱：<input type="file" name="clone_file" id="clone_file" value="选择文件"> 未选择文件
+                </td>
+            </tr>
+      <tr>
+                <td><strong>目标质粒构建：</strong></td>
+            </tr>
+            <tr>
+                <td>目标插入序列名称：<input type="text" size="30" id="clone_zhili_title" name="clone_zhili_title" value="{$info['clone_zhili_title']}" /> (如果与模板插入序列名称不同)</td>
+            </tr>
+            <tr>
+                <td><span class="xingxing">*</span>克隆方法：克隆位点：<input type="text" size="30" name="clone_zhili_way" id="clone_zhili_way" value="{$info['clone_zhili_way']}"  placeholder="请填写质粒克隆位点" /> (例如: BamHI-HindIII)</td>
+            </tr>
+            <tr>
+                <td><span class="xingxing">*</span>目标插入序列：<input type="checkbox" 
+                  onclick='tong()' <eq name="info.clone_zhili_serial" value="$info['clone_serial']">checked</eq>>与模板插入序列相同</td>
+            </tr>
+            <tr>
+                <td>
+      <textarea name="clone_zhili_serial" id="clone_zhili_serial" cols="80" rows="2">{$info['clone_zhili_serial']}</textarea>
+                </td>
+            </tr>
+          <!--   <tr>
+                <td><strong>质粒制备：</strong></td>
+            </tr> -->
+            <!-- <tr>
+                <td>目标插入序列名称: <input type="text" size="30" name="clone_zhili_name" /> (如果与模板插入序列名称不同)</td>
+            </tr> -->
+          <!--   <tr>
+                <td><textarea name="clone_zhili_content" style="width:986px; height:50px;"></textarea></td>
+            </tr> -->
+
+            <tr>
+                <td><span class="xingxing">*</span>目标载体：<br />
+            <input type="radio" value="1"  name="clone_zaiti" id="target_a" 
+            <eq name="info['clone_zaiti']" value="1">checked</eq>/>与模板相同<br />
+        <input type="radio" value="2"  name="clone_zaiti"  ss="" id="target_b" <eq name="info['clone_zaiti']" value="2">checked</eq>/>其 他<br />
+
+            <span class="xingxing">*</span>载体名称：
+
+        <select  style=" margin-top:2px;width:186px;" name="clone_zaiti_name" id="clone_zaiti_name">
+
+
+  <option value="0" <eq name="info['clone_zaiti_name']" value="0">selected</eq>></option>
+  <option value="1" <eq name="info['clone_zaiti_name']" value="1">selected</eq>>pBC-SK+</option>
+  <option value="2" <eq name="info['clone_zaiti_name']" value="2">selected</eq>>pBluescript II KS+</option> 
+  <option value="3" <eq name="info['clone_zaiti_name']" value="3">selected</eq>>pCEP4</option>
+  <option value="4" <eq name="info['clone_zaiti_name']" value="4">selected</eq>>pCMV-Myc</option>
+  <option value="5" <eq name="info['clone_zaiti_name']" value="5">selected</eq>>pCR2.1</option> 
+  
+  <option value="6" <eq name="info['clone_zaiti_name']" value="6">selected</eq>>pDsRed2-1</option> 
+  <option value="7" <eq name="info['clone_zaiti_name']" value="7">selected</eq>>pEcoli-Cterm 6xHN</option>
+  <option value="8" <eq name="info['clone_zaiti_name']" value="8">selected</eq>>pET-11a</option>
+  <option value="9" <eq name="info['clone_zaiti_name']" value="9">selected</eq>>pET-11b</option>
+  <option value="10" <eq name="info['clone_zaiti_name']" value="10">selected</eq>>pET-11d</option>
+  <option value="11" <eq name="info['clone_zaiti_name']" value="11">selected</eq>>pET-12a</option>
+  <option value="12" <eq name="info['clone_zaiti_name']" value="12">selected</eq>>pET-14b</option>
+  <option value="13" <eq name="info['clone_zaiti_name']" value="13">selected</eq>>pET-15b</option>
+  <option value="14" <eq name="info['clone_zaiti_name']" value="14">selected</eq>>pET-16b</option>  
+  <option value="15" <eq name="info['clone_zaiti_name']" value="15">selected</eq>>pET-17b</option>
+  <option value="16" <eq name="info['clone_zaiti_name']" value="16">selected</eq>>pET-20b(+)</option>
+  <option value="17" <eq name="info['clone_zaiti_name']" value="17">selected</eq>>pET-21a(+)</option>
+  <option value="18" <eq name="info['clone_zaiti_name']" value="18">selected</eq>>pET-21b(+)</option>
+  <option value="19" <eq name="info['clone_zaiti_name']" value="19">selected</eq>>pET-21d(+)</option>
+  <option value="20" <eq name="info['clone_zaiti_name']" value="20">selected</eq>>pET-22b(+)</option>
+  <option value="21" <eq name="info['clone_zaiti_name']" value="21">selected</eq>>pET-23a(+)</option>
+  <option value="22" <eq name="info['clone_zaiti_name']" value="22">selected</eq>>pET-23d(+)</option>
+  <option value="23" <eq name="info['clone_zaiti_name']" value="23">selected</eq>>pET-24a(+)</option>
+  <option value="24" <eq name="info['clone_zaiti_name']" value="24">selected</eq>>pET-24b(+)</option>
+  <option value="25" <eq name="info['clone_zaiti_name']" value="25">selected</eq>>pET-24c</option>
+  <option value="26" <eq name="info['clone_zaiti_name']" value="26">selected</eq>>pET-25b(+)</option>
+  <option value="27" <eq name="info['clone_zaiti_name']" value="27">selected</eq>>pET-26b+</option>
+  <option value="28" <eq name="info['clone_zaiti_name']" value="28">selected</eq>>pET-27b(+)</option>
+  <option value="29" <eq name="info['clone_zaiti_name']" value="29">selected</eq>>pET-28a(+)</option>
+  <option value="30" <eq name="info['clone_zaiti_name']" value="30">selected</eq>>pET-28b(+)</option>
+  <option value="31" <eq name="info['clone_zaiti_name']" value="31">selected</eq>>pET-29b+</option>
+  <option value="32" <eq name="info['clone_zaiti_name']" value="32">selected</eq>>pET-29a(+)</option>
+  <option value="33" <eq name="info['clone_zaiti_name']" value="33">selected</eq>>pET-3a</option> 
+  <option value="34" <eq name="info['clone_zaiti_name']" value="34">selected</eq>>PET-30a(+)</option>
+  <option value="35" <eq name="info['clone_zaiti_name']" value="35">selected</eq>>pET-30b(+)</option>
+  <option value="36" <eq name="info['clone_zaiti_name']" value="36">selected</eq>>pET-32a(+)</option>
+  <option value="37" <eq name="info['clone_zaiti_name']" value="37">selected</eq>>pET-32b+</option>
+  <option value="38" <eq name="info['clone_zaiti_name']" value="38">selected</eq>>pET-39b</option>
+  <option value="39" <eq name="info['clone_zaiti_name']" value="39">selected</eq>>pET-3c</option>
+  <option value="40" <eq name="info['clone_zaiti_name']" value="40">selected</eq>>pET-3d</option>
+  <option value="41" <eq name="info['clone_zaiti_name']" value="41">selected</eq>>pET-41a(+)</option>
+  <option value="42" <eq name="info['clone_zaiti_name']" value="42">selected</eq>>pET-41b(+)</option>
+  <option value="43" <eq name="info['clone_zaiti_name']" value="43">selected</eq>>pET-43.1a(+)</option>
+  <option value="44" <eq name="info['clone_zaiti_name']" value="44">selected</eq>>pET-44b(+)</option>
+  <option value="45" <eq name="info['clone_zaiti_name']" value="45">selected</eq>>pET-45b+</option>
+  <option value="46" <eq name="info['clone_zaiti_name']" value="46">selected</eq>>pET-49b+</option>
+  <option value="47" <eq name="info['clone_zaiti_name']" value="47">selected</eq>>pET-52b</option>
+  <option value="48" <eq name="info['clone_zaiti_name']" value="48">selected</eq>>pET-9a</option>  
+  <option value="49" <eq name="info['clone_zaiti_name']" value="49">selected</eq>>pET-9d</option>
+  <option value="50" <eq name="info['clone_zaiti_name']" value="50">selected</eq>>pPIC3.5K</option> 
+  <option value="51" <eq name="info['clone_zaiti_name']" value="51">selected</eq>>pUC18</option>
+  <option value="52" <eq name="info['clone_zaiti_name']" value="52">selected</eq>>pUC19</option>
+  <option value="53" <eq name="info['clone_zaiti_name']" value="53">selected</eq>>pUC57</option>
+  <option value="54" <eq name="info['clone_zaiti_name']" value="54">selected</eq>>pDream 2.1</option>
+  <option value="55" <eq name="info['clone_zaiti_name']" value="55">selected</eq>>Other</option>
+
+            
+
+             </select>
+         </td>
+            </tr>
+            <tr>
+              <td><span class="xingxing">*</span>载体大小bp：<input type="text" size="30" 
+                name="clone_zaiti_size" id="clone_zaiti_size" /></td>
+            </tr>
+            <tr>
+                <td><span class="xingxing">*</span>抗性：<select  onchange="checkOther(this,'other_input4');" class="custClon" id="clone_zaiti_kangxing" name="clone_zaiti_kangxing">
+       
+     <option value="0"></option> 
+    <option value="1">Ampicillin</option> 
+    <option value="2">Blasticidin</option>
+    <option value="3">Chloramphenicol</option>
+    <option value="4">Clarithromycin</option>
+    <option value="5">Kanamycin</option>
+    <option value="6">Streptomycin</option>
+    <option value="7">Tetracyclin</option> 
+    <option value="8">Other</option>
+              </select>
+
+            </td>
+            </tr>
+            <tr>
+                <td><span class="xingxing">*</span>拷贝数：
+                    <input type="radio" value="1" 
+                    name="clone_zaiti_copy" id="copy_aa" checked="true">高
+                    <input type="radio" name="clone_zaiti_copy" id="copy_bb" value="2">低</td>
+            </tr>
+            <tr>
+                <td>载体序列：<input type="text" size="100"
+                name="clone_zaiti_serial" id="clone_zaiti_serial"/></td>
+      </tr>
+      <tr>
+                <td>载体图谱：
+            <input type="file" name="clone_zaiti_file" id="clone_zaiti_file" value="选择文件"> 未选择文件</td>
+            </tr>
+            <tr>
+                <td><strong>基因用途: </strong><br />
+        <input type="radio" name="clone_use" value="1" class="top_1" <eq name="info['clone_use']" value="1">checked</eq>/>蛋白表达与分析
+　      <input type="radio" name="clone_use" value="2" class="top_2" <eq name="info['clone_use']" value="2">checked</eq>/>启动子筛选
+　      <input type="radio" name="clone_use" value="3" class="top_2" <eq name="info['clone_use']" value="3">checked</eq>/>RNAi, 表观遗传学和基因调控<br>
+        <input type="radio" name="clone_use" value="4" class="top_2" <eq name="info['clone_use']" value="4">checked</eq>/>克隆
+　      <input type="radio" name="clone_use" value="5" class="top_2" <eq name="info['clone_use']" value="5">checked</eq>/>DNA 疫苗
+　      <input type="radio" name="clone_use" value="6" class="top_2" <eq name="info['clone_use']" value="6">checked</eq>/>重组抗体　
+        <input type="radio" name="clone_use" value="7" class="top_2" <eq name="info['clone_use']" value="7">checked</eq>/>其 他</td>
+            </tr>
+            <tr class="top_3">
+                <td><span class="xingxing">*</span>阅读框：<br/>
+    <input type="radio" name="clone_read" checked="true" value="1"/>没有要求&nbsp;&nbsp;
+    <input type="radio" name="clone_read" value="2"/>和客户的要求是一致的</td>
+            </tr>
+            <tr>
+                <td>其他要求：</td>
+            </tr>
+            <tr>
+                <td><textarea name="clone_other" id="clone_other" style="width:986px; height:50px;"></textarea></td>
+            </tr>
+            <tr>
+                <td>质粒制备：</td>
+            </tr>
+            <tr>
+              <td>
+            <input type="radio" value="1" id="clone_zhili_sel_a" name="clone_zhili_sel" <eq name="info['clone_zhili_sel']" value="1">checked</eq>> 标准交付: 4 μg (免费)</td>
+            </tr>
+            <tr>
+              <td>
+            <input type="radio" value="2"   
+            name="clone_zhili_sel" id="clone_zhili_sel_b" <eq name="info['clone_zhili_sel']" value="2">checked</eq>>定制质粒制备：
+            <select name="clone_zhili_option"  id="clone_zhili_option"  <eq name="info['clone_zhili_sel']" value="1">disabled="disabled"</eq>>
+              
+
+
+
+             <option value="1" <eq name="info['clone_zhili_option']" value="1">selected</eq>>100 μg</option>
+<option value="2" <eq name="info['clone_zhili_option']" value="2">selected</eq>>200 μg</option>
+<option value="3" <eq name="info['clone_zhili_option']" value="3">selected</eq>>500 μg</option>
+<option value="4" <eq name="info['clone_zhili_option']" value="4">selected</eq>>1 mg</option>
+<option value="5" <eq name="info['clone_zhili_option']" value="5">selected</eq>>2 mg</option>
+<option value="6" <eq name="info['clone_zhili_option']" value="6">selected</eq>>10 mg</option> 
+<option value="7" <eq name="info['clone_zhili_option']" value="7">selected</eq>>20 mg</option> 
+<option value="8" <eq name="info['clone_zhili_option']" value="8">selected</eq>>50 mg</option> 
+<option value="9" <eq name="info['clone_zhili_option']" value="9">selected</eq>>100 mg</option> 
+<option value="10" <eq name="info['clone_zhili_option']" value="10">selected</eq>>200 mg</option>
+<option value="11" <eq name="info['clone_zhili_option']" value="11">selected</eq>>500 mg</option>
+<option value="12" <eq name="info['clone_zhili_option']" value="12">selected</eq>>1000 mg</option>
+<option value="13" <eq name="info['clone_zhili_option']" value="13">selected</eq>>1500 mg</option>
+<option value="14" <eq name="info['clone_zhili_option']" value="14">selected</eq>>2000 mg</option>
+<option value="15" <eq name="info['clone_zhili_option']" value="15">selected</eq>>Other</option>
+ 
+              </select>
+          </td>
+            </tr>
+            <tr>
+              <td><span class="xingxing">*</span>模板名称：
+                <input type="text" id="clone_moban" name="clone_moban" size="30" value="{$info['clone_moban']}" <eq name="info['clone_zhili_sel']" value="1">disabled="disabled"</eq>/></td>
+            </tr>
+            <tr>
+              <td>质量级别：<a id="f66" href="#">帮 助</a></td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" value="0" id="clone_help_a"  name="clone_help" <eq name="info['clone_help']" value="0">checked</eq> <eq name="info['clone_zhili_sel']" value="1">disabled="disabled"</eq>> Research Grade(Predominantly supercoiled, animal free)<br />
+                <input type="radio" value="1" id="clone_help_b"  name="clone_help" <eq name="info['clone_help']" value="1">checked</eq> <eq name="info['clone_zhili_sel']" value="1">disabled="disabled"</eq>> SC Grade (≥95% Supercoilded, ≤0.03 EU/ug Endotoxin)<br />
+                <input type="radio" value="2" id="clone_help_c"  name="clone_help" <eq name="info['clone_help']" value="2">checked</eq> <eq name="info['clone_zhili_sel']" value="1">disabled="disabled"</eq>> Advanced SC Grade(≥95% Supercoilded, ≤0.005 EU/ug Endotoxin)
+            </td>
+            </tr>
+            <tr>
+              <td align="center">
+                    <input type="submit" style="padding:8px;background:#FF6633;color:white;font-weight:bold;font-size:16px;" onclick="" value=" 编辑订单 " name="op" id="op">
+                </td>
+            </tr>
+        </table>
+
+       </foreach>
+
+     </form>
+
+  </div>
+
+
+
+
+</div>
+</div>
+</body>
+<script type="text/javascript">
+ $(function(){
+
+
+
+
+        // alert($("#target_a").attr("checked"));
+
+        // 目标载体开始
+        if($("#target_a").attr("checked")=="checked"){
+         $("#clone_zaiti_name").attr("disabled","true");
+         $("#clone_zaiti_size").attr("disabled","true");
+         $("#clone_zaiti_kangxing").attr("disabled","true");
+         $("#copy_aa").attr("disabled","true");
+         $("#copy_bb").attr("disabled","true");
+         $("#clone_zaiti_serial").attr("disabled","true");
+         $("#clone_zaiti_file").attr("disabled","true");
+     
+         }
+        // 目标载体结束  
+
+        // 点击事件 : #target_b开始
+        $("#target_b").click(function(){
+         $("#clone_zaiti_name").removeAttr("disabled");
+         $("#clone_zaiti_size").removeAttr("disabled");
+         $("#clone_zaiti_kangxing").removeAttr("disabled");
+         $("#copy_aa").removeAttr("disabled");
+         $("#copy_bb").removeAttr("disabled","false");
+         $("#clone_zaiti_serial").removeAttr("disabled");
+        
+          //   ccc = $.trim($("#clone_zaiti_serial").val());
+          //   if(ccc != ''){
+          //     alert(ccc);
+          //   pipei = /[BDEFHIJKLMNOPQRSUVWXYZ]+/i;
+          //   if(pipei.test(ccc)){
+               
+          //     alert("序列中含有非法字符，请重回新输入！");
+          //      $("#clone_zaiti_serial").focus();
+               
+
+          //   }
+          // }
+
+         //  fffffffffff
+         $("#clone_zaiti_file").removeAttr("disabled");
+         $("#target_b").attr("ss","wuheng");
+        });
+          // 点击事件 : #target_b结束
+
+           // 点击事件 : #target_a开始
+        $("#target_a").click(function(){
+         $("#clone_zaiti_name").attr("disabled","true");
+         $("#clone_zaiti_size").attr("disabled","true");
+         $("#clone_zaiti_kangxing").attr("disabled","true");
+         $("#copy_aa").attr("disabled","true");
+         $("#copy_bb").attr("disabled","true");
+         $("#clone_zaiti_serial").attr("disabled","true");
+         $("#clone_zaiti_file").attr("disabled","true");
+         $("#target_b").attr("ss","");
+        });
+            // 点击事件 : #target_a结束
+
+    // 质粒制备开始
+    if($("#clone_zhili_sel_a").attr("checked")=="checked"){
+        $("#clone_zhili_option").attr("disabled","true");
+        $("#clone_moban").attr("disabled","true");
+        $("#clone_help_a").attr("disabled","true");
+        $("#clone_help_b").attr("disabled","true");
+        $("#clone_help_c").attr("disabled","true");
+       // console.log("aaa");
+        }
+        //点击事件 #clone_zhili_sel_a开始
+        $("#clone_zhili_sel_a").click(function(){
+        $("#clone_zhili_option").attr("disabled","true");
+        $("#clone_moban").attr("disabled","true");
+        $("#clone_help_a").attr("disabled","true");
+        $("#clone_help_b").attr("disabled","true");
+        $("#clone_help_c").attr("disabled","true");
+        });
+        //点击事件 #clone_zhili_sel_a结束
+
+
+        //点击事件 #clone_zhili_sel_b开始
+        $("#clone_zhili_sel_b").click(function(){
+        
+        www = $.trim($("#clone_zhili_title").val());
+        if(www == ''){
+          alert("目标插入序列名称不能为空！");
+          $("#clone_zhili_title").focus();
+
+          $("#clone_zhili_sel_a").attr("checked","true");
+          document.getElementById("clone_zhili_sel_a").checked="checked";
+          $("#clone_zhili_option").attr("disabled","true");
+
+        $("#clone_moban").attr("disabled","true");
+        $("#clone_help_a").attr("disabled","true");
+        $("#clone_help_b").attr("disabled","true");
+        $("#clone_help_c").attr("disabled","true");
+
+        }else{
+
+        $("#clone_zhili_option").removeAttr("disabled");
+        $("#clone_moban").removeAttr("disabled");
+        
+        w = $.trim($("#clone_zhili_title").val());
+        h = $.trim($("#clone_name option:selected").text());
+        wh = w+'_'+h;
+        document.getElementById("clone_moban").value=wh;
+
+        $("#clone_help_a").removeAttr("disabled");
+        $("#clone_help_b").removeAttr("disabled");
+        $("#clone_help_c").removeAttr("disabled");
+      }
+        });
+        //点击事件 #clone_zhili_sel_b结束
+
+        //点击事件 .top_1开始
+        $(".top_1").click(function(){
+         $(".top_3").show();
+        });
+         //点击事件.top_1结束
+        $(".top_2").click(function(){
+          // console.log("test");
+          // alert("aaaa");
+         $(".top_3").hide();
+        });
+
+          //点击事件 .top_2开始
+         //点击事件 .top_3结束
+
+         //选择事件开始 a
+         $("#clone_name").change(function(){
+         dd = $.trim($("#clone_name").val());
+         if(dd != "0"){
+            $("#clone_size").attr("disabled","true");
+             document.getElementById("clone_size").value="";
+              $("#clone_kangxing").attr("disabled","true");
+              $(".xialan").attr("selected","selected");
+              //  $("#clone_kangxing").attr("value","0");
+              // document.getElementById("clone_kangxing").value="";
+
+              $("#clone_copy_a").attr("disabled","true");
+              $("#clone_copy_b").attr("disabled","true");
+              $("#clone_serial_a").attr("disabled","true");
+                document.getElementById("clone_serial_a").value="";
+                
+              $("#clone_file").attr("disabled","true");
+            }else{
+               $("#clone_size").removeAttr("disabled");
+              $("#clone_kangxing").removeAttr("disabled");
+              $("#clone_copy_a").removeAttr("disabled");
+              $("#clone_copy_b").removeAttr("disabled");
+              $("#clone_serial_a").removeAttr("disabled");
+              $("#clone_file").removeAttr("disabled");
+            }
+         });
+         //选择事件结束 a
+
+         // 选择事件开始 b
+           $("#clone_zaiti_name").change(function(){
+
+             bb = $.trim($("#clone_zaiti_name").val());
+             if(bb != "0"){
+               $("#clone_zaiti_size").attr("disabled","true");
+                document.getElementById("clone_zaiti_size").value="";
+                $("#clone_zaiti_kangxing").attr("disabled","true");
+                
+                $("#copy_aa").attr("disabled","true");
+                $("#copy_bb").attr("disabled","true");
+                $("#clone_zaiti_serial").attr("disabled","true");
+                document.getElementById("clone_zaiti_serial").value="";
+                $("#clone_zaiti_file").attr("disabled","true");
+
+  document.getElementById("hd_clone_zaiti_name").value = $.trim($("#clone_zaiti_name option:selected").text());               
+
+
+             }else{
+                $("#clone_zaiti_size").removeAttr("disabled");
+                $("#clone_zaiti_kangxing").removeAttr("disabled");
+                $("#copy_aa").removeAttr("disabled");
+                $("#copy_bb").removeAttr("disabled");
+                $("#clone_zaiti_serial").removeAttr("disabled");
+                $("#clone_zaiti_file").removeAttr("disabled");
+             }
+           });
+         //选择事件结束 b
+    
+    //clone_name  
+   if($("#clone_name").val() != '0'){
+      document.getElementById("clone_size").value="";
+              $("#clone_kangxing").attr("disabled","true");
+              $(".xialan").attr("selected","selected");
+              //  $("#clone_kangxing").attr("value","0");
+              // document.getElementById("clone_kangxing").value="";
+
+              $("#clone_copy_a").attr("disabled","true");
+              $("#clone_copy_b").attr("disabled","true");
+              $("#clone_serial_a").attr("disabled","true");
+                document.getElementById("clone_serial_a").value="";
+                
+              $("#clone_file").attr("disabled","true");
+   }
+
+   // clone_zaiti_name
+   if($("#clone_zaiti_name").val() != '0'){
+    $("#clone_zaiti_size").attr("disabled","true");
+                document.getElementById("clone_zaiti_size").value="";
+                $("#clone_zaiti_kangxing").attr("disabled","true");
+                
+                $("#copy_aa").attr("disabled","true");
+                $("#copy_bb").attr("disabled","true");
+                $("#clone_zaiti_serial").attr("disabled","true");
+                document.getElementById("clone_zaiti_serial").value="";
+                $("#clone_zaiti_file").attr("disabled","true");
+   }
+
+   // if($("#clone_zhili_sel_a").attr("checked") == "checked"){
+   //  alert("aaa");
+   // }
+
+   if($(".top_1").attr("checked") !="checked"){
+      $(".top_3").hide();
+   }
+
+   if($("#target_b").attr("checked")=="checked"){
+         if($("#clone_zaiti_name").attr("value") != '0'){
+        document.getElementById("hd_clone_zaiti_name").value = $.trim($("#clone_zaiti_name option:selected").text());
+         }
+
+   }
+
+    });
+
+
+     function tong(){
+              // alert("aaaa");
+              abc = $.trim($("#clone_serial").val());
+              document.getElementById("clone_zhili_serial").value= abc;
+              $("#clone_serial").focus();
+            }
+
+    function form_check(){
+            var flag = true;
+            a = $.trim($("#clone_title").val());
+            if(a==''){
+               flag = false;
+               alert("插入片段名称不能为空！");
+               $("#clone_title").focus();
+               return false; 
+            }else{
+              document.getElementById("clone_zhili_title").value=a;
+
+            }
+
+            b = $.trim($("#clone_site").val());
+            if(b==''){
+               flag = false;
+               alert("克隆位点不能为空！");
+               $("#clone_site").focus();
+               return false; 
+            }
+
+            c = $.trim($("#clone_serial").val());
+            if(c==''){
+               flag = false;
+               alert("插入序列不能为空！");
+               $("#clone_serial").focus();
+               return false; 
+            }
+
+            //规则
+            reg = /[BDEFHIJKLMNOPQRSUVWXYZ]+/i;
+            if(reg.test(c)){
+              flag = false;
+              alert("序列中含有非法字符，请重回新输入！");
+               $("#clone_serial").focus();
+               return false; 
+
+            }
+            //载体名称
+            d = $.trim($("#clone_name").val());
+            if(d=='0'){
+               flag = false;
+               alert("载体名称不能为空！");
+               $("#clone_name").focus();
+               return false; 
+            }else{
+  document.getElementById("hd_clone_name").value = $.trim($("#clone_name option:selected").text());
+            }
+
+
+
+            // else{
+            //   $("#clone_size").attr("disabled","true");
+            //   $("#clone_kangxing").attr("disabled","true");
+            //   $("#clone_copy_a").attr("disabled","true");
+            //   $("#clone_copy_b").attr("disabled","true");
+            // }
+            //载体大小
+            // e = $.trim($("#clone_size").val());
+            // if(e==''){
+            //    flag = false;
+            //    alert("载体大小不能为空！");
+            //    $("#clone_size").focus();
+            //    return false; 
+            // }
+            //抗性
+            //  f = $.trim($("#clone_kangxing").val());
+            // if(f=='0'){
+            //    flag = false;
+            //    alert("载体抗性不能为空！");
+            //    $("#clone_kangxing").focus();
+            //    // console.log("aaa");
+            //    return false; 
+            // }
+
+            //载体序列
+            sss = $.trim($("#clone_serial_a").val());
+
+            if(reg.test(sss)){
+              flag = false;
+              alert("序列中含有非法字符，请重回新输入！");
+               $("#clone_serial_a").focus();
+               return false; 
+
+            }
+
+
+            //克隆方法：克隆位点
+             g = $.trim($("#clone_zhili_way").val());
+            if(g==''){
+               flag = false;
+               alert("目标质粒的克隆位点不能为空！");
+               $("#clone_zhili_way").focus();
+               // console.log("aaa");
+               return false; 
+            }
+            //目标插入序列
+            h = $.trim($("#clone_zhili_serial").val());
+            if(h==''){
+               flag = false;
+               alert("目标质粒的目标插入序列不能为空！");
+               $("#clone_zhili_serial").focus();
+               // console.log("aaa");
+               return false; 
+            }
+
+            if(reg.test(h)){
+              flag = false;
+              alert("序列中含有非法字符，请重回新输入！");
+               $("#clone_zhili_serial").focus();
+               return false; 
+
+            }
+
+
+
+            if($("#target_b").attr("ss")=="wuheng"){
+                // console.log("qq");
+                // alert("aaaa");
+              //载体名称  clone_zaiti_name
+              i = $.trim($("#clone_zaiti_name").val());
+            if(i=='0'){
+               flag = false;
+               alert("目标载体下的载体名称不能为空！");
+               $("#clone_zaiti_name").focus();
+               // console.log("aaa");
+               return false; 
+            }
+
+
+          //   else{
+          //     //载体大小bp  clone_zaiti_size
+          //     j = $.trim($("#clone_zaiti_size").val());
+          //   if(j==''){
+          //      flag = false;
+          //      alert("目标载体下的载体大小bp不能为空！");
+          //      $("#clone_zaiti_size").focus();
+          //      // console.log("aaa");
+          //      return false; 
+          //   }
+          //     //抗性 clone_zaiti_kangxing
+          //     k = $.trim($("#clone_zaiti_kangxing").val());
+          //   if(k=='0'){
+          //      flag = false;
+          //      alert("目标载体下的抗性不能为空！");
+          //      $("#clone_zaiti_kangxing").focus();
+          //      // console.log("aaa");
+          //      return false; 
+          //   }
+
+          //      ccc = $.trim($("#clone_zaiti_serial").val());
+          //   if(ccc != ''){
+          //     // alert(ccc);
+          //   pipei = /[BDEFHIJKLMNOPQRSUVWXYZ]+/i;
+          //   if(pipei.test(ccc)){
+          //       flag = false;
+          //     alert("序列中含有非法字符，请重回新输入！");
+          //      $("#clone_zaiti_serial").focus();
+          //      return false;
+
+          //   }
+          // }
+
+
+          // }
+
+            }
+
+            // $.trim($("#clone_name option:selected").text())
+
+
+            if(flag == "true"){
+                return true;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            // alert($.trim($("#clone_title").val()));
+            // if($("#clone_title").value)
+            // alert($("#target_a").attr("checked"));
+            // // alert("aaaa");
+            //  console.log("wuheng");
+
+          
+           }
+
+
+   
+</script>
+</html>

@@ -1,0 +1,258 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>武汉金开瑞生物工程有限公司---后台管理</title>
+<link href="__PUBLIC__/Consel/css/style.css" rel="stylesheet" type="text/css">
+<script  src="__PUBLIC__/Consel/js/jquery.js"></script>
+<!-- <script  src="__PUBLIC__/Consel/js/jquery-ui.min.js"></script> -->
+<link href="__PUBLIC__/Consel/js/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+</head>
+<script>
+// $(document).ready(function(){
+// 	$( "#stime" ).datepicker({
+// 		dateFormat:'yy-mm-dd'
+// 	});
+// 	$( "#etime" ).datepicker({
+// 		dateFormat:'yy-mm-dd'
+// 	});
+// 	var p = {$page};
+// 	var countP = {$pages};
+// 	$('#next').click(function(){
+// 		var dang = p + 1;
+// 		if (p<countP){
+// 			$('#page').val(dang);
+// 		} else {
+// 			$('#page').val(countP);
+// 			return false;
+// 		}
+// 		$('#sequencingForm').submit();
+// 	});
+// 	$('#pre').click(function(){
+// 		if (p<2) return false;
+// 		var pdang = p - 1;
+// 		$('#page').val(pdang);
+// 		$('#sequencingForm').submit();
+// 	});
+// 	$('#select7').change(function(){
+// 		$('#page').val($(this).val());
+// 		$('#sequencingForm').submit();
+// 	});
+// 	$('#search').click(function(){
+// 		$('#page').val('');
+// 		$('#sequencingForm').submit();
+// 	});
+// });
+</script>
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" background="__PUBLIC__/Consel/images/hui.jpg">
+	<tr>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+<!-- <form id="sequencingForm" method="post" action="{:U('gene/index')}">
+<input type="hidden" name="page" id="page" value="{$page}" /> -->
+<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="100%" align="center" valign="top" bgcolor="#FFFFFF">
+        	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+						<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="border-bottom:#ccc solid 1px; margin-bottom:10px;">
+							<tr>
+								<td width="2%" height="30"><img src="__PUBLIC__/Consel/images/2_r1.jpg" /></td>
+								<td width="73%" class="index-5"><span class="index-7"><font style="color:#f57e20;">{:session('admin-name')}</font>，您已登录成功！<a href="{:U('User/logout')}"  target=_top>退出</a></span></td>
+								<td width="25%"><a href="http://www.jkrorder.com/index.php/Manage.html" target="top">后台主页</a>&nbsp;&nbsp;&nbsp;&nbsp;
+									武汉金开瑞生物工程有限公司
+								</td>
+							</tr>
+						</table>
+				  	</td>
+				</tr>
+				<tr>
+					<td>
+                    <!-- 	<table width="100%" cellpadding="4" cellspacing="0" border="0" align="center">
+							<tr>
+						<td>客户姓名：<input type="text" name="customer" value="{$customer}"/></td>		
+						<td width="11%" align="right">订单号：</td>
+						<td width="15%"><input type="text" name="code" value="{$code}" /></td>
+								<td width="47%" align="left">时间：
+								<input type="text" id="stime" name="stime" value="{$stime}" /> - <input id="etime" type="text" name="etime" value="{$etime}" />
+								</td>
+                                <td><img id="search" src="__PUBLIC__/Consel/images/query_btn.gif" /></td>
+							</tr>
+						</table> -->
+					</td>
+				</tr>
+			</table>
+			<table  width="100%" border="1" class="bj-1">
+                <tr align="center"   class="wbd" bgcolor="#276CC7" style="background:red;height:10px;">
+                    <td style="background:#276CC7;color:white;height:10px;">客户姓名</td>
+                     <td style="background:#276CC7;color:white;height:10px;">下单时间</td>
+                      <td style="background:#276CC7;color:white;height:10px;">订单号</td>
+                       <td style="background:#276CC7;color:white;height:10px;">订购状态</td>
+                        <td style="background:#276CC7;color:white;height:10px;">快递单号</td>
+                       <td style="background:#276CC7;color:white;height:10px;">总金额(￥)</td>
+                        <td colspan="2" style="background:#276CC7;color:white;height:10px;">相关文件上传</td>
+                         <!-- <td style="background:#276CC7;color:white;height:10px;">测试1</td> -->
+                </tr>
+               
+                <tr align="center" class="wbd"  style="height:30px;">
+                    <td  > 
+                   {$header.uid|getClientName}
+                    </td>
+                     <td  >
+                       {$header.addtime|date="Y-m-d / H:i:s",###}
+                     </td>
+                      <td  >
+                        <!-- <if condition="$header.num eq ''">
+                            暂无订单号
+                       <else />
+                      {$header.num}  
+                       </if>  -->
+                       {$header.code_yw}
+                      </td>
+                       <td  >
+                    <if condition="$header.synthesis eq 1">
+                         <span style="color:black;">{$header.synthesis|getPrimerSynthesis} </span>
+                    <elseif  condition="$header.synthesis eq 2"/>
+                         <span style="color:red;">{$header.synthesis|getPrimerSynthesis} </span>
+                    <elseif condition="$header.synthesis eq 3"/>
+                      <span style="color:green;">{$header.synthesis|getPrimerSynthesis} </span>
+                    <elseif condition="$header.synthesis eq 4"/>
+                      <span style="color:green;">{$header.synthesis|getPrimerSynthesis} </span> 
+                    <elseif condition="$header.synthesis eq 5"/>
+                      <span style="color:green;">{$header.synthesis|getPrimerSynthesis} </span>
+                    <elseif condition="$header.synthesis eq 6"/>
+                      <span style="color:green;">{$header.synthesis|getPrimerSynthesis} </span>
+                    <elseif condition="$header.synthesis eq 7"/>
+                      <span style="color:green;">{$header.synthesis|getPrimerSynthesis} </span> 
+
+                    </if>
+                         
+                      </td>
+                      <td>
+                          <if condition="$header.num eq ''">
+                            暂无发货号
+                       <else />
+                      {$header.num}  
+                       </if> 
+                      </td>
+                      <td>{$header.sale_money}</td>
+                        <td   valign="middle">
+                          <!-- 文件上传 -->
+                          <form action="{:U('Primer/shangchuan','id='.$orderID)}" method="post"  enctype="multipart/form-data">
+                            <input type="file" name="yaya" /><input type="submit" style="cursor:pointer;" value="上传"><br/>
+                            <span style="color:red;font-style:italic;">注意：单个,多个文件压缩为压缩包再上传！支持:rar格式&nbsp;&nbsp;(如：xxx.rar)</span>
+                          </form>
+                        </td>
+                         <!-- <td  ></td> -->
+                </tr>
+               
+           </table>
+			<table width="100%" border="1" class="bj-1">
+				<tr>
+                    <td align="center" valign="middle" rowspan="2">留言反馈</td>
+                    <td align="left"  colspan="5" id="notes" class="xialan">
+    <span style="color:red;font-family:微软雅黑;">系统消息：尊敬的管理员先生/女士，您好！请耐心解答相关专业问题。
+        <br/></span>
+        <hr/>
+        <foreach name="notes" item="info">
+        	<eq name="info.flag" value="0">
+            <span style="color:green;">提问:</span>【{$info.addtime|date='Y-m-d / H:i:s',###}】<span style="color:green;">{$info.content|trim}</span><br/>
+            <else />
+            <span style="color:red;">解答:</span>【{$info.addtime|date='Y-m-d / H:i:s',###}】<span style="color:red;">{$info.content|trim}</span><br/>
+        </eq>
+        </foreach>
+    </td>
+                </tr>
+                <form action="{:U('Gene/liuyan','oid='.$orderid)}" method="post" autocomplete="off"> 
+                <tr>
+                    <td colspan="4">
+                        <textarea name="contents" id="hahaha" placeholder="我来解答..." cols="100" rows="1"></textarea>
+                    </td>
+                    <td>
+                        <input type="button" style="cursor:pointer;" id="liuyan_order" value="  提 交  " />
+                    </td>
+                </tr>
+                </form>
+                
+				 
+			</table>
+			<br/>
+			<br/>
+		<!-- 	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				 
+			</table> -->
+		</td>
+	</tr>
+</table>
+<!-- </form> -->
+</body>
+<style type="text/css">
+	#search{
+		cursor:pointer;
+	}
+	#select7{
+		cursor:pointer;
+	}
+	#pre{
+		cursor:pointer;
+	}
+	#next{
+		cursor:pointer;
+	}
+	.bj-1{
+		border-collapse:collapse;
+	}
+	.xialan{
+        display:block;
+        height:300px;
+        overflow-y:auto;
+    }
+</style>
+<script>
+   $("#liuyan_order").click(function(){
+   	 content = $("#hahaha").val();
+        content = content.replace(/(^\s*)|(\s*$)/g, "");
+        // alert("111");
+         $.ajax({
+           type: "GET",
+           // url: "http://www.jkrorder.com/index.php/Manage/Primer/liuyan",
+           url: "/index.php/Manage/Primer/liuyan",
+           data:"id_order="+{$orderid}+"&id_user="+{$id_user}+"&content="+content,
+           success: function(msg){
+               $('#notes').empty();
+              $('#notes').html(msg);
+              $(".wbd").attr("height","20");
+               
+               $(".xialan").animate({scrollTop:$(".xialan").offset().top+10000},1000);
+               $("#hahaha").select();
+              // alert(msg);
+
+           }
+        });
+         document.getElementById("hahaha").value="";
+   })
+
+   function go(){
+     $.ajax({
+           type: "GET",
+           // url: "http://www.jkrorder.com/index.php/Manage/Primer/liuyan",
+           url: "/index.php/Manage/Primer/liuyan_all",
+           data:"id_order="+{$orderid},
+           success: function(msg){
+               $('#notes').empty();
+              $('#notes').html(msg);
+              $(".wbd").attr("height","20");
+               
+               $(".xialan").animate({scrollTop:$(".xialan").offset().top+10000},120000);
+               $("#hahaha").focus();
+              // alert(msg);
+
+           }
+        });
+
+   }
+   setInterval("go()",60000);
+</script>
+</html>

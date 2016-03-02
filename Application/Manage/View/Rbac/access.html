@@ -1,0 +1,238 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>武汉金开瑞生物工程有限公司---后台管理</title>
+<link href="__PUBLIC__/Consel/css/style.css" rel="stylesheet" type="text/css">
+<script  src="__PUBLIC__/Consel/js/jquery.js"></script>
+<!-- <script  src="__PUBLIC__/Consel/js/jquery-ui.min.js"></script> -->
+<!-- <link href="__PUBLIC__/Consel/js/jquery-ui.min.css" rel="stylesheet" type="text/css" /> -->
+</head>
+<style>
+   body{
+   	font-family:"微软雅黑";
+   }
+	#search:hover{
+		cursor:pointer;
+	}
+	#pre{
+     cursor:pointer;
+	}
+	#next{
+    cursor:pointer;
+	}
+	#select7{
+		 cursor:pointer;
+	}
+	.prev{
+		border:0px solid red;
+		padding:6px;
+	}
+	.next{
+		border:0px solid red;
+		padding:6px;
+	}
+	.current{
+		border:1px solid red;
+	}
+	.num{
+		padding:4px;
+	}
+</style>
+ 
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" background="__PUBLIC__/Consel/images/hui.jpg">
+	<tr>
+		<td>&nbsp;</td>
+	</td>
+</table>
+<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="100%" align="center" valign="top" bgcolor="#FFFFFF">
+        	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+						<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="border-bottom:#ccc solid 1px; margin-bottom:10px;">
+							<tr>
+								<td width="2%" height="30"><img src="__PUBLIC__/Consel/images/2_r1.jpg" /></td>
+								<td width="80%" class="index-5"><span class="index-7"><font style="color:#f57e20;">{:session('admin-name')}</font>，您已登录成功！<a href="{:U('User/logout')}"  target=_top>退出</a></td></td>
+								<td width="15%">武汉金开瑞生物工程有限公司</td>
+							</td>
+						</table>
+				  	</td>
+				</td>
+			</table>
+		</td>
+	</td>
+</table>
+
+<div style="margin-bottom:30px;">
+<div style="background:#CCCCCC;color:green;">权限管理 -》权限配置  </div>
+<div class="orderlist">
+
+<form action="{:U('Rbac/accessHandle')}" autocomplete="false" method="post">
+
+<table border="1"  style="border-collapse:collapse;margin-top:20px;" width="975" align="center">
+	<legend style="margin-top:20px;"><center>权限配置</center></legend>
+	<input type="hidden" name="rid" value="{$rid}"/>
+<tr align="left">
+	 <td style="text-align:left;"  colspan="2">您正在为用户组：<span style="color:blue;font-weight:bold;font-style:italic;font-size:14px;">{$name}</span> 分配权限！
+	 	<br/>
+
+<foreach name="nodeList" item="row">
+
+   <p style="text-indent:{$row['level']*26}px;<if condition="$row['level'] eq 3">float:left;margin-right:-40px;margin-top:-5px;<else />clear:both;</if>">
+
+ <input class="leval_all" type="checkbox" id="{$row['id']}" name="access[]" value="{$row['id']}_{$row['level']}" 
+ pid="{$row['pid']}" level="{$row['level']}" <if condition="$row['access'] eq 1">checked</if> />
+
+           	  <if condition="$row['level'] eq 1">
+           	  	<span style="font-weight:bold;">【项目】</span>
+
+              <elseif condition="$row['level'] eq 2" />
+              	<span style="font-weight:bold;">【模块】</span>
+
+           	  </if>
+
+       	      <label for="" name="name" value="{$row['id']}">{$row['title']}</label>
+    </p>
+</foreach>
+
+	 </td>
+	  
+</tr>
+ 
+ 
+ 
+<tr>
+	<td colspan="2" align="center">
+		<!-- <br/> -->
+		<br/>
+		<input style="cursor:pointer;" type="submit" value="保存修改"/>
+		<input style="cursor:pointer; margin-left:400px;" onclick="javascript:window.history.back();" type="button" value="返回"/>
+
+	</td>
+</tr>
+ 
+</table>
+
+</form>
+
+</div>
+ 
+
+
+
+</div>
+</body>
+</html>
+<style>
+.orderlist ul{list-style:none;width:100%;white-space: nowrap;}
+.orderlist li{width:100%;float:left;white-space: nowrap;} 
+.orderlist span { padding-left: 0px;}
+tr td{
+	width:120px;
+	text-align:center;
+}
+.more_link:hover{
+	color:red;
+}
+a{
+	text-decoration:none;
+}
+</style>
+
+
+<script type="text/javascript">
+	$(function(){
+	   $('input').click(function(){
+       // alert($(this).attr('level'));
+       level = $(this).attr('level'); //得到当前的层次：1-项目，2-模块，3-操作
+       if(level == 1){
+       	// alert('aaaaa');
+       	flag_a = $(this).prop('checked');
+       	if(flag_a == true){
+          $('.leval_all').attr('checked','checked');
+          num = $('.leval_all').length;
+           $('.leval_all').each(function(){
+            ids = $(this).attr('id');
+            document.getElementById(ids).checked="checked";
+
+           });
+       	}
+       	if(flag_a == false){
+        // alert('456');
+         $('.leval_all').removeAttr('checked');
+       	}
+       }
+
+       if(level == 2){
+       // alert('2222');
+       	flag_b = $(this).prop('checked');
+       	// alert(flag_b);
+       	if(flag_b == true){
+
+              document.getElementById("1").checked="checked";
+
+       		// alert('a');
+       		id_two = $(this).attr('id'); //二层次的id
+       		// alert(id_two);
+       		$('.leval_all').each(function(){
+            ids_two = $(this).attr('pid');  //循环遍历的pid
+            ids_three = $(this).attr('id'); //循环遍历的id
+            if(ids_two == id_two){
+              document.getElementById(ids_three).checked="checked";
+            }
+
+            // document.getElementById(ids).checked="checked";
+             // alert(ids_two);
+
+           });
+       		
+
+       	}
+       	if(flag_b == false){
+       		id_two = $(this).attr('id'); //二层次的id
+       		$('.leval_all').each(function(){
+            ids_two = $(this).attr('pid');  //循环遍历的pid
+            ids_three = $(this).attr('id'); //循环遍历的id
+            if(ids_two == id_two){
+              document.getElementById(ids_three).checked="";
+            }
+
+           
+
+           });
+           // alert('b');
+       	} 
+       }
+
+       if(level == 3){
+       	// alert("33333");
+       		flag_c = $(this).prop('checked');
+       		// alert(flag_c);
+       		
+       		if(flag_c == false){
+
+       	    document.getElementById("1").checked="checked";
+       	    id_four = $(this).attr('pid'); //三层次的id
+       	       document.getElementById(id_four).checked="checked";
+             // alert(id_four);
+            // alert(document.getElementById(id_four).checked); 
+       		}
+
+       		if(flag_c == true){
+
+       	      document.getElementById("1").checked="checked";
+       	     id_end = $(this).attr('pid'); //三层次的id
+       	     document.getElementById(id_end).checked="checked";
+       	     // document.getElementById(id_four).checked=''; 		
+            // alert('aaa');
+       		}
+       }
+
+
+
+	   });
+         
+	});
+</script>

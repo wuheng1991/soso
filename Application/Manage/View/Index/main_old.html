@@ -1,0 +1,540 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>武汉金开瑞生物工程有限公司---后台管理</title>
+<link href="__PUBLIC__/Consel/css/style.css" rel="stylesheet" type="text/css">
+<script  src="__PUBLIC__/Consel/js/jquery.js"></script>
+<!-- <script  src="__PUBLIC__/Consel/js/jquery-ui.min.js"></script> -->
+<link href="__PUBLIC__/Consel/js/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+   body{
+   	font-family:"微软雅黑";
+   }
+	#search:hover{
+		cursor:pointer;
+	}
+	#pre{
+     cursor:pointer;
+	}
+	#next{
+    cursor:pointer;
+	}
+	#select7{
+		 cursor:pointer;
+	}
+	.prev{
+		border:0px solid red;
+		padding:6px;
+	}
+	.next{
+		border:0px solid red;
+		padding:6px;
+	}
+	.current{
+		border:1px solid red;
+	}
+	.num{
+		padding:4px;
+	}
+</style>
+ 
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" background="__PUBLIC__/Consel/images/hui.jpg">
+	<tr>
+		<td>&nbsp;</td>
+	</td>
+</table>
+<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="100%" align="center" valign="top" bgcolor="#FFFFFF">
+        	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+						<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="border-bottom:#ccc solid 1px; margin-bottom:10px;">
+							<tr>
+								<td width="2%" height="30"><img src="__PUBLIC__/Consel/images/2_r1.jpg" /></td>
+								<td width="80%" class="index-5"><span class="index-7"><font style="color:#f57e20;">{:session('admin-name')}</font>，您已登录成功！<a href="{:U('User/logout')}"  target=_top>退出</a></td></td>
+								<td width="15%">武汉金开瑞生物工程有限公司</td>
+							</td>
+						</table>
+				  	</td>
+				</td>
+			</table>
+		</td>
+	</td>
+</table>
+
+<div style="margin-bottom:30px;">
+<div>最新测序订单 <a class="more_link" href="{:U('Index/sequencing')}" title="点击查看更多">More+</a></div>
+<div class="orderlist">
+
+<table border="1"  style="border-collapse:collapse;" width="1120">
+<tr>
+	<td>下单时间</td>
+	<td>订单号</td>
+	<td>客户姓名</td>
+	<td>客户邮件</td>
+	<td>客户电话</td>
+	<td>订单状态</td>
+	<td>订单提交方式</td>
+	<td>订单查看</td>
+	<td>是否查看</td>
+	<td>订单文件下载</td>
+	<td>相关文件上传</td>
+	<td>消息与留言</td>
+
+</tr>
+<volist name="se" id="SL">
+<tr>
+	<td>{$SL.addtime|date='Y-m-d/H:i:s',###}</td>
+	<td>{$SL.code}</td><td>{$SL.uid|getClientName}</td>
+	<td>{$SL.uid|getClientEmail}</td>
+	<td>{$SL.uid|getClientPhone}</td>
+	<td>{$SL.status|showOrderStatus}</td>
+	<td>
+		<empty name="SL.excelurl"> 
+   		在线填写
+    <else />
+    上传excel表单
+   </empty>
+	</td>
+	<td><a href="{:U('index/sequencingShow','id='.$SL['id'])}" title="点击查看详情">详情</a></td>
+	 <td>
+  	<eq name="SL.flag_check" value="0">
+  		No
+  		<else />
+  		Yes
+  	</eq>
+  </td>
+	<td>
+	   <empty name="SL.excelurl"> 
+		<a title="点击下载Excel文件" href="javascript:void();"
+		 onclick="javascript:window.location='/Test/cexu.php?id={$SL.id}';">下载</a>
+		 <else />
+		 <a href="<?php echo U('Index/file_a','oid='.$SL['id']);?>" title="点击下载Excel文件">下载</a>
+		
+	</empty>
+	</td>
+	<td>
+		<empty name="SL.jia">
+            未上传
+		  	<else />
+             已上传
+		  </empty>	
+	</td>
+	<td>
+		<eq name="SL.id|getStatus_b" value="1">
+    <a href="{:U('Index/ask','id='.$SL['id'])}" title="点击查看详情" style="color:red;">
+    	 新消息
+    </a>
+</eq>
+<eq name="SL.id|getStatus_b" value="2">
+    <a href="{:U('Index/ask','id='.$SL['id'])}" title="点击查看详情" style="color:green;">
+    	  暂无消息
+    </a>
+</eq>
+<eq name="SL.id|getStatus_a" value="">
+		  <a href="{:U('Index/ask','id='.$SL['id'])}" title="点击查看详情" style="color:green;">
+    	  暂无消息
+    </a>
+	</eq>
+	</td>
+	 
+</tr>
+
+</volist>
+ 
+</table>
+
+</div>
+<br/>
+<br/>
+<br/>
+
+<div>最新引物订单 <a class="more_link" href="{:U('Primer/index')}" title="点击查看更多">More+</a></div>
+<div class="orderlist">
+
+<table border="1"  style="border-collapse:collapse;" width="1120">
+<tr>
+	 <td>下单时间</td>
+	<td>订单号</td>
+	<td>客户姓名</td>
+	<td>客户邮件</td>
+	<td>客户电话</td>
+	<td>订单状态</td>
+	<td>订单提交方式</td>
+	<td>订单查看</td>
+	<td>是否查看</td>
+	<td>订单文件下载</td>
+	<td>文件上传</td>
+	<td>消息与留言</td>
+</tr>
+
+<volist name="pr" id="PR">
+<tr>
+	<td>{$PR.addtime|date='Y-m-d/H:i:s',###}</td>
+	<td>{$PR.code_yw}</td>
+	<td>{$PR.uid|getClientName}</td>
+	<td>{$PR.uid|getClientEmail}</td>
+	<td>{$PR.uid|getClientPhone}</td>
+    <!-- <if condition=""> -->
+	<td>{$PR.status|showOrderStatus}</td>
+
+   <td>
+   	<empty name="PR.excelurl"  > 
+   		在线填写
+    <else />
+    上传excel表单
+   </empty>
+</td>
+    <!-- <td>{$PR.num_yinwu}</td> -->
+   
+  
+  
+
+	<td><a href="{:U('primer/show','id='.$PR['id'])}" title="点击查看详情">详情</a></td>
+  <td>
+  	<eq name="PR.flag_check" value="0">
+  		No
+  		<else />
+  		Yes
+  	</eq>
+  </td>
+	<td>
+		 <empty name="PR.excelurl"  > 
+		<a title="点击下载Excel文件" href="javascript:void();"
+		 onclick="javascript:window.location='/Test/yinwu.php?id={$PR.id}';">下载</a>
+		 <else />
+		 <a href="<?php echo U('Index/file','oid='.$PR['id']);?>" title="点击下载Excel文件">下载</a>
+		
+	</empty>
+	</td>
+	<td>
+		  <empty name="PR.jia">
+            未上传
+		  	<else />
+             已上传
+		  </empty>	
+	</td>
+	<td> 
+    <eq name="PR.id|getStatus_a" value="1">
+    <a href="{:U('primer/ask','id='.$PR['id'])}" title="点击查看详情" style="color:red;">
+    	 新消息
+    </a>
+</eq>
+<eq name="PR.id|getStatus_a" value="2">
+    <a href="{:U('primer/ask','id='.$PR['id'])}" title="点击查看详情" style="color:green;">
+    	  暂无消息
+    </a>
+</eq>
+<eq name="PR.id|getStatus_a" value="">
+		  <a href="{:U('primer/ask','id='.$PR['id'])}" title="点击查看详情" style="color:green;">
+    	  暂无消息
+    </a>
+	</eq>
+
+	</td>
+</tr>
+</volist>
+ 
+</table>
+
+</div>
+
+<br/>
+<br/>
+<br/>
+<div>最新基因订单 <a class="more_link" href="{:U('Gene/index')}" title="点击查看更多">More+</a></div>
+<div class="orderlist">
+<table border="1"  style="border-collapse:collapse;" width="1120">
+<tr>
+	<td>下单时间</td>
+	<td>订单号</td>
+	<td>客户姓名</td>
+	<td>客户邮件</td>
+	<td>客户电话</td>
+	<td>订单状态</td>
+	<td>订单提交方式</td>
+	<td>订单查看</td>
+	<td>是否查看</td>
+	<td>订单文件下载</td>
+	<td>文件上传</td>
+	<td>消息与留言</td>
+</tr>
+<volist name="orders" id="ORDERS">
+<tr>
+	<td>{$ORDERS.addtime|date='Y-m-d/H:i:s',###}</td><td>{$ORDERS.code_yw}</td>
+	<td>{$ORDERS.uid|getClientName}</td>
+	<td>{$ORDERS.uid|getClientEmail}</td>
+	<td>{$ORDERS.uid|getClientPhone}</td>
+	<td>{$ORDERS.status|showOrderStatus}</td>
+	<td>
+			<empty name="ORDERS.excelurl"  > 
+   		在线填写
+    <else />
+    上传excel表单
+   </empty>
+	</td>
+	<td><a href="{:U('Gene/show','id='.$ORDERS['id'])}" title="点击查看详情">详情</a></td>
+	 <td>
+  	<eq name="ORDERS.flag_check" value="0">
+  		No
+  		<else />
+  		Yes
+  	</eq>
+  </td>
+	<td> 
+		<a title="点击下载Excel文件" href="javascript:void();"
+		 onclick="javascript:window.location='/Test/jiyin.php?id={$ORDERS.id}';">下载</a>
+	</td>
+	<td>
+		<empty name="ORDERS.jia">
+            未上传
+		  	<else />
+             已上传
+		  </empty></td>
+	<td>
+		 
+		<eq name="ORDERS.id|getStatus" value="1">
+			 
+<a href="{:U('Gene/ask','id='.$ORDERS['id'])}" title="点击查看详情" style="color:red;">新消息</a>
+		 
+	</eq>   
+	<eq name="ORDERS.id|getStatus" value="2">
+		<a href="{:U('Gene/ask','id='.$ORDERS['id'])}" title="点击查看详情">暂无消息</a>
+    </eq>
+	<eq name="ORDERS.id|getStatus" value="">
+		 <a href="{:U('Gene/ask','id='.$ORDERS['id'])}" title="点击查看详情">暂无消息</a>
+	</eq>
+
+	</td>
+</tr>
+</volist>
+</table>
+
+</div>
+
+<br/>
+<br/>
+<br/>	
+<!-- <div>最新PCR克隆及亚克隆订单 <a class="more_link" href="{:U('Clone/index')}" title="点击查看更多">More+</a></div> -->
+
+<!-- <div class="orderlist">
+<table border="1"  style="border-collapse:collapse;" width="1100">
+<tr>
+	<td>下单时间</td>
+	<td>订单号</td>
+	<td>客户姓名</td>
+	<td>客户邮件</td>
+	<td>客户电话</td>
+	<td>订单状态</td>
+	<td>订单提交方式</td>
+	<td>订单查看</td>
+	<td>订单文件下载</td>
+	<td>相关文件上传</td>
+	<td>消息与留言</td>
+</tr>
+<volist name="clones" id="ORDERS">
+<tr>
+	<td>{$ORDERS.addtime|date='Y-m-d/H:i:s',###}</td><td>{$ORDERS.code}</td>
+	<td>{$ORDERS.uid|getClientName}</td>
+	<td>{$ORDERS.uid|getClientEmail}</td>
+	<td>{$ORDERS.uid|getClientPhone}</td>
+	<td>{$ORDERS.status|showOrderStatus}</td>
+	<td>
+			<empty name="ORDERS.excelurl"  > 
+   		在线填写
+    <else />
+    上传excel表单
+   </empty>
+	</td>
+	<td><a href="{:U('Clone/show','id='.$ORDERS['id'])}" title="点击查看详情">详情</a></td>
+	<td> 
+		<a title="点击下载Excel文件" href="javascript:void();"
+		 onclick="javascript:window.location='http://192.168.1.115/test/clone.php?id={$ORDERS.id}';">下载</a>
+	</td>
+	<td>
+		<empty name="ORDERS.jia">
+            未上传
+		  	<else />
+             已上传
+		  </empty></td>
+	<td>
+		 
+		<eq name="ORDERS.id|getStatus_c" value="1">
+			 
+<a href="{:U('Clone/ask','id='.$ORDERS['id'])}" title="点击查看详情" style="color:red;">新消息</a>
+		 
+	</eq>   
+	<eq name="ORDERS.id|getStatus_c" value="2">
+		<a href="{:U('Clone/ask','id='.$ORDERS['id'])}" title="点击查看详情">暂无消息</a>
+    </eq>
+	<eq name="ORDERS.id|getStatus_c" value="">
+		 <a href="{:U('Clone/ask','id='.$ORDERS['id'])}" title="点击查看详情">暂无消息</a>
+	</eq>
+
+	</td>
+</tr>
+</volist>
+</table>
+
+</div> -->
+
+<!-- <br/>
+<br/>
+<br/> -->
+<!-- <div>最新基因突变订单 <a class="more_link" href="{:U('Server/index')}" title="点击查看更多">More+</a></div>
+ -->
+<!-- <div class="orderlist">
+<table border="1"  style="border-collapse:collapse;" width="1100">
+<tr>
+	<td>下单时间</td>
+	<td>订单号</td>
+	<td>客户姓名</td>
+	<td>客户邮件</td>
+	<td>客户电话</td>
+	<td>订单状态</td>
+	<td>订单提交方式</td>
+	<td>订单查看</td>
+	<td>订单文件下载</td>
+	<td>相关文件上传</td>
+	<td>消息与留言</td>
+</tr>
+<volist name="servers" id="ORDERS">
+<tr>
+	<td>{$ORDERS.addtime|date='Y-m-d/H:i:s',###}</td><td>{$ORDERS.code}</td>
+	<td>{$ORDERS.uid|getClientName}</td>
+	<td>{$ORDERS.uid|getClientEmail}</td>
+	<td>{$ORDERS.uid|getClientPhone}</td>
+	<td>{$ORDERS.status|showOrderStatus}</td>
+	<td>
+			<empty name="ORDERS.excelurl"  > 
+   		在线填写
+    <else />
+    上传excel表单
+   </empty>
+	</td>
+	<td><a href="{:U('Server/show','id='.$ORDERS['id'])}" title="点击查看详情">详情</a></td>
+	<td> 
+		<a title="点击下载Excel文件" href="javascript:void();"
+		 onclick="javascript:window.location='http://192.168.1.115/test/server.php?id={$ORDERS.id}';">下载</a>
+	</td>
+	<td>
+		<empty name="ORDERS.jia">
+            未上传
+		  	<else />
+             已上传
+		  </empty></td>
+	<td>
+		 
+		<eq name="ORDERS.id|getStatus_d" value="1">
+			 
+    <a href="{:U('Server/ask','id='.$ORDERS['id'])}" title="点击查看详情" style="color:red;">新消息</a>
+		 
+	</eq>   
+	<eq name="ORDERS.id|getStatus_d" value="2">
+		<a href="{:U('Server/ask','id='.$ORDERS['id'])}" title="点击查看详情">暂无消息</a>
+    </eq>
+	<eq name="ORDERS.id|getStatus_d" value="">
+		 <a href="{:U('Server/ask','id='.$ORDERS['id'])}" title="点击查看详情">暂无消息</a>
+	</eq>
+
+	</td>
+</tr>
+</volist>
+</table>
+
+</div> -->
+
+<!-- <br/>
+<br/>
+<br/> -->
+<!-- <div>最新质粒制备订单 <a class="more_link" href="{:U('Zhili/index')}" title="点击查看更多">More+</a></div>
+
+<div class="orderlist">
+<table border="1"  style="border-collapse:collapse;" width="1100">
+<tr>
+	<td>下单时间</td>
+	<td>订单号</td>
+	<td>客户姓名</td>
+	<td>客户邮件</td>
+	<td>客户电话</td>
+	<td>订单状态</td>
+	<td>订单提交方式</td>
+	<td>订单查看</td>
+	<td>订单文件下载</td>
+	<td>相关文件上传</td>
+	<td>消息与留言</td>
+</tr>
+<volist name="zhilis" id="ORDERS">
+<tr>
+	<td>{$ORDERS.addtime|date='Y-m-d/H:i:s',###}</td><td>{$ORDERS.code}</td>
+	<td>{$ORDERS.uid|getClientName}</td>
+	<td>{$ORDERS.uid|getClientEmail}</td>
+	<td>{$ORDERS.uid|getClientPhone}</td>
+	<td>{$ORDERS.status|showOrderStatus}</td>
+	<td>
+			<empty name="ORDERS.excelurl"  > 
+   		在线填写
+    <else />
+    上传excel表单
+   </empty>
+	</td>
+	<td><a href="{:U('Zhili/show','id='.$ORDERS['id'])}" title="点击查看详情">详情</a></td>
+	<td> 
+		<a title="点击下载Excel文件" href="javascript:void();"
+		 onclick="javascript:window.location='http://192.168.1.115/test/zhili.php?id={$ORDERS.id}';">下载</a>
+	</td>
+	<td>
+		<empty name="ORDERS.jia">
+            未上传
+		  	<else />
+             已上传
+		  </empty></td>
+	<td>
+		 
+		<eq name="ORDERS.id|getStatus_e" value="1">
+			 
+    <a href="{:U('Zhili/ask','id='.$ORDERS['id'])}" title="点击查看详情" style="color:red;">新消息</a>
+		 
+	</eq>   
+	<eq name="ORDERS.id|getStatus_e" value="2">
+		<a href="{:U('Zhili/ask','id='.$ORDERS['id'])}" title="点击查看详情">暂无消息</a>
+    </eq>
+	<eq name="ORDERS.id|getStatus_e" value="">
+		 <a href="{:U('Zhili/ask','id='.$ORDERS['id'])}" title="点击查看详情">暂无消息</a>
+	</eq>
+
+	</td>
+</tr>
+</volist>
+</table>
+
+</div>
+ -->
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
+<style>
+.orderlist ul{list-style:none;width:100%;white-space: nowrap;}
+.orderlist li{width:100%;float:left;white-space: nowrap;} 
+.orderlist span { padding-left: 0px;}
+tr td{
+	width:120px;
+	text-align:center;
+}
+.more_link:hover{
+	color:red;
+}
+a{
+	text-decoration:none;
+}
+</style>

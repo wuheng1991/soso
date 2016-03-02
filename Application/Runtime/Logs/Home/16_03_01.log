@@ -1,0 +1,2027 @@
+[ 2016-03-01T00:39:12+08:00 ] 111.172.171.55 /index.php/Home/Primer/Create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/PrimerController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '41'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-03-01T00:39:18+08:00 ] 111.172.171.55 /index.php/Home/Primer/step.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/PrimerController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '41'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_orders` WHERE (  code = 'JKR-4956869728'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders` WHERE `code_yw` LIKE 'YW-1603%' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `ge_orders` (`code`,`code_yw`,`uid`,`addtime`,`excelurl`,`ordertype`,`status`) VALUES ('JKR-4956869728','YW-16030001','41','1456763957','./Uploads/Excel/2016-03-01/56d47435b995a.xlsx','2','2') [ RunTime:0.0003s ]
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 360 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php on line 1767 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1721 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Worksheet::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 364 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php 第 341 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 381 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellStyleXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 382 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 1027 行.
+SQL: SELECT `excelurl` FROM `ge_orders` WHERE ( id = 1370 ) LIMIT 1   [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 360 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php on line 1767 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1721 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Worksheet::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 364 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php 第 341 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 381 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellStyleXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 382 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 1027 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellStyleXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 579 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 1027 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellStyleXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 579 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 1027 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellStyleXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 579 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 1027 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellStyleXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 579 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 1027 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Worksheet::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 479 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php 第 341 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addSheet() must be an instance of Think\PHPExcel_Worksheet, instance of PHPExcel_Worksheet given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 480 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 503 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 402 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Worksheet::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 479 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php 第 341 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addSheet() must be an instance of Think\PHPExcel_Worksheet, instance of PHPExcel_Worksheet given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 480 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 503 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Worksheet::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 479 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php 第 341 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addSheet() must be an instance of Think\PHPExcel_Worksheet, instance of PHPExcel_Worksheet given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 480 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 503 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+SQL: SHOW COLUMNS FROM `ge_orders_primers` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1603%' LIMIT 1   [ RunTime:0.0173s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1370','A16030001','Q-GAPDHF','GAAGGTCGTCATCACTGCTC','20','4','4','1','0','0','0','1','1456763958') [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1603%' LIMIT 1   [ RunTime:0.0174s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1370','A16030002','Q-GAPDHR','AGTGGACGGTGGTCATCAAA','20','4','4','1','0','0','0','1','1456763958') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1603%' LIMIT 1   [ RunTime:0.0197s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1370','A16030003','Q-PAOX1F','CAGTTATTGGGCTTGATTGG','20','4','4','1','0','0','0','1','1456763958') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1603%' LIMIT 1   [ RunTime:0.0173s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1370','A16030004','Q-PAOX1R','TGGAGTGATGTTCGGGTGTA','20','4','4','1','0','0','0','1','1456763958') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1603%' LIMIT 1   [ RunTime:0.0172s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1370','A16030005','5’- AOX1','GACTGGTTCCAATTGACAAGC','21','4','4','1','0','0','0','1','1456763958') [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1603%' LIMIT 1   [ RunTime:0.0173s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1370','A16030006','3’- AOX1','GCAAATGGCATTCTGACATCC','21','4','4','1','0','0','0','1','1456763958') [ RunTime:0.0002s ]
+SQL: UPDATE `ge_orders` SET `num_yinwu`='6' WHERE `id` = 1370 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-03-01T00:39:20+08:00 ] 111.172.171.55 /index.php/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '41'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '41' and status != 3 and ordertype = 1 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0018s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '41' and status != 3 and ordertype = 2 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '41' and status != 3 and ordertype = 3 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0015s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '41' and status != 3 and ordertype = 4 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0015s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '41' and status != 3 and ordertype = 5 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0016s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '41' and status != 3 and ordertype = 6 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ge_orders` WHERE (  uid = 41 and status = 3 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `ge_orders_primers` [ RunTime:0.0008s ]
+SQL: SELECT SUM(basenum) AS tp_Sum FROM `ge_orders_primers` WHERE (  orderid = 1370 ) LIMIT 1   [ RunTime:0.0149s ]
+SQL: SELECT SUM(basenum) AS tp_Sum FROM `ge_orders_primers` WHERE (  orderid = 1369 ) LIMIT 1   [ RunTime:0.0145s ]
+SQL: SELECT SUM(basenum) AS tp_Sum FROM `ge_orders_primers` WHERE (  orderid = 1368 ) LIMIT 1   [ RunTime:0.0146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-03-01T04:15:06+08:00 ] 40.77.167.88 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-03-01T05:40:40+08:00 ] 121.42.0.35 /index.php/Home/User/guodu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001404s ]
+
+[ 2016-03-01T05:41:00+08:00 ] 121.42.0.35 /index.php/home/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-03-01T07:59:03+08:00 ] 220.249.99.136 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-03-01T07:59:03+08:00 ] 220.249.99.136 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-03-01T07:59:03+08:00 ] 220.249.99.136 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-03-01T07:59:06+08:00 ] 220.249.99.136 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+
+[ 2016-03-01T07:59:15+08:00 ] 220.249.99.136 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `ge_members` WHERE ( username = '271684816@qq.com'  ) LIMIT 1   [ RunTime:0.0178s ]
+SQL: UPDATE `ge_members` SET `logintime`='1456790355',`loginip`='220.249.99.136' WHERE ( id = 104 ) [ RunTime:0.0104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-03-01T07:59:15+08:00 ] 220.249.99.136 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-03-01T07:59:16+08:00 ] 220.249.99.136 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '104'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '104' and status != 3 and ordertype = 1 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '104' and status != 3 and ordertype = 2 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '104' and status != 3 and ordertype = 3 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '104' and status != 3 and ordertype = 4 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '104' and status != 3 and ordertype = 5 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '104' and status != 3 and ordertype = 6 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ge_orders` WHERE (  uid = 104 and status = 3 ) LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 104 ) LIMIT 1   [ RunTime:0.0428s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.172279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-03-01T07:59:19+08:00 ] 220.249.99.136 /index.php/Home/Pro/fen_more/type/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '104'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ge_fen` [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `ge_members_info` WHERE ( uid =104 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `ge_members` WHERE ( id =104 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ge_fen` WHERE `fen_type` = 3 AND `fen_email` = '271684816@qq.com' ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0342s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_fen` WHERE `fen_type` = 3 AND `fen_email` = '271684816@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 51 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 51 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 51 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ge_feninfo` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ge_pro_trace` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `ge_feninfo` WHERE ( fen_guan_id =227 ) LIMIT 1   [ RunTime:0.0269s ]
+SQL: SELECT `addtime` FROM `ge_pro_trace` WHERE ( guan_id =224 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-03-01T07:59:25+08:00 ] 220.249.99.136 /index.php/Home/Pro/fen_index/id/227/commom_type/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '104'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_fen` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ge_feninfo` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ge_pro_trace` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ge_fen_jieduan` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ge_fen_jieduan` WHERE ( jieduan_id=227 ) ORDER BY jieduan_date asc  [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `ge_members_info` WHERE ( uid =104 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_fen` WHERE ( id = 227 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ge_feninfo` WHERE ( fen_guan_id = 227 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `status` FROM `ge_pro_trace` WHERE ( guan_id = 224 ) ORDER BY id asc  [ RunTime:0.0388s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE ( guan_id = 224 ) ORDER BY id asc  [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `guan_id`,`status` FROM `ge_pro_trace` WHERE ( guan_id = 224 ) ORDER BY id asc LIMIT 6   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: end_status /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 161 行.
+NOTIC: [8] Undefined variable: end_status_guan /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 163 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined variable: page /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 18 行.
+NOTIC: [8] Undefined variable: pages /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 19 行.
+NOTIC: [8] Undefined variable: page /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 53 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 1 AND `guan_id` = 224 ORDER BY id desc LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 1 AND `guan_id` = 224 ORDER BY id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 2 AND `guan_id` = 224 ORDER BY id desc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 2 AND `guan_id` = 224 ORDER BY id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 640 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 3 AND `guan_id` = 224 ORDER BY id desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 3 AND `guan_id` = 224 ORDER BY id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 640 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 4 AND `guan_id` = 224 ORDER BY id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 4 AND `guan_id` = 224 ORDER BY id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 5 AND `guan_id` = 224 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 5 AND `guan_id` = 224 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 6 AND `guan_id` = 224 ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 6 AND `guan_id` = 224 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-03-01T08:25:00+08:00 ] 220.181.108.143 /readme.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+ERR: 无法加载控制器:Readme.txt
+
+[ 2016-03-01T08:46:58+08:00 ] 59.172.37.234 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-03-01T08:55:33+08:00 ] 59.172.37.234 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+
+[ 2016-03-01T09:55:43+08:00 ] 211.142.109.82 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-03-01T10:53:17+08:00 ] 111.172.171.55 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2016-03-01T11:01:45+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-03-01T11:01:48+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-03-01T11:01:50+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2016-03-01T11:03:18+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-03-01T11:03:21+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-03-01T11:03:44+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-03-01T11:03:47+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-03-01T11:03:49+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2016-03-01T11:03:52+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-03-01T11:03:52+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+
+[ 2016-03-01T11:03:54+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-03-01T11:03:56+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-03-01T11:03:57+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-03-01T11:03:59+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+
+[ 2016-03-01T11:05:29+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-03-01T11:21:48+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2016-03-01T11:21:50+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-03-01T11:22:30+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-03-01T11:22:31+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2016-03-01T11:22:32+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2016-03-01T11:22:36+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-03-01T11:22:38+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-03-01T11:23:17+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+
+[ 2016-03-01T11:23:18+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2016-03-01T11:23:29+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2016-03-01T11:24:25+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-03-01T11:24:31+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2016-03-01T11:24:51+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-03-01T11:24:52+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+
+[ 2016-03-01T11:24:54+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-03-01T11:24:54+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+
+[ 2016-03-01T11:25:00+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-03-01T11:25:03+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-03-01T11:28:57+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+
+[ 2016-03-01T11:29:00+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2016-03-01T11:35:24+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2016-03-01T11:35:24+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-03-01T11:35:27+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-03-01T11:35:31+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-03-01T11:35:38+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-03-01T11:35:46+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2016-03-01T11:35:49+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-03-01T11:36:32+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-03-01T11:36:34+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-03-01T11:43:05+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2016-03-01T11:46:12+08:00 ] 111.11.191.52 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+
+[ 2016-03-01T12:24:22+08:00 ] 202.114.72.138 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-03-01T12:24:22+08:00 ] 202.114.72.138 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-03-01T12:24:28+08:00 ] 202.114.72.138 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-03-01T12:24:38+08:00 ] 202.114.72.138 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ge_members` WHERE ( username = 'xpwen@whu.edu.cn'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `ge_members` SET `logintime`='1456806278',`loginip`='202.114.72.138' WHERE ( id = 122 ) [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2016-03-01T12:24:39+08:00 ] 202.114.72.138 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '122'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '122' and status != 3 and ordertype = 1 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '122' and status != 3 and ordertype = 2 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '122' and status != 3 and ordertype = 3 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '122' and status != 3 and ordertype = 4 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '122' and status != 3 and ordertype = 5 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '122' and status != 3 and ordertype = 6 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ge_orders` WHERE (  uid = 122 and status = 3 ) LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 122 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2016-03-01T12:24:44+08:00 ] 202.114.72.138 /index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 535 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '122'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 122 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ge_orders` WHERE `uid` = 122 ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-03-01T12:24:47+08:00 ] 202.114.72.138 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '122'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '122' and status != 3 and ordertype = 1 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '122' and status != 3 and ordertype = 2 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '122' and status != 3 and ordertype = 3 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '122' and status != 3 and ordertype = 4 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '122' and status != 3 and ordertype = 5 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '122' and status != 3 and ordertype = 6 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_orders` WHERE (  uid = 122 and status = 3 ) LIMIT 5   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 122 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2016-03-01T12:24:50+08:00 ] 202.114.72.138 /index.php/Home/Pro/fen_more/type/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '122'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ge_fen` [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `ge_members_info` WHERE ( uid =122 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `ge_members` WHERE ( id =122 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ge_fen` WHERE `fen_type` = 3 AND `fen_email` = 'xpwen@whu.edu.cn' ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_fen` WHERE `fen_type` = 3 AND `fen_email` = 'xpwen@whu.edu.cn' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 51 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 51 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 51 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ge_feninfo` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ge_pro_trace` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `ge_feninfo` WHERE ( fen_guan_id =552 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `addtime` FROM `ge_pro_trace` WHERE ( guan_id =505 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-03-01T12:24:58+08:00 ] 202.114.72.138 /index.php/Home/Pro/fen_index/id/552/commom_type/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '122'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_fen` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ge_feninfo` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ge_pro_trace` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ge_fen_jieduan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ge_fen_jieduan` WHERE ( jieduan_id=552 ) ORDER BY jieduan_date asc  [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `ge_members_info` WHERE ( uid =122 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_fen` WHERE ( id = 552 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ge_feninfo` WHERE ( fen_guan_id = 552 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `status` FROM `ge_pro_trace` WHERE ( guan_id = 505 ) ORDER BY id asc  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE ( guan_id = 505 ) ORDER BY id asc  [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `guan_id`,`status` FROM `ge_pro_trace` WHERE ( guan_id = 505 ) ORDER BY id asc LIMIT 4   [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: end_status /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 161 行.
+NOTIC: [8] Undefined variable: end_status_guan /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 163 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: page /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 18 行.
+NOTIC: [8] Undefined variable: pages /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 19 行.
+NOTIC: [8] Undefined variable: page /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 53 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 1 AND `guan_id` = 505 ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 1 AND `guan_id` = 505 ORDER BY id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 2 AND `guan_id` = 505 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 2 AND `guan_id` = 505 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 3 AND `guan_id` = 505 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 3 AND `guan_id` = 505 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 640 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 4 AND `guan_id` = 505 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 4 AND `guan_id` = 505 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 640 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-03-01T12:40:15+08:00 ] 113.57.171.234 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-03-01T12:40:15+08:00 ] 113.57.171.234 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+
+[ 2016-03-01T13:21:31+08:00 ] 111.172.171.55 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-03-01T13:31:42+08:00 ] 111.172.171.55 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-03-01T13:32:03+08:00 ] 111.172.171.55 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ge_members` WHERE ( username = '1834557455@qq.com'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ge_members` SET `logintime`='1456810323',`loginip`='111.172.171.55' WHERE ( id = 41 ) [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-03-01T13:32:04+08:00 ] 111.172.171.55 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '41'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '41' and status != 3 and ordertype = 1 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '41' and status != 3 and ordertype = 2 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '41' and status != 3 and ordertype = 3 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '41' and status != 3 and ordertype = 4 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '41' and status != 3 and ordertype = 5 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '41' and status != 3 and ordertype = 6 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_orders` WHERE (  uid = 41 and status = 3 ) LIMIT 5   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `ge_orders_primers` [ RunTime:0.0009s ]
+SQL: SELECT SUM(basenum) AS tp_Sum FROM `ge_orders_primers` WHERE (  orderid = 1370 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(basenum) AS tp_Sum FROM `ge_orders_primers` WHERE (  orderid = 1369 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(basenum) AS tp_Sum FROM `ge_orders_primers` WHERE (  orderid = 1368 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2016-03-01T13:32:08+08:00 ] 111.172.171.55 /index.php/Home/Primer/Create.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/PrimerController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '41'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-03-01T13:32:18+08:00 ] 111.172.171.55 /index.php/Home/Primer/step.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/PrimerController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '41'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ge_orders` WHERE (  code = 'JKR-9653513894'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders` WHERE `code_yw` LIKE 'YW-1603%' LIMIT 1   [ RunTime:0.0305s ]
+SQL: INSERT INTO `ge_orders` (`code`,`code_yw`,`uid`,`addtime`,`excelurl`,`ordertype`,`status`) VALUES ('JKR-9653513894','YW-16030002','41','1456810337','./Uploads/Excel/2016-03-01/56d529611cfe6.xlsx','2','2') [ RunTime:0.0005s ]
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 360 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php on line 1767 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1721 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Worksheet::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 364 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php 第 341 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 381 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellStyleXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 382 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 1027 行.
+SQL: SELECT `excelurl` FROM `ge_orders` WHERE ( id = 1371 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 360 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php on line 1767 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1721 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Worksheet::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 364 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php 第 341 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 381 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellStyleXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 382 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 1027 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 551 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 938 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellStyleXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 579 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 1027 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellStyleXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 579 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 1027 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellStyleXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 579 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 1027 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addCellStyleXf() must be an instance of Think\PHPExcel_Style, instance of PHPExcel_Style given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Reader/Excel2007.php on line 579 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 1027 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Worksheet::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 479 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php 第 341 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addSheet() must be an instance of Think\PHPExcel_Worksheet, instance of PHPExcel_Worksheet given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 480 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 503 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 402 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Worksheet::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 479 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php 第 341 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addSheet() must be an instance of Think\PHPExcel_Worksheet, instance of PHPExcel_Worksheet given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 480 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 503 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Worksheet::__construct() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 479 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php 第 341 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [4096] Argument 1 passed to Think\PHPExcel::addSheet() must be an instance of Think\PHPExcel_Worksheet, instance of PHPExcel_Worksheet given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php on line 480 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel.class.php 第 503 行.
+NOTIC: [4096] Argument 1 passed to PHPExcel_Calculation::getInstance() must be an instance of PHPExcel, instance of Think\PHPExcel given, called in /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Worksheet.php on line 880 and defined /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Calculation.php 第 1762 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+NOTIC: [8] Undefined variable: options /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/PHPExcel/Settings.php 第 384 行.
+SQL: SHOW COLUMNS FROM `ge_orders_primers` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1603%' LIMIT 1   [ RunTime:0.0938s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1371','A16030007','1','CGC1CGC','7','2','2','3','0','0','0','1','1456810338') [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1603%' LIMIT 1   [ RunTime:0.0269s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1371','A16030008','2','CGCGC1CGCGC','11','2','2','3','0','0','0','1','1456810338') [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders_primers` WHERE `primer_shui` LIKE 'A1603%' LIMIT 1   [ RunTime:0.0176s ]
+SQL: INSERT INTO `ge_orders_primers` (`orderid`,`primer_shui`,`primername`,`sequence`,`basenum`,`demand`,`tubenum`,`puremthod`,`fmodification`,`tmodification`,`othermod`,`isreserve`,`addtime`) VALUES ('1371','A16030009','3','CGCGC1CGCGCG','12','2','2','3','0','0','0','1','1456810338') [ RunTime:0.0002s ]
+SQL: UPDATE `ge_orders` SET `num_yinwu`='3' WHERE `id` = 1371 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+
+[ 2016-03-01T13:32:20+08:00 ] 111.172.171.55 /index.php/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '41'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '41' and status != 3 and ordertype = 1 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0016s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '41' and status != 3 and ordertype = 2 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '41' and status != 3 and ordertype = 3 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0015s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '41' and status != 3 and ordertype = 4 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0015s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '41' and status != 3 and ordertype = 5 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0014s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '41' and status != 3 and ordertype = 6 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ge_orders` WHERE (  uid = 41 and status = 3 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `ge_orders_primers` [ RunTime:0.0008s ]
+SQL: SELECT SUM(basenum) AS tp_Sum FROM `ge_orders_primers` WHERE (  orderid = 1371 ) LIMIT 1   [ RunTime:0.0153s ]
+SQL: SELECT SUM(basenum) AS tp_Sum FROM `ge_orders_primers` WHERE (  orderid = 1370 ) LIMIT 1   [ RunTime:0.0149s ]
+SQL: SELECT SUM(basenum) AS tp_Sum FROM `ge_orders_primers` WHERE (  orderid = 1369 ) LIMIT 1   [ RunTime:0.0149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-03-01T13:41:04+08:00 ] 192.99.107.222 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2016-03-01T13:41:05+08:00 ] 192.99.107.225 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-03-01T13:41:06+08:00 ] 192.99.107.222 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-03-01T13:42:40+08:00 ] 121.42.0.36 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-03-01T13:42:40+08:00 ] 121.42.0.36 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-03-01T13:42:40+08:00 ] 121.42.0.36 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-03-01T13:42:40+08:00 ] 121.42.0.36 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-03-01T13:42:41+08:00 ] 121.42.0.36 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-03-01T13:42:41+08:00 ] 121.42.0.36 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-03-01T13:42:41+08:00 ] 121.42.0.36 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-03-01T13:42:41+08:00 ] 121.42.0.36 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-03-01T14:04:29+08:00 ] 121.42.0.17 /plus/mytag_js.php?aid=511348
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+ERR: 无法加载控制器:Plus
+
+[ 2016-03-01T14:04:32+08:00 ] 121.42.0.17 /plus/mytag_js.php?aid=511348
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+ERR: 无法加载控制器:Plus
+
+[ 2016-03-01T14:12:42+08:00 ] 113.57.171.234 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-03-01T14:21:48+08:00 ] 183.228.98.11 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-03-01T15:07:24+08:00 ] 113.57.171.234 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-03-01T15:09:23+08:00 ] 220.249.99.153 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-03-01T15:09:25+08:00 ] 220.249.99.153 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+
+[ 2016-03-01T15:09:25+08:00 ] 220.249.99.153 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE ( username = 'yug526@126.com'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `ge_members` SET `logintime`='1456816165',`loginip`='220.249.99.153' WHERE ( id = 120 ) [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-03-01T15:09:25+08:00 ] 220.249.99.153 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-03-01T15:09:26+08:00 ] 220.249.99.153 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '120'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '120' and status != 3 and ordertype = 1 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '120' and status != 3 and ordertype = 2 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '120' and status != 3 and ordertype = 3 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '120' and status != 3 and ordertype = 4 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '120' and status != 3 and ordertype = 5 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '120' and status != 3 and ordertype = 6 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ge_orders` WHERE (  uid = 120 and status = 3 ) LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 120 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-03-01T15:10:25+08:00 ] 220.249.99.153 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-03-01T15:10:27+08:00 ] 220.249.99.153 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-03-01T15:10:27+08:00 ] 220.249.99.153 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE ( username = 'yug526@126.com'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `ge_members` SET `logintime`='1456816227',`loginip`='220.249.99.153' WHERE ( id = 120 ) [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-03-01T15:10:27+08:00 ] 220.249.99.153 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+
+[ 2016-03-01T15:10:28+08:00 ] 220.249.99.153 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '120'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '120' and status != 3 and ordertype = 1 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '120' and status != 3 and ordertype = 2 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '120' and status != 3 and ordertype = 3 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '120' and status != 3 and ordertype = 4 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '120' and status != 3 and ordertype = 5 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '120' and status != 3 and ordertype = 6 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_orders` WHERE (  uid = 120 and status = 3 ) LIMIT 5   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 120 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-03-01T15:10:29+08:00 ] 220.249.99.153 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-03-01T15:10:30+08:00 ] 220.249.99.153 /index.php/Home/Pro/fen_more/type/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '120'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ge_fen` [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `ge_members_info` WHERE ( uid =120 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `ge_members` WHERE ( id =120 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ge_fen` WHERE `fen_type` = 5 AND `fen_email` = 'yug526@126.com' ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_fen` WHERE `fen_type` = 5 AND `fen_email` = 'yug526@126.com' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 51 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 51 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 51 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ge_feninfo` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ge_pro_trace` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `ge_feninfo` WHERE ( fen_guan_id =486 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `addtime` FROM `ge_pro_trace` WHERE ( guan_id =461 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-03-01T15:10:31+08:00 ] 220.249.99.153 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+
+[ 2016-03-01T15:10:33+08:00 ] 220.249.99.153 /index.php/Home/Pro/fen_index/id/486/commom_type/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '120'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_fen` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ge_feninfo` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ge_pro_trace` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ge_fen_jieduan` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ge_fen_jieduan` WHERE ( jieduan_id=486 ) ORDER BY jieduan_date asc  [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `ge_members_info` WHERE ( uid =120 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_fen` WHERE ( id = 486 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ge_feninfo` WHERE ( fen_guan_id = 486 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `status` FROM `ge_pro_trace` WHERE ( guan_id = 461 ) ORDER BY id asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE ( guan_id = 461 ) ORDER BY id asc  [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `guan_id`,`status` FROM `ge_pro_trace` WHERE ( guan_id = 461 ) ORDER BY id asc LIMIT 4   [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: end_status /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 161 行.
+NOTIC: [8] Undefined variable: end_status_guan /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 163 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: page /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 18 行.
+NOTIC: [8] Undefined variable: pages /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 19 行.
+NOTIC: [8] Undefined variable: page /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 53 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 1 AND `guan_id` = 461 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 1 AND `guan_id` = 461 ORDER BY id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 2 AND `guan_id` = 461 ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 2 AND `guan_id` = 461 ORDER BY id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 3 AND `guan_id` = 461 ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 3 AND `guan_id` = 461 ORDER BY id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 4 AND `guan_id` = 461 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 4 AND `guan_id` = 461 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-03-01T15:10:33+08:00 ] 220.249.99.153 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-03-01T15:10:57+08:00 ] 220.249.99.153 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2016-03-01T15:12:32+08:00 ] 220.249.99.153 /index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-03-01T15:12:33+08:00 ] 220.249.99.153 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-03-01T15:12:37+08:00 ] 220.249.99.153 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-03-01T15:17:24+08:00 ] 220.249.99.136 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-03-01T15:17:25+08:00 ] 220.249.99.136 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+
+[ 2016-03-01T15:17:25+08:00 ] 220.249.99.136 /index.php/Home/User.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2016-03-01T15:17:25+08:00 ] 220.249.99.136 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2016-03-01T15:17:37+08:00 ] 220.249.99.136 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE ( username = '271684816@qq.com'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `ge_members` SET `logintime`='1456816657',`loginip`='220.249.99.136' WHERE ( id = 104 ) [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-03-01T15:17:37+08:00 ] 220.249.99.136 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2016-03-01T15:17:38+08:00 ] 220.249.99.136 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/IndexController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '104'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '104' and status != 3 and ordertype = 1 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '104' and status != 3 and ordertype = 2 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`code_yw`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num`,`synthesis` FROM `ge_orders` WHERE (  uid = '104' and status != 3 and ordertype = 3 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '104' and status != 3 and ordertype = 4 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '104' and status != 3 and ordertype = 5 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`code`,`uid`,`description`,`info`,`addtime`,`ordertype`,`status`,`num_yinwu`,`gid`,`num` FROM `ge_orders` WHERE (  uid = '104' and status != 3 and ordertype = 6 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ge_orders` WHERE (  uid = 104 and status = 3 ) LIMIT 5   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 104 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-03-01T15:17:40+08:00 ] 220.249.99.136 /index.php/Home/Pro/fen_more/type/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '104'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ge_fen` [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `ge_members_info` WHERE ( uid =104 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `username` FROM `ge_members` WHERE ( id =104 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ge_fen` WHERE `fen_type` = 3 AND `fen_email` = '271684816@qq.com' ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_fen` WHERE `fen_type` = 3 AND `fen_email` = '271684816@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 51 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 51 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 51 行.
+NOTIC: [8] Undefined variable: userInfo /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/973809374984dcb1ae926c97f4e5b4bf.php 第 54 行.
+SQL: SHOW COLUMNS FROM `ge_feninfo` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ge_pro_trace` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `ge_feninfo` WHERE ( fen_guan_id =227 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `addtime` FROM `ge_pro_trace` WHERE ( guan_id =224 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2016-03-01T15:17:43+08:00 ] 220.249.99.136 /index.php/Home/Pro/fen_index/id/227/commom_type/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+NOTIC: [2048] Non-static method Home\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE (  id = '104'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_fen` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ge_feninfo` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ge_pro_trace` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ge_fen_jieduan` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ge_fen_jieduan` WHERE ( jieduan_id=227 ) ORDER BY jieduan_date asc  [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `ge_members_info` WHERE ( uid =104 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_fen` WHERE ( id = 227 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_feninfo` WHERE ( fen_guan_id = 227 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT  `status` FROM `ge_pro_trace` WHERE ( guan_id = 224 ) ORDER BY id asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE ( guan_id = 224 ) ORDER BY id asc  [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT  `guan_id`,`status` FROM `ge_pro_trace` WHERE ( guan_id = 224 ) ORDER BY id asc LIMIT 6   [ RunTime:0.0021s ]
+NOTIC: [8] Undefined variable: end_status /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 161 行.
+NOTIC: [8] Undefined variable: end_status_guan /www/web/order_genecreate_cn/public_html/Application/Home/Controller/ProController.class.php 第 163 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: page /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 18 行.
+NOTIC: [8] Undefined variable: pages /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 19 行.
+NOTIC: [8] Undefined variable: page /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 53 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 1 AND `guan_id` = 224 ORDER BY id desc LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 1 AND `guan_id` = 224 ORDER BY id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 2 AND `guan_id` = 224 ORDER BY id desc LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 2 AND `guan_id` = 224 ORDER BY id desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 640 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 3 AND `guan_id` = 224 ORDER BY id desc LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 3 AND `guan_id` = 224 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 640 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 4 AND `guan_id` = 224 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 4 AND `guan_id` = 224 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 5 AND `guan_id` = 224 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 5 AND `guan_id` = 224 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Home/f26057b2c91e2261faffe354102e9960.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 6 AND `guan_id` = 224 ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 6 AND `guan_id` = 224 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Home/Common/function.php 第 711 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+

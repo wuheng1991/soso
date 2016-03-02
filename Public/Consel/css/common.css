@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* ----整体公共样式---- */
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, code, del, dfn, img, q, dl, dt, dd, ol, ul, li, form, table, tr, th, td,{ margin:0; padding:0; border:0;}
+.clear{ clear:both; display:block; overflow:hidden; visibility:hidden; width:0; height:0;}
+*{ margin:0; padding:0; list-style:none;}
+ul,ol{ padding:0; margin:0; list-style-position:inside; #list-style-position:outside;}
+li{ list-style:none;}
+img{ border:0 none; height:auto; max-width:100%; vertical-align:middle;}
+a{ color:#7a7a7a; text-decoration:none;}
+a:hover{ color:#f57e20;}
+.left{ float:left;}
+.right{ float:right;}
+body{ background-color:#008C00; font-size:14px; line-height:22px; font-family:"微软雅黑",Arial; color:#7a7a7a; padding:0; margin:0;}
+#f33{ color:#f57e20;}
+#f66{ color:#008C00;}
+.fs14{ font-size:14px;}
+.fs16{ font-size:16px;}
+.fs18{ font-size:18px;}
+.b33{ background-color:#dfffdf;}
+.b66{ background-color:#feeada;}
+.bb33{ background-color:#008c00;}
+.bb66{ background-color:#f57e20;}
+.h50{ height:50px; line-height:50px; overflow:hidden;}
+.h70{ height:74px; line-height:74px; overflow:hidden;}
+
+
+/* ----用户登录---- */
+
+.maincon{ width:700px; text-align:center; margin:80px auto; overflow:hidden;}
+.mod-title{ width:540px; height:70px; display:block; margin:0 auto; margin-bottom:10px;}
+.mod-notfound{ width:350px; height:254px; background:url(../images/signbg.gif) no-repeat right #fff; border:#00DD00 4px solid; font-family:14px; text-align:center; border-radius:15px; padding:50px 320px 0 20px; -moz-box-shadow:0 1px 5px #333; -webkit-box-shadow:0 1px 5px #333;}
+.username{ float:left; line-height:24px; border:#ccc solid 1px; background-color:#fff;}

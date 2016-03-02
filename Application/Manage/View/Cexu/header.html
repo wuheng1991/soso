@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link href="/Public/Home/css/login.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/Public/Home/js/jquery.js"></script>
+<script type="text/javascript" src="/Public/Home/js/tab.js"></script>
+<script type="text/javascript" src="/Public/Home/js/jquery-ui.min.js"></script>
+<link href="/Public/Home/js/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="toper">
+	<div class="top">
+    	<ul class="top_l">
+			<li>欢迎<b id="f33">某某某</b>　单 位：武汉金开瑞生物工程有限公司　电 话：1230000000</li>
+		</ul>
+        <ul class="top_l right">
+        	<li><i class="lgo"></i>欢迎<b id="f33">某某某11</b>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="{:U('User/logout/')}">退 出</a></li>
+        </ul>
+    </div>
+</div>
+<div class="clear"></div>
+<div id="header">
+	<div class="head">
+		<div class="logo"><a href="#"><img src="/Public/Home/images/logo.gif" /></a></div>
+        <div class="menu">
+                <ul class="menu">
+                	<li class="menu-item select"><a class="menu-item" href="{:U('Index')}">我的帐户</a></li>
+                    
+                    <li class="menu-item"><a class="menu-item" >创建新订单</a>
+                        <div class="menu-div" style="display:none;">
+                            <ul>
+                                <li><a href="{:U('Index/Create/')}">创建测序订单</a></li>
+                                <li><a href="#">创建引物订单</a></li>
+                                <li><a href="#">创建基因订单</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item big"><a class="menu-item" href="{:U('Index/search')}">订单状态和结果</a></li>
+                    <li class="menu-item"><a class="menu-item" href="#">帐户信息</a>
+                        <div class="menu-div" style="display:none;">
+                            <ul>
+                                <li><a href="#">帐户信息</a></li>
+                                <li><a href="#">修改密码</a></li>
+                                <li><a href="#">邮件配置</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    
+				</ul>
+                <script type="text/javascript">
+				$('.menu-item').hover(
+					function(){
+						$(this).find("div.menu-div").show();
+						$(this).addClass("select");
+					},
+					function(){
+						$(this).find("div.menu-div").hide();
+						$(this).removeClass("select");
+					}
+				);
+				$('.first-nav').hover(
+					function(){
+						$(this).find("ul.menu-div-child").show();
+						$(this).addClass('select');
+					},
+					function(){
+						$(this).find("ul.menu-div-child").hide();
+						$(this).removeClass('select');
+					}
+				);
+				
+					
+			</script>
+		</div>
+	</div>
+</div>
+<!-- logo--导航菜单 结束 -->
+<div class="clear"></div>

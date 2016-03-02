@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link href="/Public/Home/css/login.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/Public/Home/js/jquery.js"></script>
+<script type="text/javascript" src="/Public/Home/js/tab.js"></script>
+<!-- <script type="text/javascript" src="/Public/Home/js/jquery-ui.min.js"></script>
+<link href="/Public/Home/js/jquery-ui.min.css" rel="stylesheet" type="text/css" /> -->
+</head>
+
+<body>
+<div id="toper">
+	<div class="top">
+    	<ul class="top_l">
+			<li><a href="{:U('Index/sequencing')}">返回列表</a></li>
+            <li><a href="http://www.jkrorder.com/index.php/Manage.html" target="_top">后台主页</a></li>
+		</ul>
+        <ul class="top_l right">
+        	<li><i class="lgo"></i>欢迎<b id="f33">{:session('name')}</b>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="{:U('User/logout/')}">退 出</a></li>
+        </ul>
+    </div>
+</div>
+<div class="clear"></div>
+<div id="main">
+	<div class="maincon">
+        <div class="order_con">
+        <div class="left">
+        <div class="bread">测序订单订单信息</div>
+
+		<form method="post" action="{:U('Index/seqres')}"   enctype="multipart/form-data">
+
+		<input type="hidden" name="seqid" value="{$info.id}" />
+        <table width="50%" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+                <td width="120" align="right">订单号：</td>
+                <td width="300" style="border-bottom:#000 1px solid"><span id="lblUserName">{$info.orderid|getOrderCodeByID}</span></td>
+            </tr>
+            <tr>
+                <td align="right">样品名称：</td>
+                <td style="border-bottom:#000 1px dotted"><span id="lblUserPhone">{$info.samplename}</span></td>
+            </tr>
+           <!--  <tr>
+                <td align="right">测序结果ab1：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><input type="file" name="ab1" /></td>
+            </tr> -->
+           <!--  <tr>
+                <td align="right">测序结果txt：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><input type="file" name="txt" /></td>
+            </tr> -->
+            <tr>
+                <td align="right">测序状态：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><select name="st">
+				<option value="1" <eq name="info.status" value="1">selected</eq>>待测序</option>
+				<option value="2" <eq name="info.status" value="2">selected</eq>>已测序</option>
+                <option value="3" <eq name="info.status" value="3">selected</eq>>重测序</option>
+				</select></td>
+            </tr>
+			<tr>
+                <td align="right">备注：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><textarea name="bz" colspan="30">{$info.content}</textarea></td>
+            </tr>
+			 <tr>
+                <td align="center" colspan="2"  ><input type="submit" style="cursor:pointer;" value="  更 改  " />
+
+                </td>
+
+                <td align="center"  >
+
+                    <input type="button" style="cursor:pointer;" 
+        onclick="check_fan()" value="  返 回  " />
+
+                 <!--     <input type="button" style="cursor:pointer;" id="sequence_we" s='' value="  返 回  " /> -->
+
+                </td>
+            </tr>
+        </table>
+
+		</form>
+
+        </div>
+	</div>
+</body>
+ <script type="text/javascript">
+ function check_fan(){
+    // alert("{:U('Index/sequencingShow',array('id'=>$info['orderid']))}");
+    window.location = "{:U('Index/sequencingShow',array('id'=>$info['orderid']))}";
+ }
+// $(function(){
+// $("#sequence_we").click(function(){
+//     // alert($(this).attr("s"));
+
+//     if($("#sequence_we").attr("s") == "wuheng"){
+//       $("#sequence_we").attr("s","");
+//        // alert("1234");  
+//       window.location.href="/index.php/Manage/Index/sequencinginfo?id={$id}";
+//     }else{
+//        // alert("456");  
+//       window.location.href="/index.php/Manage/Index/sequencinginfo?id={$id}";
+//     }
+// });
+// });
+//    function check_status(){
+//      $("#sequence_we").attr("s","wuheng");
+//       // alert($("#sequence_we").attr("s"));
+//      return true;
+//    }
+ </script>
+</html>

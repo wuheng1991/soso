@@ -1,0 +1,196 @@
+ <include file="Index/header" />
+<style type="text/css">
+    #op:hover{
+      cursor:pointer;
+      color:red;
+    }
+    .xingxing{
+        color:red;
+    }
+    .dianji:hover{
+        cursor:pointer;
+        color:red;
+    }
+    .Submit:hover{
+        cursor:pointer;
+        color:red;
+    }
+
+
+</style>
+<div id="main">
+    <div class="maincon">
+    <div class="order_con">
+        
+         <!--表单开始-->
+        <form action="{:U('Server/forms_do')}" method="post" name="form1" 
+        enctype="multipart/form-data">
+              
+        <table cellspacing="0" cellpadding="0" width="100%" border="1">
+            <legend>基因突变服务(<span class="xingxing">*</span>必填项)</legend>
+
+            <foreach name="serverinfo" item="info" >
+             <tr>
+                <td colspan="6">订单号：<span class="xingxing">{$orderInfo['code']}  </span>订单确认 （确认后订单不可再编辑，请仔细填写订单信息）</td>
+              </tr>
+              <tr align="center">
+                <td><span class="xingxing">*</span>插入序列名称</td>
+                <td><span class="xingxing">*</span>克隆位点</td>
+                <td><span class="xingxing">*</span>插入序列</td>
+                <td><span class="xingxing">*</span>载体名称</td>
+              </tr>
+
+              <tr align="center">
+                 <input type="hidden" name="server_id" value="{$info['id']}">
+                <td> <input type="text" name="server_title" required="required" placeholder="请填写序列的名称" value="{$info['server_title']}"  /></td>
+                <td>  <input type="text" name="server_site" value="{$info['server_site']}" required="required" placeholder="请填克隆位点"   /></td>
+                <td>   <textarea name="server_serial" name="server_serial" required="required" placeholder="请填写插入的序列" style=""  >{$info['server_serial']}</textarea></td>
+                <td>
+                  <select onchange="" style="margin-top:2px; width:186px;"
+                    required="required" placeholder="请填写载体名称"  name="server_name"  >
+                        <option value="0" <eq name="info['server_name']" value="0">selected="selected"</eq>></option>
+                        <option value="1" <eq name="info['server_name']" value="1">selected="selected"</eq>>pBC-SK+</option>
+                        <option value="2" <eq name="info['server_name']" value="2">selected="selected"</eq>>pBluescript II KS+</option> 
+                        <option value="3" <eq name="info['server_name']" value="3">selected="selected"</eq>>Other</option>
+                    </select>
+                </td>
+              </tr>
+
+
+              <tr align="center">
+                <td><span class="xingxing">*</span>载体大小</td>
+                <td><span class="xingxing">*</span>抗性</td>
+                <td><span class="xingxing">*</span>拷贝数</td>
+                <td>载体序列</td>
+              </tr>
+
+              <tr align="center">
+                <td><input type="text" name="server_size" value="{$info['server_size']}"
+        required="required" placeholder="请填写载体的大小"   /></td>
+                <td> 
+                  <select onchange="" required="required" 
+                            name="server_kangxing"  >
+                         <option value="0" <eq name="info['server_kangxing']" value="0">selected="selected"</eq>></option> 
+                         <option value="1" <eq name="info['server_kangxing']" value="1">selected="selected"</eq>>Ampicillin</option> 
+                         <option value="2" <eq name="info['server_kangxing']" value="2">selected="selected"</eq>>Blasticidin</option>
+                         <option value="3" <eq name="info['server_kangxing']" value="3">selected="selected"</eq>>Chloramphenicol</option>
+                         <option value="4" <eq name="info['server_kangxing']" value="4">selected="selected"</eq>>Clarithromycin</option>
+                         <option value="5" <eq name="info['server_kangxing']" value="5">selected="selected"</eq>>Other</option>
+                </select>
+              </td>
+                <td>   
+                  <input type="radio" value="1" name="server_copy"  
+                  <eq name="info['server_copy']" value="1">checked="checked"</eq>>高　　
+                   <input type="radio" value="2"   name="server_copy"  
+                   <eq name="info['server_copy']" value="2">checked="checked"</eq>>低
+                 </td>
+                <td>
+                  <input type="text" name="server_zaiti_serial" value="{$info['server_zaiti_serial']}"   />
+                </td>
+              </tr>
+
+
+              <tr align="center">
+                <td>载体图谱</td>
+                <td><span class="xingxing">*</span>突变后序列名称</td>
+                <td><span class="xingxing">*</span>突变后序列</td>
+                <td><span class="xingxing">*</span>克隆方式</td>
+              </tr>
+
+
+               <tr align="center">
+                <td><input type="file" name="server_file"  value="{$info['server_file']}">
+                  {$info['server_file']}</td>
+                <td>
+                   <input type="text" name="server_chg_name" value="{$info['server_chg_name']}" required="required" placeholder="请填写突变后序列名称"  />
+                </td>
+                <td>
+                  <textarea name="server_chg_content" style="" required="required" 
+                    placeholder="请填写突变后的序列">{$info['server_chg_content']}</textarea>
+                </td>
+                <td>
+                    <input type="radio" name="server_way" value="0" 
+                    <eq name="info['server_way']" value="0">checked="checked"</eq>/>与模板相同&nbsp;&nbsp;&nbsp;
+                    <input type="radio"  name="server_way" value="1" <eq name="info['server_way']" value="1">checked="checked"</eq> />其 他
+                </td>
+              </tr>
+
+              <tr align="center">
+                <td>其他要求</td>
+                <td>质粒制备</td>
+                <td><span class="xingxing">*</span>模板名称</td>
+                <td>质量级别</td>
+              </tr>
+
+
+               <tr align="center">
+                <td>
+                  <textarea name="server_other" style="">{$info['server_other']}</textarea>
+                </td>
+                <td align="left">
+                  <input type="radio" value="1" onClick="" 
+                           name="server_zhili" <eq name="info['server_zhili']" value="1">checked="checked"</eq>> 标准交付: 4 μg (免费)<br/>
+                  <input type="radio" value="2"  onClick="" 
+                    name="server_zhili" <eq name="info['server_zhili']" value="2">checked="checked"</eq>>定制质粒制备：
+                 <select onchange="" name="server_zhili_sel">
+                   <option value="0" <eq name="info['server_zhili_sel']" value="0">selected="selected"</eq>></option>
+                   <option value="1" <eq name="info['server_zhili_sel']" value="1">selected="selected"</eq>>200 μg</option>
+                   <option value="2" <eq name="info['server_zhili_sel']" value="2">selected="selected"</eq>>500 μg</option>
+                   <option value="3" <eq name="info['server_zhili_sel']" value="3">selected="selected"</eq>>1 mg</option>
+                   <option value="4" <eq name="info['server_zhili_sel']" value="4">selected="selected"</eq>>2 mg</option> 
+                   <option value="5" <eq name="info['server_zhili_sel']" value="5">selected="selected"</eq>>Other</option>
+
+              </select>
+                </td>
+
+                <td><input type="text" name="server_moban_name"  required="required" placeholder="请填写模板名称" value="{$info['server_moban_name']}"/></td>
+                <td align="left">
+                   <input type="radio" value="0" onClick="" 
+    name="server_help" <eq name="info['server_help']" value="0">checked="checked"</eq>> Research Grade(Predominantly supercoiled, animal free)<br />
+    <input type="radio" value="1" onClick="" 
+    name="server_help" <eq name="info['server_help']" value="1">checked="checked"</eq>> SC Grade (≥95% Supercoilded, ≤0.03 EU/ug Endotoxin)<br />
+    <input type="radio" value="2" onClick="" 
+    name="server_help" <eq name="info['server_help']" value="2">checked="checked"</eq>> Advanced SC Grade(≥95% Supercoilded, ≤0.005 EU/ug Endotoxin)
+                </td>
+              </tr>
+
+              <td colspan="4" align="center">
+                   <input type="submit" class="Submit" value="      保    存      "/>
+        
+                </td>
+              
+          </foreach>
+
+        </table>
+
+
+
+    </form>
+
+
+    <!--表单结束-->
+    </div>
+</div>
+</div>
+
+
+<script type="text/javascript">
+  //获取序列选项信息
+    
+     // window.onload=function(){
+     //  //alert(form1.gene_clone_method.value);
+     //  alert
+     // }
+
+  
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>

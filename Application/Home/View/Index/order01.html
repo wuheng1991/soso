@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link href="css/login.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/tab.js"></script>
+</head>
+
+<body>
+<div id="toper">
+	<div class="top">
+    	<ul class="top_l">
+			<li>欢迎<b id="f33">某某某</b>　单 位：武汉金开瑞生物工程有限公司　电 话：1230000000</li>
+		</ul>
+        <ul class="top_l right">
+        	<li><i class="lgo"></i>欢迎<b id="f33">某某某</b>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="#" target="_blank">退 出</a></li>
+        </ul>
+    </div>
+</div>
+<div class="clear"></div>
+<div id="header">
+	<div class="head">
+		<div class="logo"><a href="#"><img src="images/logo.gif" /></a></div>
+        <div class="menu">
+                <ul class="menu">
+                	<li class="menu-item select"><a class="menu-item" href="#">我的帐户</a></li>
+                    
+                    <li class="menu-item"><a class="menu-item" href="#">创建新订单</a>
+                        <div class="menu-div" style="display:none;">
+                            <ul>
+                                <li><a href="#">创建测序订单</a></li>
+                                <li><a href="#">创建引物订单</a></li>
+                                <li><a href="#">创建基因订单</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item big"><a class="menu-item" href="#">订单状态和结果</a></li>
+                    <li class="menu-item"><a class="menu-item" href="#">帐户信息</a>
+                        <div class="menu-div" style="display:none;">
+                            <ul>
+                                <li><a href="#">帐户信息</a></li>
+                                <li><a href="#">修改密码</a></li>
+                                <li><a href="#">邮件配置</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item" style="margin-right:0;"><a class="menu-item" href="#">积 分</a>
+                        <div class="menu-div" style="display:none;">
+                            <ul>
+                                <li><a href="#">积分兑换</a></li>
+                            </ul>
+                        </div>
+					</li>
+				</ul>
+                <script type="text/javascript">
+				$('.menu-item').hover(
+					function(){
+						$(this).find("div.menu-div").show();
+						$(this).addClass("select");
+					},
+					function(){
+						$(this).find("div.menu-div").hide();
+						$(this).removeClass("select");
+					}
+				);
+				$('.first-nav').hover(
+					function(){
+						$(this).find("ul.menu-div-child").show();
+						$(this).addClass('select');
+					},
+					function(){
+						$(this).find("ul.menu-div-child").hide();
+						$(this).removeClass('select');
+					}
+				);
+			</script>
+		</div>
+	</div>
+</div>
+<!-- logo--导航菜单 结束 -->
+<div class="clear"></div>
+<div id="main">
+	<div class="maincon">
+		<div class="bread">注意： 鼠标移至各项查看注释，其中*为必填项。如有疑问，欢迎咨询金开瑞技术支持。</div>
+        <div class="order_con">
+        <table width="100%" cellspacing="1" cellpadding="1" border="0">
+			<tr>
+           	  	<th width="5%">反应编号</th>
+                <th width="7%">样品名称 *<br />清空 复制</th>
+                <th width="7%">样品类型 *<br />清空 复制</th>
+                <th width="11%">载体名称及抗性 *<br />清空 复制</th>
+                <th width="15%">片段或插入序列长度( bp)*<br />清空 复制</th>
+                <th width="9%">DNA 浓度(ng/µl)<br />清空 复制</th>
+                <th width="11%">自备引物名称 *<br />清空 复制</th>
+                <th width="13%">自备引物浓度 µM (pmol/µl)<br />清空 复制</th>
+                <th width="8%">通用引物<br />清空 复制</th>
+                <th width="7%">测序要求<br />清空 复制</th>
+                <th width="7%">特殊要求<br />清空 复制</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><input type="text" size="4" /></td>
+                <td>
+                <select name="location" id="location" size="1">
+                    <option selected="selected">基因合成</option>
+                    <option>引物合成</option>
+                    <option>测序服务</option>
+                    <option>分子生物学服务</option>
+                    <option>蛋白质组学分析</option>
+                    <option>检测分析服务</option>
+                    <option>蛋白表达</option>
+                    <option>抗体定制</option>
+                    <option>试剂盒合作开发</option>
+                    <option>其 它</option>
+                </select>
+                </td>
+                <td><input type="text" size="4" /></td>
+                <td><input type="text" size="4" /></td>
+                <td><input type="text" size="4" /></td>
+                <td><input type="text" size="4" /></td>
+                <td><input type="text" size="4" /></td>
+                <td>
+                <select name="location" id="location" size="1">
+                    <option selected="selected">基因合成</option>
+                    <option>引物合成</option>
+                    <option>测序服务</option>
+                    <option>分子生物学服务</option>
+                    <option>蛋白质组学分析</option>
+                    <option>检测分析服务</option>
+                    <option>蛋白表达</option>
+                    <option>抗体定制</option>
+                    <option>试剂盒合作开发</option>
+                    <option>其 它</option>
+                </select>
+                </td>
+                <td>
+                <select name="location" id="location" size="1">
+                    <option selected="selected">基因合成</option>
+                    <option>引物合成</option>
+                    <option>测序服务</option>
+                    <option>分子生物学服务</option>
+                    <option>蛋白质组学分析</option>
+                    <option>检测分析服务</option>
+                    <option>蛋白表达</option>
+                    <option>抗体定制</option>
+                    <option>试剂盒合作开发</option>
+                    <option>其 它</option>
+                </select>
+                </td>
+                <td>
+                <select name="location" id="location">
+                    <option selected="selected">基因</option>
+                    <option>引物合成</option>
+                    <option>测序服务</option>
+                    <option>蛋白表达</option>
+                    <option>抗体定制</option>
+                    <option>其 它</option>
+                </select>
+                </td>
+            </tr>
+            
+        </table>
+	  </div>
+      
+      <div class="jTip">请根据具体需求，选择单向，双向，单向测通，双向测通。<br/>单向：每个样品只需提交一个反应，并选择一个可用的通用或自备引物。<br/>双向：每个样品需要提交两个反应，并选择正反向各一个通用或自备引物。<br/>单向测通：若目的片段大于800bp，需从一个方向将其测通，请选择该项。<br/>每个样品只需提交一个反应，并选择一个可用的通用或自备引物。<br/>双向测通：若目的片段大于800bp，需从正反两个方向将其测通，请选择该项。<br/>每个样品需提交两个反应，每个反应选择一个可用的通用或自备引物。</div>
+      
+  </div>
+</div>
+</body>
+</html>

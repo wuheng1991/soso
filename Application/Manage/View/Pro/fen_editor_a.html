@@ -1,0 +1,679 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>武汉金开瑞生物工程有限公司---后台管理</title>
+<link href="__PUBLIC__/Consel/css/style.css" rel="stylesheet" type="text/css">
+<script  src="__PUBLIC__/Consel/js/jquery.js"></script>
+<!-- <script  src="__PUBLIC__/Consel/js/jquery-ui.min.js"></script>
+<link href="__PUBLIC__/Consel/js/jquery-ui.min.css" rel="stylesheet" type="text/css" /> -->
+</head>
+<script>
+ function checkAll(){
+     flag = true;
+    //地区位置 
+    // alert(document.getElementById("fen_position_n").checked);
+    s = document.getElementById("fen_position_s").checked;
+    n = document.getElementById("fen_position_n").checked;
+   if(s == false && n == false){
+     flag = false;
+     alert('地区位置必须选择！');
+     $(".fen_position").focus();
+     return false;
+   }
+   //地区名称
+    fen_name = $.trim($("#fen_name").val());
+    if(fen_name == ''){
+     flag = false;
+     alert('地区名称必须填写！');
+     document.getElementById("fen_name").value='';
+     $("#fen_name").focus();
+     return false;
+    }
+
+     //销售员
+    fen_sale = $.trim($("#fen_sale").val());
+    if(fen_sale == ''){
+     flag = false;
+     alert('销售员名称必须填写！');
+     document.getElementById("fen_sale").value='';
+     $("#fen_sale").focus();
+     return false;
+    }
+
+     //合  同  编  号
+    fen_he = $.trim($("#fen_he").val());
+    if(fen_he == ''){
+     flag = false;
+     alert('合同编号必须填写！');
+     document.getElementById("fen_he").value='';
+     $("#fen_he").focus();
+     return false;
+    }
+
+     //客户单位
+    fen_customer = $.trim($("#fen_customer").val());
+    if(fen_customer == ''){
+     flag = false;
+     alert('客户单位必须填写！');
+     document.getElementById("fen_customer").value='';
+     $("#fen_customer").focus();
+     return false;
+    }
+
+    //联系人
+    fen_contact = $.trim($("#fen_contact").val());
+    if(fen_contact == ''){
+     flag = false;
+     alert('联系人必须填写！');
+     document.getElementById("fen_contact").value='';
+     $("#fen_contact").focus();
+     return false;
+    }
+
+    //预计项目周期
+    fen_date = $.trim($("#fen_date").val());
+    if(fen_date == ''){
+     flag = false;
+     alert('预计项目周期必须填写！');
+     document.getElementById("fen_date").value='';
+     $("#fen_date").focus();
+     return false;
+    }
+
+    //项目名称
+    fen_pro = $.trim($("#fen_pro").val());
+    if(fen_pro == ''){
+     flag = false;
+     alert('项目名称必须填写！');
+     document.getElementById("fen_pro").value='';
+     $("#fen_pro").focus();
+     return false;
+    }
+
+
+    //项目状态
+    fen_status = $.trim($("#fen_status").val());
+    if(fen_status == '0'){
+     flag = false;
+     alert('项目状态必须选择！');
+     document.getElementById("fen_status").value='';
+     $("#fen_status").focus();
+     return false;
+    }
+
+    //项目细分
+    fen_xi = $.trim($("#fen_xi").val());
+    if(fen_xi == ''){
+     flag = false;
+     alert('项目细分必须填写！');
+     document.getElementById("fen_xi").value='';
+     $("#fen_xi").focus();
+     return false;
+    }
+
+
+    if(flag == true){
+
+     return true;
+    }
+     
+ }
+
+
+ function checkInfo(){
+      flag_a = true;
+
+    //项目编号  fen_pro_num
+    // fen_name = $.trim($("#fen_name").val());
+    // if(fen_name == ''){
+    //  flag = false;
+    //  alert('地区名称必须填写！');
+    //  document.getElementById("fen_name").value='';
+    //  $("#fen_name").focus();
+    //  return false;
+    // }
+
+
+    //子项目负责人  fen_pro_man
+    fen_pro_man = $.trim($("#fen_pro_man").val());
+    if(fen_pro_man == ''){
+     flag_a = false;
+     alert('子项目负责人必须填写！');
+     document.getElementById("fen_pro_man").value='';
+     $("#fen_pro_man").focus();
+     return false;
+    }
+
+     //项目简介  fen_pro_js
+    fen_pro_js = $.trim($("#fen_pro_js").val());
+    if(fen_pro_js == ''){
+     flag_a = false;
+     alert('项目简介必须填写！');
+     document.getElementById("fen_pro_js").value='';
+     $("#fen_pro_js").focus();
+     return false;
+    }
+
+     //样品信息说明  fen_pro_sm
+    fen_pro_sm = $.trim($("#fen_pro_sm").val());
+    if(fen_pro_sm == ''){
+     flag_a = false;
+     alert('样品信息说明必须填写！');
+     document.getElementById("fen_pro_sm").value='';
+     $("#fen_pro_sm").focus();
+     return false;
+    }
+
+    //样品接收时间(启动时间)  fen_pro_date
+    fen_pro_date = $.trim($("#fen_pro_date").val());
+    if(fen_pro_date == ''){
+     flag_a = false;
+     alert('样品接收时间(启动时间)必须填写！');
+     document.getElementById("fen_pro_date").value='';
+     $("#fen_pro_date").focus();
+     return false;
+    }
+
+     //样品说明  fen_pro_ys
+    fen_pro_ys = $.trim($("#fen_pro_ys").val());
+    if(fen_pro_ys == ''){
+     flag_a = false;
+     alert('样品说明必须填写！');
+     document.getElementById("fen_pro_ys").value='';
+     $("#fen_pro_ys").focus();
+     return false;
+    }
+
+     //项目进度  fen_pro_jd
+
+    fen_pro_jd = $.trim($("#fen_pro_jd").val());
+    if(fen_pro_jd == ''){
+     flag_a = false;
+     alert('项目进度必须填写！');
+     document.getElementById("fen_pro_jd").value='';
+     $("#fen_pro_jd").focus();
+     return false;
+    }
+
+     //相关文件上传  fen_pro_file
+
+    // len = $(".pro_picture a").length; 
+    
+
+    // fen_pro_file = $.trim($("#fen_pro_file").val());
+
+    // if(len == 0){
+    
+    //  if(fen_pro_file == ''){
+    //  flag_a = false;
+    //  alert('相关文件必须上传！');
+    //  document.getElementById("fen_pro_file").value='';
+    //  $("#fen_pro_file").focus();
+    //  return false;
+    // }
+
+    // }
+
+    if(flag == true){
+
+     return true;
+    }
+     
+
+ }
+</script>
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" background="__PUBLIC__/Consel/images/hui.jpg">
+    <tr>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+<!-- <form id="sequencingForm" method="post" autocomplete="off" action="{:U('User/searchlist')}"> -->
+<input type="hidden" name="page" id="page" value="{$page}" />
+
+<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+        <td width="100%" align="center" valign="top" bgcolor="#FFFFFF">
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="border-bottom:#ccc solid 1px; margin-bottom:10px;">
+                            <tr>
+                                <td width="2%" height="30"><img src="__PUBLIC__/Consel/images/2_r1.jpg" /></td>
+                                <td width="73%" class="index-5"><span class="index-7"><font style="color:#f57e20;">{:session('admin-name')}</font>，您已登录成功！<a href="{:U('User/logout')}"  target=_top>退出</a></span></td>
+                                <td width="25%"><a href="http://www.jkrorder.com/index.php/Manage.html" target="top">后台主页</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                    武汉金开瑞生物工程有限公司
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                
+                    </td>
+                </tr>
+            </table>
+           <!-- 基本信息修改开始 -->
+             <form id="form_fen" action="{:U('Pro/fen_mod_ji')}" onsubmit="return checkAll();" method="post" autocomplete="off">
+
+                <table class="fen_list" width="100%" cellpadding="4" cellspacing="0" border="0" align="center">
+                <legend><h3><center><span style="color:green;">分子生物学服务项目跟踪基本信息</span></center></h3></legend>
+                    <input type="hidden" name="hid_id" value="{$fen_info.id}" />
+
+                    <tr>
+                        <td width="38%"><label for="fen_position">地区位置：</label> 
+                         
+                        <input type="radio"  id="fen_position_s" value="2" name="fen_position"  
+                        <eq name="fen_info['fen_position']" value="2">checked</eq>/>南
+                            <input type="radio"  id="fen_position_n" value="1" name="fen_position" 
+                            <eq name="fen_info['fen_position']" value="1">checked</eq>/>北
+                        </td>
+                    </tr>
+
+                    <tr>
+                         
+                        <td width="38%">
+                         <label for="fen_name">地区名称：</label>
+                         <input type="text" style="border-left:0px;border-right:0px;border-top:0px;" id="fen_name" size="45" name="fen_name" value="{$fen_info.fen_name}" />
+                        </td>
+
+                        <td align="left" width="31%">
+                        <label for="">销售员：</label>
+                        <input type="text"  style="border-left:0px;border-right:0px;border-top:0px;" id="fen_sale" size="38" name="fen_sale" value="{$fen_info.fen_sale}"/>
+                        </td>
+
+                        <td width="31%"> 
+                        <label for="fen_he">合&nbsp;&nbsp;同&nbsp;&nbsp;编&nbsp;&nbsp;号：</label>
+                        <input type="text"  style="border-left:0px;border-right:0px;border-top:0px;" id="fen_he" size="32" name="fen_he" value="{$fen_info.fen_he}"/>
+                        </td>
+                                
+                 
+            </tr>
+            <tr>
+                    <td>
+                        <label for="fen_customer">客户单位：  </label> 
+                        <input type="text"  style="border-left:0px;border-right:0px;border-top:0px;" id="fen_customer" size="45" name="fen_customer" value="{$fen_info.fen_customer}"/>           
+                     </td>
+
+                        <td>
+                         <label for="fen_contact">联系人：</label>
+                         <input type="text"  style="border-left:0px;border-right:0px;border-top:0px;" id="fen_contact" size="38" name="fen_contact" value="{$fen_info.fen_contact}"/>
+                        </td>
+
+
+                        <td > 
+                        <label for="fen_date_xian">合&nbsp;&nbsp;同&nbsp;&nbsp;期&nbsp;&nbsp;限：</label>
+                        <input type="text"  style="border-left:0px;border-right:0px;border-top:0px;" id="fen_date_xian" size="32" name="fen_date_fen" disabled value="{$fen_info.fen_date_xian}"/>
+                        </td>
+                                
+                 
+            </tr>
+            <tr>
+                <td align="left"> 
+                        <label for="fen_pro">项目名称：</label>   
+                        <input type="text"  style="border-left:0px;border-right:0px;border-top:0px;" id="fen_pro" size="45" name="fen_pro" value="{$fen_info.fen_pro}"/>
+                    </td>
+                        <td align="left"> 
+                        <label for="fen_status">项目状态：</label>    
+                     
+                        
+                        <select name="fen_status" id="fen_status">
+                             <option value="0" <eq name="fen_info.fen_status" value="0">selected</eq>>请选择状态</option>
+                             <option value="1" <eq name="fen_info.fen_status" value="1">selected</eq>>正常状态</option>
+                             <option value="2" <eq name="fen_info.fen_status" value="2">selected</eq>>停止状态</option>
+                             <option value="3" <eq name="fen_info.fen_status" value="3">selected</eq>>延期状态</option>
+                             <option value="4" <eq name="fen_info.fen_status" value="4">selected</eq>>准备发货状态</option>
+                             <option value="5" <eq name="fen_info.fen_status" value="5">selected</eq>>项目结束状态</option>
+                        </select>
+
+                    </td>
+
+                    <td > 
+                        <label for="fen_date">预计项目周期：</label>
+                        <input type="text"  style="border-left:0px;border-right:0px;border-top:0px;" id="fen_date" size="32" name="fen_date"  value="{$fen_info.fen_date}"/>
+                    </td>
+            </tr>
+            <tr>
+                 
+                    <td  colspan="4" align="left">
+                        <label for="fen_xi" style="vertical-align:top;">项目细分：</label>
+                      
+                        <textarea style="border:1px solid #ABCDEF;" name="fen_xi" id="fen_xi" cols="120" rows="2">{$fen_info.fen_xi}</textarea>
+                  </td>
+ 
+            </tr>
+
+            <tr>
+                <td colspan="4" align="center">
+                    <input type="submit" style="padding:5px;background:#FF6633;color:white;font-weight:normal;font-size:12px;cursor:pointer;" onclick="" value=" 修  改 "  />
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="reset" style="padding:5px;background:#FF6633;color:white;font-weight:normal;font-size:12px;cursor:pointer;" onclick="" value=" 取  消 "  />
+                </td>
+            </tr>
+        </table>
+
+        </form>
+        <br>
+        <br>
+           <!-- 基本信息修改结束 -->
+
+           
+      <form id="form_fen_a" action="{:U('Pro/fen_trace_editor')}" onsubmit="return checkInfo();" method="post" autocomplete="off" enctype="multipart/form-data">
+ 
+        <table width="100%" style="border-collapse:collapse;" cellpadding="4" cellspacing="0" border="1" class="bj-1">
+                <legend><h3>金开瑞{$fen_info.fen_he}服务项目任务跟进单</h3></legend>
+
+                    <input type="hidden" name="fen_guan_id" value="{$fen_info.id}" />
+                    <input type="hidden" name="trace_pro_id" value="{$trace_pro_id}" />
+                    
+
+                <tr>
+                    <td width="140" align="center" class="bj-3">项目编号</td>
+                    <td align="left" class="bj-3">
+                         
+                        <input type="text" size="60" value="{$fen_info.fen_he}" id="fen_pro_num" />
+                    </td>
+                    <td align="center"  class="bj-3">子项目负责人</td>
+                    <td align="left" class="bj-3">
+                        <input type="text" size="52" name="fen_pro_man" value="{$fen_arr['fen_pro_man']}" id="fen_pro_man" />
+                    </td>
+                </tr>
+
+                 <tr>
+                    <td align="center" class="bj-3">项目名称</td>
+                    <td align="left" colspan="3" class="bj-3">
+                         <input type="text" size="138" value = "{$fen_info.fen_pro}" readonly/>
+                     </td>
+                   
+                </tr>
+
+                 <tr>
+                    <td align="center" class="bj-3">项目简介</td>
+                    <td align="left" colspan="3" class="bj-3">
+                         <input type="text" size="138" name="fen_pro_js" value="{$fen_arr['fen_pro_js']}" id="fen_pro_js" />
+                    </td>
+                   
+                </tr>
+
+                 <tr>
+                    <td align="center" class="bj-3">样品信息说明</td>
+                    <td align="left" colspan="3" class="bj-3">
+                         <input type="text" size="138" name="fen_pro_sm" value="{$fen_arr['fen_pro_sm']}" id="fen_pro_sm" />
+                    </td>
+                   
+                </tr>
+                
+                  <tr>
+                    <td width="140" align="center" class="bj-3">样品接收时间(启动时间)</td>
+                    <td align="left" class="bj-3">
+                        <!-- PB1-1508005 -->
+                        <input type="text" size="60" name="fen_pro_date" value="{$fen_arr['fen_pro_date']}"  id="fen_pro_date" />
+                    </td>
+                    <td align="center" class="bj-3">样品说明</td>
+                    <td align="left" class="bj-3">
+                        <input type="text" size="52" name="fen_pro_ys" value="{$fen_arr['fen_pro_ys']}" 
+                        id="fen_pro_ys" />
+                      <!-- <textarea name="" id="" cols="30" rows="2"> -->
+
+                    </td>
+                </tr>
+                 <!-- <tr>
+                    <td align="center" class="bj-3">样品验收时间及说明</td>
+                    <td align="left" colspan="3" class="bj-3">
+                         <input type="text" size="120" name="fen_pro_ts" id="fen_pro_ts"/>
+                    </td>
+                  
+                </tr> -->
+                <foreach name="pro_arr" item="fen_row" >
+            
+            
+               <tr class="pro_add">
+                      
+                      <input type="hidden" name="trace_hid_id" value="{$fen_arr['id']}" disabled/>
+
+
+
+                    <td align="center" width="140" class="bj-3">
+                        项目进度（第{$fen_row[0]?$fen_row[0]:1|get_status}周）
+                    
+
+                       <input type="hidden" name="hide_status" value="{$fen_row['status']?$fen_row['status']:1}">
+                    </td>
+
+                    <td align="left" width="250" class="bj-3"> 
+
+                  <textarea style="border:0px;"  name="" id="" cols="50" rows="6" readonly>{$fen_row[0]|get_content}
+</textarea>
+                      
+                 
+                    </td>
+                    <!-- 相关文件上传 -->
+                    <td align="center" width="150" class="bj-3">
+                       相关文件信息
+                     
+                    </td>
+
+                    <td class="pro_picture" style="text-align:justify;" class="bj-3">
+                        <span><h4><center>点击(缩略图,文件)查看详情</center></h5></span>
+                        
+                         {$fen_row[0]|get_file}
+                      
+                    </td>
+                </tr>
+                
+                 </foreach> 
+
+                <!-- 开始。。。 -->
+                  <tr class="pro_add">
+                      
+                      <input type="hidden" name="trace_hid_id" value="{$fen_arr['id']}" />
+
+
+
+                    <td align="center" width="140" class="bj-3">
+                        项目进度（第{$pang?$pang:1}周）  
+                 
+                       <input type="hidden" name="hide_status" value="{$pang?$pang:1}">
+                      </td>
+
+                    <td align="left" width="250" class="bj-3"> 
+
+                     <textarea data_id ="{$fen_row['id']}" name="fen_pro_jd" id="fen_pro_jd" cols="50" rows="6">{$pro_content?$pro_content:''}</textarea> 
+                    </td>  
+                    <!-- 相关文件上传 -->
+                    <td align="center" width="150" class="bj-3">
+                         
+                        <input  type="file" value="开始上传" name="fen_pro_file[]" id="fen_pro_file" style="border:0px solid red;width:150px;" size="5" multiple /><br/>
+                        <span style="color:red;font-style:italic;">(附件上传)</span>
+                    </td>
+
+                    <td class="pro_picture" style="text-align:justify;" class="bj-3">  
+                          <span><h4><center>点击(缩略图,文件)查看详情</center></h5></span>  
+                  
+                           {$pang_a?$pang_a:1|curr_file}                   
+                      
+                    </td>
+                </tr>  
+
+               <!-- 结束。。。 -->
+
+                <tr class="fen_info">
+                   <td colspan="4" align="center">
+                    <br>
+                    <input type="submit" style="padding:5px;background:#FF6633;color:white;font-weight:normal;font-size:12px;cursor:pointer;" onclick="" value=" 编  辑 "  />
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="reset" style="padding:5px;background:#FF6633;color:white;font-weight:normal;font-size:12px;cursor:pointer;" onclick="" value=" 取  消 "  />
+                  </td>
+                </tr>
+
+            </form>
+
+
+            <tr >
+                <td colspan="4" align="left">
+                    <input class="pro_jd_wh" type="button" style="padding:5px;background:green;color:white;font-weight:normal;font-size:12px;cursor:pointer;" onclick="" value=" 添加新项目进度>> "  /> 
+                </td>
+            </tr>
+
+           <!--  <tr style="border-bottom:0px;">
+                <td colspan="4" align="left" style="border-bottom:0px;">
+                    &nbsp;
+                </td>    
+            </tr> -->
+             <tr>
+                <td colspan="4" align="right">
+                    <br/><br/>
+                    <input class="pro_jd_back" type="button" style="padding:5px;background:#FF6633;color:white;font-weight:normal;font-size:12px;cursor:pointer;" onclick="" value=" 返回>> "  /> 
+                </td>    
+            </tr>
+              
+
+
+
+                
+             
+             
+           
+     
+</table>
+<!-- </form> -->
+</body>
+<style type="text/css">
+    #search{
+        cursor:pointer;
+    }
+    #select7{
+        cursor:pointer;
+    }
+    #pre{
+        cursor:pointer;
+    }
+    #next{
+        cursor:pointer;
+    }
+    input{
+        border:1px solid #ABCDEF;
+    }
+    .fen_more:hover{
+        color:red;
+    }
+    textarea{
+        border:1px solid #ABCDEF;
+    }
+    .fen_info{
+        border-left:0px solid white;
+        border-right:0px solid white;
+        border-bottom:0px solid white;
+
+
+    }
+    .pro_del:hover{
+        color:red;
+        cursor:pointer;
+    }
+
+</style>
+<script>
+    $(function(){
+
+        $(".pro_jd_back").click(function(){
+          window.history.back();
+        });
+        // alert('aa');
+        // $("#fen_index").click(function(){
+            
+        //     window.history.back();
+        // });
+          count = {$pang}+1; 
+
+        $(".pro_jd_wh").click(function(){
+
+          if(window.confirm('您确定要执行下一进度吗?\n如果是，则上一进度信息无法修改。')){
+
+
+         str = "<tr class=\'pro_add\'><td align=\"center\" width=\"140\" class=\"bj-3\"> ";
+         str +="项目进度（第"+count+"周）";
+         str +="<input type=\"hidden\" name=\"hide_status\" value="+count+">";
+         str +="</td><td align=\"left\" width=\"250\" class=\"bj-3\"> ";
+         str += "<textarea name=\"fen_pro_jd\" id=\"fen_pro_jd\" cols=\"50\" rows=\"6\"> </textarea> ";
+         str += "</td><td align=\"center\" width=\"150\" class=\"bj-3\">";
+         str += "<input  type=\"file\" value=\"开始上传\" name=\"fen_pro_file[]\" id=\"fen_pro_file\" ";
+         str += "style=\"border:0px solid red;width:150px;\" size=\"5\" multiple /><br/> ";
+         str += "<span style=\"color:red;font-style:italic;\">(附件上传)</span>";
+         str += "</td><td class=\"pro_picture\" style=\"text-align:justify;\" class=\"bj-3\">";
+         str += "<span><h4><center>点击缩略图查看详情</center></h5></span></td></tr>";   
+         // $(".pro_add:last").after(str);
+          
+          // alert($(".pro_add textarea:last").attr('data_id'));
+          data_id = $(".pro_add textarea:last").attr('data_id');
+           
+           $.ajax({
+           type: "GET",
+           url: "/index.php/Manage/Pro/fen_row_add",
+           data:"id="+data_id+"&status_id="+count+"&trace_id="+{$trace_pro_id},
+           success: function(msg){
+             // alert(msg);
+             // $("#fen_row_"+data_id).before(msg);
+             $(".pro_add:last").before(msg);
+             $(".pro_add:last").before(str);
+             $(".pro_add:last").remove();
+             
+           }
+
+        });
+
+            // $("#fen_pro_jd_"+count).focus();
+            // alert("#fen_pro_jd_"+count);
+         // switch(count){
+         // case 2: str = "二";break;
+         // }   
+
+        
+         // alert("aaa");
+
+           }else{
+            return false;
+          }  
+          count ++;
+        });
+
+        $(".pro_del").click(function(){
+            // $(this).remove();
+            alert('aaaa')
+        })
+
+        $(".fen_row_del").click(function(){
+         // alert('aaa');
+         id = $(this).attr("value");
+         // alert(id);
+         // ip = $(".fen_row_a").attr("data_value");
+          if(window.confirm('您确定要删除吗？')){
+          $.ajax({
+           type: "GET",
+           url: "/index.php/Manage/Pro/fen_row_del",
+           data:"id="+id,
+           success: function(msg){
+             // alert(msg);
+             // window.location.reload();
+           
+               $("#fen_row_"+id).remove();
+
+            
+           }
+
+        });
+          return true;
+      }else{
+        return false;
+      }
+
+
+        });
+    });
+
+</script>
+
+
+</html>

@@ -1,0 +1,1288 @@
+[ 2016-01-30T01:40:49+08:00 ] 219.140.140.108 /index.php/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-01-30T01:40:50+08:00 ] 219.140.140.108 /index.php/Manage/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/IndexController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_tp_node` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( level = 2 ) ORDER BY sort  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='17' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='22' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='26' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='30' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='42' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='50' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-01-30T01:40:50+08:00 ] 219.140.140.108 /index.php/Manage/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-01-30T01:40:51+08:00 ] 219.140.140.108 /index.php/Manage/Primer/index/type/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+NOTIC: [2048] Declaration of Manage\Controller\PrimerController::show() should be compatible with that of Think\Controller::show() /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/PrimerController.class.php 第 6 行.
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/PrimerController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_tp_role` [ RunTime:0.0004s ]
+SQL: SELECT `remark` FROM `ge_tp_role` WHERE ( id =27 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SELECT `uid` FROM `ge_members_info` WHERE `name` LIKE '%%'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_orders` WHERE `ordertype` = 2 AND `status` = 2 ORDER BY id desc LIMIT 0,15   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders` WHERE `ordertype` = 2 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: customer /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Manage/f6410d2c29cde6720c67eda98b4f50d5.php 第 87 行.
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_contents` [ RunTime:0.0004s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1262 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1262 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1262 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1261 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1261 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1261 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1260 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1260 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1260 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1259 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1259 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1259 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1258 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1258 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1258 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1257 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1257 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1257 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1256 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1256 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1256 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1255 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1255 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1255 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1254 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1254 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1254 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1253 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1253 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1253 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1252 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1252 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1252 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1251 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1251 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1251 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1250 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1250 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1250 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1249 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1249 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1249 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1248 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1248 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1248 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-01-30T10:24:36+08:00 ] 59.172.37.234 /index.php/manage/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014225s ]
+
+[ 2016-01-30T10:24:37+08:00 ] 59.172.37.234 /index.php/Manage/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-01-30T10:24:44+08:00 ] 59.172.37.234 /index.php/Manage/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE ( username = '赵晨阳'  ) LIMIT 1   [ RunTime:0.0194s ]
+SQL: SHOW COLUMNS FROM `ge_tp_role` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: mapping_order /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,name FROM ge_tp_role_user AS a, ge_tp_role AS b WHERE a.role_id = b.id AND a. user_id='92' [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: superadmin /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Org/Util/Rbac.class.php 第 88 行.
+SQL: select node.id,node.name from ge_tp_role as role,ge_tp_role_user as user,ge_tp_access as access ,ge_tp_node as node where user.user_id='92' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=1 and node.status=1 [ RunTime:0.0002s ]
+SQL: select node.id,node.name from ge_tp_role as role,ge_tp_role_user as user,ge_tp_access as access ,ge_tp_node as node where user.user_id='92' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=2 and node.pid=1 and node.status=1 [ RunTime:0.0001s ]
+SQL: select node.id,node.name from ge_tp_role as role,ge_tp_role_user as user,ge_tp_access as access ,ge_tp_node as node where user.user_id='92' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=17 and node.status=1 [ RunTime:0.0001s ]
+SQL: select node.id,node.name from ge_tp_role as role,ge_tp_role_user as user,ge_tp_access as access ,ge_tp_node as node where user.user_id='92' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=22 and node.status=1 [ RunTime:0.0001s ]
+SQL: select node.id,node.name from ge_tp_role as role,ge_tp_role_user as user,ge_tp_access as access ,ge_tp_node as node where user.user_id='92' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=26 and node.status=1 [ RunTime:0.0001s ]
+SQL: select node.id,node.name from ge_tp_role as role,ge_tp_role_user as user,ge_tp_access as access ,ge_tp_node as node where user.user_id='92' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=42 and node.status=1 [ RunTime:0.0001s ]
+SQL: select node.id,node.name from ge_tp_role as role,ge_tp_role_user as user,ge_tp_access as access ,ge_tp_node as node where user.user_id='92' and user.role_id=role.id and ( access.role_id=role.id  or (access.role_id=role.pid and role.pid!=0 ) ) and role.status=1 and access.node_id=node.id and node.level=3 and node.pid=50 and node.status=1 [ RunTime:0.0001s ]
+SQL: UPDATE `ge_tp_user` SET `logintime`='1454120684',`loginip`='59.172.37.234' WHERE ( id = 92 ) [ RunTime:0.0191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-01-30T10:24:46+08:00 ] 59.172.37.234 /index.php/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '92'  ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-01-30T10:24:46+08:00 ] 59.172.37.234 /index.php/Manage/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '92'  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-01-30T10:24:46+08:00 ] 59.172.37.234 /index.php/Manage/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/IndexController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '92'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_tp_node` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( level = 2 ) ORDER BY sort  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='17' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='22' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='26' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='30' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='42' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='50' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-01-30T10:24:48+08:00 ] 59.172.37.234 /index.php/Manage/Pro/fen1/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [8] Undefined index: 798b31e85dbd7639aa635a2fb5fad17f /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Org/Util/Rbac.class.php 第 176 行.
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/ProController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '92'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_tp_role_user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ge_tp_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ge_fen` [ RunTime:0.0008s ]
+SQL: SELECT `role_id` FROM `ge_tp_role_user` WHERE ( user_id =92 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `remark` FROM `ge_tp_role` WHERE ( id =29 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_fen` WHERE `fen_type` = 1 AND `fen_sale` = '赵晨阳' AND `fen_status` < 5 ORDER BY addtime desc LIMIT 3   [ RunTime:0.0425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: page /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Manage/cb6068f90da21840d9ed0d0bee1f113d.php 第 18 行.
+NOTIC: [8] Undefined variable: pages /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Manage/cb6068f90da21840d9ed0d0bee1f113d.php 第 19 行.
+NOTIC: [8] Undefined variable: page /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Manage/cb6068f90da21840d9ed0d0bee1f113d.php 第 196 行.
+SQL: SHOW COLUMNS FROM `ge_feninfo` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ge_pro_trace` [ RunTime:0.0004s ]
+SQL: SELECT `id` FROM `ge_feninfo` WHERE ( fen_guan_id =496 ) LIMIT 1   [ RunTime:0.0190s ]
+SQL: SELECT `addtime` FROM `ge_pro_trace` WHERE ( guan_id =469 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0135s ]
+SQL: SELECT `id` FROM `ge_feninfo` WHERE ( fen_guan_id =495 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `addtime` FROM `ge_pro_trace` WHERE ( guan_id =471 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `ge_feninfo` WHERE ( fen_guan_id =333 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `addtime` FROM `ge_pro_trace` WHERE ( guan_id =357 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0243s ]
+NOTIC: [8] Undefined variable: pages /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Manage/cb6068f90da21840d9ed0d0bee1f113d.php 第 489 行.
+NOTIC: [8] Undefined variable: pages /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Manage/cb6068f90da21840d9ed0d0bee1f113d.php 第 493 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-01-30T10:24:52+08:00 ] 59.172.37.234 /index.php/Manage/Pro/fen_index/id/495/type/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] Undefined index: d81474637ce189735008b13767b89d59 /www/web/order_genecreate_cn/public_html/ThinkPHP/Library/Org/Util/Rbac.class.php 第 176 行.
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/ProController.class.php 第 846 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '92'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_fen` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ge_feninfo` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ge_pro_trace` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_fen` WHERE ( id = 495 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ge_feninfo` WHERE ( fen_guan_id = 495 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT  `status` FROM `ge_pro_trace` WHERE ( guan_id = 471 ) ORDER BY id asc  [ RunTime:0.0880s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE ( guan_id = 471 ) ORDER BY id asc  [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `guan_id`,`status` FROM `ge_pro_trace` WHERE ( guan_id = 471 ) ORDER BY id asc LIMIT 3   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: end_status /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/ProController.class.php 第 928 行.
+NOTIC: [8] Undefined variable: end_status_guan /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/ProController.class.php 第 930 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined variable: page /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Manage/b53f3adf0d20cc93cd0813c92f2ba9b9.php 第 18 行.
+NOTIC: [8] Undefined variable: pages /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Manage/b53f3adf0d20cc93cd0813c92f2ba9b9.php 第 19 行.
+NOTIC: [8] Undefined variable: page /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Manage/b53f3adf0d20cc93cd0813c92f2ba9b9.php 第 53 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Manage/b53f3adf0d20cc93cd0813c92f2ba9b9.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 1 AND `guan_id` = 471 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 1 AND `guan_id` = 471 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Manage/Common/function.php 第 719 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Manage/b53f3adf0d20cc93cd0813c92f2ba9b9.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 2 AND `guan_id` = 471 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 2 AND `guan_id` = 471 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Manage/Common/function.php 第 719 行.
+NOTIC: [8] Undefined index: status /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Manage/b53f3adf0d20cc93cd0813c92f2ba9b9.php 第 319 行.
+SQL: SELECT `content` FROM `ge_pro_trace` WHERE `status` = 3 AND `guan_id` = 471 ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ge_pro_trace` WHERE `status` = 3 AND `guan_id` = 471 ORDER BY id desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: daye /www/web/order_genecreate_cn/public_html/Application/Manage/Common/function.php 第 698 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-01-30T10:30:23+08:00 ] 123.125.71.72 /index.php/Manage/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-01-30T14:05:15+08:00 ] 182.126.252.209 /index.php/Manage/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-01-30T14:05:17+08:00 ] 182.126.252.209 /index.php/Manage/User/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-01-30T15:49:40+08:00 ] 219.140.140.108 /index.php/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2016-01-30T15:49:40+08:00 ] 219.140.140.108 /index.php/Manage/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/IndexController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_tp_node` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( level = 2 ) ORDER BY sort  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='17' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='22' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='26' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='30' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='42' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='50' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2016-01-30T15:49:40+08:00 ] 219.140.140.108 /index.php/Manage/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2016-01-30T15:49:42+08:00 ] 219.140.140.108 /index.php/Manage/Primer/index/type/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2048] Declaration of Manage\Controller\PrimerController::show() should be compatible with that of Think\Controller::show() /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/PrimerController.class.php 第 6 行.
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/PrimerController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_tp_role` [ RunTime:0.0004s ]
+SQL: SELECT `remark` FROM `ge_tp_role` WHERE ( id =27 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0006s ]
+SQL: SELECT `uid` FROM `ge_members_info` WHERE `name` LIKE '%%'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_orders` WHERE `ordertype` = 2 AND `status` = 2 ORDER BY id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders` WHERE `ordertype` = 2 AND `status` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: customer /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Manage/f6410d2c29cde6720c67eda98b4f50d5.php 第 87 行.
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_contents` [ RunTime:0.0004s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1262 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1262 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1262 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1261 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1261 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1261 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1260 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1260 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1260 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1259 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1259 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1259 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1258 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1258 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1258 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1257 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1257 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1257 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1256 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1256 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1256 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1255 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1255 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1255 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1254 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1254 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1254 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1253 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1253 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1253 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1252 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1252 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1252 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1251 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1251 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1251 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1250 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1250 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1250 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1249 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1249 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1249 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1248 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1248 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1248 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-01-30T16:50:29+08:00 ] 219.140.140.108 /index.php/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-01-30T16:50:29+08:00 ] 219.140.140.108 /index.php/Manage/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/IndexController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_tp_node` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( level = 2 ) ORDER BY sort  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='17' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='22' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='26' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='30' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='42' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='50' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-01-30T16:50:29+08:00 ] 219.140.140.108 /index.php/Manage/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-01-30T16:50:31+08:00 ] 219.140.140.108 /index.php/Manage/Primer/index/type/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [2048] Declaration of Manage\Controller\PrimerController::show() should be compatible with that of Think\Controller::show() /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/PrimerController.class.php 第 6 行.
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/PrimerController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_tp_role` [ RunTime:0.0006s ]
+SQL: SELECT `remark` FROM `ge_tp_role` WHERE ( id =27 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0006s ]
+SQL: SELECT `uid` FROM `ge_members_info` WHERE `name` LIKE '%%'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_orders` WHERE `ordertype` = 2 AND `status` = 2 ORDER BY id desc LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders` WHERE `ordertype` = 2 AND `status` = 2 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: customer /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Manage/f6410d2c29cde6720c67eda98b4f50d5.php 第 87 行.
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_contents` [ RunTime:0.0004s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1263 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0319s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1263 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1263 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1262 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1262 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1262 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1261 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1261 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1261 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1260 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1260 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1260 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1259 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1259 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1259 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1258 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1258 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1258 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1257 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1257 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1257 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1256 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1256 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1256 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1255 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1255 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1255 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1254 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1254 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1254 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1253 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1253 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1253 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1252 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1252 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1252 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1251 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1251 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1251 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1250 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1250 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1250 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1249 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1249 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1249 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-01-30T17:09:41+08:00 ] 219.140.140.108 /index.php/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-01-30T17:09:41+08:00 ] 219.140.140.108 /index.php/Manage/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/IndexController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_tp_node` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( level = 2 ) ORDER BY sort  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='17' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='22' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='26' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='30' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='42' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='50' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-01-30T17:09:41+08:00 ] 219.140.140.108 /index.php/Manage/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-01-30T17:09:44+08:00 ] 219.140.140.108 /index.php/Manage/Primer/index/type/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+NOTIC: [2048] Declaration of Manage\Controller\PrimerController::show() should be compatible with that of Think\Controller::show() /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/PrimerController.class.php 第 6 行.
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/PrimerController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_tp_role` [ RunTime:0.0004s ]
+SQL: SELECT `remark` FROM `ge_tp_role` WHERE ( id =27 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SELECT `uid` FROM `ge_members_info` WHERE `name` LIKE '%%'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_orders` WHERE `ordertype` = 2 AND `status` = 2 ORDER BY id desc LIMIT 0,15   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders` WHERE `ordertype` = 2 AND `status` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: customer /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Manage/f6410d2c29cde6720c67eda98b4f50d5.php 第 87 行.
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_contents` [ RunTime:0.0004s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1263 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1263 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1263 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1262 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1262 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1262 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1261 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1261 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1261 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1260 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1260 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1260 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1259 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1259 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1259 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1258 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1258 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1258 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1257 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1257 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1257 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1256 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1256 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1256 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1255 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1255 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1255 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1254 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1254 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1254 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1253 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1253 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1253 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1252 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1252 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1252 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1251 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1251 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1251 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1250 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1250 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1250 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1249 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1249 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1249 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2016-01-30T20:37:02+08:00 ] 219.140.140.108 /index.php/Manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/IndexController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-01-30T20:37:02+08:00 ] 219.140.140.108 /index.php/Manage/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/IndexController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_tp_node` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( level = 2 ) ORDER BY sort  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='17' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='22' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='26' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='30' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='42' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='2' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_tp_node` WHERE ( 1=1 AND pid='50' )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-01-30T20:37:02+08:00 ] 219.140.140.108 /index.php/Manage/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/IndexController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-01-30T20:37:04+08:00 ] 219.140.140.108 /index.php/Manage/Primer/index/type/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [2048] Declaration of Manage\Controller\PrimerController::show() should be compatible with that of Think\Controller::show() /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/PrimerController.class.php 第 6 行.
+NOTIC: [2048] Non-static method Manage\Controller\UserController::isLogin() should not be called statically, assuming $this from incompatible context /www/web/order_genecreate_cn/public_html/Application/Manage/Controller/PrimerController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `ge_tp_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_tp_user` WHERE (  id = '98'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_tp_role` [ RunTime:0.0004s ]
+SQL: SELECT `remark` FROM `ge_tp_role` WHERE ( id =27 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members_info` [ RunTime:0.0005s ]
+SQL: SELECT `uid` FROM `ge_members_info` WHERE `name` LIKE '%%'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_orders` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_orders` WHERE `ordertype` = 2 AND `status` = 2 ORDER BY id desc LIMIT 0,15   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ge_orders` WHERE `ordertype` = 2 AND `status` = 2 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: customer /www/web/order_genecreate_cn/public_html/Application/Runtime/Cache/Manage/f6410d2c29cde6720c67eda98b4f50d5.php 第 87 行.
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_members` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ge_contents` [ RunTime:0.0004s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1264 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1264 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1264 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1263 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1263 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1263 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1262 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1262 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1262 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1261 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1261 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1261 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1260 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1260 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1260 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1259 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1259 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1259 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 57 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1258 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1258 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1258 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1257 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1257 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1257 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1256 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1256 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1256 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1255 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1255 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1255 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1254 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1254 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1254 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1253 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1253 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1253 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1252 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1252 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1252 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1251 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1251 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1251 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members` WHERE ( id = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ge_members_info` WHERE ( uid = 41 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1250 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1250 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `status` FROM `ge_contents` WHERE ( flag = 0 and id_order = 1250 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+

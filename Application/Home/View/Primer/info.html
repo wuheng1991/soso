@@ -1,0 +1,405 @@
+<include file="Index/header" />
+<!-- logo--导航菜单 结束 -->
+<div class="clear"></div>
+<div id="main">
+	<div class="maincon">
+        <div class="order_con">
+        <div class="left">
+        <div class="bread">客户信息</div>
+        <table width="50%" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+                <td width="140" align="left">姓 名：</td>
+                <td width="310" style="border-bottom:#000 1px solid"><span id="lblUserName">{$userInfo.name}</span></td>
+            </tr>
+            <!-- 新增内容开始 -->
+              <tr>
+                <td align="left">所在单位：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserCompanyName">{$userInfo.company}</span></td>
+            </tr>
+              <tr>
+                <td align="left">单位地址：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserCompanyName">{$userInfo.address}</span></td>
+            </tr>
+            <!-- 新增内容结束 -->
+            <tr>
+                <td align="left">电 话：</td>
+                <td style="border-bottom:#000 1px dotted"><span id="lblUserPhone">{$userInfo.phone}</span></td>
+            </tr>
+            <tr>
+                <td align="left">PI/实验室负责人：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserPI">{$userInfo.dutyer}</span></td>
+            </tr>
+            <!-- <tr>
+                <td align="right">单位部门：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserCompanyName">{$userInfo.company}</span></td>
+            </tr> -->
+            <tr>
+                <td align="left">电子邮件：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserLoginName">{:getUserEmail()}</span></td>
+            </tr>
+            <!-- 新增内容开始 -->
+            <tr>
+                <td align="left">课题组：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserCompanyName">{$userInfo.subject}</span></td>
+            </tr>
+             <tr>
+                <td align="left">发票抬头：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserCompanyName">{$userInfo.piao}</span></td>
+            </tr>
+             <tr>
+                <td align="left">发货地址：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserCompanyName">{$userInfo.tempaddress}</span></td>
+            </tr>
+            <tr>
+                <td align="left">所在城市/地区：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserCompanyName">
+                    {$userInfo.province|getProvince} / 
+                    {$userInfo.city|getCity}
+                </span></td>
+            </tr>
+            <!-- 新增内容结束 -->
+        </table>
+        </div>
+		<div class="right">
+        <div class="bread">定购信息</div>
+		<table width="50%" cellspacing="0" cellpadding="0" border="0">
+			      <tr>
+                <td width="80" align="left">订单号：</td>
+                <td width="340" style="border-bottom:#000 1px dotted"><span id="lblOrderID">{$orderInfo.code_yw}</span></td>
+            </tr>
+
+             <!-- <tr>
+                <td width="90" align="right">金开瑞编号：</td>
+                <td width="330" style="border-bottom:#000 1px dotted">
+                    <span id="lblOrderID">{$orderInfo.code}</span>
+                </td>
+            </tr>
+ -->
+              <tr>
+                <td width="80" align="left">订单类型：</td>
+                <td width="340" style="border-bottom:#000 1px dotted"><span id="lblOrderID">{$orderInfo.ordertype|showOrderType}</span></td>
+            </tr>
+            
+            <tr>
+                <td align="left">引物条数：</td>
+           
+                <td style="border-bottom:#000 1px dotted">
+                    <span id="lblOrderSmaplsCount">
+                        {$orderInfo.num_yinwu}
+                   
+                </span></td>
+             
+             
+            </tr>
+			<tr>
+                <td align="left">碱基数：</td>
+                
+                <td style="border-bottom:#000 1px dotted"><span id="lblOrderSmaplsCount">{$basenum|getSequenceAll}</span></td>
+              
+            </tr>
+            <tr>
+                <td align="left">日 期：</td>
+                <td style="border-bottom:#000 1px dotted"><span id="lblOrderDate">{$orderInfo.addtime|date='Y-m-d',###}</span></td>
+            </tr>
+            <tr>
+                <td align="left">销售名称：</td>
+                <td style="border-bottom:#000 1px dotted"><span id="lbSalesName">
+                  {$orderInfo.sale_name}
+                </span></td>
+            </tr>
+            <tr>
+                <td align="left" style="font-weight:bold">项目描述：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblOrderDescription">{$orderInfo.description}</span></td>
+            </tr>
+            <tr>
+                <td align="left" style="font-weight:bold;">其他备注：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblOrderComments">{$orderInfo.info}</span></td>
+            </tr>
+			<tr>
+                <td align="left" style="font-weight:bold;">状 态：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblOrderComments">
+                    <if condition="$orderInfo.synthesis eq 1">
+                         <span style="color:black;">{$orderInfo.synthesis|getPrimerSynthesis} </span>
+                         <elseif  condition="$orderInfo.synthesis eq 2"/>
+                    <span style="color:green;">{$orderInfo.synthesis|getPrimerSynthesis} </span>
+                    <elseif condition="$orderInfo.synthesis eq 3"/>
+                      <span style="color:green;">{$orderInfo.synthesis|getPrimerSynthesis} </span>
+                      <elseif condition="$orderInfo.synthesis eq 4"/>
+                      <span style="color:red;">{$orderInfo.synthesis|getPrimerSynthesis} </span> 
+
+                    <elseif condition="$orderInfo.synthesis eq 5"/>
+                      <span style="color:green;">{$orderInfo.synthesis|getPrimerSynthesis} </span>
+
+                     <elseif condition="$orderInfo.synthesis eq 6"/>
+                      <span style="color:green;">{$orderInfo.synthesis|getPrimerSynthesis} </span> 
+
+                    <elseif condition="$orderInfo.synthesis eq 7"/>
+                      <span style="color:red;">{$orderInfo.synthesis|getPrimerSynthesis} </span> 
+
+
+                       <else />
+                      <span style="color:green;">
+
+                      <!-- {$orderInfo.synthesis|getPrimerSynthesis}  -->
+
+                      </span>    
+                    </if>
+                   
+                    
+                </span></td>
+            </tr>
+            
+            <tr>
+                <td align="left" style="font-weight:bold;">快递单号：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblOrderComments">
+                     <eq name="orderInfo.num" value="">
+                          暂无快递单号
+                         <else />
+                          {$orderInfo.num}
+                     </eq>
+            </span></td>
+            </tr>
+		</table>
+		</div>
+	</div>
+    
+    <!-- start -->
+        <div class="order_con" style="border:0px solid black;width:1000px;height:350px;margin-bottom:20px;">
+           <div class="bread" style="margin:16px 0 10px -10px;">在线咨询</div> 
+           <table border="1" class="wuhan">
+                <tr align="center"   class="wbd" bgcolor="#276CC7" style="background:red;height:10px;">
+                    <td style="background:green;color:#cccccc;height:10px;">订单号</td>
+                     <td style="background:green;color:#cccccc;height:10px;">订购日期</td>
+                      <td style="background:green;color:#cccccc;height:10px;">订单状态</td>
+                      <td style="background:green;color:#cccccc;height:10px;">快递单号</td>
+                       <td style="background:green;color:#cccccc;height:10px;">总金额(￥)</td>
+                       
+                        <td style="background:green;color:#cccccc;height:10px;" colspan="2">
+                             相关文件下载
+                        </td>
+                        <!--  <td style="background:#276CC7;color:white;height:10px;">测试1</td> -->
+                </tr>
+                <tr align="center" class="wbd"  style="height:30px;">
+                    <td  >
+                       <!--  <if condition="$orderInfo.num eq ''">
+                            
+                            暂无订单号
+                       <else />
+                      {$orderInfo.num}  
+                       </if>  -->
+                         {$orderInfo.code_yw}
+                       
+                    </td>
+                     <td  >
+                    {$orderInfo.addtime|date='Y-m-d / H:i:s',###}
+                     </td>
+                      <td  >
+                        
+                    <if condition="$orderInfo.synthesis eq 1">
+                         <!--  <span style="color:black;">{$orderInfo.synthesis|getPrimerSynthesis} </span>
+                          <br/> -->
+                          <span style="color:red;">(您的订单已发送,请等待最新消息！)</span>
+                    
+                    <elseif  condition="$orderInfo.synthesis eq 2"/>
+                         <span style="color:red;">{$orderInfo.synthesis|getPrimerSynthesis} </span>
+                         <br/><span style="color:red;">(您的订单已收到,请等待最新消息！)</span>
+                    
+                    <elseif condition="$orderInfo.synthesis eq 3"/>
+                        <span style="color:green;">{$orderInfo.synthesis|getPrimerSynthesis} </span>
+                        <br/><span style="color:red;">(您的订单已合成,请等待最新消息！)</span>
+
+                    <elseif condition="$orderInfo.synthesis eq 4"/>
+                        <span style="color:green;">{$orderInfo.synthesis|getPrimerSynthesis} </span>
+                        <br/><span style="color:red;">(您的订单已取消,请等待最新消息！)</span>
+
+                    <elseif condition="$orderInfo.synthesis eq 5"/>
+                        <span style="color:green;">{$orderInfo.synthesis|getPrimerSynthesis} </span>
+                        <br/><span style="color:red;">(您的订单已完成,请等待最新消息！)</span>
+
+                    <elseif condition="$orderInfo.synthesis eq 6"/>
+                        <span style="color:green;">{$orderInfo.synthesis|getPrimerSynthesis} </span>
+                        <br/><span style="color:red;">(您的订单已经发货，注意使用'顺丰快递'查收)</span>
+
+                   <elseif condition="$orderInfo.synthesis eq 7"/>
+                        <span style="color:green;">{$orderInfo.synthesis|getPrimerSynthesis} </span>
+                        <br/><span style="color:red;">(您的订单已终止,请等待最新消息！)</span>
+
+
+                    </if>
+
+
+                      </td>
+                      <td>
+                         <if condition="$orderInfo.num eq ''">
+                            
+                            暂无快递单号
+                       <else />
+                      {$orderInfo.num}  
+                       </if> 
+                      </td>
+                       <td  > 
+                       {$orderInfo.sale_money}
+                       </td>
+                      <!--   <td  >
+                            <a href="">文件1下载</a>
+                        </td> -->
+                         <td colspan="2" >
+                             <empty name="orderInfo.jia">
+                              暂无文件下载
+                            <else />
+                          <a href="{:U('Primer/xiazai','id='.$orderid)}" title="点击下载">文件(夹)下载</a>
+                          </empty>
+                           
+
+                        </td>
+                </tr>
+           </table>
+            <table border="1" class="wuhan">
+               <!--  <tr align="center"   class="wbd" bgcolor="#276CC7"  
+                </tr> -->
+                <tr>
+                    <td align="center" valign="middle" rowspan="2">留言</td>
+                    <td align="left"  colspan="5" id="notes" class="xialan">
+    <span style="color:red;font-family:微软雅黑;">系统消息：尊敬的客户，您好！ 有什么服务需要咨询吗？
+        <br/></span>
+        <hr/>
+       <!--  <textarea> -->
+        <foreach name="notes" item="info">
+            <eq name="info.flag" value="0">
+            <span style="color:green;">提问:</span>【{$info.addtime|date='Y-m-d / H:i:s',###}】<span style="color:green;">{$info.content|trim}</span><br/>
+            <else />
+            <span style="color:red;">解答:</span>【{$info.addtime|date='Y-m-d / H:i:s',###}】<span style="color:red;">{$info.content|trim}</span><br/>
+        </eq>
+        </foreach>
+        <!-- </textarea> -->
+    </td>
+                </tr>
+                <form action="{:U('Gene/liuyan','oid='.$orderid)}" method="post" autocomplete="off"> 
+                <tr >
+                    <td colspan="4">
+                        <textarea name="contents" id="hahaha" placeholder="我要留言..." cols="100" rows="1"></textarea>
+                    </td>
+                    <td>
+                        <input type="button" style="cursor:pointer;" id="liuyan_order" value="  提 交  " />
+                    </td>
+                </tr>
+                </form>
+                
+            </table>
+        </div>
+        <!-- end -->
+    
+
+
+
+
+
+    <div class="order_con" style="margin-bottom:80px;margin-top:50px;">
+	<?php if ($orderInfo['excelurl'] != ''){?>
+	<a href="<?php echo U('Index/file','oid='.$orderInfo['id']);?>" style="color:red;" title="点击下载用户订单提交文件">下载已订单文件</a>
+	<?php } else {?>
+    <div class="bread" style="margin:16px 0 10px -10px;">引物订单信息</div>
+    <if condition="!empty($list)">
+	<table   width="100%" border="1" style="text-align:center;border-collapse:collapse;">
+        <tr>
+            <td>编号</td>
+           <!--  <td>测序备用</td> -->
+            <td>引物名称</td>
+            <td>引物序列</td>
+            <td>碱基数</td>
+            <td>需求量OD值</td>
+            <td>分装管数</td>
+            <td>纯化方式</td>
+            <td>5'修饰</td>
+            <td>3'修饰</td>
+            <td>其他修饰</td>
+            <td>备注信息</td>
+        </tr>
+        <foreach name="list" item="L">
+		<tr>
+            <td>{$key+1}</td>
+           <!--  <td>{$L.id}</td> -->
+            <td>{$L.primername}</td>
+         <!--    <td>{$L.sequence|strtoupper}</td>
+            <td>{$L.basenum}</td> -->
+            <td>{$L.id|getSequence}</td>
+            <td>{$L.id|getSequenceNum}</td>
+            <td>{$L.demand}</td>
+            <td>{$L.tubenum}</td>
+            <td>{$L.puremthod|getPuremthod}</td>
+            <td>{$L.fmodification|getFModification}</td>
+            <td>{$L.tmodification|getTModification}</td>
+            <td>{$L.othermod|getOTModification}</td>
+            <td>{$L.note}</td>
+        </tr>
+		</foreach>
+    </table>
+	<else />
+	暂无引物信息
+	</if>
+	<?php }?>
+</div>
+</body>
+<style>
+    .wuhan,tr,td{
+        border-collapse:collapse;
+    }
+    .wbd{
+        height:30px;
+    }
+    .xialan{
+        display:block;
+        height:180px;
+        overflow-y:auto;
+
+    }
+</style>
+<script>
+  $(function(){
+      // $(".xialan").animate({scrollTop:$(".xialan").offset().top+10000},1000);
+    $("#liuyan_order").click(function(){
+        content = $("#hahaha").val();
+        content = content.replace(/(^\s*)|(\s*$)/g, "");
+        // alert("111");
+         $.ajax({
+           type: "GET",
+           // url: "http://www.jkrorder.com/index.php/Home/Primer/liuyan",
+           url: "/index.php/Home/Primer/liuyan",
+           data:"id_order="+{$orderid}+"&id_user="+{$id_user}+"&content="+content,
+           success: function(msg){
+              $('#notes').empty();
+              $('#notes').html(msg);
+              
+               $(".xialan").animate({scrollTop:$(".xialan").offset().top+10000},1000);
+               $("#hahaha").select();
+              // alert(msg);
+
+           }
+        });
+         document.getElementById("hahaha").value="";
+    })
+    // $("html,body").animate({scrollTop:$("#qy_name").offset().top},1000);//1000是ms,也可以用slow代替
+  
+    })
+
+    function go(){
+       $.ajax({
+           type: "GET",
+           // url: "http://www.jkrorder.com/index.php/Home/Primer/liuyan",
+           url: "/index.php/Home/Primer/liuyan_all",
+           data:"id_order="+{$orderid},
+           success: function(msg){
+              $('#notes').empty();
+              $('#notes').html(msg);
+              
+               $(".xialan").animate({scrollTop:$(".xialan").offset().top+10000},120000);
+               $("#hahaha").focus();
+              // alert(msg);
+
+           }
+        });
+
+    }
+    setInterval("go()",60000);
+</script>
+</html>

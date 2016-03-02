@@ -1,0 +1,623 @@
+<include file="Index/header" />
+<!-- logo--导航菜单 结束 -->
+
+<style type="text/css">
+    #pre{
+     cursor:pointer;
+    }
+    #next{
+    cursor:pointer;
+    }
+    #select7{
+         cursor:pointer;
+    }
+</style>
+
+<script type="text/javascript">
+   $(function(){
+    // alert("aaaaaaaaaa");
+    // $(".bread").css("background",'red');
+    var p = {$page};
+    var countP = {$pages};
+    $('#next').click(function(){
+        var dang = p + 1;
+        if (p<countP){
+            $('#page').val(dang);
+        } else {
+            $('#page').val(countP);
+            return false;
+        }
+        $('#sequencingForm').submit();
+    });
+
+    $('#pre').click(function(){
+        if (p<2) return false;
+        var pdang = p - 1;
+        $('#page').val(pdang);
+        $('#sequencingForm').submit();
+    });
+
+    $('#select7').change(function(){
+        $('#page').val($(this).val());
+        $('#sequencingForm').submit();
+    });
+
+
+
+   }) 
+</script>
+<div class="clear"></div>
+<div id="main">
+	<div class="maincon">
+		<div class="lleft">
+            <div class="con-div">
+                <div class="bg-cs">
+                	<span class="divider fs18"><a href="#" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;项目分类</a></span>
+				</div>
+                
+            </div>
+            
+            <div id="product_l">
+                <ul id="ul-type">
+                    <li id="n01"><span ></span><a href="{:U('Index/list_more/')}">测序订单</a></li>
+                    <li id="n02"><span></span><a href="{:U('Primer/list_more/')}">引物订单</a></li>
+                    <li id="n03"><span></span><a href="{:U('Gene/list_more/')}">基因合成订单</a></li>
+                  <!--  <li id="n04"><span></span><a href="{:U('Clone/Create/')}">PCR克隆及亚克隆</a></li> 
+                    <li id="n05"><span></span><a href="{:U('Server/Create/')}">突变服务</a></li>
+                    <li id="n06"><span></span><a href="{:U('Zhili/Create/')}">质粒制备</a></li>  --> 
+                    <li id="n04"><span></span><a href="{:U('Pro/fen_more/',array('type'=>1))}">综合服务</a></li>
+                    <li id="n05"><span></span><a href="{:U('Pro/fen_more/',array('type'=>2))}">蛋白组学</a></li>
+                    <li id="n06"><span></span><a href="{:U('Pro/fen_more/',array('type'=>3))}">蛋白及抗体</a></li>
+                    <li id="n07"><span></span><a href="{:U('Pro/fen_more/',array('type'=>4))}">分子生物学服务</a></li>
+                    <li id="n08"><span></span><a href="{:U('Pro/fen_more/',array('type'=>5))}">病毒包装及检测服务</a></li>
+                    <li id="n09"><span></span><a href="{:U('Pro/fen_more/',array('type'=>6))}">小分子抗原及ElisA开发</a></li>
+                    
+				</ul>
+			</div>
+		</div>
+        <div class="rright">
+        	<div class="bg-cs01">
+            	<span class="divider fs18">&nbsp;&nbsp;&nbsp;&nbsp;订单信息和状态</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;font-style:italic;">(温馨提示：可以点击"订单号"查看该订单的详情信息！)</span>
+            </div>
+            <div class="news_con">
+
+            	 
+               <!--  <hr/> -->
+                <!-- a开始 -->
+                <div class="lianxi_con" style="margin-top:0px;">
+                    <div class="bread" style="margin-left:-10px;">测序订单列表相关信息&nbsp;&nbsp;
+                        <!-- <a href="{:U('Primer/list_more')}" class="more_link" style="color:green;text-decoration:underline;" title="点击查看更多引物订单信息">More+</a> -->
+                        <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;font-style:italic;">(温馨提示：可以点击"流水号"查看该订单的详情信息！)</span> -->
+                    </div>
+
+                    <form id="sequencingForm" method="post" action="{:U('Index/list_more')}">
+                    <input type="hidden" name="page" id="page" value="{$page}" />
+                        <table width="100%" cellspacing="1" cellpadding="1" border="0">
+                        <tr align="center">
+                           <td style="background-color:#008C00; color:white;text-align:center;">订单日期</th>
+
+                            <td style="background-color:#008C00; color:white;text-align:center;">订单号</th>
+
+                            <td style="background-color:#008C00; color:white;text-align:center;">订单类型</th>
+
+                            <td style="background-color:#008C00; color:white;text-align:center;">订单数</th>
+
+                            <td style="background-color:#008C00; color:white;text-align:center;">碱基数</th>
+
+                            <td style="background-color:#008C00; color:white;text-align:center;">订单状态</th>
+
+                            <td style="background-color:#008C00; color:white;text-align:center;">合成状态</th>
+
+                            <td style="background-color:#008C00; color:white;text-align:center;">快递单号</th>
+
+                        </tr>
+                        <foreach name="orderList" item="OL">
+                        <tr align="center">
+                            <td style="text-align:center;">{$OL.addtime|date='Y-m-d',###}</td>
+                            <if condition="$OL['ordertype'] eq 1">
+                            <td style="text-align:center;"><a href="<?php echo U("Index/info");?>?id={$OL.id}">
+                                {$OL.code}</a></td>
+
+                            <elseif condition="$OL['ordertype'] eq 2"  />
+                            <td style="text-align:center;"><a href="<?php echo U("Primer/info");?>?id={$OL.id}">
+                                {$OL.code}</a></td>
+                             <elseif condition="$OL['ordertype'] eq 3"/>  
+                                <td style="text-align:center;">
+                                    <eq name="OL.status" value="1">
+                                    <a href="<?php echo U("Gene/guodu");?>?id={$OL.id}">
+                                {$OL.code}</a>
+                                <else />
+                                <a href="<?php echo U("Gene/info");?>?id={$OL.id}">
+                                {$OL.code}</a>
+                                </eq>
+                            </td> 
+                            <elseif condition="$OL['ordertype'] eq 4"/>  
+                            <td style="text-align:center;"><a href="<?php echo U("Clone/info");?>?id={$OL.id}">
+                            {$OL.code}</a></td> 
+                            <elseif condition="$OL['ordertype'] eq 5"/>  
+                                <td style="text-align:center;"><a href="<?php echo U("Server/info");?>?id={$OL.id}">
+                                {$OL.code}</a></td> 
+                            <elseif condition="$OL['ordertype'] eq 6" />       
+                                <td style="text-align:center;"><a href="<?php echo U("Zhili/info");?>?id={$OL.id}">
+                                {$OL.code}</a></td> 
+                            </if>
+                           <!--   <td>{$OL.ordertype}</td> -->
+                             
+                            <td style="text-align:center;">{$OL.ordertype|showOrderType}</td>
+                           </if>
+
+                          
+                            
+                            
+                              <td style="text-align:center;">
+                                {$OL.num_yinwu}
+                            </td>
+                            
+
+                             <if condition="$OL['ordertype'] eq 1">
+                            <td style="text-align:center;">
+                              <!--   {$OL.id|getSequencingCountByID} -->
+                            </td>
+                            <elseif condition="$OL['ordertype'] eq 2" />
+                            <td style="text-align:center;">{$OL.id|getPrimersCountByID}</td>
+                            <elseif condition="$OL['ordertype'] eq 3"/>
+                             <td style="text-align:center;">
+                                 {$OL.id|getGeneCountByID}
+                            </td>
+                            <else />
+                            <td style="text-align:center;">0</td>
+                            </if>
+                          
+                            <td align="center" style="text-align:center;">{$OL.status|showOrderStatus}</td>
+
+                              <td style="text-align:center;">{$OL.synthesis|getPrimerSynthesis}</td>
+
+                             <td align="center" style="text-align:center;">
+                                <empty name="OL.num">
+                                    暂无信息
+                                    <else />
+                                    {$OL.num}
+                                </empty>
+                            </td>
+                        </tr>
+                        </foreach>
+                    </table>
+                     
+
+                  </form>
+
+                <br/>
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#F9F9F9" class="index-3">
+                            <tr>
+                                <td width="240" align="center" class="bj-3">&nbsp;</td>
+                                <td width="400" align="center" class="bj-3">
+        <!-- <button  style="cursor:pointer;" onclick="javascript:window.location.history.back();">   返回上一步  </button> -->
+    </td>
+                                <td width="200" align="center" class="bj-3">共{$pages}页&nbsp;&nbsp;<img id="pre" src="__PUBLIC__/Consel/images/2_r2.jpg" width="15" height="15" title="上一页">&nbsp;&nbsp;<img id="next" src="__PUBLIC__/Consel/images/2_r1.jpg" width="15" height="15" 
+                                    title="下一页">&nbsp;&nbsp;
+                                <select id="select7" name="select7" class="index-12">
+                                  <option value="">跳转</option>
+                                  <for start="1" end="$pages+1" name="pageNum" >
+                                  <option value="{$pageNum}">{$pageNum}</option>
+                                  </for>
+                                </select>
+                                页</td>
+                            </tr>
+
+                        </table>
+
+                </div>
+                <!-- a结束 -->
+               <!--  <hr/> -->
+                <!-- b开始 -->
+               
+                <!-- b结束 -->
+
+                 <!-- c开始 -->
+                 <!--
+                <div class="lianxi_con"  style="margin-top:50px;">
+                    <div class="bread" style="margin-left:-10px;">PCR克隆及亚克隆订单相关信息&nbsp;&nbsp;<a href="" class="more_link" style="color:green;text-decoration:underline;" title="点击查看更多PCR克隆及亚克隆订单信息">More+</a>
+                        
+                    </div>
+                    <table width="100%"  style="border-collapse:collapse;" border="1">
+                        <tr align="center">
+                            <th>订单日期</th>
+                            <th>订单号</th>
+                            <th>订单类型</th>
+                            <th>项目描述</th>
+                            <th>引物数</th>
+                            <th>碱基数</th>
+                            <th>订单状态</th>
+                            <th>快递单号</th>
+                        </tr>
+                        <foreach name="orderList_c" item="OL">
+                        <tr align="center">
+                            <td style="text-align:center;">{$OL.addtime|date='Y-m-d',###}</td>
+                            <if condition="$OL['ordertype'] eq 1">
+                            <td style="text-align:center;"><a href="<?php echo U("Index/info");?>?id={$OL.id}">
+                                {$OL.code}</a></td>
+
+                            <elseif condition="$OL['ordertype'] eq 2"  />
+                            <td style="text-align:center;"><a href="<?php echo U("Primer/info");?>?id={$OL.id}">
+                                {$OL.code}</a></td>
+                             <elseif condition="$OL['ordertype'] eq 3"/>  
+                                <td style="text-align:center;">
+                                    <eq name="OL.status" value="1">
+                                    <a href="<?php echo U("Gene/guodu");?>?id={$OL.id}">
+                                {$OL.code}</a>
+                                <else />
+                                <a href="<?php echo U("Gene/info");?>?id={$OL.id}">
+                                {$OL.code}</a>
+                                </eq>
+                            </td> 
+                            <elseif condition="$OL['ordertype'] eq 4"/>  
+
+                            <td style="text-align:center;">
+                                <eq name="OL.status" value="1">
+                                <a href="<?php echo U("Clone/guodu");?>?id={$OL.id}">
+                                {$OL.code}
+                                </a>
+                                <else />
+                                 <a href="<?php echo U("Clone/info");?>?id={$OL.id}">
+                                  {$OL.code}
+                                 </a>
+                              </eq>
+
+                           </td> 
+
+                            <elseif condition="$OL['ordertype'] eq 5"/>  
+                                <td style="text-align:center;"><a href="<?php echo U("Server/info");?>?id={$OL.id}">
+                                {$OL.code}</a></td> 
+                            <elseif condition="$OL['ordertype'] eq 6" />       
+                                <td style="text-align:center;"><a href="<?php echo U("Zhili/info");?>?id={$OL.id}">
+                                {$OL.code}</a></td> 
+                            </if>
+                           
+                             
+                            <td style="text-align:center;">{$OL.ordertype|showOrderType}</td>
+                           </if>
+
+                            <td style="text-align:center;">{$OL.description}</td>
+                            
+                            
+                              <td style="text-align:center;">
+                                {$OL.num_yinwu}
+                            </td>
+                            
+
+                             <if condition="$OL['ordertype'] eq 1">
+                            <td style="text-align:center;">
+                              
+                            </td>
+                            <elseif condition="$OL['ordertype'] eq 2" />
+                            <td style="text-align:center;">{$OL.id|getPrimersCountByID}</td>
+                            <elseif condition="$OL['ordertype'] eq 3"/>
+                             <td style="text-align:center;">
+                                 {$OL.id|getGeneCountByID}
+                            </td>
+                            <else />
+                            <td style="text-align:center;">0</td>
+                            </if>
+                          
+                            <td align="center" style="text-align:center;">{$OL.status|showOrderStatus}</td>
+                             <td align="center" style="text-align:center;">
+                                <empty name="OL.num">
+                                    暂无信息
+                                    <else />
+                                    {$OL.num}
+                                </empty>
+                            </td>
+                        </tr>
+                        </foreach>
+                    </table>
+                </div>
+            -->
+                <!-- c结束 -->
+
+                 <!-- d开始 -->
+                 <!--
+                <div class="lianxi_con"  style="margin-top:50px;">
+                    <div class="bread" style="margin-left:-10px;">基因突变订单相关信息&nbsp;&nbsp;<a href="" class="more_link" style="color:green;text-decoration:underline;" title="点击查看更多基因突变订单信息">More+</a>
+                      
+                    </div>
+                    <table width="100%"  style="border-collapse:collapse;" border="1">
+                        <tr align="center">
+                            <th>订单日期</th>
+                            <th>订单号</th>
+                            <th>订单类型</th>
+                            <th>项目描述</th>
+                            <th>引物数</th>
+                            <th>碱基数</th>
+                            <th>订单状态</th>
+                            <th>快递单号</th>
+                        </tr>
+                        <foreach name="orderList_d" item="OL">
+                        <tr align="center">
+                            <td style="text-align:center;">{$OL.addtime|date='Y-m-d',###}</td>
+                            <if condition="$OL['ordertype'] eq 1">
+                            <td style="text-align:center;"><a href="<?php echo U("Index/info");?>?id={$OL.id}">
+                                {$OL.code}</a></td>
+
+                            <elseif condition="$OL['ordertype'] eq 2"  />
+                            <td style="text-align:center;"><a href="<?php echo U("Primer/info");?>?id={$OL.id}">
+                                {$OL.code}</a></td>
+                             <elseif condition="$OL['ordertype'] eq 3"/>  
+                                <td style="text-align:center;">
+                                    <eq name="OL.status" value="1">
+                                    <a href="<?php echo U("Gene/guodu");?>?id={$OL.id}">
+                                {$OL.code}</a>
+                                <else />
+                                <a href="<?php echo U("Gene/info");?>?id={$OL.id}">
+                                {$OL.code}</a>
+                                </eq>
+                            </td> 
+                            <elseif condition="$OL['ordertype'] eq 4"/>  
+
+                            <td style="text-align:center;">
+                                <eq name="OL.status" value="1">
+                                <a href="<?php echo U("Clone/guodu");?>?id={$OL.id}">
+                                {$OL.code}
+                                </a>
+                                <else />
+                                 <a href="<?php echo U("Clone/info");?>?id={$OL.id}">
+                                  {$OL.code}
+                                 </a>
+                              </eq>
+
+                           </td> 
+
+                            <elseif condition="$OL['ordertype'] eq 5"/>  
+                                <td style="text-align:center;">
+                                     <eq name="OL.status" value="1">
+                                       <a href="<?php echo U("Server/guodu");?>?id={$OL.id}">
+                                      {$OL.code}
+                                       </a>
+
+                                      <else />  
+                                    <a href="<?php echo U("Server/info");?>?id={$OL.id}">
+                                      {$OL.code}
+                                     </a>
+                                 </eq>
+                            </td> 
+                            <elseif condition="$OL['ordertype'] eq 6" />       
+                                <td style="text-align:center;"><a href="<?php echo U("Zhili/info");?>?id={$OL.id}">
+                                {$OL.code}</a></td> 
+                            </if>
+                           
+                             
+                            <td style="text-align:center;">{$OL.ordertype|showOrderType}</td>
+                           </if>
+
+                            <td style="text-align:center;">{$OL.description}</td>
+                            
+                            
+                              <td style="text-align:center;">
+                                {$OL.num_yinwu}
+                            </td>
+                            
+
+                             <if condition="$OL['ordertype'] eq 1">
+                            <td style="text-align:center;">
+                            
+                            </td>
+                            <elseif condition="$OL['ordertype'] eq 2" />
+                            <td style="text-align:center;">{$OL.id|getPrimersCountByID}</td>
+                            <elseif condition="$OL['ordertype'] eq 3"/>
+                             <td style="text-align:center;">
+                                 {$OL.id|getGeneCountByID}
+                            </td>
+                            <else />
+                            <td style="text-align:center;">0</td>
+                            </if>
+                          
+                            <td align="center" style="text-align:center;">{$OL.status|showOrderStatus}</td>
+
+                             <td align="center" style="text-align:center;">
+                                <empty name="OL.num">
+                                    暂无信息
+                                    <else />
+                                    {$OL.num}
+                                </empty>
+                            </td>
+                        </tr>
+                        </foreach>
+                    </table>
+                </div>
+            -->
+                <!-- d结束 -->
+
+                 <!-- e开始 -->
+                <!--
+                <div class="lianxi_con"  style="margin-top:50px;">
+                    <div class="bread" style="margin-left:-10px;">质粒制备订单相关信息&nbsp;&nbsp;<a href="" class="more_link" style="color:green;text-decoration:underline;" title="点击查看更多质粒制备订单信息">More+</a>
+                      
+                    </div>
+                    <table width="100%"  style="border-collapse:collapse;" border="1">
+                        <tr align="center">
+                            <th>订单日期</th>
+                            <th>订单号</th>
+                            <th>订单类型</th>
+                            <th>项目描述</th>
+                            <th>引物数</th>
+                            <th>碱基数</th>
+                            <th>订单状态</th>
+                             <th>快递单号</th>
+                        </tr>
+                        <foreach name="orderList_e" item="OL">
+                        <tr align="center">
+                            <td style="text-align:center;">{$OL.addtime|date='Y-m-d',###}</td>
+                            <if condition="$OL['ordertype'] eq 1">
+                            <td style="text-align:center;"><a href="<?php echo U("Index/info");?>?id={$OL.id}">
+                                {$OL.code}</a></td>
+
+                            <elseif condition="$OL['ordertype'] eq 2"  />
+                            <td style="text-align:center;"><a href="<?php echo U("Primer/info");?>?id={$OL.id}">
+                                {$OL.code}</a></td>
+                             <elseif condition="$OL['ordertype'] eq 3"/>  
+                                <td style="text-align:center;">
+                                    <eq name="OL.status" value="1">
+                                    <a href="<?php echo U("Gene/guodu");?>?id={$OL.id}">
+                                {$OL.code}</a>
+                                <else />
+                                <a href="<?php echo U("Gene/info");?>?id={$OL.id}">
+                                {$OL.code}</a>
+                                </eq>
+                            </td> 
+                            <elseif condition="$OL['ordertype'] eq 4"/>  
+
+                            <td style="text-align:center;">
+                                <eq name="OL.status" value="1">
+                                <a href="<?php echo U("Clone/guodu");?>?id={$OL.id}">
+                                {$OL.code}
+                                </a>
+                                <else />
+                                 <a href="<?php echo U("Clone/info");?>?id={$OL.id}">
+                                  {$OL.code}
+                                 </a>
+                              </eq>
+
+                           </td> 
+
+                            <elseif condition="$OL['ordertype'] eq 5"/>  
+                                <td style="text-align:center;">
+                                     <eq name="OL.status" value="1">
+                                       <a href="<?php echo U("Server/guodu");?>?id={$OL.id}">
+                                      {$OL.code}
+                                       </a>
+
+                                      <else />  
+                                    <a href="<?php echo U("Server/info");?>?id={$OL.id}">
+                                      {$OL.code}
+                                     </a>
+                                 </eq>
+                            </td> 
+                            <elseif condition="$OL['ordertype'] eq 6" />       
+                                <td style="text-align:center;">
+
+                                 <eq name="OL.status" value="1">
+                                       <a href="<?php echo U("Zhili/guodu");?>?id={$OL.id}">
+                                      {$OL.code}
+                                       </a>
+
+                                      <else />  
+                                    <a href="<?php echo U("Zhili/info");?>?id={$OL.id}">
+                                      {$OL.code}
+                                     </a>
+                                 </eq>
+
+                            </td> 
+                            </if>
+                           
+                             
+                            <td style="text-align:center;">{$OL.ordertype|showOrderType}</td>
+                           </if>
+
+                            <td style="text-align:center;">{$OL.description}</td>
+                            
+                            
+                              <td style="text-align:center;">
+                                {$OL.num_yinwu}
+                            </td>
+                            
+
+                             <if condition="$OL['ordertype'] eq 1">
+                            <td style="text-align:center;">
+                               
+                            </td>
+                            <elseif condition="$OL['ordertype'] eq 2" />
+                            <td style="text-align:center;">{$OL.id|getPrimersCountByID}</td>
+                            <elseif condition="$OL['ordertype'] eq 3"/>
+                             <td style="text-align:center;">
+                                 {$OL.id|getGeneCountByID}
+                            </td>
+                            <else />
+                            <td style="text-align:center;">0</td>
+                            </if>
+                          
+                            <td align="center" style="text-align:center;">{$OL.status|showOrderStatus}</td>
+
+                             <td align="center" style="text-align:center;">
+                                <empty name="OL.num">
+                                    暂无信息
+                                    <else />
+                                    {$OL.num}
+                                </empty>
+                            </td>
+                        </tr>
+                        </foreach>
+                    </table>
+                </div>
+            -->
+                <!-- e结束 -->
+
+
+
+
+
+
+            </div>
+			<notempty name="resultList">
+            <div class="news_con">
+            	<div class="nr">
+                	<h1>最新的结果</h1>
+				</div>
+            	<div class="lianxi_con">
+                    <table width="100%" cellspacing="1" cellpadding="1" border="0">
+                        <tr>
+                            <th>下单日期</th>
+                            <th>订单号</th>
+                            <th>订单类型</th>
+                            <th>项目描述</th>
+                            <th>反应/引物数</th>
+                            <th>收费数</th>
+                        </tr>
+                        <foreach name="resultList" item="RL">
+						<tr>
+                            <td>{$RL.addtime|date='Y-m-d',###}</td>
+                            <if condition="$RL['ordertype'] eq 1">
+							<td><a href="<?php echo U("Index/rsinfo");?>?id={$RL.id}">{$RL.code}</a></td>
+							<else />
+							<td><a href="<?php echo U("Primer/rsinfo");?>?id={$RL.id}">{$RL.code}</a></td>
+							</if>
+                            <td>{$RL.ordertype|showOrderType}</td>
+                            <td>{$RL.description}</td>
+                             <if condition="$RL['ordertype'] eq 1">
+							<td>{$RL.id|getSequencingCountByID}</td>
+							<else />
+							<td>{$RL.id|getPrimersCountByID}</td>
+							</if>
+                            <td>{$RL.status|showOrderStatus}</td>
+                        </tr>
+						</foreach>
+                    </table>
+                </div>
+            </div>
+			</notempty>
+            <div class="news_con">
+            	<div class="nr">
+                	<h1>帮助信息</h1>
+				</div>
+            	<div class="problem">
+                    <ul>
+                        <li><a href="{:U('Index/test_excel')}" target="_self">测序订单格式 Execl下载</a></li>
+                        <li><a href="{:U('Primer/yinwu_excel')}" target="_self">引物合成订单格式 Excel下载</a></li>
+                    </ul>
+                </div>
+            </div>
+		</div>
+	</div>
+</div>
+</body>
+<style>
+    .lianxi_con{
+        font-size:13px;
+    }
+    .more_link:hover{
+    color:red;
+   }
+    a:hover{
+    text-decoration:none;
+  }
+ </style>
+</html>

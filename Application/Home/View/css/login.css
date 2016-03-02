@@ -1,0 +1,119 @@
+body{ 
+	background-size: 100% 100%;
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	overflow: hidden;
+	width:100%;
+	height: 100%;	
+		
+ }
+
+
+			 
+#viploginbg {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	background-size:cover;
+}
+
+.login{
+	 width:400px; height:520px; background:url(../images/bg_tm.png);left:50%;margin:50px 0 0 -200px;
+	 position:absolute;
+	 }
+.logo{ width: 231px; height:100px; margin:73px auto 0;}
+h1{ display:block; text-align:center;margin:10px auto 0;color:#51444B}
+.form{ width:300px; margin: 36px auto 0;}
+.input{ background:#7D99AE; color:#fff;height:40px; line-height:40px; padding-left:50px;padding-bottom:50px/9;}
+#account{ background:url(../images/text.png) #7D99AE no-repeat;}
+#password{ background:url(../images/password.png) #7D99AE no-repeat; margin-top:10px;}
+#yanzheng{background:url(../images/yanzheng.png) #7D99AE no-repeat; border-right:none;border-radius:4px  0 0 4px; width:220px;}
+input::-webkit-input-placeholder {
+    color:#ccd7dd;
+}
+input:-moz-placeholder {
+    color:#ccd7dd;
+}
+.yzm{ overflow:hidden; margin-top:10px;}
+.yz{ float:left; margin-top: 10px;}
+.yz_img{ float:left;width:79px; height:40px; border:1px solid #ddd; border-left:none;border-radius:0  4px 4px 0; background:#566b7c}
+
+#botton{ background:#112232;color:#fff; margin-top:10px; height:40px; font-size:16px;}
+#botton:hover{ background:none; border:1px solid #112232; color:#112232}
+
+.bt{position:absolute;left:35px;bottom:5px;}
+
+#bg{width:100%;}
+
+
+#menu{
+ width:1366px;
+ height:100px;
+ background-repeat:no-repeat; 
+}
+ 
+ .menu1{
+ background:url(../gencert/images/1.jpg);
+ }
+ 
+ .menu2{
+ background:url(../gencert/images/2.jpg);
+ }
+ 
+ .menu3{
+ background:url(../gencert/images/3.jpg);
+ }
+ 
+ .menu4{
+ background:url(../gencert/images/4.jpg);
+ }
+
+ .menu5{
+ background:url(../gencert/images/5.jpg);
+ }
+ 
+.menu6{
+ background:url(../gencert/images/6.jpg);
+
+ }
+ .login-bg{position: absolute;left:0;top:0;width: 100%;height: 100%;}
+ .login-bg img{position: absolute;left:0;top:0;width: 100%;height: 100%;}
+
+
+/* 注册信息样式*/
+
+.logo2{ width: 223px; height: 84px; margin: 26px auto 0;}
+
+.form2{ width:300px; margin: 20px auto 0;}
+
+.input2{
+	background: #7D99AE;
+	color: #fff;
+	height: 31px;
+	line-height: 31px;
+	padding-left:20px;
+
+	}
+	
+.xheight{
+	height: 31px;
+	line-height: 31px;
+	text-align:right;
+	width:64px;
+	maring-right:6px;
+	font-weight:600;
+	}
+	
+.imt{ 
+	position: absolute;
+	right: -73px;
+	top: -3px;
+}
+
+.abt{ width:295px; margin-left:59px;}

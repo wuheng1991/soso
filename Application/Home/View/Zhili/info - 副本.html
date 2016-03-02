@@ -1,0 +1,227 @@
+ <include file="Index/header" />
+<style type="text/css">
+    #op:hover{
+      cursor:pointer;
+      color:red;
+    }
+    .xingxing{
+        color:red;
+    }
+    .dianji:hover{
+        cursor:pointer;
+        color:red;
+    }
+    .Submit:hover{
+        cursor:pointer;
+        color:red;
+    }
+
+
+</style>
+<div id="main">
+    <div class="maincon">
+    <div class="order_con">
+        
+         <!--表单开始-->
+<form action="{:U('Zhili/forms_do')}" method="post" name="form1"  enctype="multipart/form-data">
+              
+        <table cellspacing="0" cellpadding="0" width="100%" border="1">
+            <legend>质粒制备(<span class="xingxing">*</span>必填项)</legend>
+
+            <foreach name="zhili_info" item="info" >
+              <tr>
+                <td colspan="6">订单号：<span class="xingxing">{$orderInfo['code']}  </span>订单确认 （确认后订单不可再编辑，请仔细填写订单信息）</td>
+              </tr>
+
+              <tr align="center">
+                <td><span class="xingxing">*</span>模板名称</td>
+                <td><span class="xingxing">*</span>起始材料</td>
+                <td>序 列</td>
+                <td>图 谱</td>
+              </tr>
+
+               <tr align="center">
+                <input type="hidden" name="zhili_id" value="{$info['id']}">
+                <td><input type="text" name="zhili_title" required="required" placeholder="请填写模板名称" value="{$info['zhili_title']}" /></td>
+                <td align="left">
+                  <input type="radio" value="1" onClick="" 
+            name="zhili_material" <eq name="info['zhili_material']" value="1">checked="checked"</eq>>基因合成及亚克隆(金开瑞提供) <br/>
+             <input type="radio" value="2" onClick="" 
+            name="zhili_material" <eq name="info['zhili_material']" value="2">checked="checked"</eq>>质粒模板
+                </td>
+                <td>
+                   <textarea name="zhili_serial" style="">{$info['zhili_serial']}</textarea>
+                </td>
+                <td>
+            <input type="file" name="zhili_file" onClick="" value="{$info['zhili_file']}"><br/>
+            {$info['zhili_file']}
+                </td>
+              </tr>
+
+
+              <tr align="center">
+                <td><span class="xingxing">*</span>质粒大小(kb)</td>
+                <td><span class="xingxing">*</span>拷贝数</td>
+                <td>典型产量</td>
+                <td><span class="xingxing">*</span>抗 性</td>
+              </tr>
+
+              <tr align="center">
+                <td><input type="text" name="zhili_size" required="required" placeholder="请填写质粒大小" value="{$info['zhili_size']}" /></td>
+                <td>
+                    <input type="radio" value="1" onClick="" 
+                    name="zhili_copy" <eq name="info['zhili_copy']" value="1">checked="checked"</eq>>高　　　
+          <input type="radio" value="2"  onClick="" name="zhili_copy" <eq name="info['zhili_copy']" value="2">checked="checked"</eq>>低
+                </td>
+                <td>
+                  <input type="text" name="zhili_pro" value="{$info['zhili_pro']}"  />mg/L
+                </td>
+                <td>
+                  <select name="zhili_kangxing">
+        <option value="0" <eq name="info['zhili_kangxing']" value="0">selected="selected"</eq>></option>
+    <option value="1" <eq name="info['zhili_kangxing']" value="1">selected="selected"</eq>>Ampicillin</option> 
+    <option value="2" <eq name="info['zhili_kangxing']" value="2">selected="selected"</eq>>Blasticidin</option>
+    <option value="3" <eq name="info['zhili_kangxing']" value="3">selected="selected"</eq>>Chloramphenicol</option>
+    <option value="4" <eq name="info['zhili_kangxing']" value="4">selected="selected"</eq>>Clarithromycin</option>
+    <option value="5" <eq name="info['zhili_kangxing']" value="5">selected="selected"</eq>>Kanamycin</option>
+    <option value="6" <eq name="info['zhili_kangxing']" value="6">selected="selected"</eq>>Streptomycin</option>
+    <option value="7" <eq name="info['zhili_kangxing']" value="7">selected="selected"</eq>>Tetracyclin</option> 
+    <option value="8" <eq name="info['zhili_kangxing']" value="8">selected="selected"</eq>>Other</option>
+    </select>
+                </td>
+              </tr>
+
+
+              <tr align="center">
+                <td><span class="xingxing">*</span>质粒抽提量</td>
+                <td>片段个数</td>
+                <td>片段大小</td>
+                <td><span class="xingxing">*</span>
+          质量级别</td>
+              </tr>
+
+               <tr align="center">
+                <td>
+                  <select name="zhili_quantity">
+                  <option value="0" <eq name="info['zhili_quantity']" value="0">selected="selected"</eq>></option>
+                  <option value="1" <eq name="info['zhili_quantity']" value="1">selected="selected"</eq>>100 μg</option>
+                  <option value="2" <eq name="info['zhili_quantity']" value="2">selected="selected"</eq>>200 μg</option>
+                  <option value="3" <eq name="info['zhili_quantity']" value="3">selected="selected"</eq>>500 μg</option>
+                  <option value="4" <eq name="info['zhili_quantity']" value="4">selected="selected"</eq>>1 mg</option>
+                  <option value="5" <eq name="info['zhili_quantity']" value="5">selected="selected"</eq>>2 mg</option>
+                  <option value="6" <eq name="info['zhili_quantity']" value="6">selected="selected"</eq>>10 mg</option>
+                  <option value="7" <eq name="info['zhili_quantity']" value="7">selected="selected"</eq>>20 mg</option>
+                   
+                  <option value="8" <eq name="info['zhili_quantity']" value="8">selected="selected"</eq>>Other</option>
+              </select>
+                </td>
+                <td>
+                   <select name="zhili_num" >
+                  <option value="0" 
+                  <eq name="info['zhili_num']" value="0">selected="selected"</eq> ></option>
+                  <option value="1"  <eq name="info['zhili_num']" value="1">selected="selected"</eq>>1</option>
+                  <option value="2"  <eq name="info['zhili_num']" value="2">selected="selected"</eq>>2</option>
+                  <option value="3"  <eq name="info['zhili_num']" value="3">selected="selected"</eq>>3</option>
+                  <option value="4"  <eq name="info['zhili_num']" value="4">selected="selected"</eq>>4</option>
+              </select>
+                </td>
+                <td>
+                  <input type="text" name="zhili_num_size" size="4" value="{$info['zhili_num_size']}" />kb
+                </td>
+                <td align="left">
+                    <input type="radio" value="0" onClick="" 
+          name="zhili_level" <eq name="info['zhili_level']" value="0">checked="checked"</eq>> Research Grade(Predominantly supercoiled)<br />
+            <input type="radio" value="1" onClick="" 
+          name="zhili_level" <eq name="info['zhili_level']" value="1">checked="checked"</eq>> SC Grade (≥95% Supercoilded, ≤0.03 EU/ug Endotoxin)<br/>
+           <input type="radio" value="2" onClick="" 
+          name="zhili_level" <eq name="info['zhili_level']" value="2">checked="checked"</eq>> Advanced SC Grade(≥95% Supercoilded, ≤0.005 EU/ug Endotoxin)
+                </td>
+              </tr>
+
+              <tr align="center">
+                <td>存储条件</td>
+                <td>所需的缓冲液</td>
+                <td>需求浓度(mg/ml)</td>
+                <td>分装管数</td>
+                
+              </tr>
+
+
+              <tr align="center">
+                <td>
+                   <select name="zhili_storage">
+                          <option value="0" <eq name="info['zhili_storage']" value="0">selected="selected"</eq>></option>
+                          <option value="1" <eq name="info['zhili_storage']" value="1">selected="selected"</eq>>Freeze dried</option>
+                          <option value="2" <eq name="info['zhili_storage']" value="2">selected="selected"</eq>>Liquid</option>
+              </select>
+                </td>
+                <td>
+                  <select name="zhili_cache">
+                       <option value="0" <eq name="info['zhili_cache']" value="0">selected="selected"</eq>></option>
+                       <option value="1" <eq name="info['zhili_cache']" value="1">selected="selected"</eq>>TE</option>
+                       <option value="2" <eq name="info['zhili_cache']" value="2">selected="selected"</eq>>ddH2O</option>
+                       <option value="3" <eq name="info['zhili_cache']" value="3">selected="selected"</eq>>Tris</option>
+                       <option value="4" <eq name="info['zhili_cache']" value="4">selected="selected"</eq>>PBS</option>
+                       <option value="5" <eq name="info['zhili_cache']" value="5">selected="selected"</eq>>Other</option>
+             </select>
+                </td>
+                <td>
+                   <input type="text" name="zhili_demand" value="{$info['zhili_demand']}"  />
+                </td>
+                <td>
+                   <input type="text" name="zhili_pipe" value="{$info['zhili_pipe']}" />
+                </td>
+                
+              </tr>
+
+              <tr>
+                <td>其他要求</td>
+                <td colspan="3" align="left">
+      <textarea name="zhili_other" cols="80" style="">{$info['zhili_other']|strip_tags}</textarea>
+                </td>
+              </tr>
+
+               <td colspan="4" align="center">
+                   <input type="submit" class="Submit" value="      保    存      "/>
+        
+                </td>
+
+  
+  
+  
+            
+
+          </foreach>
+        </table>
+
+
+
+    </form>
+
+
+    <!--表单结束-->
+    </div>
+</div>
+</div>
+
+
+<script type="text/javascript">
+  //获取序列选项信息
+    
+     // window.onload=function(){
+     //  //alert(form1.gene_clone_method.value);
+     //  alert
+     // }
+
+  
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>

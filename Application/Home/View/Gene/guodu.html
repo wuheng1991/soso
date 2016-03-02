@@ -1,0 +1,291 @@
+  <include file="Index/header" />
+<style>
+
+    .order_con span span{
+    cursor:pointer;
+    }
+    .wuheng{
+        background:#276CC7;
+        color:white;
+    }
+    .anniu button:hover{
+        cursor:pointer;
+        color:red;
+    }
+    table{
+      /*border:1px solid red;*/
+      /*width:350px;*/
+    }
+    .order_con table tr td{
+      line-height:24px;
+    }
+    .wuji tr td{
+      line-height:10px;
+      padding:0px;
+      width:20px;
+
+    }
+    textarea{
+      border:0px solid white;
+    }
+</style>
+<script type="text/javascript" src="./Public/Home/js/jquery.datePicker.js"></script>
+<script>
+$(document).ready(function(){
+	$( "#FromDate" ).datepicker({
+		dateFormat:'yy-mm-dd'
+	});
+	$( "#ToDate" ).datepicker({
+		dateFormat:'yy-mm-dd'
+	});
+	$('#next').click(function(){
+		$('#page').val($(this).attr('data'));
+		$('#searchdForm').submit();
+	});
+	$('#pre').click(function(){
+		$('#page').val($(this).attr('data'));
+		$('#searchdForm').submit();
+	});
+    // $("#niu_pre").click(function(){
+    //     alert("1234");
+    // })
+});
+</script>
+<div class="clear"></div>
+<div id="main">
+	<div class="maincon" style="margin-bottom:50px;font-size:13px;">
+		<div class="bread">基因合成服务</div>
+        
+        <div class="order_con">
+             <foreach name="genelist" item="wh" key="k">
+
+         <table border="1" style="border-collapse:collapse;font-size:13px;">
+              <tr align="center" class="wuheng" bgcolor="#276CC7" style="background:red;">
+                 <td style="background:#276CC7;color:white;">基因合成服务-{$k+1}</td>
+                 <td style="background:#276CC7;color:white;">
+
+                    <?php 
+                    $id =  $wh['orderid'];
+                    $order = M("Orders");
+                    $status = $order -> where('id = '.$id) -> getField('status');
+
+                    if($status == 1){
+
+                    ?>
+                     <a href="<?php echo U("Gene/editors");?>?id={$wh.id}" style="color:white;padding:3px;">编辑</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                      <a href="<?php echo U("Gene/copy_gene_order");?>?id={$wh.orderid}"  style="color:white;padding:3px;">复制</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                       <a href="<?php echo U("Gene/del_gene_order");?>?id={$wh.id}"  style="color:white;padding:3px;">删除</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                      <a href="<?php echo U("Gene/confirm_order");?>?id={$wh.orderid}"  style="color:white;padding:3px;">确认提交</a>
+                  <?php  
+                    }else{
+                   ?>
+    该订单已经提交！&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="<?php echo U("Gene/info");?>?id={$wh.orderid}" title="点击查看该确认订单详情" style="color:red;">点击查看>></a>
+                   <?php   
+
+                    }
+
+                    ?>
+                 </td>
+             </tr>
+             <tr align="center">
+                 <td style="color:black;">基因信息</td>
+                 <td align="left">基因名称：{$wh.gene_name}<br/>
+                             碱基/氨基酸数量：{$wh.gene_contents_num}<br/>
+                        <eq name="wh['gene_serial_sel']" value="1">
+                             DNA序列：
+                         <else />
+                            蛋白质序列：
+                         </eq>   
+                         <br/> 
+                             <!-- {$wh.gene_contents} -->
+
+                           <?php 
+
+                           $content = $wh['gene_contents'];
+                           $content = str_replace(" ","",$content);
+                           $content = str_replace("\n","",$content);
+                           $content = str_replace("\r","",$content);
+
+                          $length = strlen($content);
+                          // echo $length;
+
+                          $num = ceil($length/10);
+
+                          $rows = ($length / 50) + 1;
+                          // echo $num;
+     
+                           $arr=array();
+                           $flag = 0;
+                           $sub = "";
+                           echo "<textarea  rows='".$rows."' readonly=\"readonly\" cols='80'>";
+                            // echo "<table class='wuji' border='0' cellspacing='0' cellpadding='0' style='font-size:13px;height:80px;padding:0px;line-height:15px;' width='350px' height='200px'>";
+                            // echo "<tr style='width:20px;'>";
+                            for($ii = 0;$ii < $num ; $ii ++){
+                       
+                            $sub = substr($content,$ii * 10,10);
+                            echo $sub."  ";
+                            // echo "<td>".$sub."</td>";
+                            // $arr[$ii] = $sub;
+                            $flag ++;
+
+                            if($flag % 5 == 0){
+                              // echo "</tr><tr>";
+                              echo "\n";
+                            }
+                            $sub = "";
+                        
+                          }
+                          // echo "</table>";
+                           echo "</textarea>";
+
+
+
+
+                          ?>  
+
+                             <br/>
+                             5'序列：{$wh.gene_serial_5}<br/>
+                             3'序列：{$wh.gene_serial_3}<br/>
+                           
+                         
+                     
+                 </td>
+             </tr>
+                 <eq name="wh.gene_seo" value="1">
+                     <tr align="center">
+                         <td style="color:black;">密码子优化</td>
+                         <td align="left">
+                             表达宿主:
+                               <eq name="wh['gene_seo_host']" value="0"></eq>
+<eq name="wh['gene_seo_host']" value="1">Arabidopsis thaliana</eq>
+<eq name="wh['gene_seo_host']" value="2">Bacillus subtilis</eq> 
+<eq name="wh['gene_seo_host']" value="3">Bos taurus</eq> 
+<eq name="wh['gene_seo_host']" value="4">Brassica napus</eq> 
+<eq name="wh['gene_seo_host']" value="5">Caenorhabditis elegans</eq> 
+<eq name="wh['gene_seo_host']" value="6">Chlamydomonas reinhardtii</eq> 
+<eq name="wh['gene_seo_host']" value="7">Cricetulus griseus</eq> 
+<eq name="wh['gene_seo_host']" value="8">Drosophila melanogaster</eq> 
+<eq name="wh['gene_seo_host']" value="9">Escherichia coli</eq> 
+<eq name="wh['gene_seo_host']" value="10">Homo sapiens</eq>
+<eq name="wh['gene_seo_host']" value="11">Mus musculus</eq> 
+<eq name="wh['gene_seo_host']" value="12">Nicotiana tabacum</eq> 
+<eq name="wh['gene_seo_host']" value="13">Oryza sativa</eq>
+<eq name="wh['gene_seo_host']" value="14">Pichia pastoris</eq> 
+<eq name="wh['gene_seo_host']" value="15">Saccharomyces cerevisiae</eq> 
+<eq name="wh['gene_seo_host']" value="16">Zea mays</eq> 
+<eq name="wh['gene_seo_host']" value="17">Other</eq> 
+                              &nbsp;;&nbsp;
+                              其他 ： {$wh.gene_seo_host_aa}  &nbsp;;&nbsp;
+                             <!-- ;优化的起始位点:{$wh['gene_seo_start']}
+                             <eq name="wh['gene_start']" value="1">bp</eq>
+                              <eq name="wh['gene_start']" value="2">aa</eq>
+                              
+                             ;结束位点:{$wh['gene_seo_end']}
+                              <eq name="wh['gene_end']" value="1">bp</eq>
+                              <eq name="wh['gene_end']" value="2">aa</eq>
+                              
+                             ;ORF 开始位点:{$wh['gene_orf_start']};
+                             结束位点:{$wh['gene_orf_end']}; -->
+                             避免的酶切位点:  {$wh['gene_avoid_site']}
+                              &nbsp;;&nbsp;保留的酶切位点 :  {$wh['gene_save_site']} &nbsp;;&nbsp;
+                              起始密码子 :
+                             <eq name="wh['gene_seo_result']" value='0'></eq>
+                             <eq name="wh['gene_seo_result']" value='1'>需要，ATG.</eq>
+                             <eq name="wh['gene_seo_result']" value='2'>不需要</eq>&nbsp;;&nbsp;
+                             终止密码子:
+                             <eq name="wh['gene_seo_result_a']" value='0'></eq>
+                             <eq name="wh['gene_seo_result_a']" value='1'>需要，TAG 或者 TAA 或者 TGA.</eq>
+                             <eq name="wh['gene_seo_result_a']" value='2'>不需要</eq>&nbsp;;&nbsp;
+                              指定终止的序列 :  {$wh.gene_rel_serial}&nbsp;;&nbsp;
+                              备注 : {$wh['gene_seo_note']}
+
+                         </td>
+                     </tr>
+                 </eq>
+              <tr align="center">
+                 <td style="color:black;">克隆载体</td>
+                 <td align="left">
+                      
+
+                         是否需要亚克隆：
+                        <eq name="wh.gene_other" value="1">否</eq>
+                         <eq name="wh.gene_other" value="2">是</eq>&nbsp;;&nbsp;
+                          
+                       <br/>
+                       <eq name="wh.gene_other" value='2'>
+                        亚克隆载体名称：{$wh.gene_clone_ya}&nbsp;;&nbsp;
+                        克隆位点_5':   {$wh.gene_clone_site}&nbsp;;&nbsp;
+                        克隆位点_3':   {$wh.gene_clone_site_a}&nbsp;;&nbsp;
+                        抗性 : {$wh.gene_clone_kx}&nbsp;;&nbsp;
+                        测序引物 : {$wh.gene_clone_cy}&nbsp;;&nbsp;
+                        载体序列 : {$wh.gene_clone_zx}&nbsp;;&nbsp;
+                         
+                       </eq>
+                       
+                 </td>
+             </tr>
+              <tr align="center">
+                 <td style="color:black;">质粒制备</td>
+                 <td align="left">
+                      
+                         <eq name="wh.gene_zhili_sel" value="1">准备交付: 2-4 μg (免费)</eq>
+                         <eq name="wh.gene_zhili_sel" value="2">
+                            自定义质粒制备:
+                            <eq name="wh.gene_zhili_content" value="0">0</eq>
+                            <eq name="wh.gene_zhili_content" value="1">100 μg</eq>
+                            <eq name="wh.gene_zhili_content" value="2">200 μg</eq>
+                            <eq name="wh.gene_zhili_content" value="3">300 μg</eq>
+                            <eq name="wh.gene_zhili_content" value="4">400 μg</eq>
+                            <eq name="wh.gene_zhili_content" value="5">500 μg</eq>
+                            <eq name="wh.gene_zhili_content" value="6">1 mg</eq>
+                           
+
+
+                             <!-- 模板名称:{$wh.gene_zhili_name}; -->
+                             <br/>
+                             质量级别 : <eq name="wh.gene_zhili_level" value="1">普通转化级</eq>
+                        <eq name="wh.gene_zhili_level" value="2">细胞转染级(去内毒素)</eq>
+                        </eq>
+                      
+                      
+                 </td>
+             </tr>
+         </table>
+            <br/>
+            <br/>
+         </foreach> 
+
+         <br/>
+          <div class="anniu" style="width:100%;border:0px solid red;height:30px;font-weight:bold;">
+              <div style="width:49%;border:1px solid #ccc;float:left;height:100%;">
+                  <button id="niu_pre" onclick="aaaa()" style="padding:4px;text-align:center;font-weight:bold;"> 返 回 </button>
+              </div>
+              <div style="width:50%;border:1px solid #ccc;float:left;height:100%;">
+                  <!-- <button onclick="bbbb()" style="padding:4px;text-align:center;font-weight:bold;"> 确认提交 </button> -->
+              </div>
+          </div>
+        </div>
+        <br/>
+		
+	</div>
+</div>
+</body>
+<style>
+/*.order_con .wuji tr td{
+      line-height:12px;
+      padding:2px;
+      width:20px;
+    }*/
+</style>
+<script type="text/javascript">
+  function aaaa(){
+     
+     window.location="{:U('Index/index')}";
+  }
+  function bbbb(){
+    // window.location ="http://www.jkrorder.com/index.php/Home/Gene/confirm_order/orderid/{$wh.orderid}";
+    window.location = "{:U('Gene/confirm_order',array('orderid'=> $wh['orderid']))}";
+
+  }
+</script>
+</html>

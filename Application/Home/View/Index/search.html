@@ -1,0 +1,542 @@
+<include file="Index/header" />
+
+<style>
+    .order_con span span{
+    cursor:pointer;
+    }
+</style>
+<!-- <script type="text/javascript" src="./Public/Home/js/jquery.datePicker.js"></script> -->
+<script type="text/javascript" src="/Public/Home/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/Public/Home/js/jquery.datePicker.js"></script>
+<link href="/Public/Home/js/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+<script>
+$(document).ready(function(){
+  // alert("aaa");
+	$( "#FromDate" ).datepicker({
+		dateFormat:'yy-mm-dd'
+	});
+	$( "#ToDate" ).datepicker({
+		dateFormat:'yy-mm-dd'
+	});
+	$('#next').click(function(){
+		$('#page').val($(this).attr('data'));
+		$('#searchdForm').submit();
+	});
+	$('#pre').click(function(){
+		$('#page').val($(this).attr('data'));
+		$('#searchdForm').submit();
+	});
+});
+</script>
+<div class="clear"></div>
+<div id="main">
+	<div class="maincon">
+		<div class="bread">搜索条件</div>
+        <div class="order_con">
+
+        <form id="searchdForm" method="post" autocomplete="off" action="{:U('Index/search')}">
+
+		<input type="hidden" id="page" name="p" value="" />
+		<table cellspacing="0" cellpadding="2" bgcolor="#fff" border="0" style="width:1000px;">
+            <tr bgcolor="#eaeaea">
+                <td align="right" bgcolor="#eaeaea" width="90px">订单日期从</td>
+                <td bgcolor="#eaeaea"><input name="FromDate" type="text" value="{$fromDate}" id="FromDate" class="Wdate" /></td>
+                <td align="right" bgcolor="#eaeaea">到</td>
+                <td bgcolor="#eaeaea"><input name="ToDate" type="text" value="{$toDate}" 
+                	id="ToDate" class="Wdate" /></td>
+                <td align="right"><input type="submit" name="btnSearch" value="搜索订单" onclick="return CheckOrderId();" id="btnSearch" style="color:#336699;" /></td>
+            </tr>
+            <tr bgcolor="#eaeaea"  >
+                <td  align="right" bgcolor="#eaeaea">订单类型</td>
+
+                <td bgcolor="#eaeaea" width="160"> <span class="chkSequece">
+        				<if condition=" $ordertype1 eq 'on' ">
+        				<input id="chkOrderType1" type="checkbox" name="chkOrderType1" checked="checked" /><label for="chkOrderType1">DNA测序订单</label></span>
+        				<else />
+        				<input id="chkOrderType1" type="checkbox" name="chkOrderType1" /><label for="chkOrderType1">DNA测序订单</label></span>
+        				</if>
+        				</td>
+        
+                <td bgcolor="#eaeaea" width="160" ><span class="chkSequece">
+        				<if condition=" $ordertype2 eq 'on' ">
+        				<input id="chkOrderType3" type="checkbox" name="chkOrderType3" checked="checked" /><label for="chkOrderType3">引物合成订单</label></span>
+        				<else />
+        				<input id="chkOrderType3" type="checkbox" name="chkOrderType3" /><label for="chkOrderType3">引物合成订单</label></span>
+        				</if>
+        				</td>
+
+                <td bgcolor="#eaeaea"  >
+                <if condition=" $ordertype4 eq 'on' "><span class="chkSequece">
+                <input id="chkOrderType4" type="checkbox" name="chkOrderType4" checked="checked" /><label for="chkOrderType4">基因合成订单</label></span>
+                <else />
+                <input id="chkOrderType4" type="checkbox" name="chkOrderType4" /><label for="chkOrderType4">基因合成订单</label></span>
+                </if>
+                </td>
+
+                <td bgcolor="#eaeaea">
+                  &nbsp;
+                </td>
+
+            </tr>
+            <tr bgcolor="#eaeaea">
+                <td align="right" bgcolor="#eaeaea" width="90px">订单号</td>
+                <td><input name="txtOrderId" type="text" id="txtOrderId" value="{$ordercode}" style="width:120px;" size="30" /></td>
+                <td align="right" bgcolor="#eaeaea" width="90px"></td>
+                <td colspan="3"></td>
+            </tr>
+        </table>
+
+		</form>
+    
+		</div>
+			<br/>	
+		
+		<div class="order_con" style="margin-top:20px;margin-bottom:50px;">
+            <span>温馨提示：<br/>(1)若该订单提交状态为<span style="color:red;">"草稿"</span>，点击相应的"详情"可以<span title="预览初次提交的订单信息" style="text-decoration:underline;border-bottom:1px double red;">预览</span>初次提交的订单信息，也可以进行<span style="text-decoration:underline;border-bottom:1px double red;" title="修改初次提交的订单信息">修改</span>处理。
+                <br/>
+                (2)若该订单提交状态为<span style="color:green;">"订单已提交"</span>，点击相应的"详情"可以<span style="text-decoration:underline;border-bottom:1px double red;" title="预览最终的订单信息">预览</span>最终的订单信息</span>
+                <br/>
+                <br/>
+
+      <!-- 	<table cellspacing="0" border="1" style="border-color:DarkGray;border-collapse:collapse;margin-top:10px;width:100%;" > -->
+        <table width="100%" cellspacing="1" cellpadding="1" border="0">
+			<tr style="color:White;" align="center">
+				<td style="background-color:#008C00; color:white;">提交日期</td>
+                <td style="background-color:#008C00; color:white;">订单号</td>
+                <td style="background-color:#008C00; color:white;">订单类型</td>
+               <!--  <td>项目描述</td> -->
+                <td style="background-color:#008C00; color:white;">引物条数</td>
+                <td style="background-color:#008C00; color:white;">碱基数</td>
+                <td style="background-color:#008C00; color:white;">提交状态</td>
+                <!-- <td>PI/实验室负责人</td> -->
+                <!-- <td>单位名称</td> -->
+                <td style="background-color:#008C00; color:white;">提交方式</td>
+                <td style="background-color:#008C00; color:white;">结果</td>
+                <td style="background-color:#008C00; color:white;">订购状态</td>
+                <td style="background-color:#008C00; color:white;">操作</td>
+                <td style="background-color:#008C00; color:white;">快递查询</td>
+                <td style="background-color:#008C00; color:white;">留言咨询</td>
+			</tr>
+            <foreach name="list" item="L">
+			<tr>
+				<td align="center">{$L.addtime|date='Y-m-d',###}</td>
+                <td align="center">{$L.code_yw}</td>
+                <td align="center">{$L.ordertype|showOrderType}</td>
+               <!--  <td>{$L.description}</td> -->
+                 
+                 <if condition="$L.ordertype eq 1">
+              <td align="center"> {$L.id|getSequencingCountByID}</td>
+                <else />
+                 <td align="center">{$L.num_yinwu}</td>
+              </if>
+                
+                <!-- <td align="center">&nbsp;</td> -->
+                <if condition="$L.ordertype eq 1">
+				 
+				<td align="center">
+          <!-- {$L.id|getSequencingCountByID} -->
+          &nbsp;
+        </td>
+				<elseif condition="$L.ordertype eq 2"/>
+			 
+				<td align="center">{$L.id|getPrimersCountByID}</td>
+                <elseif condition="$L.ordertype eq 3"/>
+                <td align="center"> 
+                   {$L.id|getGeneCountByID}
+
+                </td>
+                <else />
+                <td align="center">0</td>
+				</if>
+                <!-- <td>{$L.ordertype}</td> -->
+
+                 <if condition="$L.status eq 1">
+                <td align="center"  style="color:red;">{$L.status|showOrderStatus}</td>
+                <else />
+                 <td align="center" style="color:green;">{$L.status|showOrderStatus}</td>
+               </if>
+
+                <!-- <td align="center">{$L.uid|getClientName}</td> -->
+                <!-- <td align="center">{$L.uid|getClientCompany}</td> -->
+                <if condition="$L.excelurl eq ''">
+                <td align="center" style="white-space:nowrap;">
+                	在线填写
+
+                </td>
+                <else />
+                <td align="center" style="white-space:nowrap;">
+                	 上传excel表单
+
+                </td>
+              </if>
+                <if condition="$L.ordertype eq 1">
+				<td align="center"><a href="{:U('Index/info','id='.$L['id'])}" 
+					title="点击查看详情">详情</a></td>
+				<td align="center">
+         <eq name="L.synthesis" value="1">&nbsp;</eq>
+          <eq name="L.synthesis" value="2">已收到</eq>
+           <eq name="L.synthesis" value="3">已合成</eq>
+            <eq name="L.synthesis" value="4">已取消</eq>
+             <eq name="L.synthesis" value="5">已完成</eq>
+              <eq name="L.synthesis" value="6">已发货</eq>
+               <eq name="L.synthesis" value="7">已终止</eq>
+          
+        </td>
+                <td align="center">
+                  
+ <a href="javascript:if(window.confirm('您确定要执行删除操作码？')){window.location='{:U('Index/del_order',array('id'=>$L['id']))}'}" title="点击删除" style="text-decoration:none;">删除</a>                  
+                  <!-- <a href="{:U('Index/del_order','id='.$L['id'])}" 
+					title="点击删除">删除</a> -->
+        </td>
+                <td align="center">
+                  <a href="http://www.kuaidi100.com/all/sf.shtml?from=openv" target="_blank" style="color:red;">顺丰快递</a>
+                </td>
+
+                <td align="center">
+
+                      <eq name="L.status" value="2">
+
+                      <eq name="L.id|getStatus_b" value="2">
+                      <a  href="{:U('Index/info','id='.$L['id'])}"
+                    title="点击查看详情" style="color:green;">暂无信息 </a>
+                  </eq>
+                   
+                  <eq name="L.id|getStatus_b" value="1">
+                      
+                          <a  href="{:U('Index/info','id='.$L['id'])}"
+                    title="点击查看详情" style="color:red;">新信息 </a>
+
+                  </eq>
+                    
+                   <eq name="L.id|getStatus_b" value="">
+                     <a  href="{:U('Index/info','id='.$L['id'])}"
+                    title="点击查看详情" style="color:green;">暂无信息 </a>
+                  </eq>
+
+                  <else />
+                   暂无信息
+                </eq>
+
+
+                </td>
+
+
+				<elseif condition="$L.ordertype eq 2" />
+				<td align="center"><a href="{:U('Primer/info','id='.$L['id'])}"
+					title="点击查看详情">详情</a></td>
+				<td align="center">
+            <eq name="L.synthesis" value="1">&nbsp;</eq>
+          <eq name="L.synthesis" value="2">已收到</eq>
+           <eq name="L.synthesis" value="3">已合成</eq>
+            <eq name="L.synthesis" value="4">已取消</eq>
+             <eq name="L.synthesis" value="5">已完成</eq>
+              <eq name="L.synthesis" value="6">已发货</eq>
+               <eq name="L.synthesis" value="7">已终止</eq>
+        
+        </td>
+                <td align="center">
+
+    <a href="javascript:if(window.confirm('您确定要执行删除操作码？')){window.location='{:U('Primer/del_order',array('id'=>$L['id']))}'}" title="点击删除" style="text-decoration:none;">删除</a>            
+                <!--   <a href="{:U('Primer/del_order','id='.$L['id'])}"
+					title="点击删除">删除</a> -->
+        </td>
+                <td align="center">
+                  <a href="http://www.kuaidi100.com/all/sf.shtml?from=openv" target="_blank" style="color:red;">顺丰快递</a>
+                </td>
+                <td align="center">
+
+                    <eq name="L.status" value="2">
+
+                    <eq name="L.id|getStatus_a" value="2">
+                      <a  href="{:U('Primer/info','id='.$L['id'])}"
+                    title="点击查看详情" style="color:green;">暂无信息 </a>
+                  </eq>
+                   
+                  <eq name="L.id|getStatus_a" value="1">
+                      
+                          <a  href="{:U('Primer/info','id='.$L['id'])}"
+                    title="点击查看详情" style="color:red;">新信息 </a>
+
+                  </eq>
+                    
+                   <eq name="L.id|getStatus_a" value="">
+                     <a  href="{:U('Primer/info','id='.$L['id'])}"
+                    title="点击查看详情" style="color:green;">暂无信息 </a>
+                  </eq>
+                   
+                   <else />
+                   暂无信息
+                 </eq>
+
+                </td>
+
+                <elseif condition="$L.ordertype eq 3" />
+				<td align="center">
+                    <eq name="L.status" value="1">
+                    <a href="{:U('Gene/guodu','id='.$L['id'])}"
+					title="点击查看详情">详情</a>
+                    
+                    </eq>
+
+                    <eq name="L.status" value="2">
+                    <a href="{:U('Gene/info','id='.$L['id'])}"
+                    title="点击查看详情">详情</a>
+                     
+                    </eq>
+                   
+
+                </td>
+
+				<td align="center">
+       <eq name="L.synthesis" value="1">&nbsp;</eq>
+          <eq name="L.synthesis" value="2">已收到</eq>
+           <eq name="L.synthesis" value="3">已合成</eq>
+            <eq name="L.synthesis" value="4">已取消</eq>
+             <eq name="L.synthesis" value="5">已完成</eq>
+              <eq name="L.synthesis" value="6">已发货</eq>
+               <eq name="L.synthesis" value="7">已终止</eq>
+        </td>
+
+                <td align="center">
+
+        <a href="javascript:if(window.confirm('您确定要执行删除操作码？')){window.location='{:U('Gene/del_order',array('id'=>$L['id']))}'}" title="点击删除" style="text-decoration:none;">删除</a> 
+
+         <!--  <a href="{:U('Gene/del_order','id='.$L['id'])}"
+					     title="点击删除">删除</a>
+ -->
+        </td>
+                <td align="center">
+                  <a href="http://www.kuaidi100.com/all/sf.shtml?from=openv" target="_blank" style="color:red;">顺丰快递</a>
+                </td>
+
+                <td align="center">
+
+                   <eq name="L.status" value="2">
+
+                     <eq name="L.id|getStatus" value="2">
+                      <a href="{:U('Gene/info','id='.$L['id'])}"
+                    title="点击查看详情" style="color:green;">暂无信息</a>
+                  </eq>
+                  <eq name="L.id|getStatus" value="1">
+                <a href="{:U('Gene/info','id='.$L['id'])}"
+                    title="点击查看详情" style="color:red;">新信息 </a>
+                  </eq>
+                  <eq name="L.id|getStatus" value="">
+                      
+                          <a href="{:U('Gene/info','id='.$L['id'])}"
+                    title="点击查看详情" style="color:green;">暂无信息</a>
+                  </eq>
+
+                  <else />
+                  暂无信息
+                </eq>
+                    
+                </td>
+
+                <elseif condition="$L.ordertype eq 4" />
+				<td align="center">
+
+          <eq name="L.status" value="1">
+                    <a href="{:U('Clone/guodu','id='.$L['id'])}"
+          title="点击查看详情">详情</a>
+                    
+                    </eq>
+
+                    <eq name="L.status" value="2">
+                    <a href="{:U('Clone/info','id='.$L['id'])}"
+                    title="点击查看详情">详情</a>
+                     
+                    </eq>
+
+         <!--  <a href="{:U('Clone/info','id='.$L['id'])}"
+					title="点击查看详情">详情</a> -->
+
+        </td>
+				<td align="center">
+          <eq name="L.synthesis" value="1">&nbsp;</eq>
+          <eq name="L.synthesis" value="2">已收到</eq>
+           <eq name="L.synthesis" value="3">已合成</eq>
+            <eq name="L.synthesis" value="4">已取消</eq>
+             <eq name="L.synthesis" value="5">已完成</eq>
+              <eq name="L.synthesis" value="6">已发货</eq>
+               <eq name="L.synthesis" value="7">已终止</eq>
+        </td>
+                <td align="center">
+   <a href="javascript:if(window.confirm('您确定要执行删除操作码？')){window.location='{:U('Clone/del_order',array('id'=>$L['id']))}'}" title="点击删除" style="text-decoration:none;">删除</a> 
+       
+                 <!--  <a href="{:U('Clone/del_order','id='.$L['id'])}"
+					title="点击删除">删除</a> -->
+
+        </td>
+                <td align="center">
+                  <a href="http://www.kuaidi100.com/all/sf.shtml?from=openv" target="_blank" style="color:red;">顺丰快递</a>
+                </td>
+                <td align="center">
+                   <eq name="L.status" value="2">
+
+                  <eq name="L.id|getStatus_c" value="2">
+                      <a href="{:U('Clone/info','id='.$L['id'])}"
+                    title="点击查看详情" style="color:green;">暂无信息</a>
+                  </eq>
+                  <eq name="L.id|getStatus_c" value="1">
+                <a href="{:U('Clone/info','id='.$L['id'])}"
+                    title="点击查看详情" style="color:red;">新信息 </a>
+                  </eq>
+                  <eq name="L.id|getStatus_c" value="">
+                      
+                          <a href="{:U('Clone/info','id='.$L['id'])}"
+                    title="点击查看详情" style="color:green;">暂无信息</a>
+                  </eq>
+
+                  <else />
+                    暂无信息
+                </eq>
+
+                </td>
+
+                <elseif condition="$L.ordertype eq 5" />
+
+				<td align="center">
+
+            <eq name="L.status" value="1">
+                    <a href="{:U('Server/guodu','id='.$L['id'])}"
+          title="点击查看详情">详情</a>
+                    
+                    </eq>
+
+                    <eq name="L.status" value="2">
+                    <a href="{:U('Server/info','id='.$L['id'])}"
+                    title="点击查看详情">详情</a>
+                     
+                    </eq>
+
+
+        </td>
+				<td align="center">
+         <eq name="L.synthesis" value="1">&nbsp;</eq>
+          <eq name="L.synthesis" value="2">已收到</eq>
+           <eq name="L.synthesis" value="3">已合成</eq>
+            <eq name="L.synthesis" value="4">已取消</eq>
+             <eq name="L.synthesis" value="5">已完成</eq>
+              <eq name="L.synthesis" value="6">已发货</eq>
+               <eq name="L.synthesis" value="7">已终止</eq>
+
+        </td>
+                <td align="center">
+
+      <a href="javascript:if(window.confirm('您确定要执行删除操作码？')){window.location='{:U('Server/del_order',array('id'=>$L['id']))}'}" title="点击删除" style="text-decoration:none;">删除</a>              
+
+
+       <!--  <a href="{:U('Server/del_order','id='.$L['id'])}"
+					title="点击删除">删除</a>
+ -->
+        </td>
+                <td align="center">
+                  <a href="http://www.kuaidi100.com/all/sf.shtml?from=openv" target="_blank" style="color:red;">顺丰快递</a>
+                </td>
+               <td align="center"> 
+                <eq name="L.status" value="2">
+
+                <eq name="L.id|getStatus_d" value="2">
+                      <a href="{:U('Server/info','id='.$L['id'])}"
+                    title="点击查看详情" style="color:green;">暂无信息</a>
+                  </eq>
+                  <eq name="L.id|getStatus_d" value="1">
+                <a href="{:U('Server/info','id='.$L['id'])}"
+                    title="点击查看详情" style="color:red;">新信息 </a>
+                  </eq>
+                  <eq name="L.id|getStatus_d" value="">
+                      
+                          <a href="{:U('Server/info','id='.$L['id'])}"
+                    title="点击查看详情" style="color:green;">暂无信息</a>
+                  </eq>
+
+                  <else />
+                   暂无信息
+                </eq>
+
+
+               </td>
+
+                <else />
+
+				<td align="center">
+
+            <eq name="L.status" value="1">
+                    <a href="{:U('Zhili/guodu','id='.$L['id'])}"
+          title="点击查看详情">详情</a>
+                    
+                    </eq>
+
+                    <eq name="L.status" value="2">
+                    <a href="{:U('Zhili/info','id='.$L['id'])}"
+                    title="点击查看详情">详情</a>
+                     
+                    </eq>
+
+          <!-- <a href="{:U('Zhili/info','id='.$L['id'])}"
+					title="点击查看详情">详情</a> -->
+
+        </td>
+				<td align="center">
+          <eq name="L.synthesis" value="1">&nbsp;</eq>
+          <eq name="L.synthesis" value="2">已收到</eq>
+           <eq name="L.synthesis" value="3">已合成</eq>
+            <eq name="L.synthesis" value="4">已取消</eq>
+             <eq name="L.synthesis" value="5">已完成</eq>
+              <eq name="L.synthesis" value="6">已发货</eq>
+               <eq name="L.synthesis" value="7">已终止</eq>
+        </td>
+
+        <td align="center"><a href="{:U('Zhili/del_order','id='.$L['id'])}"
+					   title="点击删除">删除</a>
+        </td>
+                <td align="center">
+                   <a href="http://www.kuaidi100.com/all/sf.shtml?from=openv" target="_blank" style="color:red;">顺丰快递</a>
+                </td>
+                <td align="center"> 
+
+                   <eq name="L.status" value="2">
+
+                <eq name="L.id|getStatus_e" value="2">
+                      <a href="{:U('Zhili/info','id='.$L['id'])}"
+                    title="点击查看详情" style="color:green;">暂无信息</a>
+                  </eq>
+                  <eq name="L.id|getStatus_e" value="1">
+                <a href="{:U('Zhili/info','id='.$L['id'])}"
+                    title="点击查看详情" style="color:red;">新信息 </a>
+                  </eq>
+                  <eq name="L.id|getStatus_e" value="">
+                      
+                          <a href="{:U('Zhili/info','id='.$L['id'])}"
+                    title="点击查看详情" style="color:green;">暂无信息</a>
+                  </eq>
+
+                  <else />
+                   暂无信息
+                </eq>
+                
+                </td>
+				</if>
+                
+			</tr>
+			</foreach>
+		</table>
+        </div>
+        <br/>
+
+		<div style="margin-bottom:50px;margin-top:20px;">
+
+      <if condition="$page neq 1">
+        <a id="pre" data="{$page-1}" href="javascript:;">上一页</a>
+      </if>
+      <if condition="count($list) eq $pageNum">
+        <a id="next" data="{$page+1}" href="javascript:;">下一页</a>
+      </if>
+
+  </div>
+
+	</div>
+</div>
+</body>
+</html>

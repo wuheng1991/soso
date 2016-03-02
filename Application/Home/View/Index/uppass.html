@@ -1,0 +1,85 @@
+ <include file="Index/header" />
+<!-- logo--导航菜单 结束 -->
+
+<div class="clear"></div>
+<style type="text/css">
+    #tijiao{
+    	padding:5px;
+    }
+	#tijiao:hover{
+		cursor:pointer;
+		color:red;
+	}
+</style>
+<script>
+$(document).ready(function(){
+	$('#tijiao').click(function(){
+		// alert('aaa');
+		var pass = $('#pass').val();
+		var npass = $('#npass').val();
+		var npass_re = $('#npass-re').val();
+		var flag = true;
+		a1 = /^[A-Za-z0-9]+$/.test(pass);
+		if ( pass == '' || !a1){
+			alert('请按要求填写原始密码');
+			flag = false;
+			return false;
+			// break;
+		}
+		if (npass == '' || !/^[A-Za-z0-9]+$/.test(npass)){
+			alert('请按要求填写新密码');
+			flag = false;
+			return false;
+		}
+		if (npass_re == '' || !/^[A-Za-z0-9]+$/.test(npass_re)){
+			alert('请按要求重复新密码');
+			flag = false;
+			return false;
+		}
+		if (npass != npass_re){
+			alert('新密码不一致!');
+			flag = false;
+		}
+		if (flag==true){
+			 $('#upForm').submit();
+		}
+	});
+});
+</script>
+<div id="main">
+	<div class="maincon">
+	<form method="post" name="form1" autocomplete="off" action="{:U('User/uppass')}" id="upForm">
+        <div class="order_con">
+        <table width="100%" cellspacing="1" cellpadding="1" border="0">
+			<tr>
+           	  <th colspan="2" class="fs16">修改密码：</th>
+                
+            </tr>
+            <tr>
+           	  <th colspan="2" class="fs16">&nbsp;</th>
+                
+            </tr>
+            <tr>
+                <td>原密码：</td>
+                <td><input type="password" id="pass" name="pass" size="30" /></td>
+            </tr>
+			<tr>
+                <td>新密码：</td>
+                <td><input type="password" id="npass" name="npass" size="30"/></td>
+            </tr>
+			<tr>
+                <td>新密码确认：</td>
+                <td><input type="password" id="npass-re" name="npass-re" size="30"/></td>
+            </tr>
+			
+            <tr>
+                <td colspan="2" align="center"><input type="button" title="点击提交" name="tijiao" id="tijiao" value="确认修改" /></td>
+            </tr>
+        </table>
+	  </div>
+	  </form>
+  </div>
+</div>
+
+</body>
+</html>

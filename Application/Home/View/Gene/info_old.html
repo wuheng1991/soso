@@ -1,0 +1,163 @@
+ <include file="Index/header" />
+<style type="text/css">
+    #op:hover{
+      cursor:pointer;
+      color:red;
+    }
+    .xingxing{
+        color:red;
+    }
+    .dianji:hover{
+        cursor:pointer;
+        color:red;
+    }
+    .Submit:hover{
+        cursor:pointer;
+        color:red;
+    }
+
+
+</style>
+<div id="main">
+    <div class="maincon">
+    <div class="order_con">
+        
+         <!--表单开始-->
+        <form action="{:U('Gene/forms_do')}" method="post" name="form1">
+              
+        <table cellspacing="0" cellpadding="0" width="100%" border="1">
+            <legend>基因合成服务(<span class="xingxing">*</span>必填项)</legend>
+
+            <foreach name="geneinfo" item="info" >
+
+              <tr>
+                <td colspan="6">订单号：<span class="xingxing">{$orderInfo['code']}  </span>订单确认 （确认后订单不可再编辑，请仔细填写订单信息）</td>
+              </tr>
+            <tr align="center">
+                <td><span class="xingxing">*</span>基因名称</td>
+                <td> 5' 端序列</td>
+                <td><span class="xingxing">*</span>序列选项：<br/>
+                  <input type="radio" name="gene_serial_sel"  value="1"     <eq name="info['gene_serial_sel']" value="1">checked="checked"</eq>   >DNA &nbsp;&nbsp;<input type="radio" name="gene_serial_sel" value="2" <eq name="info['gene_serial_sel']" value="2">checked="checked"</eq> >蛋白</td>
+                <td> 3'  端序列</td>
+                <td>密码子优化</td>
+                <td>克隆方式</td>
+                 
+            </tr>
+
+            <tr align="center">
+                 <input type="hidden" name="gene_id" value="{$info['id']}">
+                <td>    <input type="text" name="gene_name" value="{$info['gene_name']}" required="required" placeholder="基因名称必填" />
+
+
+                </td>
+                <td> <input type="text" name="gene_serial_5" value="{$info['gene_serial_5']}"/></td>
+                <td><textarea name="gene_contents" required="required"  placeholder="序列内容必填">{$info['gene_contents']}</textarea></td>
+                <td> <input  type="text" name="gene_serial_3" value="{$info['gene_serial_3']}"  style=""></td>
+                <td> <input type="radio" onclick="a.show();" value="1" name="gene_seo" <eq name="info['gene_seo']" value='1'>checked='checked'</eq>>是
+                  <input type="radio" value="2"  name="gene_seo" <eq name="info['gene_seo']" value='2'>checked="checked"</eq>>否</td>
+
+                <td><select name="gene_clone_method">
+                <option value="0" <eq name="info['gene_clone_method']" value='0'>selected="selected"</eq>></option>
+                <option value="1" <eq name="info['gene_clone_method']" value='1'>selected="selected"</eq> >pUC57-Amp</option>
+                <option value="2" <eq name="info['gene_clone_method']" value='2'>selected="selected"</eq>>pUC57-Kana</option>
+                <option value="3" <eq name="info['gene_clone_method']" value='3'>selected="selected"</eq>>pUC57-Simple</option>
+                 <option value="4" <eq name="info['gene_clone_method']" value='4'>selected="selected"</eq>>pUC19-Amp(短基因默认)</option>
+              </select></td>
+            </tr>
+
+            <tr align="center">
+                <td> 克隆位点</td>
+                <td>其他要求</td>
+                <td>质粒制备:</td>
+                <td><span class="xingxing">*</span>质粒—模板名称</td>
+                <td>质粒—质量级别</td>
+                <td> </td>
+            </tr>
+
+            <tr align="center">
+                <td><input type="text" name="gene_clone_site" 
+                  value="{$info['gene_clone_site']}"/></td>
+                <td>
+              <textarea name="gene_other" style="">{$info['gene_other']}</textarea></td>
+                <td>
+                  <input type="radio" name="gene_zhili_sel"  value="1" id="1_0" 
+                  checked="checked" <eq name="info['gene_zhili_sel']" value='1'>checked="checked"</eq> /> 准备交付: 4 μg (免费)<br/>
+                  <input type="radio" name="gene_zhili_sel" value="2" id="1_1" 
+                  <eq name="info['gene_zhili_sel']" value="2">checked='checked'</eq> /> 自定义质粒制备: 
+                <select name="gene_zhili_content">
+                  <option value="0" <eq name="info['gene_zhili_content']" value="0">selected="selected"</eq>></option>
+                  <option value="1" <eq name="info['gene_zhili_content']" value="1">selected="selected"</eq>>100 μg</option>
+                  <option value="2" <eq name="info['gene_zhili_content']" value="2">selected="selected"</eq>>200 μg</option>
+                  <option value="3" <eq name="info['gene_zhili_content']" value="3">selected="selected"</eq>>300 μg</option>
+                  <option value="4" <eq name="info['gene_zhili_content']" value="4">selected="selected"</eq>>400 ug</option>
+                  <option value="5" <eq name="info['gene_zhili_content']" value="5">selected="selected"</eq>>500 ug</option>
+                  
+              </select></td>
+                <td><input type="text" name="gene_zhili_name"
+                  value="{$info['gene_zhili_name']}"
+                 required="required" placeholder="模板名称必填"/></td>
+                <td> <input id=pls_grade_1 name="gene_zhili_level" type="radio"  value="1"
+                  <eq name="info['gene_zhili_level']" value="1">checked="checked"</eq>/>普通转化级
+    <br>
+      <input id=pls_grade_2 name="gene_zhili_level" type="radio" value="2" 
+      <eq name="info['gene_zhili_level']" value="2">checked="checked"</eq>/>细胞转染级(去内毒素)</td>
+                <td>
+                 
+                  </td>  
+            </tr>
+
+
+            <tr align="center">
+               
+                <td colspan="6" align="left">
+                     <center><h3>联系我们</h3></center>
+                     a.批量订购或寻求基因合成技术支持<br/>
+                     b.您可以发送批量FASTA格式的基因序列到 <a id="f66" href="#"><u>order@genecreate.com</u></a>邮箱，或者电话<font id="f66">027-88189683</font><br>
+        c.我们经验丰富的技术支持将帮助管理您的项目，从序列设计、优化、合成到克隆，无需收取任何额外收费
+                </td>
+                
+            </tr>
+
+            <tr align="center">
+                 
+                <td colspan="6" align="center">
+                   <input type="submit" class="Submit" value="      保    存      "/>
+        
+                </td>
+                 
+            </tr>
+
+          </foreach>
+        </table>
+
+
+
+    </form>
+
+
+    <!--表单结束-->
+    </div>
+</div>
+</div>
+
+
+<script type="text/javascript">
+  //获取序列选项信息
+    
+     // window.onload=function(){
+     //  //alert(form1.gene_clone_method.value);
+     //  alert
+     // }
+
+  
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>

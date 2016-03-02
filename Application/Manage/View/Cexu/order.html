@@ -1,0 +1,73 @@
+<include file="Index/header" />
+<div id="main">
+	<div class="maincon">
+		<div class="bread">提交订单 - 步骤 1 / 2：输入样品信息</div>
+        <div class="order_con">
+		<form method="post" action="{:U('Index/step')}">
+        <table width="100%" cellspacing="1" cellpadding="1" border="0">
+			<tr>
+           	  <th class="fs16">创建订单：</th>
+                <th>
+                    <label style="margin-right:50px;"><input id="zai_send" type="radio" class="radio"/><span class="fs16"><b>在线填写表单</b></span></label>
+                    <label><input id="jianli_send" type="radio" class="radio"/><span class="fs16"><b>上传Excel表单</b></span></label>
+                </th>
+            </tr>
+			<tr>
+                <td colspan="2"><div id="zai" style="display:none;">
+				
+				<table>
+				<tr>
+					<td>创建在线表单：</td>
+						<td><input type="text" name="num" size="2" /> (1 到 94)反应数量 <input type="image" src="/Public/Home/images/form_btn.gif" /> </td>
+					</tr>
+				</table>
+				
+				</div>
+				<div id="jianli" style="display:none;">
+				
+				<table>
+				<tr>
+					<td>下载表格</td>
+						<td><a href="">测试订单 Excel</a></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>注意： 请使用 (A-z, 0-9,+, _, -) 填写 "样品名称" 和 "自备引物名称 " 栏的 空位。 </td>
+					</tr>
+					<tr>
+						<td>上传表格</td>
+						<td><input type="file" name="excel" size="2" /> </td>
+					</tr>
+				</table>
+				
+				</div>
+				</td>
+            </tr>
+			
+            
+			
+            <tr>
+                <td colspan="2" align="center">　　　　　　　　　　　　　　　　　　　　　　　　　　　
+                  <input type="image" src="/Public/Home/images/save_btn.gif" />&nbsp;&nbsp;<input type="image" src="/Public/Home/images/cancel_btn.gif" /></td>
+            </tr>
+        </table>
+		<form>
+	  </div>
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#zai_send').click(function(){
+		$('#zai').show();
+		$('#jianli').hide();
+		$('#jianli_send').attr('checked',false);
+	});
+	$('#jianli_send').click(function(){
+		$('#jianli').show();
+		$('#zai').hide();
+		$('#zai_send').attr('checked',false);
+	});
+});
+</script>
+</body>
+</html>

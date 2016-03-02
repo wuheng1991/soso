@@ -1,0 +1,135 @@
+﻿
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <title>金开瑞引物测序网络系统</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="css/pintuer.css">
+    <link rel="stylesheet" href="css/login.css">
+    
+    <style>
+	
+	
+ #menu{
+ width:1366px;
+ height:100px;
+ background-repeat:no-repeat; 
+}
+ 
+ .menu1{
+ background:url(../gencert/images/1.jpg);
+
+ }
+ 
+ .menu2{
+ background:url(../gencert/images/2.jpg);
+ 
+ }
+ 
+ .menu3{
+ background:url(../gencert/images/3.jpg);
+
+ }
+ 
+ .menu4{
+ background:url(../gencert/images/4.jpg);
+
+ }
+
+ .menu5{
+ background:url(../gencert/images/5.jpg);
+
+ }
+ 
+  .menu5{
+ background:url(../gencert/images/6.jpg);
+
+ }
+
+ .login-bg{position: absolute;left:0;top:0;width: 100%;height: 100%;}
+ .login-bg img{position: absolute;left:0;top:0;width: 100%;height: 100%;}
+</style>
+ 
+    
+  </head>
+  <body>
+      <div id="viploginbg" class="login-bg">
+        <img id="login-bg-img" src="" alt=""/>
+      </div>
+
+
+  		<div class="login radius fadein-top">
+        	<div class="logo2"><img src="images/logo.png" alt="logo" /></div>
+            <h1 class="text-big"><strong>用户注册信息</strong></h1>
+            <div class="form2">
+				<form method="post" autocomplete="off" class="form-x">
+               <div class="line-small clearfix margin-bottom">
+				<div class="x2 xheight"><label>用户名:</label></div>
+				<div class="x8"><input type="text" class="input2 input" size="20"></div>
+			  </div>
+              
+               <div class="line-small clearfix margin-bottom">
+				<div class="x2 xheight"><label>邮箱:</label></div>
+				<div class="x8"><input type="text" class="input2 input" size="20"></div>
+			  </div>
+              
+               <div class="line-small clearfix margin-bottom">
+				<div class="x2 xheight"><label>密码:</label></div>
+				<div class="x8"><input type="password" class="input2 input" size="20"></div>
+			  </div>
+              
+               <div class="line-small clearfix margin-bottom">
+				<div class="x2 xheight"><label>确认密码:</label></div>
+				<div class="x8"><input type="password" class="input2 input" size="20"></div>
+			  </div>
+              
+                 <div class="line-small clearfix margin-bottom">
+				<div class="x2 xheight"><label>验证码:</label></div>
+				<div class="x8"><input type="text" class="input2 input" size="20">
+                <img src="images/yzm.png" class="imt">
+                </div>
+			  </div>
+              
+              
+                 <div class="line-small clearfix margin-bottom">
+				<div class="x2 xheight"><label>联系方式:</label></div>
+				<div class="x8"><input type="text" class="input2 input" size="20"></div>
+			  </div>  
+              
+                <div class="line-small clearfix margin-bottom">
+				<div class="x2 xheight"><label>地址:</label></div>
+				<div class="x8"><input type="text" class="input2 input" size="20"></div>
+			  </div>   
+              
+              <div class="line-big abt">
+                  <div class="x4"><a href="#" id="botton" class="button button-block text-center">登陆</a></div>
+                  <div class="x4"><a href="#" id="botton" class="button button-block text-center">注册</a></div>
+               </div>    
+        
+                    
+                    
+  				</form>
+            </div>
+
+            
+        </div>
+
+  </body>
+</html>
+
+<script>
+
+  window.onload=roll;
+  function roll(){
+    var menu = document.getElementById("login-bg-img");
+	 var rnd=Math.floor(Math.random()*6)+1;
+   menu.src = "../gencert/images/"+rnd+".jpg";
+
+//dom->获取style 采用驼峰写法..
+ // menu.style.backgroundImage="url('images/"+"_MG_"+rnd+".jpg')";
+   }
+
+
+</script>

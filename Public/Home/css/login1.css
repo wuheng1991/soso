@@ -1,0 +1,118 @@
+﻿
+@charset "utf-8";
+
+/* ----整体公共样式---- */
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, a, code, del, dfn, img, q, dl, dt, dd, ol, ul, li, form, table, tr, th, td,{ margin:0; padding:0; border:0;}
+.clear{ clear:both; display:block; overflow:hidden; visibility:hidden; width:0; height:0;}
+*{ margin:0; padding:0; list-style:none;}
+ul,ol{ padding:0; margin:0; list-style-position:inside; #list-style-position:outside;}
+li{ list-style:none;}
+img{ border:0 none; height:auto; max-width:100%; vertical-align:middle;}
+a{ color:#7a7a7a; text-decoration:none;}
+a:hover{ color:#f57e20;}
+.left{ float:left;}
+.right{ float:right;}
+body{ font-size:14px; line-height:22px; font-family:"微软雅黑",Arial; color:#7a7a7a; padding:0; margin:0;}
+.m5{ margin-right:5px;}
+.m10{ margin-right:20px;}
+#f33{ color:#f57e20;}
+#f66{ color:#008C00;}
+.fs14{ font-size:14px;}
+.fs16{ font-size:16px;}
+.fs18{ font-size:18px;}
+.b33{ background-color:#dfffdf;}
+.b66{ background-color:#feeada;}
+.bb33{ background-color:#008c00;}
+.bb66{ background-color:#f57e20;}
+.h50{ height:50px; line-height:50px; overflow:hidden;}
+.h70{ height:74px; line-height:74px; overflow:hidden;}
+
+
+/* ----头部样式---- */
+
+#toper{ width:100%; border-top:4px solid #008C00;}
+.top{ width:1000px; height:40px; padding-top:14px; margin:0 auto;}
+.top_l li{ float:left; font-size:12px; display:inline; margin-right:12px;}
+.top_l i{ float:left; width:16px; height:19px; background:url(../images/icon.gif) no-repeat; display:block;}
+.top_l i.pho{ width:16px; height:16px; background-position:-18px 0; margin:3px 3px 0 0;}
+.top_l i.mal{ width:14px; height:12px; background-position:-18px -18px; margin:5px 3px 0 0;}
+.top_l i.lgo{ width:14px; height:16px; background-position:-19px -31px; margin:2px 3px 0 0;}
+.top_l i.wx{ width:20px; height:19px; background-position:-18px -48px; margin:2px 3px 0 0;}
+
+
+/* ----导航菜单---- */
+
+#header{ width:100%; height:88px; background:url(../images/top_bg.gif) repeat-x;}
+.head{ width:1000px; height:62px; padding:20px 0 16px 0; margin:0 auto;}
+.logo{ float:left; height:62px; display:block;}
+
+.menu{ float:right; #width:776px; _width:776px; margin-top:10px; #margin-left:5px;}
+.menu ul{ position:relative; margin:0;}
+.menu ul li{ float:left; width:110px; height:36px; line-height:36px; text-align:center; margin-right:1px; position:relative;}
+.menu ul li.big{ float:left; width:130px; height:36px; line-height:36px; text-align:center; margin-right:1px; position:relative;}
+.menu ul li a{ font-size:16px; color:#333; display:block;}
+.menu ul li a:hover,.menu ul li.select a{ background:url(../images/nav_btn.gif) no-repeat; color:#008c00; display:block;}
+.menu ul li.big a:hover{ background:url(../images/nav_btn01.gif) no-repeat; color:#008c00; display:block;}
+
+.menu ul li .menu-div{ width:auto; background-color:#fff; border-top:4px solid #008C00; box-shadow:0 3px 8px rgba(0, 0, 0, 0.125); position:absolute; z-index:9999;}
+.menu ul li .menu-div ul{ padding:3px 0;}
+.menu ul li .menu-div ul li{ float:none; display:block; margin:0;}
+.menu ul li .menu-div ul li a{ float:none; background:none; _height:20px; _line-height:20px; font-size:13px; color:#333; #display:block; padding:0 5px;}
+.menu ul li .menu-div ul li.select a, .menu ul li .menu-div ul li a:hover{ background:#ededed; border-radius:0; _height:20px; _line-height:20px; padding:0 5px;}
+
+.menu ul li .menu-div ul.menu-div-child,.menu ul li .menu-div ul.menu-div-child.cd1,.menu ul li .menu-div ul.menu-div-child.cd2,.menu ul li .menu-div ul.menu-div-child.cd3{ background-color:#fff; border-top:4px solid #008C00; box-shadow:0 3px 8px rgba(0, 0, 0, 0.125); position:absolute; z-index:9999; left:100%; top:0;}
+.menu ul li .menu-div ul.menu-div-child.cd1{ width:135px;}
+.menu ul li .menu-div ul.menu-div-child.cd2{ width:145px;}
+.menu ul li .menu-div ul.menu-div-child.cd3{ width:205px;}
+.menu ul li .menu-div ul.menu-div-child li a,.menu ul li .menu-div ul.menu-div-child.cd1 a,.menu ul li .menu-div ul.menu-div-child.cd2 a,.menu ul li .menu-div ul.menu-div-child.cd3 a{ background:none; _height:20px; _line-height:20px; text-align:left; padding:0 5px;}
+.menu ul li .menu-div ul.menu-div-child.cd1 a{ width:125px;}
+.menu ul li .menu-div ul.menu-div-child.cd2 a{ width:135px;}
+.menu ul li .menu-div ul.menu-div-child.cd3 a{ width:195px;}
+
+.menu ul li .menu-div ul.menu-div-child li.select a,.menu ul li .menu-div ul .menu-div-child li a:hover,.menu ul li .menu-div ul .menu-div-child.cd1 a:hover,.menu ul li .menu-div ul .menu-div-child.cd2 a:hover,.menu ul li .menu-div ul .menu-div-child.cd3 a:hover{ background:#ededed; _height:20px; _line-height:20px;}
+.menu ul li .menu-div ul .menu-div-child.cd1 a:hover{ width:125px;}
+.menu ul li .menu-div ul .menu-div-child.cd2 a:hover{ width:135px;}
+.menu ul li .menu-div ul .menu-div-child.cd3 a:hover{ width:195px;}
+
+/* ----左 边---- */
+
+#main{ width:100%;}
+.maincon{ width:1000px; margin:10px auto; overflow:hidden;}
+.lleft{ float:left; width:214px;}
+.rright{ float:right; width:750px;}
+.con-div{ float:left; width:214px;}
+.bg-cs{ float:left; width:214px; height:57px; line-height:57px; background:url(../images/bg-cs.gif) repeat-x;}
+.bg-cs01{ float:left; width:750px; height:57px; line-height:57px; background:url(../images/bg-cs.gif) repeat-x;}
+.divider{ background:url(../images/icon.gif) no-repeat -38px -43px; margin:0 15px 0 10px;}
+
+#product_l{ float:left; width:214px;}
+#ul-type{ padding:0; border-top:0;}
+#ul-type li{ width:214px; height:30px; line-height:30px; border-bottom:1px dotted #ccc; padding-bottom:5px;}
+#ul-type li a.title{ width:150px; height:31px; overflow:hidden;}
+#ul-type li.min{ width:214px; background:none repeat scroll 0 0 transparent; display:none; height:auto; padding:0;}
+#ul-type li span{ float:left; width:12px; height:12px; background:url(../images/icon.gif) no-repeat scroll -38px 0 transparent; cursor:pointer; margin:10px 3px 0 0;}
+#ul-type li span.tok{ background:url(../images/i11.gif) no-repeat scroll 0 0 transparent;}
+#ul-type li.min p{ height:26px; line-height:26px; background:url(../images/icon.gif) no-repeat scroll -40px -12px transparent; border-bottom:1px dotted #ccc; cursor:pointer; padding:0 0 5px 25px; margin-top:5px;}
+#ul-type li.min p.select a{ color:#f57e20;}
+
+/* ----右 边---- */
+
+.news_con{ float:left; width:740px; padding:0 5px; margin-top:5px;}
+.nr{ width:710px; height:32px; background:url(../images/con_bg.gif) no-repeat 0 -57px; font-size:16px; padding:0 6px 0 24px; margin:10px 0;}
+.nr h1{ float:left; line-height:32px; font-size:16px; font-family:"微软雅黑"; color:#666; font-weight:normal!important;}
+.bread{ line-height:40px;}
+
+.lianxi_con{ float:left; width:740px;}
+.lianxi_con table{ width:100%; background-color:#eaeaea;}
+.lianxi_con table tr th{ height:36px; line-height:36px; background-color:#eaeaea; color:#595959; text-align:center;}
+.lianxi_con table tr td{ line-height:28px; background-color:#fff; color:#595959; text-align:left; padding:5px 10px;}
+
+.order_con{ float:left; width:1000px;}
+.order_con table{ width:100%; background-color:#eaeaea;}
+.order_con table tr th{ background-color:#eaeaea; color:#595959; text-align:center;}
+.order_con table tr td{ line-height:28px; background-color:#fff; color:#595959; text-align:left; padding:5px 10px;}
+
+.problem{ float:left; width:740px; margin:8px 0 12px 0;}
+.problem li{ width:740px; height:18px; line-height:18px; background:url(../images/icon.gif) no-repeat -36px -200px; border-bottom:#ccc dotted 1px; font-size:14px; display:block; padding-bottom:12px; margin-bottom:12px; overflow:hidden;}
+
+.jTip{ width:auto; height:auto; background-color:#ececec; border:#ddd 1px solid; padding:5px;}

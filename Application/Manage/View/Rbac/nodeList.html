@@ -1,0 +1,144 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>武汉金开瑞生物工程有限公司---后台管理</title>
+<link href="__PUBLIC__/Consel/css/style.css" rel="stylesheet" type="text/css">
+<script  src="__PUBLIC__/Consel/js/jquery.js"></script>
+<!-- <script  src="__PUBLIC__/Consel/js/jquery-ui.min.js"></script> -->
+<link href="__PUBLIC__/Consel/js/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+   body{
+   	font-family:"微软雅黑";
+   }
+	#search:hover{
+		cursor:pointer;
+	}
+	#pre{
+     cursor:pointer;
+	}
+	#next{
+    cursor:pointer;
+	}
+	#select7{
+		 cursor:pointer;
+	}
+	.prev{
+		border:0px solid red;
+		padding:6px;
+	}
+	.next{
+		border:0px solid red;
+		padding:6px;
+	}
+	.current{
+		border:1px solid red;
+	}
+	.num{
+		padding:4px;
+	}
+</style>
+ 
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" background="__PUBLIC__/Consel/images/hui.jpg">
+	<tr>
+		<td>&nbsp;</td>
+	</td>
+</table>
+<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="100%" align="center" valign="top" bgcolor="#FFFFFF">
+        	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+						<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="border-bottom:#ccc solid 1px; margin-bottom:10px;">
+							<tr>
+								<td width="2%" height="30"><img src="__PUBLIC__/Consel/images/2_r1.jpg" /></td>
+								<td width="80%" class="index-5"><span class="index-7"><font style="color:#f57e20;">{:session('admin-name')}</font>，您已登录成功！<a href="{:U('User/logout')}"  target=_top>退出</a></td></td>
+								<td width="15%">武汉金开瑞生物工程有限公司</td>
+							</td>
+						</table>
+				  	</td>
+				</td>
+			</table>
+		</td>
+	</td>
+</table>
+
+<div style="margin-bottom:30px;">
+<div style="background:#CCCCCC;color:green;">权限管理 -》权限管理 </div>
+<div class="orderlist">
+
+<form action="{:U('Rbac/addRoleHandle')}" method="post">
+<table border="1"  style="border-collapse:collapse;margin-top:20px;" width="1140" align="center">
+	<legend style="margin-top:20px;"><center>权限管理</center></legend>
+	<!-- <input type="hidden" name="pid" value="0"/> -->
+<tr style="background:#CCCCCC;">
+	 <td>权限ID</td>
+	 <td>权限结构</td>
+	 <td>名称</td>
+	 <td>排序</td>
+	 <td>类型</td>
+	 <td>操作</td>
+	 
+</tr>
+ <foreach name="nodeList" item="row">
+ 	<tr class="nodeList">
+ 		 <td>{$row.id}</td>
+ 		 <td class="node_chile"><p style="text-indent:{$row['level']*25}px">|-{$row.title}</p></td>
+ 		 <td>{$row.name}</td>
+ 		 <td>{$row.sort}</td>
+ 		 <td>
+ 		 	<if condition="$row['level'] eq 1">
+ 		 		项目
+ 		 		<elseif condition="$row['level'] eq 2" />
+                <span style="color:red;">模块</span>
+ 		 		<elseif condition="$row['level'] eq 3" />
+                <span style="color:blue;">操作</span>
+                <else />
+                <span style="color:#CCCCCC;">其他</span>
+ 		 	</if>
+ 		 	 
+ 		 </td>
+ 		 <td>
+ 		 	<!-- <a href="{:U('Rbac/delNode',array('id'=>$row['id']))}" style="text-decoration:none;">【 删除 】</a> -->
+ 		 	<a href="javascript:if(window.confirm('您确定要执行删除操作码？')){window.location='{:U('Rbac/delNode',array('id'=>$row['id']))}'}" style="text-decoration:none;">【 删除 】</a>
+
+ 		 </td>  		  
+ 	</tr>
+ 	
+ </foreach>
+ 
+ 
+ 
+ 
+</table>
+</form>
+
+</div>
+ 
+
+
+
+</div>
+</body>
+</html>
+<style>
+.orderlist ul{list-style:none;width:100%;white-space: nowrap;}
+.orderlist li{width:100%;float:left;white-space: nowrap;} 
+.orderlist span { padding-left: 0px;}
+tr td{
+	width:120px;
+	text-align:center;
+}
+.more_link:hover{
+	color:red;
+}
+a{
+	text-decoration:none;
+}
+.nodeList .node_chile{
+	text-align:left;
+    width:150px;
+}
+</style>

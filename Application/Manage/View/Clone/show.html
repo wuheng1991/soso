@@ -1,0 +1,402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link href="/Public/Home/css/login.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/Public/Home/js/jquery.js"></script>
+<!-- <script type="text/javascript" src="/Public/Home/js/tab.js"></script>
+<script type="text/javascript" src="/Public/Home/js/jquery-ui.min.js"></script> -->
+<link href="/Public/Home/js/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+    
+    // $(function(){
+    //     $("[type='text']").css("text-align","center");
+    // })
+</script>
+</head>
+
+<body>
+<div id="toper">
+	<div class="top">
+    	<ul class="top_l">
+			<li><a href="{:U('Gene/index')}">返回列表</a></li>
+      <li><a href="http://www.jkrorder.com/index.php/Manage.html" target="top">后台主页</a></li>
+      <!-- <li><a href="http://www.jkrorder.com/index.php/Home/Index/index.html" target="_blank">前台首页</a></li> -->
+		</ul>
+        <ul class="top_l right">
+        	<li><i class="lgo"></i>欢迎<b id="f33">{:session('admin-name')}</b>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="{:U('User/logout/')}"  target=_top>退 出</a></li>
+        </ul>
+    </div>
+</div>
+<div class="clear"></div>
+<!-- logo--导航菜单 结束 -->
+<div class="clear"></div>
+<!-- logo--导航菜单 结束 -->
+<div class="clear"></div>
+<div id="main">
+	<div class="maincon">
+        <div class="order_con">
+        <div class="left">
+        <div class="bread">客户信息</div>
+        <table width="50%" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+                <td width="120" align="right">姓 名：</td>
+                <td width="300" style="border-bottom:#000 1px solid"><span id="lblUserName">{$client.name}</span></td>
+            </tr>
+            <tr>
+                <td align="right">电 话：</td>
+                <td style="border-bottom:#000 1px dotted"><span id="lblUserPhone">{$client.phone}</span></td>
+            </tr>
+            <tr>
+                <td align="right">PI/实验室负责人：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserPI">{$client.dutyer}</span></td>
+            </tr>
+            <tr>
+                <td align="right">单位部门：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserCompanyName">{$client.company}</span></td>
+            </tr>
+            <tr>
+                <td align="right">电子邮件：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserLoginName">{$client.uid|getClientEmail}</span></td>
+            </tr>
+            <!-- 新增内容开始 -->
+               <tr>
+                <td align="right">所在公司：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserLoginName">{$client.company}</span></td>
+            </tr>
+               <tr>
+                <td align="right">公司地址：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserLoginName">{$client.address}</span></td>
+            </tr>
+               <tr>
+                <td align="right">课题组：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserLoginName">{$client.subject}</span></td>
+            </tr>
+               <tr>
+                <td align="right">发票抬头：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserLoginName">{$client.piao}</span></td>
+            </tr>
+            <tr>
+                <td align="right">发票邮寄地址：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserLoginName">{$client.tempaddress}</span></td>
+            </tr>
+            <tr>
+                <td align="right">所在城市/地区：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblUserCompanyName">
+                    {$client.province|getProvince} / 
+                    {$client.city|getCity}
+                </span></td>
+            </tr>
+            
+        </table>
+        </div>
+		<div class="right">
+        <div class="bread">定购信息</div>
+		<table width="50%" cellspacing="0" cellpadding="0" border="0">
+			 <tr>
+                <td width="80" align="right">订单号：</td>
+                <td width="340" style="border-bottom:#000 1px dotted"><span id="lblOrderID">{$orderInfo.code}</span></td>
+            </tr>
+             <tr>
+                <td width="80" align="right">订单类型：</td>
+                <td width="340" style="border-bottom:#000 1px dotted"><span id="lblOrderID">{$orderInfo.ordertype|showOrderType}</span></td>
+            </tr>
+            <tr>
+                <td align="right">引物数：</td>
+                <td style="border-bottom:#000 1px dotted">
+                    <span id="lblOrderSmaplsCount">
+                        <!-- {$countNum} -->
+                        {$orderInfo.num_yinwu}
+                    </span></td>
+            </tr>
+            <tr>
+                <td align="right">碱基数：</td>
+               <!--  <td style="border-bottom:#000 1px dotted"><span id="lblOrderSmaplsCount">
+
+                    {$basenum}</span></td> -->
+                    <if condition="$orderInfo['ordertype'] eq 1">
+                            <td style="border-bottom:#000 1px dotted;text-align:left;">
+                              <!--   {$OL.id|getSequencingCountByID} -->
+                            </td>
+                            <elseif condition="$orderInfo['ordertype'] eq 2" />
+                            <td style="border-bottom:#000 1px dotted;text-align:left;">{$orderInfo.id|getPrimersCountByID}</td>
+                            <elseif condition="$orderInfo['ordertype'] eq 3"/>
+                             <td style="border-bottom:#000 1px dotted;text-align:left;">
+                                 {$orderInfo.id|getGeneCountByID}
+                            </td>
+                            <else />
+                            <td style="border-bottom:#000 1px dotted;text-align:left;">0</td>
+                            </if>
+            </tr>
+            <tr>
+                <td align="right">日 期：</td>
+                <td style="border-bottom:#000 1px dotted"><span id="lblOrderDate">{$orderInfo.addtime|date='Y-m-d',###}</span></td>
+            </tr>
+            <tr>
+                <td align="right">销售名称：</td>
+                <td style="border-bottom:#000 1px dotted"><span id="lbSalesName">钱勇</span></td>
+            </tr>
+            <tr>
+                <td align="right" style="font-weight:bold">项目描述：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblOrderDescription">{$orderInfo.description}</span></td>
+            </tr>
+            <tr>
+                <td align="right" style="font-weight:bold;">其他备注：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblOrderComments">{$orderInfo.info}</span></td>
+            </tr>
+            <tr>
+                <td align="right" style="font-weight:bold;">状态：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblOrderComments">
+                    <if condition="$orderInfo.synthesis eq 1">
+                         <span style="color:black;">{$orderInfo.synthesis|getPrimerSynthesis} </span>
+                         <elseif  condition="$orderInfo.synthesis eq 2"/>
+                    <span style="color:red;">{$orderInfo.synthesis|getPrimerSynthesis} </span>
+                    <elseif condition="$orderInfo.synthesis eq 3"/>
+                      <span style="color:green;">{$orderInfo.synthesis|getPrimerSynthesis} </span>
+                    </if>
+                </span></td>
+            </tr>
+
+            <tr>
+                <td align="right" style="font-weight:bold;">发货号：</td>
+                <td style="border-bottom:#000 1px dotted; word-break:break-all; word-wrap:break-word;"><span id="lblOrderComments">
+                     <eq name="orderInfo.num" value="">
+                          暂无发货号
+                         <else />
+                          {$orderInfo.num}
+                     </eq>
+            </span></td>
+            </tr>
+
+		</table>
+		</div>
+	</div>
+
+
+	 <if condition="$orderInfo.synthesis neq 4">
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#status').change(function(){
+                var val = $(this).val();
+                if (val == 3){
+                    var html = "   &nbsp;&nbsp;发货单号：<input type=\"text\" size=\"40\" name=\"express\" />";
+                    $('#input').append(html);
+                }else{
+                    $('#input').empty(); 
+                }
+            });
+        });
+    </script>
+    <form method="post" action="{:U('Clone/update')}">
+    <input type="hidden" name="orderid" value="{$orderInfo.id}" />
+    <div class="order_con" style="border-bottom:1px solid #CCCCCC;">
+        <div class="bread" style="margin:16px 0 10px -10px;">
+            订单状态&nbsp;&nbsp;<span style="color:red;font-style:italic;">(根据该订单的合成信息更改状态，让客户及时掌握最新信息)</span>
+        </div>
+    <select name="status" id="status">
+        <option value="1" <eq name="orderInfo.synthesis" value="1">selected</eq>>未合成</option>
+        <!-- <option value="2">已完成</option> -->
+        
+        <option value="2" <eq name="orderInfo.synthesis" value="2">selected</eq>>终止</option>
+        <option value="3" <eq name="orderInfo.synthesis" value="3">selected</eq>>已发货</option>
+    </select>
+    <span id="input"></span>&nbsp;
+    <input type="submit" value="Submit" style="cursor:pointer;">
+    </form>
+    <br />
+    </div>
+    </if>
+
+
+    <div  style="border:0px solid red;
+    margin:0 auto;position:relative;width:900px;margin-bottom:50px;margin-top:150px;">
+
+
+    <div class="bread" style="margin:16px 0 10px 0;margin-top:560px;margin-left:-60px;">PCR克隆及亚克隆订单信息</div>
+    <!--基因信息开始-->
+    <div class="order_con" style="margin-bottom:20px;margin-left:-50px;border:0px solid red;word-break:break-all;word-wrap:break-word;">
+
+             <foreach name="cloneinfo" item="wh" key="k">
+            <table border="1" style="border-collapse:collapse;word-break:break-all;word-wrap:break-word;">
+              <tr align="center" class="wuheng" bgcolor="#276CC7" style="background:red;">
+                 <td style="background:#276CC7;color:white;">PCR克隆及亚克隆-{$k+1}</td>
+                 <td style="background:#276CC7;color:white;">
+                     <!-- <a href="<?php echo U("Gene/editors");?>?id={$wh.id}" style="color:white;padding:3px;">编辑</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                      <a href="<?php echo U("Gene/copy_gene_order");?>?id={$wh.id}"  style="color:white;padding:3px;">复制</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                       <a href="<?php echo U("Gene/del_gene_order");?>?id={$wh.id}"  style="color:white;padding:3px;">删除</a> -->
+                 </td>
+             </tr>
+             <tr align="center">
+                 <td style="color:black;">模板信息</td>
+                 <td align="left">
+                      
+                 插入片段名称: {$wh.clone_title}; 大小（kb）: {$wh.id|serialength}; 克隆方法: {$wh.clone_site}; 插入序列: {$wh.clone_serial}; 
+                 载体名称: <!-- {$hd_clone_name};  -->    {$wh.clone_name|clone_name} ;      
+                           
+                         
+                     
+                 </td>
+             </tr>
+                
+                     <tr align="center" style="word-break:break-all;word-wrap:break-word;">
+                         <td style="color:black;">目标质粒构建</td>
+                         <td align="left">
+                             
+                          目标插入序列名称: 
+                          <if condition="$wh.clone_zhili_title eq ''">
+                            {$wh.clone_title}
+                          <else />
+                          {$wh.clone_zhili_title}
+                        </if>; 
+                        克隆方法: Cloning site: {$wh.clone_zhili_way}; 
+                        目标插入序列: 
+                        <if condition="$wh.clone_zhili_serial eq $wh['clone_serial']">
+                           Same as template insert
+                          <else />
+                          {$wh.clone_zhili_serial}
+                        </if>
+                       
+                        ; 
+
+                        目标载体:
+                        <!-- <if condition="$hd_clone_name eq $hd_clone_zaiti_name">
+                          Same as template
+                          <else />
+                           {$hd_clone_zaiti_name}; 
+                        </if> -->
+                        <eq name="wh.clone_zaiti_name" value="">
+                          Same as template
+                          <else />
+                          <!--  {$hd_clone_zaiti_name} -->
+                           {$wh.clone_zaiti_name|clone_name}
+
+                        </eq>
+                          ;
+
+                         </td>
+                     </tr>
+                 
+              <tr align="center">
+                 <td style="color:black;">基因用途</td>
+                 <td align="left">
+                      
+                     基因用途: 
+                     <eq name="wh.clone_use" value="1">
+                       Protein expression/analysis
+                     </eq>
+                     <eq name="wh.clone_use" value="2">
+                       Promoter assay
+                     </eq>
+                     <eq name="wh.clone_use" value="3">
+                       RNAi, epigenetics &amp; gene regulation
+                     </eq>
+                     <eq name="wh.clone_use" value="4">
+                       Cloning
+                     </eq>
+                     <eq name="wh.clone_use" value="5">
+                       DNA vaccines
+                     </eq>
+                     <eq name="wh.clone_use" value="6">
+                       Recombinant antibodies
+                     </eq>
+                     <eq name="wh.clone_use" value="7">
+                       others
+                     </eq>
+
+                    ;
+                       
+                 </td>
+             </tr>
+              <tr align="center">
+                 <td style="color:black;">质粒制备</td>
+                 <td align="left">
+                  
+                  <eq name="wh.clone_zhili_sel" value="1">
+                    Standard delivery: 4 ug (Free of charge)
+                   <else />
+                   定制质粒制备:  
+                  <eq name="wh.clone_zhili_option" value="1">
+                    100 μg
+                  </eq>
+                   <eq name="wh.clone_zhili_option" value="2">
+                    200 μg
+                  </eq>
+                   <eq name="wh.clone_zhili_option" value="3">
+                    500 μg
+                  </eq>
+                   <eq name="wh.clone_zhili_option" value="4">
+                    1 mg
+                  </eq>
+                   <eq name="wh.clone_zhili_option" value="5">
+                    2 mg
+                  </eq>
+                   <eq name="wh.clone_zhili_option" value="6">
+                    10 mg
+                  </eq>
+                   <eq name="wh.clone_zhili_option" value="7">
+                    20 mg
+                  </eq>
+                   <eq name="wh.clone_zhili_option" value="8">
+                    50 mg
+                  </eq>
+                   <eq name="wh.clone_zhili_option" value="9">
+                    100 mg
+                  </eq>
+                   <eq name="wh.clone_zhili_option" value="10">
+                    200 mg
+                  </eq>
+                   <eq name="wh.clone_zhili_option" value="11">
+                    500 mg
+                  </eq>
+                   <eq name="wh.clone_zhili_option" value="12">
+                    1000 mg
+                  </eq>
+                   <eq name="wh.clone_zhili_option" value="13">
+                    1500 mg
+                  </eq>
+                   <eq name="wh.clone_zhili_option" value="14">
+                    2000 mg
+                  </eq>
+                   <eq name="wh.clone_zhili_option" value="15">
+                    Other
+                  </eq>
+                    <br/>
+                   质量级别:
+                     <eq name="wh.clone_help" value="0">
+                    Research Grade(Predominantly supercoiled, animal free)
+                  </eq>
+                   <eq name="wh.clone_help" value="1">
+                    SC Grade (≥95% Supercoilded, ≤0.03 EU/ug Endotoxin)
+                  </eq>
+                   <eq name="wh.clone_help" value="2">
+                    Advanced SC Grade(≥95% Supercoilded, ≤0.005 EU/ug Endotoxin)
+                  </eq>
+                  <br/>
+                   模板名称:  {$wh.clone_moban}
+                  
+                    ; <br/>
+                  </eq> 
+                   
+                  
+                   
+                      
+                      
+                 </td>
+             </tr>
+         </table>
+            <br/>
+            
+            <br/>
+         </foreach> 
+
+         <br/>
+   
+</div>
+    
+</div>
+</div>
+</div>
+
+</body>
+</html>

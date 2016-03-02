@@ -1,0 +1,170 @@
+<?php if (!defined('THINK_PATH')) exit();?><html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>武汉金开瑞生物工程有限公司---后台管理</title>
+<link href="/Public/Consel/css/style.css" rel="stylesheet" type="text/css">
+<script  src="/Public/Consel/js/jquery.js"></script>
+<!-- <script  src="/Public/Consel/js/jquery-ui.min.js"></script> -->
+<link href="/Public/Consel/js/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+   body{
+   	font-family:"微软雅黑";
+   }
+	#search:hover{
+		cursor:pointer;
+	}
+	#pre{
+     cursor:pointer;
+	}
+	#next{
+    cursor:pointer;
+	}
+	#select7{
+		 cursor:pointer;
+	}
+	.prev{
+		border:0px solid red;
+		padding:6px;
+	}
+	.next{
+		border:0px solid red;
+		padding:6px;
+	}
+	.current{
+		border:1px solid red;
+	}
+	.num{
+		padding:4px;
+	}
+</style>
+ 
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" background="/Public/Consel/images/hui.jpg">
+	<tr>
+		<td>&nbsp;</td>
+	</td>
+</table>
+<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="100%" align="center" valign="top" bgcolor="#FFFFFF">
+        	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+						<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="border-bottom:#ccc solid 1px; margin-bottom:10px;">
+							<tr>
+								<td width="2%" height="30"><img src="/Public/Consel/images/2_r1.jpg" /></td>
+								<td width="80%" class="index-5"><span class="index-7"><font style="color:#f57e20;"><?php echo session('admin-name');?></font>，您已登录成功！<a href="<?php echo U('User/logout');?>"  target=_top>退出</a></td></td>
+								<td width="15%">武汉金开瑞生物工程有限公司</td>
+							</td>
+						</table>
+				  	</td>
+				</td>
+			</table>
+		</td>
+	</td>
+</table>
+
+<div style="margin-bottom:30px;">
+ 
+<div class="orderlist">
+
+<table border="0" align="center"  style="border-collapse:collapse;border:0px solid red;" width="1120">
+<tr>
+	<td colspan="2"><span><h2>金开瑞-公司简介</h2> <span></td>
+</tr>
+ 
+<tr>
+	<td colspan="2">
+		<p>
+		武汉金开瑞生物工程有限公司位于武汉国家生物产业基地生物创新园，在生物技术研究院拥有数千平米研发实验室。目前拥有专职技术人员百余人，其中硕博及以上学历者占总人数的40%以上。
+		</p>
+
+		<p>	
+        金开瑞在引物合成、基因合成、测序服务、蛋白表达、抗体制备、检测分析、试剂盒合作开发以及高通量蛋白质组学（iTRAQ、Label-free、SWATH）等研究领域拥有多年的丰富经验。全面的技术服务，基本囊括了现有生命科学研究的主要领域。
+        金开瑞拥有无引物基因合成技术、无酶克隆技术及一系列载体构建高通量，高效率的独创或专利性技术，在高难度基因合成、定点突变及载体构建等方面具有国际领先优势。
+      </p>
+      <p>
+        金开瑞是国内首家推出SWATH商业化服务的公司，引进了全球最先进的AB-sciex Triple TOF 5600 plus质谱平台，由多名具备高通量蛋白质组质谱实验以及数据分析经验的技术人员组建成专业的技术团队。目前已经顺利承接iTRAQ、SWATH、蛋白质组磷酸化分析等商业化蛋白组相关实验和分析项目。在服务过程中，凭借快速的市场反应、专业的技术支持、优良的数据结果和后续的项目跟进赢得了客户的一致好评。
+      </p>
+
+      <p>
+       金开瑞在所有技术服务领域的建设均重视服务质量和团队人员技术水平，各平台负责人均拥有硕士以上学历及多年相关行业经验，在倡导“以客户为中心”的核心文化理念下积极进行技术平台优化和质量管理。金开瑞在不断优化当前技术服务平台的同时完善上下游技术服务链，在不久的将来，必将成为全球知名的生物技术领域一揽子技术服务供应商。
+     </p>
+
+     <p>
+     	<center><span style="text-align:left;font-size:20px;color:red;">企业文化</span></center>
+     </p>
+
+     <p>
+     	
+     	<p> 愿 景<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用生物技术为人类服务，让人类生活更美好,
+            让努力奋斗的员工都过上好生活,
+            我们只做生物技术相关的产品和服务
+         </p>   
+      
+        <p>  核心理念 <br/>
+        	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            忠于企业  &nbsp;&nbsp;&nbsp;  客户至上  &nbsp;&nbsp;&nbsp;   信守承诺   &nbsp;&nbsp;&nbsp; 负责敬业&nbsp;&nbsp;&nbsp;
+            奉献协作  &nbsp;&nbsp;&nbsp;  勇争第一  &nbsp;&nbsp;&nbsp;   控制成本 &nbsp;&nbsp;&nbsp;   人性管理
+         </p>   
+       
+        <p>  人才观<br/>
+        	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            德才兼备  &nbsp;&nbsp;&nbsp;  以德为先
+         </p>   
+        
+        <p>激励原则<br/>
+        	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            以责任和贡献决定薪酬、绩效、晋升和荣誉
+         </p>   
+     </p>
+
+	</td>
+	 
+	 
+	 
+</tr>
+
+ 
+ 
+</table>
+
+</div>
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
+<style>
+.orderlist ul{list-style:none;width:100%;white-space: nowrap;}
+.orderlist li{width:100%;float:left;white-space: nowrap;} 
+.orderlist span { padding-left: 0px;}
+tr td{
+	width:120px;
+	text-align:center;
+}
+.more_link:hover{
+	color:red;
+}
+a{
+	text-decoration:none;
+}
+
+p{  
+	text-align:left;
+	text-indent:2em;
+	font-size:15px;
+}
+</style>

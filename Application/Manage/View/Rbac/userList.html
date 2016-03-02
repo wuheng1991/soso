@@ -1,0 +1,245 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>武汉金开瑞生物工程有限公司---后台管理</title>
+<link href="__PUBLIC__/Consel/css/style.css" rel="stylesheet" type="text/css">
+<script  src="__PUBLIC__/Consel/js/jquery.js"></script>
+<!-- <script  src="__PUBLIC__/Consel/js/jquery-ui.min.js"></script> -->
+<!-- <link href="__PUBLIC__/Consel/js/jquery-ui.min.css" rel="stylesheet" type="text/css" /> -->
+</head>
+<style>
+   body{
+   	font-family:"微软雅黑";
+   }
+	#search:hover{
+		cursor:pointer;
+	}
+	#pre{
+     cursor:pointer;
+	}
+	#next{
+    cursor:pointer;
+	}
+	#select7{
+		 cursor:pointer;
+	}
+	.prev{
+		border:0px solid red;
+		padding:6px;
+	}
+	.next{
+		border:0px solid red;
+		padding:6px;
+	}
+	.current{
+		border:1px solid red;
+	}
+	.num{
+		padding:4px;
+	}
+</style>
+
+<script>
+$(document).ready(function(){
+	// $( "#stime" ).datepicker({
+	// 	dateFormat:'yy-mm-dd'
+	// });
+	// $( "#etime" ).datepicker({
+	// 	dateFormat:'yy-mm-dd'
+	// });
+	var p = {$page};
+	var countP = {$pages};
+	$('#next').click(function(){
+		var dang = p + 1;
+		if (p<countP){
+			$('#page').val(dang);
+		} else {
+			$('#page').val(countP);
+			return false;
+		}
+		$('#sequencingForm').submit();
+	});
+	$('#pre').click(function(){
+		if (p<2) return false;
+		var pdang = p - 1;
+		$('#page').val(pdang);
+		$('#sequencingForm').submit();
+	});
+	$('#select7').change(function(){
+		$('#page').val($(this).val());
+		$('#sequencingForm').submit();
+	});
+	$('#search').click(function(){
+		// alert('aaa');
+		$('#page').val('');
+		$('#sequencingForm').submit();
+	});
+});
+</script>
+ 
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" background="__PUBLIC__/Consel/images/hui.jpg">
+	<tr>
+		<td>&nbsp;</td>
+	</td>
+</table>
+<table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="100%" align="center" valign="top" bgcolor="#FFFFFF">
+        	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+						<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="border-bottom:#ccc solid 1px; margin-bottom:10px;">
+							<tr>
+								<td width="2%" height="30"><img src="__PUBLIC__/Consel/images/2_r1.jpg" /></td>
+								<td width="80%" class="index-5"><span class="index-7"><font style="color:#f57e20;">{:session('admin-name')}</font>，您已登录成功！<a href="{:U('User/logout')}"  target=_top>退出</a></td></td>
+								<td width="15%">武汉金开瑞生物工程有限公司</td>
+							</td>
+						</table>
+				  	</td>
+				</td>
+			</table>
+		</td>
+	</td>
+</table>
+
+<div style="margin-bottom:30px;">
+<div style="background:#CCCCCC;color:green;">权限管理 -》用户管理 </div>
+<div class="orderlist">
+
+<form id="sequencingForm" action="{:U('Rbac/userList')}" method="post">
+
+<input type="hidden" name="page" id="page" value="{$page}" />
+
+<table border="1"  style="border-collapse:collapse;margin-top:20px;" width="1100" align="center">
+	<legend style="margin-top:20px;"><center>用户管理</center></legend>
+	<!-- <input type="hidden" name="pid" value="0"/> -->
+
+	<tr class="chazhao" style="border:0px;">
+		<td colspan="4"  >
+			<br/>
+			用户名：<input type="text" name="username_se" id="" value="{$username_se}" size="40"/>
+			<br/>
+			<br/>
+
+
+		</td>
+		<!-- <td colspan="2"  >
+			<br/>
+			所属用户组：  
+			<select name="group_se" id="group_se">
+                <option value="0"> --请选择-- </option>
+
+				<foreach name="roleList" item="role">
+				<option value="{$role['id']}" <eq name="group_se" value="$role['id']">selected='selected'</eq>>{$role['name']}</option>
+			    </foreach>
+
+			 </select>
+			<br/>
+			<br/>
+		</td> -->
+		<td colspan="2"  >
+			<br/>
+			<img id="search" src="__PUBLIC__/Consel/images/query_btn.gif" />
+			<br/>
+			<br/>
+		</td>
+
+	</tr>
+
+	 
+ 
+<tr style="background:#CCCCCC;">
+	 <td  >序号</td>
+	 <td style="width:150px;">用户名</td>
+	 <td style="width:200px;">上次登录时间</td>
+	 <td style="width:150px;">上次登录IP</td>
+	 <td style="width:200px;">所属用户组</td>
+	 <td>操作</td>
+	 
+	 
+</tr>
+ <foreach name="userList" item="row">
+ 	<tr class="nodeList">
+ 		 <td>{$row.id}</td>
+ 		 <td>{$row.username}</td>
+ 		 <td>{$row.logintime|date="Y-m-d / H:i:s",###}</td>
+ 		 <td>{$row.loginip}</td>
+ 		 <td>{$row['TpRole'][0]['name']}</td> 
+ 		 <td>
+ 		 	<!-- <a href="{:U('Rbac/delUser',array('id'=>$row['id']))}" style="text-decoration:none;">【删除】</a> --><a href="javascript:if(window.confirm('您确定要删除吗？')){
+          window.location.href='{:U('Rbac/delUser',array('id'=>$row['id']))}'; 
+ 		 }" style="text-decoration:none;">
+ 		 	【删除】	
+ 		 	</a>
+ 		 </td>
+ 	</tr>
+ 	
+ </foreach>
+ 
+ 
+ 
+ 
+</table>
+
+<br>
+<br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td>
+                    	<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#F9F9F9" class="index-3">
+							<tr>
+								<td width="300" align="center" class="bj-3">&nbsp;</td>
+								<td width="410" align="center" class="bj-3"> 
+                          <!--  <button  style="cursor:pointer;" onclick="javascript:window.location.history.back();"> 返回上一步  </button> -->
+								</td>
+								<td width="190" align="center" class="bj-3">共{$pages}页&nbsp;&nbsp;<img id="pre" title="上一页" src="__PUBLIC__/Consel/images/2_r2.jpg" width="15" height="15">&nbsp;&nbsp;
+									<img id="next" title="下一页" src="__PUBLIC__/Consel/images/2_r1.jpg" width="15" height="15">&nbsp;&nbsp;
+								<select id="select7" name="select7" class="index-12">
+                                  <option value="">跳转</option>
+                                  <for start="1" end="$pages+1" name="pageNum" >
+								  <option value="{$pageNum}">{$pageNum}</option>
+								  </for>
+                                </select>
+								页</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+
+</form>			
+
+</div>
+ 
+
+
+
+</div>
+</body>
+</html>
+<style>
+.orderlist ul{list-style:none;width:100%;white-space: nowrap;}
+.orderlist li{width:100%;float:left;white-space: nowrap;} 
+.orderlist span { padding-left: 0px;}
+tr td{
+	width:120px;
+	text-align:center;
+}
+.more_link:hover{
+	color:red;
+}
+a{
+	text-decoration:none;
+}
+.nodeList .node_chile{
+	text-align:left;
+
+}
+.chazhao td{
+	border:0px;
+}
+.chazhao td input,select{
+	border:1px solid #ABCDEF;
+}
+</style>

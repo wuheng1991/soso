@@ -1,0 +1,682 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>武汉金开瑞生物工程有限公司</title>
+<!-- <link href="/Public/Home/js/jquery.autocomplete.css" rel="stylesheet" type="text/css" /> -->
+<link href="/Public/Home/css/login.css" rel="stylesheet" type="text/css" />
+<!-- <script type="text/javascript" src="/Public/Home/js/jquery.js"></script> -->
+
+<script type="text/javascript" src="/Public/Home/js/tab.js"></script>
+
+<script type="text/javascript" src="/Public/Home/js/1.11.js"></script>
+<!-- <script type="text/javascript" src="/Public/Home/js/2.1.js"></script> -->
+<!-- <script type="text/javascript" src="/Public/Home/js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/Public/Home/js/jquery.datePicker.js"></script> -->
+<!-- <link href="/Public/Home/js/jquery-ui.min.css" rel="stylesheet" type="text/css" /> -->
+</head>
+
+<body>
+<div id="toper">
+	<div class="top">
+    	<ul class="top_l">
+			<li>欢迎<b id="f33"> <?php echo ($userInfo["name"]); ?></b>　单 位：<?php echo ($userInfo["company"]); ?>　电 话：<?php echo ($userInfo["phone"]); ?></li>
+		</ul>
+        <ul class="top_l right">
+        	<li><i class="lgo"></i>欢迎<b id="f33"> <?php echo ($userInfo["name"]); ?></b>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="<?php echo U('User/logout/');?>">退 出</a></li>
+        </ul>
+    </div>
+</div>
+<div class="clear"></div>
+<div id="header">
+	<div class="head">
+		<div class="logo"><a href="#"><img src="/Public/Home/images/logo.gif" /></a></div>
+        <div class="menu">
+                <ul class="menu">
+                	<li class="menu-item select"><a class="menu-item" href="<?php echo U('Index/index');?>">我的帐户</a></li>
+                    
+                    <li class="menu-item"><a class="menu-item" >创建新订单</a>
+                        <div class="menu-div" style="display:none;">
+                            <ul style="border:0px solid red;width:119px;">
+                                <li><a href="<?php echo U('Index/Create/');?>">创建测序订单</a></li>
+                                <li><a href="<?php echo U('Primer/Create/');?>">创建引物订单</a></li>
+                                <li><a href="<?php echo U('Gene/Create/');?>">基因合成订单</a></li> 
+                              <!--  <li style="border:0px solid red;width:119px;"><a href="<?php echo U('Clone/Create/');?>">PCR克隆及亚克隆</a></li> 
+                                
+                                <li><a href="<?php echo U('Server/Create/');?>">突变服务订单</a></li> 
+                                <li><a href="<?php echo U('Zhili/Create/');?>">质粒制备订单</a></li>  -->
+                             
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item big"><a class="menu-item" href="<?php echo U('Index/search');?>">订单状态和结果</a></li>
+                    <li class="menu-item"><a class="menu-item" >帐户信息</a>
+                        <div class="menu-div" style="display:none;">
+                            <ul>
+                                <li><a href="<?php echo U('User/userinfo');?>">帐户信息</a></li>
+                                <li><a href="<?php echo U('User/uppass');?>">修改密码</a></li>
+                               
+                            </ul>
+                        </div>
+                    </li>
+                    
+				</ul>
+                <script type="text/javascript">
+				$('.menu-item').hover(
+					function(){
+						$(this).find("div.menu-div").show();
+						$(this).addClass("select");
+					},
+					function(){
+						$(this).find("div.menu-div").hide();
+						$(this).removeClass("select");
+					}
+				);
+				$('.first-nav').hover(
+					function(){
+						$(this).find("ul.menu-div-child").show();
+						$(this).addClass('select');
+					},
+					function(){
+						$(this).find("ul.menu-div-child").hide();
+						$(this).removeClass('select');
+					}
+				);
+				
+					
+			</script>
+		</div>
+	</div>
+</div>
+<!-- logo--导航菜单 结束 -->
+<div class="clear"></div>
+<style type="text/css">
+	#submit-button:hover{
+		cursor:pointer;
+		color:red;
+	}
+	#add_row:hover{
+		cursor:pointer;
+		color:red;
+	}
+	input,textarea{
+		border:2px solid #ABCDEF;
+
+	}
+	a{color:#fff;}
+	a:hover{color:#ff6600;}
+
+
+</style>
+<!-- logo--导航菜单 结束 -->
+<!-- this is a test -->
+<div class="clear"></div>
+<div id="main" style="border:0px solid red;">
+	<div class="maincon" style="width:1100px;">
+		<div class="primerbread">引物订单第二步 :<br/><br/>注意：<br/><span style="text-indent:2em;">
+			1.鼠标移至各项查看注释，其中*为必填项。<br />
+			2.Primer(引物)名称命名规则：英文字母与数字，其他字符将会过滤掉。<br/>
+3.一个订单中只能提交同一需求量单位的引物。<br />
+4.如果以下表单内容无法达到您的需求，可以尝试Excel表单上传订单。 <br /><br/>
+</span></div>
+
+        <div class="order_con" style="margin-bottom:30px;width:1100px;">
+
+		<form id="primerForm" method="post" autocomplete="off" action="<?php echo U('Primer/save');?>">
+
+       <!--  <table width="100%" style="border-collapse:collapse;border:width:1100px;" border="1" id="FormTable"> -->
+       <table width="100%" cellspacing="1" cellpadding="1" border="0" id="FormTable">
+			<tr align="center">
+           	  	<th width="5%" style="background-color:#008C00; color:white;">编号</th>
+				<!-- <th width="5%">测序备用<br /><a href="javascript:DelTd(1);">取消</a> <a href="javascript:CopyTd(1);">全选</a></th> -->
+                <th width="26%" style="background-color:#008C00; color:white;"><a title="同一订单中不能存在相同的引物名称">Primer名称 *</a></th>
+
+                <th width="64%" style="background-color:#008C00; color:white;"><a title="字符长度限制≦250nt，只识别ATGC及常用的兼并碱基代码：M=A/C   R=A/G  W=A/T   S=G/C   Y=C/T   K=G/T  V=A/G/C    H=A/C/T     D=A/G/T   B=G/C/T  N=A/G/C/T，同一订单中不能存在相同的引物序列。">序列（5’ to 3’）*</a></th>
+
+                <th width="5%" style="background-color:#008C00; color:white;">碱基数</th>
+
+                <th width="15%" style="background-color:#008C00; color:white;">
+                	<a title="输入正整数，例如：4">需求量(OD或nmole)*</a><br /><a href="javascript:DelTd(2);">清空</a> <a href="javascript:CopyTd(2);">复制</a>
+                </th>
+                <th width="9%" style="background-color:#008C00; color:white;"><a title="输入正整数，例如：4">分装管数 *</a><br /><a href="javascript:DelTd(3);">清空</a> <a href="javascript:CopyTd(3);">复制</a></th>
+                <th width="11%" style="background-color:#008C00; color:white;"><a>纯化方式 *</a><br /><a href="javascript:DelTd(4);">清空</a> <a href="javascript:CopyTd(4);">复制</a></th>
+                <th width="4%" style="background-color:#008C00; color:white;">5'修饰</th>
+                <th width="4%" style="background-color:#008C00; color:white;">3'修饰</th>
+                <th width="5%" style="background-color:#008C00; color:white;">其他修饰</th>
+                <th width="16%" style="background-color:#008C00; color:white;">备注</th>
+				<th style="background-color:#008C00; color:white;">操作</th>
+            </tr>
+            <?php if($num > 1): $__FOR_START_239637799__=0;$__FOR_END_239637799__=$num;for($i=$__FOR_START_239637799__;$i < $__FOR_END_239637799__;$i+=1){ ?><tr id="list_<?php echo ($i+1); ?>" align="center">
+                <td><?php echo ($i+1); ?></td>
+
+                <td style="display:none;"><input type="checkbox" name="reserve<?php echo ($i+1); ?>" id="reserve_<?php echo ($i+1); ?>" value="2" size="4" /></td>
+
+                <td >
+                	<input style="padding:0px;margin-left:-0px;width:96%;" name="primername<?php echo ($i+1); ?>" id="primername_<?php echo ($i+1); ?>" type="text" size="8" />
+                </td>
+                <td><input style="padding:0px;margin-left:-0px;width:96%;" name="sequence<?php echo ($i+1); ?>" id="sequence_<?php echo ($i+1); ?>" class="sequence" oninput="$('#basenum_<?php echo ($i+1); ?>').html(this.value.length);" type="text" size="14" />
+                </td>
+                <td><div id="basenum_<?php echo ($i+1); ?>">0</div></td>
+                <td><input name="demand<?php echo ($i+1); ?>" id="demand_<?php echo ($i+1); ?>" type="text" size="3" /></td>
+                <td><input name="tubenum<?php echo ($i+1); ?>" id="tubenum_<?php echo ($i+1); ?>" type="text" size="3" /></td>
+
+                <td>
+                   <select name="puremthod<?php echo ($i+1); ?>" id="puremthod_<?php echo ($i+1); ?>" size="1">
+                    <option value=""></option>
+					<option value="1">PAGE</option>
+					<option value="2">DSL</option>
+					<option value="3">HPLC</option>
+
+					<option value="4">PAGE plus</option>
+					<option value="5">RPC</option>
+					<option value="6">OPC</option>
+					<option value="7">HAP</option>
+					<option value="8">ULTRAPAGE</option>
+                </select>
+               <!--  <input type="text" name="puremthod<?php echo ($i+1); ?>" id="puremthod_<?php echo ($i+1); ?>" size="4" > -->
+                </td>
+                <td>
+               
+                  <select name="fmodification<?php echo ($i+1); ?>" id="fmodification_<?php echo ($i+1); ?>"
+               size="1">
+                    <option value=""></option>
+					<option value="1">PO4</option>
+					<option value="2">NH2 C3</option>
+					<option value="3">NH2 C6</option>
+					<option value="4">NH2 C12</option>
+					<option value="5">NH2 C6 dT</option>
+					<option value="6">SH C6</option>
+					<option value="7">Biotin</option>
+					<option value="8">Biotin TEG</option>
+					<option value="9">Dual Biotin</option>
+					<option value="10">Digoxin</option>
+					<option value="11">Cy3</option>
+					<option value="12">Cy5</option>
+					<option value="13">FAM</option>
+					<option value="14">HEX</option>
+					<option value="15">TET</option>
+					<option value="16">6-JOE</option>
+					<option value="17">Rox</option>
+					<option value="18">TAMRA</option>
+                </select>
+           <!-- <input type="text" name="fmodification<?php echo ($i+1); ?>" id="fmodification_<?php echo ($i+1); ?>" size="4"> -->
+                </td>
+                <td>
+               <select name="tmodification<?php echo ($i+1); ?>" id="tmodification_<?php echo ($i+1); ?>">
+                    <option value=""></option>
+					<option value="1">PO4</option>
+					<option value="2">NH2 C3</option>
+					<option value="3">NH2 C7</option>
+					<option value="4">NH2 C6 dT</option>
+					<option value="5">SH C6</option>
+					<option value="6">Biotin</option>
+					<option value="7">Biotin TEG</option>
+					<option value="8">Digoxin</option>
+					<option value="9">Cy3</option>
+					<option value="10">Cy5</option>
+					<option value="11">FAM</option>
+					<option value="12">6-JOE</option>
+					<option value="13">Rox</option>
+					<option value="14">TAMRA</option>
+					<option value="15">DABCYL</option>
+					<option value="16">BHQ 1</option>
+					<option value="17">BHQ 2</option>
+                </select>
+           <!-- <input type="text" name="tmodification<?php echo ($i+1); ?>" id="tmodification_<?php echo ($i+1); ?>" size="4" > -->
+                </td>
+				<td>
+				 <select name="othermod<?php echo ($i+1); ?>" id="othermod_<?php echo ($i+1); ?>">
+					<option value=""></option>
+					<option value="1">dI</option>
+					<option value="2">dU</option>
+					<option value="3">SPO3</option>
+				</select>
+				<!-- <input type="text" name="othermod<?php echo ($i+1); ?>" id="othermod_<?php echo ($i+1); ?>" size="4"> -->
+				</td>
+
+				<td>
+					<input type="text" size="4" name="note<?php echo ($i+1); ?>" id="note_<?php echo ($i+1); ?>">
+				</td>
+
+				<td><a href="javascript:DelTr(<?php echo ($i+1); ?>);" title="点击删除" style="color:red;">删除</a></td>
+            </tr><?php } ?>
+			<?php else: ?>
+			<tr id="list_1" bgcolor="red" align="center">
+                <td>1</td>
+                <td style="display:none;">
+                	<input type="checkbox" name="reserve1" id="reserve_1" value="2" size="4" checked /></td>
+
+                <td><input style="padding:0px;margin-left:-0px;width:96%;" name="primername1" id="primername_1" type="text" size="8" />
+                </td>
+                <td><input style="padding:0px;margin-left:-0px;width:96%;" name="sequence1" id="sequence_1" class="sequence" oninput="$('#basenum1').html(this.value.length);"  propertychange="alert(this.value)" type="text" size="14" />
+                </td>
+                <td><div id="basenum1">0</div></td>
+                <td><input name="demand1" id="demand_1" type="text" size="3" /></td>
+                <td><input name="tubenum1" id="tubenum_1" type="text" size="3" /></td>
+                <td>
+                <select name="puremthod1" id="puremthod_1" size="1">
+                    <option value=""></option>
+					<option value="1">PAGE</option>
+					<option value="2">DSL</option>
+					<option value="3">HPLC</option>
+					<option value="4">PAGE plus</option>
+					<option value="5">RPC</option>
+					<option value="6">OPC</option>
+					<option value="7">HAP</option>
+					<option value="8">ULTRAPAGE</option>
+                </select>
+                <!-- <input type="text" name="puremthod1" id="puremthod_1" size="4" > -->
+                </td>
+                <td>
+                  <select name="fmodification1" id="fmodification_1" size="1">
+                    <option value=""></option>
+					<option value="1">PO4</option>
+					<option value="2">NH2 C3</option>
+					<option value="3">NH2 C6</option>
+					<option value="4">NH2 C12</option>
+					<option value="5">NH2 C6 dT</option>
+					<option value="6">SH C6</option>
+					<option value="7">Biotin</option>
+					<option value="8">Biotin TEG</option>
+					<option value="9">Dual Biotin</option>
+					<option value="10">Digoxin</option>
+					<option value="11">Cy3</option>
+					<option value="12">Cy5</option>
+					<option value="13">FAM</option>
+					<option value="14">HEX</option>
+					<option value="15">TET</option>
+					<option value="16">6-JOE</option>
+					<option value="17">Rox</option>
+					<option value="18">TAMRA</option>
+                </select>
+                <!-- <input type="text" name="fmodification1" id="fmodification_1" size="4"> -->
+                </td>
+                <td>
+                  <select name="tmodification1" id="tmodification_1">
+                    <option value=""></option>
+					<option value="1">PO4</option>
+					<option value="2">NH2 C3</option>
+					<option value="3">NH2 C7</option>
+					<option value="4">NH2 C6 dT</option>
+					<option value="5">SH C6</option>
+					<option value="6">Biotin</option>
+					<option value="7">Biotin TEG</option>
+					<option value="8">Digoxin</option>
+					<option value="9">Cy3</option>
+					<option value="10">Cy5</option>
+					<option value="11">FAM</option>
+					<option value="12">6-JOE</option>
+					<option value="13">Rox</option>
+					<option value="14">TAMRA</option>
+					<option value="15">DABCYL</option>
+					<option value="16">BHQ 1</option>
+					<option value="17">BHQ 2</option>
+                </select>
+                <!-- <input type="text" name="tmodification1" id="tmodification_1" size="4"> -->
+                </td>
+				<td>
+				 <select  name="othermod1" id="othermod_1">
+					<option value=""></option>
+					<option value="1">dI</option>
+					<option value="2">dU</option>
+					<option value="3">SPO3</option>
+				</select>
+				<!-- <input type="text" name="othermod1" id="othermod_1" size="4"> -->
+				</td>
+				<td>
+					<input type="text" size="4" name="note1" id="note_1">
+				</td>
+				<td><a href="javascript:DelTr(1);" title="点击删除" style="color:red;">删除</a></td>
+            </tr><?php endif; ?>
+        </table>
+		<input type="hidden" name="num" id="Num" value="<?php echo ($num); ?>" />
+	  </div>
+	  <br/>
+	  <br/>
+	  <br/>
+	  <br/>
+
+     <!--  <div style="margin-top:15px;border:0px solid red;">
+      	<input type="button" onclick="AddRow()" value=" 增 加 " id="add_row"/> 
+
+      	<input id="addrownum" type="text" size="4" /> 行&nbsp;&nbsp;&nbsp;&nbsp;  
+      	<span style="color:red;font-style:italic;">(注：如果要执行添加操作，先在文本框中输入数量，然后单击前面的"增加"按钮即可！)</span>
+      </div> -->
+      <div style="margin-top:15px;border:0px solid red;">
+
+      	<input type="button" onclick="AddRow()" value=" 增 加 " id="add_row" style=" background-color:#008C00; border:1px solid #008C00; padding:5px; color:#fff;" /> 
+
+      	<input id="addrownum" type="text" size="4" style="padding:5px;" /> 行&nbsp;&nbsp;&nbsp;&nbsp;  
+
+      	<span style="color:red;font-style:italic;">(注：如果要执行添加操作，先在文本框中输入数量，然后单击前面的"增加"按钮即可！)</span>
+
+      </div>
+
+
+      <br>
+
+     <!--  <div>项目描述：<input type="text" name="desc" class="prepare" style="border-left:0px;border-top:0px;border-right:0px;" size="100" /><br/><br/>其他备注：<textarea rows="2" cols="120" name="info"></textarea></div> -->
+      <div>项目描述：<input type="text" name="desc" class="prepare" style="border-left:0px;border-top:0px;border-right:0px;" size="100" /><br/><br/>其他备注：<textarea rows="2" cols="120" name="info"></textarea></div>
+
+      <br>
+
+	  <!-- <div style="border:0px solid red;">
+	  	<input type="button" 
+	  style="text-align:center;display:block;margin:0px auto;background:#FF6633;color:white;padding:8px;font-size:14px;font-weight:bold;margin-bottom:50px;cursor:pointer;" title="点击保存" id="submit-button" value="  保  存  " /></div> -->
+       <div style="border:0px solid red;">
+
+	  	<input type="button" 
+
+	  style="text-align:center;display:block;margin:0px auto;background:#FF6633;color:white;padding:8px;font-size:14px;font-weight:bold;margin-bottom:50px;cursor:pointer;" title="点击保存" id="submit-button" value="  保  存  " /></div>
+	  </form>
+      <script type="text/javascript">
+	  $(document).ready(function(){
+	  	 // $(".prepare").focus(function(){
+	  	 // 	$(this).css({"border-left":"0px","border-right":"0px","border-top":"0px"});
+	  	 // })
+	  	$("#submit-button").click(function(){
+	  		$("#submit-button").css("cursor","pointer");
+	  	})
+		//给序列列绑定事件
+		$('#FormTable tr').each(function(i) {
+			// alert('aa');
+			if (i>0){
+				$('#basenum_'+i).text($(this).find('td').eq(3).children().val().length);
+			}
+		});
+		$('#submit-button').click(function(){
+
+			var flag = true;
+			
+			$('#FormTable tr').each(function(i) {
+			if (i > 0){
+				$(this).find('td').each(function(t) {
+					if ($(this).children().val() == ''){
+						if (t == 1 || t==4|| t == 9 || t== 10|| t==11 ||t==8||t==12){
+							
+						} else {
+							flag = false;
+							$(this).children().addClass('error');
+						}
+					} else {
+						if (t==3){
+							if (/^[AGCTMVRHWDSBYNK]+$/i.test($(this).children().val())){
+								$(this).children().removeClass('error');
+							} else{
+								flag = false;
+								$(this).children().addClass('error');
+							}
+						} else if (t==5||t==6||t==7){
+							 // alert(flag);
+							if (/^[0-9]*[1-9][0-9]*$/.test($(this).children().val())){
+								$(this).children().removeClass('error');
+							} else{
+								flag = false;
+								$(this).children().addClass('error');
+							}
+						} else {
+							$(this).children().removeClass('error');
+						}
+					}
+				});
+			}
+			});
+			 // alert(flag);
+			// 添加检测序列是否有相同的验证
+			if (flag){
+				var data = '';
+				$('#FormTable tr').each(function(i) {
+					if (i>0){
+						if (data!='') data += '|';
+						data += $(this).find('td').eq(3).children().val();
+					}
+				});
+				$.ajax({
+					type:"POST",
+					url:"<?php echo U('Primer/ajax');?>",
+					data:"data="+data,
+					async:false,
+					dataType:'json',
+					success: function(msg){
+						if (msg.status){
+							flag = true;
+						} else {
+							for(i=0;i<msg.biao.length;i++){
+								$('#FormTable tr').eq(msg.biao[i]).find('td').eq(3).children().addClass('error');
+							}
+							flag = false;
+							alert(msg.html);
+						}
+					}
+				});
+			}
+			// alert(flag);
+			if (flag === true){
+				$('#primerForm').submit();
+			}
+		});
+	  });
+	  
+	  function AddRow(){
+		var num = $('#addrownum').val();
+		if (num == '') return false;
+		if (/^[0-9]*[1-9][0-9]*$/.test(num) === false ) return false;
+		var n = $('#FormTable tr:last').attr('id');
+		var value = n.replace(/[^0-9]/ig,"");
+		
+		for(i=0;i<num;i++){
+			value++;
+			
+			var html = "<tr id=\"list_"+value+"\" align=\"center\">";
+            html +=    "<td>"+value+"</td>";
+            html +=    "    <td style=\"display:none;\"><input type=\"checkbox\" name=\"reserve"+value+"\" id=\"reserve_"+value+"\" value=\"2\" size=\"4\" /></td>";
+            html +=    "    <td><input style=\"padding:0px;margin-left:-0px;width:96%;\" name=\"primername"+value+"\" id=\"primername_"+value+"\" type=\"text\" size=\"8\" />";
+            html +=    "   </td>";
+            html +=    "    <td><input style=\"padding:0px;margin-left:-0px;width:96%;\" name=\"sequence"+value+"\" id=\"sequence_"+value+"\" class=\"sequence\"  size=\"14\" oninput=\"$('#basenum_"+value+"').html(this.value.length);\" type=\"text\" size=\"\" /></td>";
+            html +=    "    <td><div id=\"basenum_"+value+"\">0</div></td>";
+            html +=    "    <td><input name=\"demand"+value+"\" id=\"demand_"+value+"\" type=\"text\" size=\"3\" /></td>";
+            html +=    "    <td><input name=\"tubenum"+value+"\" id=\"tubenum_"+value+"\" type=\"text\" size=\"3\" /></td>";
+            html +=    "    <td>";
+            html +=    "    <select name=\"puremthod"+value+"\" id=\"puremthod_"+value+"\" size=\"1\">";
+            html +=    "        <option value=\"\"></option>";
+			html +=    "		<option value=\"1\">PAGE</option>";
+			html +=    "		<option value=\"2\">DSL</option>";
+			html +=    "		<option value=\"3\">HPLC</option>";
+			html +=    "		<option value=\"4\">PAGE plus</option>";
+			html +=    "		<option value=\"5\">RPC</option>";
+			html +=    "		<option value=\"6\">OPC</option>";
+			html +=    "		<option value=\"7\">HAP</option>";
+			html +=    "		<option value=\"8\">ULTRAPAGE</option>";			 
+            html +=    "    </select>";
+            // html += "<input type='text' name=\"puremthod"+value+"\" id=\"puremthod_"+value+"\" size=\"4\">";
+            html +=    "    </td>";
+            html +=    "    <td>";
+            html +=    "    <select name=\"fmodification"+value+"\" id=\"fmodification_"+value+"\" size=\"1\">";
+            html +=    "        <option value=\"\"></option>";
+			html +=    "		<option value=\"1\">PO4</option>";
+			html +=    "		<option value=\"2\">NH2 C3</option>";
+			html +=    "		<option value=\"3\">NH2 C6</option>";
+			html +=    "		<option value=\"4\">NH2 C12</option>";
+			html +=    "		<option value=\"5\">NH2 C6 dT</option>";
+			html +=    "		<option value=\"6\">SH C6</option>";
+			html +=    "		<option value=\"7\">Biotin</option>";
+			html +=    "		<option value=\"8\">Biotin TEG</option>";
+			html +=    "		<option value=\"9\">Dual Biotin</option>";
+			html +=    "		<option value=\"10\">Digoxin</option>";
+			html +=    "		<option value=\"11\">Cy3</option>";
+			html +=    "		<option value=\"12\">Cy5</option>";
+			html +=    "		<option value=\"13\">FAM</option>";
+			html +=    "		<option value=\"14\">HEX</option>";
+			html +=    "		<option value=\"15\">TET</option>";
+			html +=    "		<option value=\"16\">6-JOE</option>";
+			html +=    "		<option value=\"17\">Rox</option>";
+			html +=    "		<option value=\"18\">TAMRA</option>";
+            html +=    "    </select>";
+            // html +=   "<input type='text' name=\"tmodification"+value+"\" id=\"tmodification_"+value+"\" size=\"4\" >";
+            html +=    "    </td>";
+            html +=    "    <td>";
+            html +=    "    <select name=\"tmodification"+value+"\" id=\"tmodification_"+value+"\">";
+            html +=    "        <option value=\"\"></option>";
+			html +=    "		<option value=\"1\">PO4</option>";
+			html +=    "		<option value=\"2\">NH2 C3</option>";
+			html +=    "		<option value=\"3\">NH2 C7</option>";
+			html +=    "		<option value=\"4\">NH2 C6 dT</option>";
+			html +=    "		<option value=\"5\">SH C6</option>";
+			html +=    "		<option value=\"6\">Biotin</option>";
+			html +=    "		<option value=\"7\">Biotin TEG</option>";
+			html +=    "		<option value=\"8\">Digoxin</option>";
+			html +=    "		<option value=\"9\">Cy3</option>";
+			html +=    "		<option value=\"10\">Cy5</option>";
+			html +=    "		<option value=\"11\">FAM</option>";
+			html +=    "		<option value=\"12\">6-JOE</option>";
+			html +=    "		<option value=\"13\">Rox</option>";
+			html +=    "		<option value=\"14\">TAMRA</option>";
+			html +=    "		<option value=\"15\">DABCYL</option>";
+			html +=    "		<option value=\"16\">BHQ 1</option>";
+			html +=    "		<option value=\"17\">BHQ 2</option>";
+            html +=    "    </select>";
+            // html +=   "<input type='text' name=\"tmodification"+value+"\" id=\"tmodification_"+value+"\" size=\"4\">";
+            html +=    "    </td>";
+			html +=    "	<td>";
+			html +=    "	<select name=\"othermod"+value+"\" id=\"othermod_"+value+"\">";
+			html +=    "		<option value=\"\"></option>";
+			html +=    "		<option value=\"1\">dI</option>";
+			html +=    "		<option value=\"2\">dU</option>";
+			html +=    "		<option value=\"3\">SPO3</option>";
+			html +=    "	</select>";
+			html +=    "	</td>";
+			// html +=    "<input type='text' name=\"othermod"+value+"\" id=\"othermod_"+value+"\" size=\"4\">";
+			html +=    "<td>";
+            html +=    " <input name=\"note"+value+"\" id=\"note_"+value+"\" type=\"text\" size=\"4\" />";
+			html +=    "</td>";
+			
+			html +=    "	<td><a title=\"点击删除\" style=\"color:red;\" href=\"javascript:DelTr("+value+");\">删除</a></td>";
+            html +=    "</tr>";
+			
+			$('#FormTable').append(html);
+			$('#Num').val(value);
+		}
+	  }
+	  function DelTr(tr){
+		 if (confirm("是否删除第"+tr+"行")){
+			$('#list_'+tr).remove();
+		 }
+		 
+		 //重新排序
+		var trnum = 0;
+		$('#FormTable tr').each(function(i) {
+			trnum++;
+			if (i>0) $(this).attr('id','list_'+i);
+			$(this).find('td').each(function(t) {
+				switch(t){
+					case 0:
+						$(this).html(i);
+						break;
+					case 1:
+						$(this).children().attr('name','reserve'+i);
+						$(this).children().attr('id','reserve_'+i);
+						break;
+					case 2:
+						$(this).children().attr('name','primername'+i);
+						$(this).children().attr('id','primername_'+i);
+						break;
+					case 3:
+						$(this).children().attr('name','sequence'+i);
+						$(this).children().attr('id','sequence_'+i);
+						$(this).children().attr('oninput',"$('#sequence_<?php echo ($i+1); ?>').html(this.value.length);");
+						break;
+					case 4:
+						$(this).children().attr('id','basenum_'+i);
+						break;
+					case 5:
+						$(this).children().attr('name','demand'+i);
+						$(this).children().attr('id','demand_'+i);
+						break;
+					case 6:
+						$(this).children().attr('name','tubenum'+i);
+						$(this).children().attr('id','tubenum_'+i);
+						break;
+					case 7:
+						$(this).children().attr('name','puremthod'+i);
+						$(this).children().attr('id','puremthod_'+i);
+						break;
+					case 8:
+						$(this).children().attr('name','fmodification'+i);
+						$(this).children().attr('id','fmodification_'+i);
+						break;
+					case 9:
+						$(this).children().attr('name','tmodification_'+i);
+						$(this).children().attr('id','tmodification__'+i);
+						break;
+					case 10:
+						$(this).children().attr('name','othermod'+i);
+						$(this).children().attr('id','othermod_'+i);
+						break;
+					case 11:
+						$(this).children().attr('href','javascript:DelTr('+i+');');
+						break;
+				}
+			});
+		});
+		//改变参数
+		$('#Num').val(trnum-1);
+	  }
+	  function DelTd(v){
+		var num = $('#FormTable tr:last').attr('id').replace(/[^0-9]/ig,"");
+		var str = '';
+		switch(v){
+			case 1:
+				str = 'reserve';
+				break;
+			case 2:
+				str = 'demand';
+				break;
+			case 3:
+				str = 'tubenum';
+				break;
+			case 4:
+				str = 'puremthod';
+				break;
+		}
+		for(i=1;i<=num;i++){
+			if (v == 1){
+				$('#'+str+'_'+i).attr('checked',false);
+			} else if (v == 4){
+				$('#'+str+'_'+i).val('');
+			}else {
+				$('#'+str+'_'+i).attr('value','');
+			}
+		}
+	  }
+	  function CopyTd(v){
+		var num = $('#FormTable tr:last').attr('id').replace(/[^0-9]/ig,"");
+		var str = '';
+		switch(v){
+			case 1:
+				str = 'reserve';
+				break;
+			case 2:
+				str = 'demand';
+				break;
+			case 3:
+				str = 'tubenum';
+				break;
+			case 4:
+				str = 'puremthod';
+				break;
+		}
+		var strvalue = $('#'+str+'_1').val();
+		for(i=1;i<=num;i++){
+			if (v == 1){
+				document.getElementById(str+'_'+i).checked = true;
+			} else if (v == 4){
+				$('#'+str+'_'+i).val(strvalue);
+			}
+			$('#'+str+'_'+i).attr('value',strvalue);
+		}
+	  }
+	  </script>
+  </div>
+</div>
+</body>
+</html>

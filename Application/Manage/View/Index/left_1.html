@@ -1,0 +1,240 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>CallCenter呼叫系统</title>
+<script>
+function show(sid)
+{   
+	var i;
+	for(i=1;i<=6;i++)
+		{	if (i==sid) 
+				{document.getElementById(sid).style.display="block";
+				
+				}
+			else
+				{document.getElementById(i).style.display="none";
+				}
+		}
+}
+
+</script>
+<style type="text/css">
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	background-color:#F2FBEA;
+	margin:0px;
+	padding:0px;
+        }
+.zk:link,.zk:visited,.zk:active {
+	color:#000000;
+	text-decoration:none;
+	background-image:url(__PUBLIC__/Consel/images/bj.jpg);
+	height:30px;
+	width:170px;
+	display:block;
+	line-height:28px;
+	padding-left:6px;
+}
+.zk:hover {
+	text-decoration:none;
+	display:block;
+	background-image:url(__PUBLIC__/Consel/images/bj.jpg);
+	height:30px;
+	width:170px;
+	padding-left:6px;
+}
+.zk1:link,.zk1:visited,.zk1:active {
+	color:#333333;
+	text-decoration:none;
+	width:170px;
+	line-height:28px;
+	padding-left:12px;
+	display:block;
+}
+.zk1:hover {
+	color:#000000;
+	text-decoration:none;
+	display:block;
+	width:170px;
+	line-height:28px;
+	background-color:#C7E8AC;
+	padding-left:12px;
+}
+		
+/*- Menu sub--------------------------- */
+.menusub{
+	color:#000000;
+	font-size:12px;
+	text-decoration:none;
+	line-height:22px;
+	font-weight:normal;
+	padding:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	display:none;
+	text-align:left;
+}
+</style>
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+    	<td><img src="__PUBLIC__/Consel/images/zbtop.jpg" /></td>
+  	</tr>
+</table>
+<div id="menu">
+<a href="javascript:;" target="main" onclick="javascript:show('1');" class="zk">最新订单</a>
+<div class="menusub" id="1">
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+    	<td><a href="{:U('Index/sequencing')}" class="zk1" target="main">测序订单</a></td>
+	</tr>
+    <tr>
+    	<td><a href="{:U('Primer/index')}" class="zk1" target="main">引物订单</a></td>
+  	</tr> 
+
+  	<tr>
+    	<td><a href="{:U('Gene/index')}" class="zk1" target="main">基因订单</a></td>
+  	</tr> 
+
+  	<!-- <tr>
+    	<td><a href="{:U('Clone/index')}" class="zk1" target="main">PCR克隆及亚克隆订单</a></td>
+  	</tr> 
+
+  	<tr>
+    	<td><a href="{:U('Server/index')}" class="zk1" target="main">基因突变订单</a></td>
+  	</tr>
+
+  	<tr>
+    	<td><a href="{:U('Zhili/index')}" class="zk1" target="main">质粒制备订单</a></td>
+  	</tr>
+ -->
+	<tr>
+    	<td><a href="#" class="zk1">测评结果管理</a></td>
+  	</tr> 
+</table>
+</div>
+
+<a href="javascript:;" target="main" onclick="javascript:show('2');" class="zk">测序订单</a>
+<div class="menusub" id="2">
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+    	<td><a href="#" class="zk1">当前细则</a></td>
+  	</tr>
+	<tr>
+    	<td><a href="#" class="zk1">添加细则分类</a></td>
+	</tr>
+	<tr>
+    	<td><a href="#" class="zk1">添加细则条目</a></td>
+	</tr>
+	<tr>
+		<td><a href="#" class="zk1">添加评测标准</a></td>
+	</tr>
+</table>
+</div>
+
+
+
+<a href="javascript:;" target="main" onclick="javascript:show('4');"  class="zk">引物订单</a>
+<div class="menusub" id="4">
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+		<td><a href="#" class="zk1">反馈列表</a></td>
+	</tr>
+	<tr>
+		<td><a href="#" class="zk1">QA-Manager信息</a></td>
+	</tr>
+</table>
+</div>
+
+
+<a href="javascript:;" target="main" onclick="javascript:show('3');" class="zk">基因订单</a>
+<div class="menusub" id="3">
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" align="center">
+	 <tr>
+		<td><a href="#" class="zk1">小组测评结果</a></td>
+	</tr>
+	<tr>
+    	<td><a href="#" class="zk1">小组CSR测评结果</a></td>
+	</tr>
+	<tr>
+    	<td><a href="#" class="zk1">样本得分统计</a></td>
+	</tr>
+	<tr>
+    	<td><a href="#" class="zk1">个人扣分和建议</a></td>
+	</tr>
+    <tr>
+    	<td><a href="#" class="zk1">连续6个月小组得分</a></td>
+	</tr>
+    <tr>
+		<td><a href="#" class="zk1">连续3个月出错比较</a></td>
+	</tr>
+    <tr>
+    	<td><a href="#" class="zk1">小组出错/建议情况</a></td>
+	</tr>
+	<tr>
+    	<td><a href="#" class="zk1">申请复核汇总</a></td>
+	</tr>
+   
+     
+</table>
+</div>
+
+<a href="javascript:;" target="main" onclick="javascript:show('5');"  class="zk">客户信息</a>
+<div class="menusub" id="5">
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+		<td><a href="{:U('User/searchlist')}" class="zk1" target="main">查询与修改</a></td>
+	</tr>
+	<!-- <tr>
+		<td><a href="#" class="zk1">QA-Manager信息</a></td>
+	</tr> -->
+</table>
+</div>
+
+<!-- 其他模块 -->
+<a href="{:U('Pro/service')}" target="main"   class="zk" >综合服务</a>
+<a href="{:U('Pro/danxue')}" target="main"   class="zk" >蛋白组学</a>
+<a href="{:U('Pro/dankang')}" target="main"   class="zk" >蛋白及抗体</a>
+<a href="{:U('Pro/fen')}" target="main"   class="zk" >分子生物学服务</a>
+<a href="{:U('Pro/virtus')}" target="main"   class="zk" >病毒包装及检测服务</a>
+<a href="{:U('Pro/elisa')}" target="main"   class="zk" >小分子抗原及ElisA开发</a>
+
+
+<!-- <a href="javascript:;" target="main" onclick="javascript:show('6');"  class="zk" >其他</a>
+ --><!-- <div class="menusub" id="6">
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" align="center">
+     
+	
+	
+	<tr>
+    	<td><a href="{:U('Pro/service')}" class="zk1" target="main">综合服务</a></td>
+	</tr>
+    <tr>
+    	<td><a href="{:U('Pro/danxue')}" class="zk1" target="main">蛋白组学</a></td>
+	</tr>
+	<tr>
+    	<td><a href="{:U('Pro/dankang')}" class="zk1" target="main">蛋白及抗体</a></td>
+	</tr>
+	<tr>
+		<td><a href="{:U('Pro/fen')}" class="zk1" target="main">分子生物学服务</a></td>
+	</tr>
+	<tr>
+    	<td><a href="{:U('Pro/virtus')}" class="zk1" target="main">病毒包装及检测服务</a></td>
+	</tr>
+	<tr>
+    	<td><a href="{:U('Pro/elisa')}" class="zk1" target="main">小分子抗原及ElisA开发</a></td>
+	</tr> 
+</table>
+</div>
+
+
+</div>
+</body>
+</html>
